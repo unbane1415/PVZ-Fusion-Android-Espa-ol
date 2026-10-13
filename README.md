@@ -1,8 +1,8 @@
-# PVZ-Fusion-Android-Español
+# PVZ Fusion Español
 
 PVZ Fusion — Traducción al español
 
-Este proyecto contiene una versión traducida al español de PVZ Fusion para Android.
+Este proyecto contiene una versión traducida al español de PVZ Fusion para Android y PC.
 
 Esta traducción es un proyecto de fans y no está afiliada ni respaldada por los desarrolladores o propietarios de Plants vs. Zombies.
 
