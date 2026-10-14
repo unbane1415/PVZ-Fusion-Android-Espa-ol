@@ -1,0 +1,32 @@
+【融合版4.0.5版本更新】
+
+国庆节快乐！
+
+更新内容：
+
+1. 雪原黑夜更新
+补全了阿尔法日记的内容，调整了[雪夜：第六天]
+
+2. 新Plantas
+Común系列：寒冰Tripitidora、浮空Planta Carnívora、Pinchorroca Titán
+究极系列：超级机枪Gasoseta
+
+3. 新皮肤
+Colipulta-潮汐海螺
+Lunacultor-秋宵月明
+（均需通关对应皮肤Desafío）
+
+4. Niveles更新
+·神笔马良：运用你的技巧描绘想要的Plantas，越像越好
+·大地图塔防模式回归
+·超级自定义Niveles：增加大量新功能，并增加了使用指南
+
+5. 平衡性调整
+·旅行诅咒：现在商店ComprarMejoras的价格会逐渐增加，且Comprar高价Mejoras价格会额外增加
+·究极火炬对浴火豌豆的伤害增幅降低
+·Maceta Dragón Ígnea对Lanzacerezas的攻速加成固定为10%，无需再Seleccionar[真正的Petacereza]Mejoras
+
+6. 其他优化
+·大幅优化了游戏体积
+
+7. 修复了一些已知的bug，优化了游戏体验

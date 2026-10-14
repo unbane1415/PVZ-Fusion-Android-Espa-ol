@@ -1,0 +1,34 @@
+Traduccion de Blooms y agregado por Unbane para la version 4.0
+
+1. Noche Nevada (Nuevo Escenario)
+- El diario obtenido tras vencer a la Reina de las Nieves en El Tiempo de Aventura permite revivir la expedición del Escuadrón Alfa.
+- Accesible desde los Niveles Recomendados del menú principal.
+
+2. Actualización del Modo Infinito
+- Nuevas Plantas Malditas: otorgan desventajas tácticas al plantarlas a cambio de mayor desafío.
+- Próximamente se añadirá una tienda de maldiciones con recompensas exclusivas.
+
+3. Evolución de Dioses
+- Flujo de niveles optimizado: ahora se obtienen Monedas Divinas al completar partidas.
+- Nuevo Almanaque de Dioses: consulta rutas de evolución, catálogo de mejoras y desbloquea contenido con Monedas Divinas.
+- Si ya habías completado Evolución de Dioses, recibirás 2000 Monedas Divinas al iniciar.
+
+4. Nuevas Plantas
+- Básicas: Planta Rodante Nevada, Seta Cuchilla, Seta Escudo, Manto de Escarcha.
+- Blancas: Grano de Café.
+- Malditas: Lanzaguisantes Maldito, Girasol Maldito, Calabaza Maldita.
+- Fusiones Comunes: Carnívora de Hielo, Nuez Pinchuda, Cáctus Apisonador, Rodante Cuchilla, Rodante Escudo, Seta Cuchilla Escudo, Rodante Acuática, Seta Cuchilla Acuática, Seta Escudo Acuática, Tripitidora Fume, Maceta Ígnea, Rodante Escarchada, Manto Cuchilla, Manto Escudo, Manto Acuático, y variantes de Termaloe.
+- Definitivas: Emperador Celestial Supremo, Súper Metralleta Flotante, Nenúfar Francotirador, Rabo de Gato Francotirador, Maceta Dragón Llameante.
+
+5. Nuevos Zombis
+- Enemigos: Mecanismo Perdido (y sus variantes Escudo, Asalto, Pingüino, Bestia Nieve y Tirador), Cangrejo de las Nieves.
+- Neutrales: Pájaro de las Nieves.
+- Zombi Definitivo: Zombi Tridente Glacial.
+
+6. Nuevos Niveles
+- Súper Aleatorio: Rasca y Gana de Plantas (en Niveles Recomendados).
+- Nuevos niveles agregados al Modo Puzle.
+
+7. Ajustes de Equilibrio y Correcciones
+- Ajustes a Termaloe, Hipnoseta Definitiva y Trébol Definitivo.
+- Corrección de errores en mejoras de sinergia y optimización del rendimiento general.

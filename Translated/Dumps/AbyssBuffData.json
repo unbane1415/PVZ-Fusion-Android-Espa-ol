@@ -1,0 +1,334 @@
+{
+  "infos": [
+    {
+      "name": "生存_聚塑",
+      "introduce": "每拥有1个生存词条，植物拥有{value}%减伤，激活庇佑效果",
+      "value": 3
+    },
+    {
+      "name": "生存_启命",
+      "introduce": "植物出场时获得{value}点护盾",
+      "value": 500
+    },
+    {
+      "name": "生存_坚定",
+      "introduce": "拥有护盾的植物，拥有{value}%减伤",
+      "value": 20
+    },
+    {
+      "name": "生存_弥合",
+      "introduce": "植物受伤时获得{value}点护盾",
+      "value": 10
+    },
+    {
+      "name": "生存_警戒",
+      "introduce": "关卡开始时，场上所有植物获得{value}点护盾",
+      "value": 500
+    },
+    {
+      "name": "生存_霸体",
+      "introduce": "坚果类植物免疫碾压",
+      "value": 0
+    },
+    {
+      "name": "生存_共存",
+      "introduce": "植物获得护盾时，3×3范围内其他植物获得{value}%的护盾",
+      "value": 10
+    },
+    {
+      "name": "生存_护盾",
+      "introduce": "植物受到治疗时，获得{value}%相当于治疗量的护盾",
+      "value": 50
+    },
+    {
+      "name": "生存_治疗",
+      "introduce": "植物回血不再受到血量上限的限制",
+      "value": 0
+    },
+    {
+      "name": "生存_主宰",
+      "introduce": "场上护盾值最高的植物无敌（免疫伤害和碾压）",
+      "value": 0
+    },
+    {
+      "name": "寒冰_聚塑",
+      "introduce": "每拥有1个寒冰词条，寒冷状态的减速效果+{value}%，激活暴风雪效果",
+      "value": 3
+    },
+    {
+      "name": "寒冰_刺骨",
+      "introduce": "冻结的僵尸受到的伤害增加{value}%",
+      "value": 100
+    },
+    {
+      "name": "寒冰_凛风",
+      "introduce": "冰系植物的攻击力提高{value}%",
+      "value": 200
+    },
+    {
+      "name": "寒冰_冻结",
+      "introduce": "冻结时间延长{value}%",
+      "value": 50
+    },
+    {
+      "name": "寒冰_保护",
+      "introduce": "植物死亡时会对小范围内的僵尸施加1秒冻结",
+      "value": 0
+    },
+    {
+      "name": "寒冰_折磨",
+      "introduce": "僵尸被冻结后，下次受到的伤害增加{value}%",
+      "value": 300
+    },
+    {
+      "name": "寒冰_扩散",
+      "introduce": "僵尸被冻结时，对小范围内的僵尸施加寒冷状态",
+      "value": 0
+    },
+    {
+      "name": "寒冰_凝神",
+      "introduce": "无防具的僵尸受到伤害后有{value}%概率被寒冷减速",
+      "value": 80
+    },
+    {
+      "name": "寒冰_破冰",
+      "introduce": "僵尸在解除冻结时受到{value}伤害",
+      "value": 500
+    },
+    {
+      "name": "寒冰_永冻",
+      "introduce": "僵尸的冻结值上限始终为{value}",
+      "value": 100
+    },
+    {
+      "name": "魅惑_聚塑",
+      "introduce": "每拥有1个魅惑词条，魅惑僵尸的血量和伤害+{value}%，激活逆转效果",
+      "value": 30
+    },
+    {
+      "name": "魅惑_感应",
+      "introduce": "魅惑僵尸啃咬同类型僵尸时，造成的伤害增加{value}%",
+      "value": 300
+    },
+    {
+      "name": "魅惑_催眠",
+      "introduce": "魅惑僵尸啃咬僵尸时，有{value}%概率魅惑目标",
+      "value": 10
+    },
+    {
+      "name": "魅惑_无畏",
+      "introduce": "僵尸被魅惑后，获得{value}%生命值加成",
+      "value": 100
+    },
+    {
+      "name": "魅惑_脆弱",
+      "introduce": "被魅惑僵尸啃咬到的僵尸，受到的伤害增加{value}%",
+      "value": 50
+    },
+    {
+      "name": "魅惑_黑曜",
+      "introduce": "魅惑僵尸免疫碾压",
+      "value": 0
+    },
+    {
+      "name": "魅惑_转世",
+      "introduce": "僵尸死亡后，有{value}%概率复活并为你而战",
+      "value": 10
+    },
+    {
+      "name": "魅惑_支援",
+      "introduce": "每过{value}秒，生成一列魅惑盲盒僵尸为你而战",
+      "value": 20
+    },
+    {
+      "name": "魅惑_沉重",
+      "introduce": "魅惑僵尸造成的碾压伤害增加{value}%",
+      "value": 200
+    },
+    {
+      "name": "魅惑_共鸣",
+      "introduce": "魅惑僵尸死亡后，有{value}%概率魅惑附近的同类型僵尸",
+      "value": 30
+    },
+    {
+      "name": "烈焰_聚塑",
+      "introduce": "每拥有1个烈焰词条，植物的攻击力增加{value}%，激活火球效果",
+      "value": 10
+    },
+    {
+      "name": "烈焰_爆破",
+      "introduce": "红温的僵尸死亡时的爆炸伤害提高{value}%",
+      "value": 100
+    },
+    {
+      "name": "烈焰_怒火",
+      "introduce": "红温增伤提高{value}%",
+      "value": 50
+    },
+    {
+      "name": "烈焰_红唇",
+      "introduce": "樱桃爆炸会施加红温状态",
+      "value": 0
+    },
+    {
+      "name": "烈焰_融化",
+      "introduce": "僵尸的冻结状态被火焰效果解除时，受到{value}伤害",
+      "value": 500
+    },
+    {
+      "name": "烈焰_燃烧",
+      "introduce": "僵尸的红温亡语会额外释放辣椒火焰",
+      "value": 0
+    },
+    {
+      "name": "烈焰_浴火",
+      "introduce": "辣椒火焰燃烧时，为本行植物回复{value}生命值",
+      "value": 50
+    },
+    {
+      "name": "烈焰_鬼火",
+      "introduce": "辣椒火焰燃尽时，有{value}概率对本行僵尸施加冻结状态",
+      "value": 50
+    },
+    {
+      "name": "烈焰_诅咒",
+      "introduce": "僵尸化为灰烬时，会削减全场僵尸{value}%韧性",
+      "value": 1
+    },
+    {
+      "name": "烈焰_太阳",
+      "introduce": "每隔{value}秒获得25阳光",
+      "value": 10
+    },
+    {
+      "name": "通用_断水",
+      "introduce": "手套冷却速度增加{value}%",
+      "value": 50
+    },
+    {
+      "name": "通用_千斤",
+      "introduce": "锤子冷却速度增加{value}%",
+      "value": 50
+    },
+    {
+      "name": "通用_急迫",
+      "introduce": "卡牌冷却速度增加{value}%",
+      "value": 50
+    },
+    {
+      "name": "通用_折扣",
+      "introduce": "卡牌价格降低{value}",
+      "value": 15
+    },
+    {
+      "name": "通用_密植",
+      "introduce": "植物可种植上限增加{value}",
+      "value": 30
+    },
+    {
+      "name": "通用_超级",
+      "introduce": "5关后超极植物可种植上限每过1关增加{value}",
+      "value": 2
+    },
+    {
+      "name": "通用_究极",
+      "introduce": "10关后究极植物可种植上限每过1关增加{value}",
+      "value": 1
+    },
+    {
+      "name": "通用_极速",
+      "introduce": "植物的攻击速度增加{value}%",
+      "value": 30
+    },
+    {
+      "name": "通用_强力",
+      "introduce": "植物的攻击力增加{value}%",
+      "value": 50
+    },
+    {
+      "name": "通用_专注",
+      "introduce": "植物子弹的暴击率增加{value}%",
+      "value": 80
+    },
+    {
+      "name": "通用_迸发",
+      "introduce": "植物子弹的暴击伤害增加{value}%",
+      "value": 200
+    },
+    {
+      "name": "通用_投资",
+      "introduce": "词条刷新次数+{value}",
+      "value": 2
+    },
+    {
+      "name": "通用_机遇",
+      "introduce": "词条刷新次数-{value}，但偶数关可以多选1个",
+      "value": 3
+    },
+    {
+      "name": "通用_命运",
+      "introduce": "随机获得2个未拥有的词条",
+      "value": 0
+    },
+    {
+      "name": "通用_时停",
+      "introduce": "可以通过长按来取下时停按钮，用以敲打僵尸并将其“时停”",
+      "value": 0
+    },
+    {
+      "name": "通用_升级",
+      "introduce": "可以使用手套点击植物自身来升级",
+      "value": 0
+    },
+    {
+      "name": "蒜毒_聚塑",
+      "introduce": "每拥有1个蒜毒词条，僵尸受到的伤害增加{value}%，激活腐化效果",
+      "value": 10
+    },
+    {
+      "name": "蒜毒_腐蚀",
+      "introduce": "僵尸每有一层蒜毒，受到的伤害增加{value}%",
+      "value": 5
+    },
+    {
+      "name": "蒜毒_侵蚀",
+      "introduce": "僵尸受到的毒伤增加{value}%",
+      "value": 200
+    },
+    {
+      "name": "蒜毒_血清",
+      "introduce": "僵尸每受到1点毒伤，为全场血量比例最低的植物回复1点生命值",
+      "value": 0
+    },
+    {
+      "name": "蒜毒_混乱",
+      "introduce": "中毒的僵尸在啃咬时有{value}%概率把自己作为啃咬目标",
+      "value": 50
+    },
+    {
+      "name": "蒜毒_虚弱",
+      "introduce": "僵尸换行时会进入中毒状态并叠加5层蒜值",
+      "value": 0
+    },
+    {
+      "name": "蒜毒_反胃",
+      "introduce": "中毒的僵尸在换行时受到{value}伤害",
+      "value": 500
+    },
+    {
+      "name": "蒜毒_虫噬",
+      "introduce": "僵尸持续中毒10秒后，每秒损失{value}%最大生命值",
+      "value": 3
+    },
+    {
+      "name": "蒜毒_百毒",
+      "introduce": "僵尸的蒜值层数上限+{value}",
+      "value": 30
+    },
+    {
+      "name": "蒜毒_爆裂",
+      "introduce": "赋予蒜值的行为会施加中毒状态",
+      "value": 0
+    }
+  ]
+}

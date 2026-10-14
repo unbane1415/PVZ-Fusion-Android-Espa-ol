@@ -1,0 +1,387 @@
+{
+  "Welcome": {
+    "achievement": 0,
+    "Name": "游戏的核心",
+    "Text": "植物大战僵尸融合版"
+  },
+  "PeaSunflower": {
+    "achievement": 1,
+    "Name": "发现豌豆向日葵",
+    "Text": "融合时代"
+  },
+  "GatlingPea": {
+    "achievement": 2,
+    "Name": "发现机枪射手",
+    "Text": "获得升级"
+  },
+  "TwinFlower": {
+    "achievement": 3,
+    "Name": "发现双子向日葵",
+    "Text": "这不是双子向日葵吗"
+  },
+  "SuperGatling": {
+    "achievement": 4,
+    "Name": "发现超级机枪射手",
+    "Text": "大哥很生气"
+  },
+  "CherryPaper": {
+    "achievement": 5,
+    "Name": "被一发樱桃子弹炸掉4株以上的植物",
+    "Text": "爆破专家"
+  },
+  "BigWallNut": {
+    "achievement": 6,
+    "Name": "把坚果放到坚果上",
+    "Text": "它怎么跑了？"
+  },
+  "CherryPaper95": {
+    "achievement": 9,
+    "Name": "遇到樱桃机枪读报僵尸",
+    "Text": "樱桃大甩卖"
+  },
+  "Puff": {
+    "achievement": 7,
+    "Name": "使用大喷菇或者胆小菇扩散小喷菇",
+    "Text": "我从哪儿来？"
+  },
+  "SunBomb": {
+    "achievement": 8,
+    "Name": "使用阳光炸弹炸到10个僵尸",
+    "Text": "每日一光"
+  },
+  "BigWallNut2": {
+    "achievement": 10,
+    "Name": "使用大坚果碾压10个僵尸",
+    "Text": "压路机"
+  },
+  "BigWallNut3": {
+    "achievement": 11,
+    "Name": "使用大坚果对同一个僵尸造成20000伤害",
+    "Text": "坚果辊压机"
+  },
+  "HypnoShroom": {
+    "achievement": 12,
+    "Name": "使用魅惑菇魅惑一只僵尸",
+    "Text": "抱歉！这次不行！"
+  },
+  "JacksonZombie": {
+    "achievement": 13,
+    "Name": "遇到舞王僵尸",
+    "Text": "麦蔻也来了"
+  },
+  "ScaredyHypno": {
+    "achievement": 14,
+    "Name": "使用魅惑胆小菇强制魅惑僵尸",
+    "Text": "概念神"
+  },
+  "HypnoNut": {
+    "achievement": 15,
+    "Name": "使魅惑坚果召唤黄金盲盒僵尸",
+    "Text": "看起来很好吃的样子"
+  },
+  "LilyPad": {
+    "achievement": 16,
+    "Name": "让睡莲生产植物",
+    "Text": "小荷才露尖尖角"
+  },
+  "ThreePeater": {
+    "achievement": 17,
+    "Name": "在边路种植三线射手，使三线在本行发射2发子弹",
+    "Text": "弹道偏左"
+  },
+  "SquashKelp": {
+    "achievement": 18,
+    "Name": "发现窝草",
+    "Text": "窝草"
+  },
+  "ThreeSpike": {
+    "achievement": 19,
+    "Name": "使用三线地刺对抗冰车",
+    "Text": "还要啥地刺王啊"
+  },
+  "SunSeaShroom": {
+    "achievement": 20,
+    "Name": "发现海光菇",
+    "Text": "这不是阳光菇么？"
+  },
+  "StarBlover": {
+    "achievement": 21,
+    "Name": "使用五叶草吸引杨桃子弹",
+    "Text": "星星相吸"
+  },
+  "MagnetShroom": {
+    "achievement": 22,
+    "Name": "把磁力植物练成线",
+    "Text": "广度优先遍历"
+  },
+  "CornCabbage": {
+    "achievement": 23,
+    "Name": "发现一株会弹射的玉米卷",
+    "Text": "玉米卷是你的谎言"
+  },
+  "GarlicCorn": {
+    "achievement": 24,
+    "Name": "令一只僵尸中毒",
+    "Text": "谁在吃大蒜？"
+  },
+  "CabbageUmbrella": {
+    "achievement": 25,
+    "Name": "使用菜伞弹射植物子弹",
+    "Text": "弹弹乐"
+  },
+  "GoldMelon": {
+    "achievement": 26,
+    "Name": "让金瓜雨从天而降",
+    "Text": "瓜林弹雨"
+  },
+  "SquashTorch": {
+    "achievement": 27,
+    "Name": "使用窝炬生产窝瓜",
+    "Text": "窝想生就生"
+  },
+  "UltimateTorch": {
+    "achievement": 28,
+    "Name": "发现究极窝炬",
+    "Text": "窝红温了"
+  },
+  "Superkelp": {
+    "achievement": 29,
+    "Name": "发现超级水草",
+    "Text": "窝变强了"
+  },
+  "DarkThreePeater": {
+    "achievement": 30,
+    "Name": "尝试点燃三线射手",
+    "Text": "与火共舞"
+  },
+  "AshThreePeater": {
+    "achievement": 31,
+    "Name": "在焦黑三线射手上再点一把火",
+    "Text": "烧火棍"
+  },
+  "SuperThreePeater": {
+    "achievement": 32,
+    "Name": "让三线射手浴火重生",
+    "Text": "浴火重生"
+  },
+  "MagnetCactus": {
+    "achievement": 33,
+    "Name": "用磁力仙人掌令飞艇坠机",
+    "Text": "神盾防空"
+  },
+  "SuperStar": {
+    "achievement": 34,
+    "Name": "观察流星从天而降",
+    "Text": "天动万象"
+  },
+  "UltimateStar": {
+    "achievement": 35,
+    "Name": "发现究极杨桃大帝",
+    "Text": "第1436关"
+  },
+  "MagnetShroom2": {
+    "achievement": 36,
+    "Name": "在一个磁力系统中连接50个植物",
+    "Text": "万磁王"
+  },
+  "UltimateStar2": {
+    "achievement": 37,
+    "Name": "使究极杨桃的子弹伤害超过1800",
+    "Text": "众星之子"
+  },
+  "HypnoMagnet": {
+    "achievement": 38,
+    "Name": "让魅惑磁力菇召唤机械巨人僵尸",
+    "Text": "钢铁洪流"
+  },
+  "SunMagnet": {
+    "achievement": 39,
+    "Name": "使用阳光磁力菇生产铁器",
+    "Text": "自给自足"
+  },
+  "SuperCherryShooter": {
+    "achievement": 40,
+    "Name": "发现超级樱桃射手",
+    "Text": "他射的是樱桃炸弹吗？"
+  },
+  "UltimateGatling": {
+    "achievement": 41,
+    "Name": "发现究极樱桃机枪射手",
+    "Text": "950"
+  },
+  "HypnoEmperor": {
+    "achievement": 42,
+    "Name": "发现魅帝菇",
+    "Text": "魔法师"
+  },
+  "CobCannon": {
+    "achievement": 43,
+    "Name": "发现玉米加农炮",
+    "Text": "老一辈的从容"
+  },
+  "IceCannon": {
+    "achievement": 44,
+    "Name": "使用寒冰加农炮融合植物",
+    "Text": "冻住了"
+  },
+  "FireCannon": {
+    "achievement": 45,
+    "Name": "使用火焰加农炮融合植物",
+    "Text": "火辣辣的"
+  },
+  "UltimateCannon": {
+    "achievement": 46,
+    "Name": "发现究极加农炮",
+    "Text": "核弹攻击"
+  },
+  "SuperUmbrella": {
+    "achievement": 47,
+    "Name": "使用超级伞赚钱",
+    "Text": "盆满钵满"
+  },
+  "EmeraldUmbrella": {
+    "achievement": 48,
+    "Name": "用绿宝石伞嘲讽三叉戟",
+    "Text": "你来打我呀"
+  },
+  "RedEmeraldUmbrella": {
+    "achievement": 49,
+    "Name": "用红宝石伞弹僵尸子弹",
+    "Text": "抱歉！每天都不行！"
+  },
+  "Plantern": {
+    "achievement": 50,
+    "Name": "使一株植物的光照等级大于10",
+    "Text": "灯火通明"
+  },
+  "SuperFume": {
+    "achievement": 51,
+    "Name": "发现超级大喷菇",
+    "Text": "守夜菇"
+  },
+  "UltimateFume": {
+    "achievement": 52,
+    "Name": "发现究极大喷菇",
+    "Text": "蘑菇啊！我已归来！"
+  },
+  "UltimteGloom": {
+    "achievement": 53,
+    "Name": "发现究极忧郁菇",
+    "Text": "一菇管5路"
+  },
+  "CattailPlant": {
+    "achievement": 54,
+    "Name": "将肥料撒到睡莲上",
+    "Text": "猫有九条命"
+  },
+  "CattailGirl": {
+    "achievement": 55,
+    "Name": "发现魔法猫娘",
+    "Text": "植物娘"
+  },
+  "Cattailour": {
+    "achievement": 56,
+    "Name": "发现魔法猫尾草",
+    "Text": "我是梦珞"
+  },
+  "WallNut": {
+    "achievement": 57,
+    "Name": "使用坚果抵挡僵尸进攻",
+    "Text": "朗朗上口"
+  },
+  "SuperChomper": {
+    "achievement": 58,
+    "Name": "发现超级大嘴花",
+    "Text": "他看起来不好欺负"
+  },
+  "UltimateChomper": {
+    "achievement": 59,
+    "Name": "发现究极樱桃战神",
+    "Text": "战神"
+  },
+  "UltimateTallNut": {
+    "achievement": 60,
+    "Name": "用究极高坚果防御爆炸",
+    "Text": "冰桶挑战"
+  },
+  "SuperMachineNut": {
+    "achievement": 61,
+    "Name": "培养一个血量大于100万的超级机械坚果",
+    "Text": "这是鱼丸么？"
+  },
+  "SuperSunNut": {
+    "achievement": 62,
+    "Name": "使用阳光帝果释放保龄球",
+    "Text": "来一点阳光"
+  },
+  "UltimatePumpkin": {
+    "achievement": 63,
+    "Name": "用激光南瓜来防空",
+    "Text": "威武南瓜"
+  },
+  "MelonJump": {
+    "achievement": 64,
+    "Name": "用伞将瓜跳弹落地",
+    "Text": "上天入地"
+  },
+  "IronNut": {
+    "achievement": 65,
+    "Name": "发现铁桶坚果",
+    "Text": "来硬的"
+  },
+  "Sub": {
+    "achievement": 999,
+    "Name": "敬请期待",
+    "Text": "敬请期待"
+  },
+  "WelcomeChallenge": {
+    "achievement": 1000,
+    "Name": "这里是一些进阶挑战",
+    "Text": "勇往直前"
+  },
+  "Travel": {
+    "achievement": 1001,
+    "Name": "通关旅行：生存",
+    "Text": "探索的时光"
+  },
+  "Travel2": {
+    "achievement": 1002,
+    "Name": "通关旅行：守护",
+    "Text": "热门景点"
+  },
+  "Travel3": {
+    "achievement": 1003,
+    "Name": "通关旅行：炼狱",
+    "Text": "九死一生"
+  },
+  "Travel_noBuff": {
+    "achievement": 1004,
+    "Name": "不选词条通关旅行生存",
+    "Text": "旅行大师"
+  },
+  "Travel_noNut": {
+    "achievement": 1005,
+    "Name": "不使用坚果通关旅行生存",
+    "Text": "最好的防御就是进攻"
+  },
+  "Travel_sun": {
+    "achievement": 1006,
+    "Name": "在一局旅行模式中消耗一百万阳光",
+    "Text": "挥光如土"
+  },
+  "Travel_fast": {
+    "achievement": 1007,
+    "Name": "在现实世界40分钟内通关一局旅行",
+    "Text": "速行100级"
+  },
+  "SuperMachineNut_health": {
+    "achievement": 1008,
+    "Name": "获得一个一亿血量的超级机械保龄球",
+    "Text": "你没事做这个干啥？"
+  },
+  "SuperDamage": {
+    "achievement": 1009,
+    "Name": "在没有腐化词条的情况下10秒击杀黑曜石巨人",
+    "Text": "绝对火力"
+  }
+}

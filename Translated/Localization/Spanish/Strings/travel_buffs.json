@@ -1,0 +1,2082 @@
+{
+  "advancedBuffs": {
+    "0": {
+      "name": "Llamado Imperial",
+      "desc": "<nobr>• Desbloquea <color=red>Seta Monarca</color></nobr>\n◆<color=red>Seta Emperatriz</color>：Intervalo de invocación reducido de 30 s a 10 s\n◆<color=red>Seta Monarca</color>：Comparte el efecto anterior"
+    },
+    "1": {
+      "name": "Reclutas de Odisea",
+      "desc": "◆<color=red>Seta Emperatriz</color>：Puede invocar Zombi Periódico Ametralladora Carmesí enfurecido, Zombi All-Star Ametralladora, Zombi Nuez Cascarrabias All-Star y Zombistein Blindado Especial\n◆<color=red>Seta Monarca</color>：Puede invocar Zombi Periódico Ametralladora Carmesí enfurecido"
+    },
+    "2": {
+      "name": "Ráfaga Sin Tregua",
+      "desc": "<nobr>• Desbloquea <color=red>Setantralladora Atómica</color></nobr>\n◆<color=red>Petantralladora</color>：Ya no descansa tras disparar proyectiles gigantes\n◆<color=red>Setantralladora Atómica</color>：Comparte el efecto anterior\n◆Las formas avanzadas comparten este efecto"
+    },
+    "3": {
+      "name": "Fuego Cruzado",
+      "desc": "◆<color=red>Petantralladora</color>：Dispara un proyectil gigante cada 4 disparos\n◆<color=red>Setantralladora Atómica</color>：Comparte el efecto anterior\n◆Las formas avanzadas comparten este efecto"
+    },
+    "4": {
+      "name": "Economía Solar",
+      "desc": "◆<color=red>Emperador Solar</color>：El sol consumido al hacer clic se reduce a 200\n◆<color=red>Emperador Ígneo</color>：La cantidad de curación se duplica\n◆Las formas avanzadas comparten este efecto"
+    },
+    "5": {
+      "name": "Núcleo Ardiente",
+      "desc": "<nobr>• Desbloquea <color=red>Emperador Ígneo</color></nobr>\n◆<color=red>Emperador Solar</color>：El daño fijo recibido se reduce a 10 puntos\n◆<color=red>Emperador Ígneo</color>：La salud consumida al hacer clic se reduce a 200\n◆Las formas avanzadas comparten este efecto"
+    },
+    "6": {
+      "name": "Filo de Obsidiana",
+      "desc": "<nobr>• Desbloquea <color=red>Pinchonuez Obsidiana</color></nobr>\n◆<color=red>Pinchobsidiana</color>：Daño de ataque ×5\n◆<color=red>Pinchonuez Obsidiana</color>：Contraataque por mordisco ×5"
+    },
+    "7": {
+      "name": "Piel de Roca",
+      "desc": "◆<color=red>Pinchobsidiana</color>：Daño recibido reducido un 95%\n◆<color=red>Pinchonuez Obsidiana</color>：Comparte el efecto anterior"
+    },
+    "8": {
+      "name": "Vuelo de Fénix",
+      "desc": "Tripitidora Fénix (+Dron Fénix): Sus proyectiles perforan infinitamente y causan explosiones pirogénicas por golpe | Subespecie Dron Fénix Desbloqueado"
+    },
+    "9": {
+      "name": "Combustión Total",
+      "desc": "Tripitidora Fénix (+Dron Fénix): Multiplicador de daño de Efecto Pirogénico → 150%; Guisantes ígneos ahora infligen dicho efecto"
+    },
+    "10": {
+      "name": "Esquirlas de Hielo",
+      "desc": "Copitralladora (+Brillantralladora): Sus carámbanos pueden perforar infinitamente y pueden dividirse en dos pequeños al impactar a un zombi 5 veces (Se aplica a sus Variantes Mejoradas)"
+    },
+    "11": {
+      "name": "Punto de Quiebre",
+      "desc": "Copitralladora: Daño de carámbanos a zombis congelados (o inmunes a ser congelados) x4 → x12 | Subespecie Brillantralladora Desbloqueada (Se aplica a sus Variantes Mejoradas)"
+    },
+    "12": {
+      "name": "Ahorro Dorado",
+      "desc": "Maceta Áurea: El costo de la Maceta Dorada no excederá las 8000 monedas"
+    },
+    "13": {
+      "name": "Alquimia Solar",
+      "desc": "Maceta Áurea: Después de alcanzar el límite de dinero, las monedas sobrantes se convierten en sol (2 monedas equivalen a 1 sol)"
+    },
+    "14": {
+      "name": "Reflejos de Acero",
+      "desc": "<nobr>• Desbloquea <color=red>Paraplanta Rubí</color></nobr>\n◆<color=red>Paraplanta Esmeralda</color>：Libera su habilidad definitiva gratis cuando los zombis se acercan\n◆<color=red>Paraplanta Rubí</color>：Comparte el efecto anterior"
+    },
+    "15": {
+      "name": "Rebote Letal",
+      "desc": "<color=red>Paraplanta Esmeralda</color>：El aumento de daño a proyectiles de plantas lanzadoras se incrementa de 100% a 300%"
+    },
+    "16": {
+      "name": "Escuadrón Aéreo",
+      "desc": "◆<color=red>Rabo de Campanita</color>：Daño de orbes flotantes mágicos ×3\n◆<color=red>Cevoltio de Rabo</color>：Los orbes flotantes invocados con asistencia disparan 60 proyectiles"
+    },
+    "17": {
+      "name": "Puño de Trueno",
+      "desc": "<nobr>• Desbloquea <color=red>Cevoltio de Rabo</color></nobr>\n◆<color=red>Rabo de Campanita</color>：Daño de proyectiles teledirigidos ×5\n◆<color=red>Cevoltio de Rabo</color>：Daño de relámpago mágico ×3"
+    },
+    "18": {
+      "name": "Explosión Controlada",
+      "desc": "Setabismal: Las explosiones de Petaseta no dejan cráteres | Subespecie Setavaricia Desbloqueada"
+    },
+    "19": {
+      "name": "Reclutamiento Forzoso",
+      "desc": "<color=red>Setabismal</color>：Al explotar, invoca 3 Zombisteins Blindados hipnotizados y Zombis de Trineo hipnotizados adicionales"
+    },
+    "20": {
+      "name": "Fortuna Letal",
+      "desc": "◆<color=red>Trillontorcha</color>：Por cada 1000 monedas poseídas, el daño del portador de ataque potenciado aumenta un 1%\n◆<color=red>Planterna Magnate</color>：Comparte el efecto anterior"
+    },
+    "21": {
+      "name": "Lluvia de Monedas",
+      "desc": "<nobr>• Desbloquea <color=red>Planterna Magnate</color></nobr>\n◆<color=red>Trillontorcha</color>：Los proyectiles de monedas infligen daño por salpicadura igual a los guisantes de fuego"
+    },
+    "22": {
+      "name": "Núcleo de Cristal",
+      "desc": "<nobr>• Desbloquea <color=red>Parabóreas</color></nobr>\n◆<color=red>Parapharos</color>：Límite de energía y velocidad de recuperación aumentan enormemente; frecuencia de curación duplicada\n◆<color=red>Parabóreas</color>：El daño de cada fase aumenta hasta un máximo de 4 veces"
+    },
+    "23": {
+      "name": "Foco de Energía",
+      "desc": "◆<color=red>Parapharos</color>：Daño láser, daño de explosión y frecuencia aumentan significativamente\n◆<color=red>Parabóreas</color>：El rayo de la fase de enfoque aplica 1 segundo de congelación"
+    },
+    "24": {
+      "name": "Disparo Certero",
+      "desc": "◆<color=red>Ferreonexo</color>：La frecuencia esperada de tiros a la cabeza de francotirador mejora a 1 cada 5 segundos\n◆<color=red>Trevoltio</color>：Daño x3"
+    },
+    "25": {
+      "name": "Impacto Sísmico",
+      "desc": "<nobr>• Desbloquea <color=red>Trevoltio</color></nobr>\n◆<color=red>Ferreonexo</color>：El empuje del cañón antiaéreo se duplica, daño x3\n◆<color=red>Trevoltio</color>：Daño x3"
+    },
+    "26": {
+      "name": "Campo Magnético",
+      "desc": "Magnetoseta Tesla: Rango de ataque x2 | Subespecie Magnetoseta Dyson Desbloqueada (Magnetoseta Dyson: Tiempo de producción de metal reducido a la mitad)"
+    },
+    "27": {
+      "name": "Frenesí Magnético",
+      "desc": "Magnetoseta Tesla: Daño a Vegezombis Pescadores/Vegezombis Lethal-Stars x3, puede agarrar el triple de objetos (Magnetoseta Dyson: Cantidad de curación x3, límite adicional de producción de objetos metálicos se incrementa x3)"
+    },
+    "28": {
+      "name": "Reciclaje Garantizado",
+      "desc": "<nobr>• Desbloquea <color=red>Necromina</color></nobr>\n◆<color=red>Parcarnívora</color>：Al matar plantas, siempre suelta paquetes de semillas\n◆<color=red>Necromina</color>：Comparte el efecto anterior"
+    },
+    "29": {
+      "name": "Vínculo Eterno",
+      "desc": "◆<color=red>Parcarnívora</color>：La proporción de transferencia de daño de la sombra vudú invocada ×2\n◆<color=red>Necromina</color>：Comparte el efecto anterior"
+    },
+    "30": {
+      "name": "Lluvia Radiactiva",
+      "desc": "◆<color=red>Cereza Nuclear</color>：La duración del área de radiación nuclear aumenta en 3 segundos\n◆<color=red>Apisonaflor Nuclear</color>：Comparte el efecto anterior"
+    },
+    "31": {
+      "name": "Mutación Nuclear",
+      "desc": "Cereza Nuclear (+Apisonaflor Nuclear): Cerezas explosivas y proyectiles Petaseta tienen una chance del 1% de convertirse en cerezas radiactivas al impacto | Subespecie Apisonaflor Nuclear Desbloqueado"
+    },
+    "32": {
+      "name": "Mantequilla Pegajosa",
+      "desc": "<nobr>• Desbloquea <color=red>Maceta Compostera</color></nobr>\n◆<color=red>Ralentizahierba</color>：El tiempo de inmovilización del ataque x3\n◆<color=red>Maceta Compostera</color>：Comparte el efecto anterior"
+    },
+    "33": {
+      "name": "Resbalón Fatal",
+      "desc": "◆<color=red>Ralentizahierba</color>：Hace que los zombis en contacto se deslicen continuamente hacia la derecha\n◆<color=red>Maceta Compostera</color>：Las plantas lanzamaíces en esta casilla lanzan proyectiles especiales con certeza"
+    },
+    "34": {
+      "name": "Resonancia Magnética",
+      "desc": "◆<color=red>Calabaza Mecánica</color>：Al entrar al campo, otorga a las plantas del sistema magnético un escudo igual a 30 veces el conteo magnético\n◆<color=red>Frustrella Mecánica</color>：Al entrar al campo, otorga a las plantas del sistema magnético una bonificación de ataque del 0.5% por conteo magnético"
+    },
+    "35": {
+      "name": "Polaridad Doble",
+      "desc": "◆<color=red>Calabaza Mecánica</color>：Al contarse para la cantidad de plantas magnéticas, se cuenta una vez adicional\n◆<color=red>Frustrella Mecánica</color>：Comparte el efecto anterior"
+    },
+    "36": {
+      "name": "Aliento Explosivo",
+      "desc": "◆<color=red>Brote de Dragón</color>：La frecuencia de explosión del aliento se duplica\n◆<color=red>Maceta Dragón Ígnea</color>：La duración de la bonificación de velocidad otorgada se duplica"
+    },
+    "37": {
+      "name": "Impulso Térmico",
+      "desc": "◆<color=red>Brote de Dragón</color>：Durante una ráfaga de aliento, por cada zombi impactado, el siguiente segmento de daño aumenta 1% (máx. +400%)\n◆<color=red>Maceta Dragón Ígnea</color>：Cada 4 segundos libera efectos de Petacereza y Jalapeño"
+    },
+    "38": {
+      "name": "Frente Frío",
+      "desc": "<nobr>• Desbloquea <color=red>Seta glaciar letal</color></nobr>\n◆<color=red>Seta Invernal</color>：Añade 100 acumulaciones adicionales de poder gélido\n◆<color=red>Seta glaciar letal</color>：Poder de ataque +100%"
+    },
+    "39": {
+      "name": "Horizonte Helado",
+      "desc": "◆<color=red>Seta Invernal</color>：El radio de detección de enemigos se duplica\n◆<color=red>Seta glaciar letal</color>：El intervalo de ataque coordinado se reduce a la mitad"
+    },
+    "40": {
+      "name": "Encanto Letal",
+      "desc": "Chica Mágica Encantadora: Se reduce a la mitad el tiempo de recarga de su hipnotización, y se aumenta su radio de acción en 0,5 casillas"
+    },
+    "41": {
+      "name": "Sumisión Total",
+      "desc": "Chica Mágica Encantadora: Sus zombis hipnotizados infligen un 30% de daño adicional que ignoran la reducción de daño al morder"
+    },
+    "42": {
+      "name": "Vendaval Devastador",
+      "desc": "<color=red>Trebolador Quetzalcóatl</color>：El efecto de vulnerabilidad infligido se duplica y reduce 10 puntos de armadura"
+    },
+    "43": {
+      "name": "Vientos Veloces",
+      "desc": "<color=red>Trebolador Quetzalcóatl</color>：La velocidad de generación de tréboles aumenta a uno cada 3 segundos"
+    },
+    "44": {
+      "name": "Inigualable",
+      "desc": "<color=red>Hielaguisantes Hechicero</color>：Tras cada rebote del proyectil, el daño aumenta un 10% adicional\nCon magia nivel 2, la cantidad de rebotes ×3"
+    },
+    "45": {
+      "name": "Intelecto Superior",
+      "desc": "<color=red>Hielaguisantes Hechicero</color>：Los proyectiles rebotan priorizando al zombi tipo JEFE con mayor dureza\nCon magia nivel 2, los zombis alcanzados por rebotes reciben un 10% más de daño"
+    },
+    "46": {
+      "name": "Mejora de Automatización",
+      "desc": "<color=red>Cofre Calabaza de Ender</color>：Puede almacenar objetos de metal caídos y se prioriza su uso en la Supernuez Mecánica con menor salud"
+    },
+    "47": {
+      "name": "Mejora de Capacidad",
+      "desc": "Cofre de calabaza: El límite de almacenamiento por ranura en todos los Cofres de calabaza se duplica."
+    },
+    "1000": {
+      "name": "Guante Libre",
+      "desc": "El tiempo de recarga del guante se elimina y puede mover Minijefes"
+    },
+    "1001": {
+      "name": "Siembra Rápida",
+      "desc": "El tiempo de recarga de tus plantas se reduce a la mitad"
+    },
+    "1002": {
+      "name": "Sol de Oro",
+      "desc": "Cada Sol da más valor: 5 → 15 → 25 → 50 → 75"
+    },
+    "1003": {
+      "name": "Mano Ágil",
+      "desc": "El tiempo de recarga del guante se reduce a la mitad y puede mover Minijefes"
+    },
+    "1004": {
+      "name": "Doble Rápido",
+      "desc": "El tiempo de recarga de la Imitadora se reduce a 50s"
+    },
+    "1005": {
+      "name": "Martillo Veloz",
+      "desc": "El tiempo de recarga del martillo se reduce a 6s"
+    },
+    "1006": {
+      "name": "Segunda Oportunidad",
+      "desc": "Puedes volver a elegir tus plantas durante la ronda"
+    },
+    "1007": {
+      "name": "Golpe de Gracia",
+      "desc": "Zombis reciben 1800 de daño adicional tras ya recibir más de 1800 de daño anteriormente"
+    },
+    "1008": {
+      "name": "Furia Vegetal",
+      "desc": "Daño de plantas aumentado por un 20%"
+    },
+    "1009": {
+      "name": "Piel Fina",
+      "desc": "Zombis reciben 20% más daño"
+    },
+    "1010": {
+      "name": "Doble Tirada",
+      "desc": "Repeticiones de Modificador +2"
+    },
+    "1011": {
+      "name": "Ola Polar",
+      "desc": "El tiempo de congelación de todos los zombis se incrementa en un 25%, y la ralentización del enfriamiento aumenta en un 10%"
+    },
+    "1012": {
+      "name": "Boom Solar",
+      "desc": "Ganas 3000 Soles, luego duplica tu cantidad total de Soles| Limite de soles maximo 50k → 100k"
+    },
+    "1013": {
+      "name": "Estallido Verdadero",
+      "desc": "Petacereza Verdadera: Las cerezas explosivas ahora causarán al menos 1800 de daño y provocarán daño cremador"
+    },
+    "1014": {
+      "name": "Desarme Rápido",
+      "desc": "Hacer clic en la misma planta cuando la tienes en tus guantes la desarmará (tiempo de recarga: 20s)"
+    },
+    "1015": {
+      "name": "Formación Gemela",
+      "desc": "Cuando se colocan dos plantas idénticas adyacentes en la misma columna, obtienen un 50% de aumento de daño y un 50% de reducción de daño"
+    },
+    "1016": {
+      "name": "Títeres de Guerra",
+      "desc": "Los zombis hipnotizados obtienen un aumento de ataque del 500% y una reducción de daño del 80%"
+    },
+    "1017": {
+      "name": "Lluvia de Meteoros",
+      "desc": "El tiempo de recarga de meteoritos se reduce a la mitad; su daño base se incrementa en 300 por cada Emperador Estelar en el campo"
+    },
+    "1018": {
+      "name": "Resplandor Total",
+      "desc": "Añade 4 Niveles Lúmina en todo el campo"
+    },
+    "1019": {
+      "name": "Bomba Hipnótica",
+      "desc": "Cuando zombis hipnotizados mueren, explotan, infligiendo daño al igual de 150% de sus máximos PS en un área de 3x3 a otros zombis"
+    },
+    "1020": {
+      "name": "Regeneración Prolongada",
+      "desc": "Tras la curación de una planta, se recuperan adicionalmente un 5% de sus PS por segundo durante 3 segundos; este efecto no se activa repetidamente mientras dure"
+    },
+    "1021": {
+      "name": "Toque Sanador",
+      "desc": "Plantas obtienen un 20% de bonificación de curación"
+    },
+    "1022": {
+      "name": "Mejora Mágica I",
+      "desc": "Hielaguisante Mágico: El nivel de magia aumenta a Nivel 1."
+    },
+    "1023": {
+      "name": "Mejora Mágica II",
+      "desc": "Hielaguisante Mágico: El nivel de magia aumenta a Nivel 2."
+    },
+    "2000": {
+      "name": "Detonación Limpia",
+      "desc": "Petaseta Verdadera: Las rondas Petaseta ahora liberarán una explosión grande sin cráter al impactar"
+    },
+    "2001": {
+      "name": "Siembra en Línea",
+      "desc": "Activar plantación en columna"
+    },
+    "2002": {
+      "name": "Mejora Suprema",
+      "desc": "Puedes mejorar un solo modificador S+"
+    },
+    "2003": {
+      "name": "Dominio Absoluto",
+      "desc": "Si un tipo de planta ha causado el mayor daño total en el campo, sus ataques causaran un 30 % adicional del daño original como daño verdadero."
+    },
+    "2004": {
+      "name": "Modo Frenético",
+      "desc": "Después de disparar 50 veces (25 para catapultas), las plantas obtienen una velocidad de ataque ilimitada durante 1 segundo."
+    },
+    "2005": {
+      "name": "Robo de Vida",
+      "desc": "Las plantas ganan un 1% de robo de vida, aplicado a la planta con el porcentaje de PS más bajo en el campo."
+    },
+    "2006": {
+      "name": "Golpe Acumulado",
+      "desc": "Si un zombi no recibe daño durante un período de tiempo, el siguiente golpe que reciba causará un daño mucho mayor <1s: Daño * (1 + 9t); ≥1s: Daño * (10 + 9ln(t))"
+    },
+    "2007": {
+      "name": "Corrupción Sagrada",
+      "desc": "Gana el Sacro Corrupto: Cada vez que un zombi recibe daño, la siguiente instancia de daño que reciba se incrementa en un 5% (acumulable)"
+    },
+    "2008": {
+      "name": "Purga de Amenazas",
+      "desc": "Puedes eliminar 1 Modificador Zombi del menú de Ver Modificadores"
+    },
+    "2009": {
+      "name": "Bomba de Tiempo",
+      "desc": "Los zombis hipnotizados explotan al morir, infligiendo a los zombis cercanos un daño equivalente a 1.5 veces su propia dureza"
+    },
+    "3000": {
+      "name": "Pacto de Piedra y Fuego",
+      "desc": "Cuando tanto Cerezilla como Nuez Obsidiana están en el campo, Cerezilla se convierte en un atacante de área y su salud ya no tiene límite. Nuez Obsidiana obtiene una reducción de daño del 90% (también afecta sus subespecies)"
+    },
+    "3001": {
+      "name": "Convergencia Estelar",
+      "desc": "Si hay mínimo 10 Emperador Estelares y 10 Heliocultores, Emperador Estelar invocará un meteorito poderoso; uno solar. El sol invocado por Heliocultor no desaparecerá y hará x5 de daño. Cada 2 segundos, también se invocarán meteoritos comunes"
+    },
+    "3002": {
+      "name": "Fuego Total",
+      "desc": "Cerezantralladora Explosiva ahora dispara la misma cantidad de proyectiles en tres líneas al atacar, con los proyectiles superior e inferior siguiendo trayectorias seno-cosenos. Apisonantorcha Infernal incendia todo el campo si no hay espacio disponible para generar una Apisonaflor Picante"
+    },
+    "3003": {
+      "name": "Rayo Fusionado",
+      "desc": "Al tener 10 Emperadores Estelares y 10 Lunacultores, la Mini-Luna de Lunacultor ya no desaparecerá. Cada Emperador Estelar y Lunacultor canalizará un laser a la Mini-Luna, los cuales se combinarán a un solo laser concentrado el cual se centra en el zombi con la mayor cantidad de PS"
+    },
+    "3004": {
+      "name": "Colapso Cósmico",
+      "desc": "Los melones criogénicos de la Nebulosa de Melonpulta Subzero ahora infligen x6 de daño y crean singularidades, y Astromaíz II siempre lanzará agujeros negros. Cuando un agujero negro colapsa, también detona todas las singularidades para aumentar aún más su propio daño"
+    },
+    "3005": {
+      "name": "Sinfonía de Fuego",
+      "desc": "Al hacer clic en un Mazorcañón Volcánico armado mientras sostienes la Realeza Ígnea con el guante, todos los Mazorcañones Volcánicos armados en el campo realizarán un ataque sincronizado. Cada octavo disparo de una Realeza Ígnea invoca un Meteoro Infernal que inflige x80 de daño, diezmando a todos los zombis en el campo"
+    },
+    "3006": {
+      "name": "Cadena de Disparos",
+      "desc": "Cuando Dron Cerezantralladora se coloca sobre Setantralladora Termonuclear, cuanto más atacan, más balas disparan en la siguiente andanada. Esta bonificación disminuye cuando dejan de atacar (ADVERTENCIA: Provocará cantidades exageradas de proyectiles)"
+    },
+    "3007": {
+      "name": "Singularidad Luminosa",
+      "desc": "Bipetiprisma puede fijarse en un Gammafarol (Dale clic para selecionarlo) para cargarlo. Cuando la energia soprepasa los 10k, su brillo aumenta, haciendo daño aumentado a los zombis. a llegar a 100k, colapsa en un agujero negro y explota, devastando a todos los zombies en la pantalla (ADVERTENCIA: Contiene luces intermitentes)"
+    },
+    "3008": {
+      "name": "Fusión de Proyectiles",
+      "desc": "Cuando Colipultita y Copitralladora Augmentada se plantan en la misma casilla, los proyectiles de este primero se dividen una vez más. Los proyectiles normales y especiales de ambas plantas heredan algunas propiedades de los disparos de la otra (ADVERTENCIA: Provocará lag)"
+    },
+    "3009": {
+      "name": "Alianza Obsidiana",
+      "desc": "Seta Emperador ahora invoca Centinelas Obsidiana, y el proyectil principal de Mecaniseta se dividirá en un Melón Obsidiana adicional; infligiendo daño en área igual al poder de ataque del melón original que se duplica por cada planta de hielo y fuego presente en el campo"
+    },
+    "4000": {
+      "name": "Guardián Abismal",
+      "desc": "Invoca un Ministein Abismal para luchar por ti (reemplaza a tu mascota actual). Su martillo daña tanto a las plantas como a los zombis cercanos, otorgando reducción de daño a las plantas afectadas e inflige mayor daño a los zombis según el PS de las plantas cercanas. Los efectos del martillo se mejoran con el nivel."
+    },
+    "4001": {
+      "name": "Carga Letal",
+      "desc": "Invoca un Lethal-Star Junior para luchar por ti (reemplaza a tu mascota actual). Cada 3 segundos, se mueve hacia la planta con el porcentaje de PS más bajo y carga hacia adelante, curando las plantas cercanas y aumentando el daño recibido a los zombies. Los efectos de la carga se mejoran con el nivel."
+    },
+    "4002": {
+      "name": "Princesa del Hielo",
+      "desc": "Invoca una Princesa Permafrost para que luche por ti (reemplaza a tu mascota actual). Ella apunta al carril con mayor PS y dispara proyectiles de hielo; el daño aumenta según la cantidad de zombis helados/congelados. Si la minijefe Reina Permafrost está presente, obtiene perforación infinita y experiencia extra. El daño de los proyectiles se mejora con el nivel"
+    },
+    "4003": {
+      "name": "Caos de Circo",
+      "desc": "Invoca una Payasita Zorpresa para que luche por ti (reemplaza a tu mascota actual). Cada 15 segundos, ella realiza un ataque aleatorio: invoca Payazombis hipnotizados de alto nivel en cada carril o arroja explosivos (en toda su fila o global). El daño de las explosiónes mejora con el nivel"
+    },
+    "4004": {
+      "name": "Furia de Poseidón",
+      "desc": "Invoca un Mini Pozeidón para que luche por ti (reemplaza a tu mascota actual). Cada 5 segundos, lanza su tridente, que perfora y daña zombis con explosiones. Si el minijefe Pozeidón está presente, lanza 4 tridentes cada 10 segundos en su lugar"
+    },
+    "4005": {
+      "name": "Jinete en Ciernes",
+      "desc": "Invoca un Discípulo del Apocalipsis para que luche por ti (reemplaza a tu mascota actual). Dispara rápidamente pequeños guisantes ferreos. Cada 20 segundos, invoca una fila de mini-caballos para embestir a los zombis. Si el minijefe Jinete del Apocalipsis está presente, el tiempo necesario para invocar a los caballos se reduce a la mitad."
+    },
+    "4006": {
+      "name": "Arca Aviar",
+      "desc": "Invoca un Bote del Huevito (y Zombidito) para que luche por ti (reemplaza a tu mascota actual). Cada 10 segundos, convertirá a un número determinado de zombis en Jinetes Avícolas o Avícolas Marinos. Si el minijefe Arca del Patito (y Zombidito) están presentes, el límite máximo de conversiones se duplica."
+    },
+    "4007": {
+      "name": "Escuadrón Beta",
+      "desc": "Invoca un Aereobot Beta para que luche por ti (reemplaza a tu mascota actual). Aumenta el daño de bombas de las plantas. Dispara proyectiles cada 1,5 segundos, lanzando 3 por fila. Si el minijefe Aereobot Kírov está presente, su velocidad de ataque se duplica."
+    },
+    "5000": {
+      "name": "Cazador de Jefes",
+      "desc": "Los Minijefes recibirán el doble de daño"
+    },
+    "5001": {
+      "name": "Adaptación de Combate",
+      "desc": "Las plantas obtienen un bono de daño del 5% por cada Modificador Zombi que tengas"
+    },
+    "5002": {
+      "name": "Espadachín Estelar",
+      "desc": "Desbloquear Espadachín Astral"
+    },
+    "5003": {
+      "name": "Riesgo Calculado",
+      "desc": "Las plantas infligirán el doble de daño pero recibirán el cuadruple de daño"
+    },
+    "5004": {
+      "name": "Siembra Sin Límites",
+      "desc": "Los paquetes de semillas ya no necesitan recarga, pero cada uso cuesta 15 veces el Sol + 50% del Sol actual"
+    },
+    "6000": {
+      "name": "Cortacésped Furioso",
+      "desc": "Cortacésped: Daño Final +200%, Velocidad de Ataque +300%"
+    },
+    "6001": {
+      "name": "Maestría: Regeneración",
+      "desc": "Maestría I - Cerezilla: Poder de regeneración +100%"
+    },
+    "6002": {
+      "name": "Maestría: Mordisco Feroz",
+      "desc": "Maestría II - Cerezilla: Daño de ataque +50%"
+    },
+    "6003": {
+      "name": "Maestría: Onda Expansiva",
+      "desc": "Maestría I - Cerezantralladora Explosiva: Radio de explosión de proyectiles +50% y daño +100%"
+    },
+    "6004": {
+      "name": "Maestría: Impacto Concentrado",
+      "desc": "Maestría II - Cerezantralladora Explosiva: Radio de explosión de proyectiles -50% pero el daño se incrementa +300%"
+    },
+    "6005": {
+      "name": "Maestría: Castigo Helado",
+      "desc": "Maestría I - Seta Emperador: Zombis congelados reciben +50% de daño"
+    },
+    "6006": {
+      "name": "Maestría: Control Mental",
+      "desc": "Maestría II - Seta Emperador: Zombis hipnotizados hacen +200% de daño"
+    },
+    "6007": {
+      "name": "Maestría: Fuego Lento",
+      "desc": "Maestría I - Apisonantorcha Infernal: Efecto de Jalapeño cambia de instantáneo a daño a lo largo del tiempo"
+    },
+    "6008": {
+      "name": "Maestría: Carga Incendiaria",
+      "desc": "Maestría II - Apisonantorcha Infernal: Otorga a proyectiles +50% de daño antes de encenderlos"
+    },
+    "6009": {
+      "name": "Línea de Defensa",
+      "desc": "Las plantas en la quinta columna obtienen un aumento del 50% en la Resistencia máxima y una reducción del 50% del daño. Cada columna hacia la izquierda reduce el límite de daño en un 10% y aumenta la reducción de daño en un 10%"
+    },
+    "7000": {
+      "name": "Evolución SP: Destrucción Radioactiva",
+      "desc": "<color=red>【Evolución SP】</color>:\nDesbloquea <color=red>Petantralladora Termonuclear</color>: Petantralladora + Petaseta\nDesbloquea <color=red>Setantralladora Termonuclear</color>: Setantralladora Atómica + Petaseta\nHereda la fórmula de conversión original"
+    },
+    "7001": {
+      "name": "Evolución SP: Realeza Imperial",
+      "desc": "<color=red>【Evolución SP】</color>:\nDesbloquea <color=red>Realeza Solar</color>: Emperador Solar + Nuez\nDesbloquea <color=red>Realeza Ígnea</color>: Emperador Ígneo + Nuez\nHereda la fórmula de conversión original"
+    },
+    "7002": {
+      "name": "Evolución SP: Fénix Ígneo",
+      "desc": "<color=red>【Evolución SP】</color>:\nDesbloquea <color=red>Tripitidora Fénix Definitiva</color>: Tripitidora Fénix + Jalapeño\nDesbloquea <color=red>Tripitidora Fénix definitiva</color>\nHereda la fórmula de conversión original"
+    },
+    "7003": {
+      "name": "Evolución SP: Desesporadas de Élite",
+      "desc": "<color=red>【Evolución SP】</color>:\nDesbloquea <color=red>Copitralladora Augmentada</color>: Desesporada Ametralladora Helada + Lanzaguisantes\nDesbloquea <color=red>Brillantralladora Augmentada</color>: Desesporada Ametralladora Solar + Lanzaguisantes\nHereda la fórmula de conversión original"
+    },
+    "10000": {
+      "name": "Tesoro Solar",
+      "desc": "Gana inmediatamente 100k Soles | Limite de soles maximo +100k"
+    },
+    "10001": {
+      "name": "Arsenal Kírov",
+      "desc": "Gana inmediatamente 2 paquetes de semillas de Nueces Kírov que comienzan con 1 millón de PS"
+    },
+    "10002": {
+      "name": "Ascenso Colectivo",
+      "desc": "Mejora (1+n) plantas aleatorias al Nivel 1, donde n es la cantidad de modificadores de plantas que tienes actualmente"
+    },
+    "10003": {
+      "name": "Ráfaga Colectiva",
+      "desc": "Aumenta la velocidad de (1+n) plantas aleatorias, donde n es la cantidad de modificadores de plantas que tienes actualmente"
+    },
+    "10004": {
+      "name": "Tótem Inmortal",
+      "desc": "Gana un tótem inmortal. La próxima vez que los zombis lleguen a la casa, se ignorará durante 3 segundos y los empujará de regreso al inicio"
+    },
+    "10005": {
+      "name": "Arsenal de Odisea",
+      "desc": "Obtén el paquete de semillas de todas las fusiones Odisea con mejoras de promosión (sin subespecies)"
+    },
+    "10006": {
+      "name": "Barrido Total",
+      "desc": "Empuja a todos los zombis hasta el principio y luego derrota instantáneamente a todos los zombis"
+    },
+    "10007": {
+      "name": "Comando de Invierno",
+      "desc": "Obtén un Sargento Níveo con +1500 % de daño y PS, +1000 % de velocidad y obtén un Arándano Gélido adicional"
+    },
+    "10008": {
+      "name": "Apuesta Arriesgada",
+      "desc": "Gana una planta Odisea aleatoria. Cada nueva oleada de zombies gana +25 % de daño, +25 % de PS y +10 % de velocidad"
+    },
+    "10009": {
+      "name": "Desafío Gamma",
+      "desc": "Obtén un paquete de semillas de Gammaseta. Plantándolo aceptas el desafío:\nInvoca 3-6 zombis aleatorios de Odisea en cada fila (sí, CUALQUIERA de los zombis posibles)\nDerrota a todos para desbloquear el Modificador \"Sacro Corrupto\""
+    },
+    "10010": {
+      "name": "Poder Absoluto",
+      "desc": "Todo el daño de ataque de las plantas x2"
+    },
+    "10011": {
+      "name": "Escudo Constante",
+      "desc": "Todas las plantas ganan 50 + (2% PS máx.) de escudo por segundo"
+    },
+    "10012": {
+      "name": "Medallón Saurio",
+      "desc": "Obtén el Medallón Saurio. Cuando tengas 20 o más plantas en el campo, los zombis que lleguen a la casa ya no causarán el fin del juego, sino que harán que todas las plantas tengan 1/3 de probabilidad de morir"
+    },
+    "10013": {
+      "name": "Desafío Mecánico",
+      "desc": "Obtén un paquete de semillas de Calabaza Mecánica. Plantándolo aceptas el desafío:\nEl número de zombis en las próximas 20 oleadas se duplicará\nPasan por alto a las plantas y todas las plantas en la casilla de la Calabaza Mecánica se promoverán al Nivel 3"
+    },
+    "10014": {
+      "name": "Refuerzos de Emergencia",
+      "desc": "Libera todos los cortacéspedes actuales y restaura una columna completa de ellos"
+    },
+    "10015": {
+      "name": "Última Oportunidad",
+      "desc": "No obtendras fin del juego si logras matar al zombi que llega a tu casa antes de 1,5s"
+    },
+    "10016": {
+      "name": "Ejército de Imitadores",
+      "desc": "Gana inmediatamente 5 paquetes de semillas Imitadora"
+    },
+    "10017": {
+      "name": "Duplicado Garantizado",
+      "desc": "Al obtener una segunda copia de cualquier planta por primera vez, recibirás un paquete de semillas adicional de esa planta"
+    },
+    "10018": {
+      "name": "Fusión Ascendente",
+      "desc": "Usar el guante para mover una planta a otra planta del mismo tipo y nivel la mejora en 1 nivel"
+    },
+    "10019": {
+      "name": "Reciclaje Constante",
+      "desc": "Gana inmediatamente 10 Jarrones Recicladores. Además, recibes 1 por oleada y 5 por bandera (oleada enorme)"
+    },
+    "11000": {
+      "name": "Carretilla Veloz",
+      "desc": "La recarga de la carretilla se reduce a 3 segundos"
+    },
+    "11001": {
+      "name": "Crecimiento Instantáneo",
+      "desc": "Seta Deucalión: Comienza con 10 etapas de crecimiento de rondas de Odisea."
+    },
+    "12000": {
+      "name": "Infierno Mecánico",
+      "desc": "Cuando el proyectil de Mecaniseta cae al piso, crea un inferno. Al impactar con un zombi se divide dos veces adicionales"
+    },
+    "12001": {
+      "name": "Tormenta de Jalapeños",
+      "desc": "Guisantidillón libera 4 explosiones de Jalapeño adicionales durante su habilidad definitiva; cada uno de ellos inflige 50 instancias de daño, y cada instancia de daño inflige un daño equivalente al 10.000 % de su ataque a una unidad enemiga aleatoria"
+    },
+    "12002": {
+      "name": "Transmutación: Precisión Mortal",
+      "desc": "Transmutación - Francotirador: Cada bala del Cazador de la Muerte inflige daño de headshot"
+    },
+    "12003": {
+      "name": "Transmutación: Munición Explosiva",
+      "desc": "Transmutación - Demolición: Las balas del Trimina Patatera se convierten en balas explosivas"
+    },
+    "12004": {
+      "name": "Transmutación: Hambre Voraz",
+      "desc": "Transmutación - Destrucción: La Devorapiraña de la Destrucción libera una explosión al atacar aunque no trague a un zombi; si lo traga, libera dos explosiones"
+    },
+    "12005": {
+      "name": "Transmutación: Aniquilación Final",
+      "desc": "Transmutación - Aniquilación: Al morir, Gammaseta libera 1.000.000 de daño explosivo"
+    },
+    "12006": {
+      "name": "Transmutación - Escudo Radiante",
+      "desc": "Parapharos: Puede consumir energía para empujar a los zombis en un área de 3x3 y sus ataques básicos afectan a x3 objetivos."
+    },
+    "12007": {
+      "name": "Transmutación - Colapso Gravitacional",
+      "desc": "Los agujeros negros atraerán a los zombis con menos del 50% de PS máximos."
+    },
+    "12008": {
+      "name": "Transmutación - Penetración Ígnea",
+      "desc": "Tripitidora Fénix Definitiva: Dispara en todas las líneas y sus proyectiles perforan infinitamente."
+    },
+    "12009": {
+      "name": "Transmutación - Fauce Abisal",
+      "desc": "Luminívora Titán: El rango de atracción tras la digestión aumenta enormemente."
+    },
+    "12010": {
+      "name": "Transmutación - Rayo Caótico",
+      "desc": "Bipetiprisma: Dos rayos celestiales adyacentes liberan periódicamente explosiones de mini agujeros negros."
+    },
+    "12011": {
+      "name": "Transmutación - Rebote",
+      "desc": "Sargento Ferreo: Ya no realiza tiros a la cabeza, pero los proyectiles rebotan en los bordes del jardín hasta (número de perforaciones + 2) veces."
+    },
+    "12012": {
+      "name": "Transmutación - Tropas de Élite",
+      "desc": "Seta Emperatriz: Ahora invoca zombis con atributos enormemente aumentados."
+    },
+    "12013": {
+      "name": "Transmutación - Ráfaga Densa",
+      "desc": "Sargento Ferreo: Dispara proyectiles aún más grandes y fuertes durante su habilidad definitiva."
+    },
+    "12014": {
+      "name": "Transmutación - Desangrado",
+      "desc": "Los zombis dañados por cualquier Pinchorroca pierden continuamente PS equivalentes al 400% de su ataque durante 2 segundos."
+    },
+    "12015": {
+      "name": "Transmutación - Cono Móvil",
+      "desc": "Bambuido Álgido: Sigue el cursor del mouse, con mejoras de velocidad de ataque aumentando su velocidad de movimiento, e inflige daño a los zombis en su camino."
+    },
+    "12016": {
+      "name": "Transmutación - Todo Mío",
+      "desc": "Hielaguisante Mágico: Probabilidad de Análisis duplicada. Al entrar un zombi, le aplica 3 cargas de Análisis. Al inicio de cada oleada aplica 100 cargas al zombi con más salud (+100% de daño por carga); al morir, se transfieren a otros zombis."
+    },
+    "12017": {
+      "name": "Transmutación - ¿Quién Partió mi Melón?",
+      "desc": "Nuez Melonpulta: Los melones explotan en su punto más alto, lanzando minimelones a todos los zombis en el jardín"
+    },
+    "12018": {
+      "name": "Transmutación - Para Todos",
+      "desc": "Melón Dorado: Su habilidad definitiva lanza melones a todos los zombis en el campo y duplica sus divisiones"
+    },
+    "12019": {
+      "name": "Transmutación - Escudo Penetrante",
+      "desc": "Nitroserrucho: Sus proyectiles obtienen un ataque adicional igual al 0.6% de su escudo actual (máx. 300% del ataque base)"
+    },
+    "12020": {
+      "name": "Transmutación - Rebote Saturado",
+      "desc": "Cañón de Col Ígneo: Su alcance se expande ±1 fila y ataca a todos los objetivos; el tiempo de vuelo de los proyectiles se reduce un 50%"
+    },
+    "12021": {
+      "name": "Transmutación - Lluvia de Espadas",
+      "desc": "Espadachín Astral: Por cada 2 espadas grandes, dispara 1 espada giratoria adicional en cada ataque"
+    },
+    "12022": {
+      "name": "Transmutación - Aura Asesina",
+      "desc": "Nuez Magnética: Sus proyectiles adquieren perforación infinita, pero su duración se reduce a 10 segundos"
+    },
+    "12023": {
+      "name": "Transmutación: Llamarada Voraz",
+      "desc": "El aliento de Brote de Dragón desata adicionalmente el efecto de Jalapeño en todo el campo."
+    },
+    "12024": {
+      "name": "Transmutación: Nuez Obsidiana",
+      "desc": "Aumenta drásticamente la tasa de autorregeneración de Nuez Obsidiana; los aumentos de velocidad potencian aún más esta tasa."
+    },
+    "12025": {
+      "name": "Transmutación: Seta del Destino",
+      "desc": "Al sostener a Seta del Destino, sus invocaciones seguirán el movimiento del cursor."
+    },
+    "12026": {
+      "name": "Transmutación: Torreta Láser",
+      "desc": "Guisantimillán Obsidiana dispara un rayo láser continuo e ininterrumpido."
+    },
+    "13000": {
+      "name": "Protección Antiexplosiva",
+      "desc": "El daño de las explosiones de los Zombis con cajita sorpresa se reduce a 1000."
+    },
+    "13001": {
+      "name": "Protección de Escudo",
+      "desc": "Las plantas con escudo recuperan cada segundo una cantidad de PS igual al 0.1% de su escudo actual"
+    },
+    "13002": {
+      "name": "Ataque en Área: Muñeco de Prácticas",
+      "desc": "Genera un Zombi Poste de Madera en el campo que reparte el 60% del daño recibido a partes iguales entre todos los zombis. Puedes moverlo usando el Guante Zombi.\nNo puede transferir daño provocado por zombis hipnotizados."
+    },
+    "13003": {
+      "name": "Ataque en Área: Muñeco de Prácticas II",
+      "desc": "La proporción de daño repartido del Zombi Poste de Madera aumenta al 100%."
+    },
+    "13004": {
+      "name": "Ataque en Área: Muñeco de Prácticas III",
+      "desc": "Genera un Zombi Poste de Madera adicional en el campo."
+    },
+    "13005": {
+      "name": "Muñeco: Punto Débil",
+      "desc": "Al recibir daño, el Zombi Poste de Madera inflige un 100% de daño adicional al zombi con más salud del campo."
+    },
+    "13006": {
+      "name": "Ataque en Área: Sol Radiante",
+      "desc": "Genera un Reactor Solar en el campo que inflige daño periódicamente a todos los zombis."
+    },
+    "13007": {
+      "name": "Ataque en Área: Sol Radiante II",
+      "desc": "Reduce el intervalo de ataque del Reactor Solar un 50%."
+    },
+    "13008": {
+      "name": "Ataque en Área: Sol Radiante III",
+      "desc": "Aumenta el daño del Reactor Solar un 100%."
+    },
+    "13009": {
+      "name": "Sol Radiante: Cielo Quebrado",
+      "desc": "Al atacar, el Reactor Solar libera adicionalmente una lluvia de meteoros solares."
+    },
+    "13010": {
+      "name": "Inmortalidad: Martillo de Guerra",
+      "desc": "Reduce el daño del Martillo, pero reduce su tiempo de recarga a 3 segundos."
+    },
+    "13011": {
+      "name": "Inmortalidad: Martillo de Guerra II",
+      "desc": "Reduce aún más el tiempo de recarga del Martillo."
+    },
+    "13012": {
+      "name": "Inmortalidad: Martillo de Guerra III",
+      "desc": "Aumenta drásticamente el alcance de ataque del Martillo."
+    },
+    "13013": {
+      "name": "Martillo: Bien Templado",
+      "desc": "Al golpear a un zombi, el martillo genera un gran mazo en el lugar que daña continuamente a los zombis antes de desaparecer."
+    },
+    "13014": {
+      "name": "Apoyo: Dirigible",
+      "desc": "Obtén un Meca Aéreo Pisciforme Miniatura."
+    },
+    "13015": {
+      "name": "Apoyo: Desgarro Aéreo",
+      "desc": "Reduce el intervalo de ataque del Meca Aéreo Pisciforme Miniatura."
+    },
+    "13016": {
+      "name": "Apoyo: Desgarro Aéreo II",
+      "desc": "Reduce en 1 el número de ataques necesarios para la andanada del Meca Aéreo Pisciforme Miniatura."
+    },
+    "13017": {
+      "name": "Desgarro Aéreo: Salto Celeste",
+      "desc": "Los proyectiles de la andanada del Meca Aéreo Pisciforme Miniatura se dividen continuamente en el aire."
+    },
+    "13018": {
+      "name": "Cortina de Hierro: Luna Radiante",
+      "desc": "Genera un Reactor Lunar en el campo que regenera periódicamente la salud de todas las plantas."
+    },
+    "13019": {
+      "name": "Cortina de Hierro: Luna Radiante II",
+      "desc": "Al activarse, el Reactor Lunar otorga 1000 puntos de escudo a todas las plantas del campo."
+    },
+    "13020": {
+      "name": "Cortina de Hierro: Luna Radiante III",
+      "desc": "Aumenta drásticamente la cantidad de salud regenerada por el Reactor Lunar."
+    },
+    "13021": {
+      "name": "Luna Radiante: Reflejo en los Ríos",
+      "desc": "Al activarse el Reactor Lunar, desciende un rayo de luz lunar sobre cada planta; elimina al instante a los zombis comunes en un área de 3×3 y hace invulnerables a las plantas por unos momentos."
+    },
+    "13022": {
+      "name": "Cortina de Hierro: Endurecimiento",
+      "desc": "Reduce el daño recibido por todas las plantas un 20%."
+    },
+    "13023": {
+      "name": "Cortina de Hierro: Endurecimiento II",
+      "desc": "Reduce el daño recibido por todas las plantas un 40%."
+    },
+    "13024": {
+      "name": "Cortina de Hierro: Endurecimiento III",
+      "desc": "Reduce el daño recibido por todas las plantas un 60%."
+    },
+    "13025": {
+      "name": "Endurecimiento: Inquebrantable",
+      "desc": "Reduce el daño recibido por todas las plantas un 90%; al perder salud, disparan en su posición un guisante con daño igual a su salud máxima.\nSi los zombis tienen la mejora Legítima Defensa, la reducción de daño aumenta al 99%."
+    },
+    "13026": {
+      "name": "Suerte: Negocio",
+      "desc": "Obtén una tirada de mejoras con 500 de Suerte, y luego pierde 25 de Suerte."
+    },
+    "13027": {
+      "name": "Suerte: Negocio II",
+      "desc": "Obtén una tirada de mejoras con 1000 de Suerte, y luego pierde 50 de Suerte."
+    },
+    "13028": {
+      "name": "Suerte: Negocio III",
+      "desc": "Obtén una tirada de mejoras con 1500 de Suerte, y luego pierde 75 de Suerte."
+    },
+    "13029": {
+      "name": "Negocio: Todo o Nada",
+      "desc": "Fija tu Suerte en 250, tus intentos de cambio en 5 y multiplica el límite de Suerte ×3; a partir de ahora no podrás obtener Suerte ni Inversión Razonable.\nCada vez que elijas una mejora, gana 25 de Suerte más un 20% de tu Suerte actual (máx. 100). Elegir Madera, Plata, Oro/Aleatorio o Diamante/Prismático/Maldición resta 20/40/60/100 de Suerte respectivamente, y cada cambio cuesta 50 de Suerte."
+    },
+    "13030": {
+      "name": "Suerte: Tesoro",
+      "desc": "Genera de inmediato una oleada de zombis con doble salud y velocidad; al eliminarlos a todos obtienes una tirada de mejoras con 500 de Suerte."
+    },
+    "13031": {
+      "name": "Suerte: Tesoro II",
+      "desc": "Genera de inmediato una oleada de zombis con triple salud y velocidad; al eliminarlos a todos obtienes una tirada de mejoras con 1000 de Suerte."
+    },
+    "13032": {
+      "name": "Suerte: Tesoro III",
+      "desc": "Genera de inmediato una oleada de zombis con cuádruple salud y velocidad; al eliminarlos a todos obtienes una tirada de mejoras con 1500 de Suerte."
+    },
+    "13033": {
+      "name": "Tesoro: Doble Suerte",
+      "desc": "Duplica de inmediato tu Suerte actual y tu límite de Suerte.\nSi el valor es negativo, toma su valor absoluto y lo duplica (ej. si tienes -50 de Suerte: -50 → 100)."
+    },
+    "13034": {
+      "name": "Inmortalidad: Fuego Kármico",
+      "desc": "Al hacer clic en cualquier punto, desata una explosión de Fuego Kármico en esa posición. Posee 10 s de recarga; si elimina a un zombi, la recarga se reduce a 1 s."
+    },
+    "13035": {
+      "name": "Inmortalidad: Fuego Kármico II",
+      "desc": "El Fuego Kármico obtiene una bonificación de daño del 100%."
+    },
+    "13036": {
+      "name": "Inmortalidad: Fuego Kármico III",
+      "desc": "Reduce la recarga normal y la recarga tras eliminación del Fuego Kármico un 50%."
+    },
+    "13037": {
+      "name": "Fuego Kármico: Consumir la Vida",
+      "desc": "El Fuego Kármico puede dañar a las plantas; al destruir una planta, desata el efecto de Jalapeño en todo el campo y restablece su recarga. El daño aumenta según el número total de mejoras obtenidas por dicha planta."
+    },
+    "13038": {
+      "name": "Apoyo: Prisma Láser",
+      "desc": "Obtén una nave mecánica que fija y ataca continuamente al zombi situado más a la izquierda."
+    },
+    "13039": {
+      "name": "Apoyo: Prisma Láser II",
+      "desc": "Número de refracciones de la nave mecánica +1."
+    },
+    "13040": {
+      "name": "Apoyo: Prisma Láser III",
+      "desc": "Número de refracciones de la nave mecánica +2."
+    },
+    "13041": {
+      "name": "Prisma Láser: Flecha Celeste",
+      "desc": "El rayo prismático obtiene perforación infinita y sus refracciones pueden golpear repetidamente al mismo objetivo."
+    },
+    "13042": {
+      "name": "Escolta: Castigo Divino",
+      "desc": "Los relámpagos lucharán por ti, infligiendo daño de forma intermitente a los zombis en el campo."
+    },
+    "13043": {
+      "name": "Escolta: Castigo Divino II",
+      "desc": "Aumenta la duración de los relámpagos un 100%."
+    },
+    "13044": {
+      "name": "Escolta: Castigo Divino III",
+      "desc": "Aumenta la frecuencia de ataque de los relámpagos un 100%."
+    },
+    "13045": {
+      "name": "Castigo Divino: Tempestad Eléctrica",
+      "desc": "La tormenta de relámpagos atacará de manera continua e ininterrumpida."
+    },
+    "13100": {
+      "name": "Renovación Radical",
+      "desc": "Elimina a todas tus plantas y reduce a la mitad su bono de daño independiente y velocidad. Tras 20 oleadas, repite la acción pero duplicando los bonos"
+    },
+    "13101": {
+      "name": "Polarización",
+      "desc": "Si tu Suerte es menor a 75, se fija en 75. Fuera de tiradas garantizadas, las mejoras de plata y oro bajan a madera, pero las de diamante suben a prismático"
+    },
+    "13102": {
+      "name": "Soberbia",
+      "desc": "Cuando tus plantas están arriba de un zombi causan un 30% más de daño; cuando están abajo causan un 30% menos de daño (según la pantalla)"
+    },
+    "13103": {
+      "name": "Envidia",
+      "desc": "Causa un 30% más de daño a zombis con más del 50% de PS, pero causa un 30% menos de daño a zombis con menos del 50% de PS"
+    },
+    "14000": {
+      "name": "Maldición - 1437",
+      "desc": "El intervalo de ataque de Emperador Estelar se duplica. Tras atacar 1,437 veces, se revierte la maldición (cada ronda cuenta como 5 ataques).\nEfecto revertido: Los proyectiles multifunción obtienen +1,437 de daño base adicional"
+    },
+    "14001": {
+      "name": "Bendición - 1437",
+      "desc": "Los proyectiles multifunción de Emperador Estelar obtienen +1,437 de daño base adicional"
+    },
+    "14002": {
+      "name": "Maldición - Rivalidad",
+      "desc": "El daño de los proyectiles de Cerezantralladora Explosiva se reduce un 50%. Tras infligir 300M de daño acumulado, se revierte la maldición.\nEfecto revertido: Dispara proyectiles de cereza adicionales desde la izquierda con poder igual al 0.0001% del daño infligido por otras plantas"
+    },
+    "14003": {
+      "name": "Bendición - Rivalidad",
+      "desc": "En cada ataque de Cerezantralladora Explosiva, dispara proyectiles de cereza adicionales desde la izquierda con poder igual al 0.0001% del daño infligido por otras plantas"
+    },
+    "14004": {
+      "name": "Maldición - Reparto",
+      "desc": "Por cada objetivo de Coltillería Volcánica, el daño de proyectil se reduce un 1% (mín. 30%). Tras reducir un 50,000% acumulado, se revierte la maldición.\nEfecto revertido: Por cada objetivo, el daño aumenta un 1%"
+    },
+    "14005": {
+      "name": "Bendición - Reparto",
+      "desc": "Por cada objetivo de Coltillería Volcánica, el daño de proyectil aumenta un 1%"
+    },
+    "14006": {
+      "name": "Maldición - Forja Dura",
+      "desc": "La Nuez Magnética ya no dispara proyectiles. Tras atraer 5,000 proyectiles, se revierte la maldición.\nEfecto revertido: En cada ataque, dispara un proyectil adicional del tipo más abundante entre los atraídos"
+    },
+    "14007": {
+      "name": "Bendición - Forja Dura",
+      "desc": "En cada ataque de la Nuez Magnética, dispara un proyectil adicional del tipo más abundante entre los atraídos"
+    },
+    "15000": {
+      "name": "Maldición: Uno Cuatro Tres Siete",
+      "desc": "Duplica el intervalo de ataque de Emperador Estelar; tras atacar 1437 veces, invierte la maldición (cada ronda de ataque cuenta como 5 veces).\nEfecto invertido: Sus proyectiles multifunción obtienen 1437 puntos de daño base adicional."
+    },
+    "15001": {
+      "name": "Bendición: Uno Cuatro Tres Siete",
+      "desc": "Los proyectiles multifunción de Emperador Estelar obtienen 1437 puntos de daño base adicional."
+    },
+    "15002": {
+      "name": "Maldición: Espíritu Competitivo",
+      "desc": "Reduce el daño de los proyectiles de Cerezantralladora Explosiva un 50%; tras infligir 300 millones de daño acumulado, invierte la maldición.\nEfecto invertido: Cada vez que ataca Cerezantralladora Explosiva, dispara proyectiles cereza adicionales desde la izquierda con un daño equivalente al 0.0001% del daño infligido por las demás plantas."
+    },
+    "15003": {
+      "name": "Bendición: Espíritu Competitivo",
+      "desc": "Cada vez que ataca Cerezantralladora Explosiva, dispara proyectiles cereza adicionales desde la izquierda con un daño equivalente al 0.0001% del daño infligido por las demás plantas."
+    },
+    "15004": {
+      "name": "Maldición: Parte del Botín",
+      "desc": "Por cada objetivo presente, el daño de los proyectiles de Coltillería Volcánica se reduce un 1% (mínimo hasta el 30% original); tras acumular un 50,000% de reducción mediante este efecto, invierte la maldición.\nEfecto invertido: Por cada objetivo presente, el daño de los proyectiles aumenta un 1%."
+    },
+    "15005": {
+      "name": "Bendición: Parte del Botín",
+      "desc": "Por cada objetivo presente, el daño de los proyectiles de Coltillería Volcánica aumenta un 1%."
+    },
+    "15006": {
+      "name": "Maldición: Templado Continuo",
+      "desc": "Magnetonuez deja de disparar proyectiles; tras atraer 5000 proyectiles acumulados, invierte la maldición.\nEfecto invertido: En cada ataque dispara un proyectil adicional del tipo más abundante atraído."
+    },
+    "15007": {
+      "name": "Bendición: Templado Continuo",
+      "desc": "En cada ataque Magnetonuez dispara un proyectil adicional del tipo más abundante atraído."
+    }
+  },
+  "ultimateBuffs": {
+    "0": {
+      "name": "Regeneración Acelerada",
+      "desc": "Cerezilla (+Bodriozilla): Cerezilla se recupera x3 veces mas rápido"
+    },
+    "1": {
+      "name": "Apetito Voraz",
+      "desc": "Cerezilla (+Bodriozilla): Recarga de devoración reducida a 15s"
+    },
+    "2": {
+      "name": "Cereza Bomba",
+      "desc": "Cerezantralladora: Cerezas explosivas de plantas hacen x3 de daño"
+    },
+    "3": {
+      "name": "Ráfaga de Cerezas",
+      "desc": "◆<nobr><color=red>Cerezantralladora Explosiva</color></nobr>：Velocidad de ataque +100%\n◆<nobr><color=red>Dron Cerezantralladora</color></nobr>：Comparte el efecto anterior"
+    },
+    "4": {
+      "name": "Furia Imperial",
+      "desc": "◆<nobr><color=red>Seta Emperador</color></nobr>：Frecuencia de daño de los proyectiles de humo x3\n◆<nobr><color=red>Cactus Emperador</color></nobr>：Daño infligido tras el impacto de proyectiles x3\n◆Daño del Zombi Garra de Nieve x3"
+    },
+    "5": {
+      "name": "Castigo Imperial",
+      "desc": "Seta Emperador: Zombis recibirán 30% de daño de su vida actual al no estar congelados"
+    },
+    "6": {
+      "name": "Ignición Rápida",
+      "desc": "◆<nobr><color=red>Apisonantorcha Infernal</color></nobr>：La cantidad de proyectiles requerida para generar plantas picantes se reduce a la mitad\n◆<nobr><color=red>Frustorcha Infernal</color></nobr>：Comparte el efecto anterior"
+    },
+    "7": {
+      "name": "Fuego Sin Límites",
+      "desc": "◆<nobr><color=red>Apisonantorcha Infernal</color></nobr>：Al fallar en generar la planta picante correspondiente, desata directamente el efecto de Jalapeño\n◆<nobr><color=red>Frustorcha Infernal</color></nobr>：Comparte el efecto anterior"
+    },
+    "8": {
+      "name": "Lluvia Estelar",
+      "desc": "◆<nobr><color=red>Emperador Estelar</color></nobr>：Intervalo de ataque reducido a 0.5 segundos\n◆<nobr><color=red>Emperatriz Estelar</color></nobr>：El radio de atracción y capacidad de adsorción de proyectiles estrella aumentan enormemente"
+    },
+    "9": {
+      "name": "Poder Estelar Absoluto",
+      "desc": "◆<nobr><color=red>Emperador Estelar</color></nobr>：Al disparar proyectiles el daño x2, límite de daño x10\n<color=#FF7400>Mejora</color>：El efecto anterior se convierte en daño x3 al disparar y sin límite de daño\n◆<nobr><color=red>Emperatriz Estelar</color></nobr>：Aumenta la eficiencia de adsorción y la bonificación de daño según los tipos de proyectiles adsorbidos"
+    },
+    "10": {
+      "name": "Explosión Gamma",
+      "desc": "Gammaseta: Daño al morir → 1.000.000 (Gammafarol: Puntos Lúmina al morir x3)"
+    },
+    "11": {
+      "name": "Escudo Gamma",
+      "desc": "Gammaseta (+Gammafarol): Se vuelve inmune a cerezas explosivas y cajitas sorpresa. Al absorber 10.000 puntos de daño de estas explosiones, se libera una explosión de Petaseta"
+    },
+    "12": {
+      "name": "Dispersión Garantizada",
+      "desc": "◆<nobr><color=red>Colipulta</color></nobr>：Probabilidad de dispersión aumentada al 100%\n◆<nobr><color=red>Colipultita</color></nobr>：Comparte el efecto anterior"
+    },
+    "13": {
+      "name": "Veneno Concentrado",
+      "desc": "Colipulta (+Colipultita): NV1 - Acumular puntos venenosos envenenará inmediatamente al zombi y el límite del Valor Venenoso → 120 | NV2 - Límite del Valor Venenoso Eliminado"
+    },
+    "14": {
+      "name": "Cristal Cuádruple",
+      "desc": "◆<nobr><color=red>Mazorcañón Cristalino</color></nobr>：El daño de explosión del punto central del cañón principal x4\n◆<nobr><color=red>Melortero Cristalino</color></nobr>：Comparte el efecto anterior"
+    },
+    "15": {
+      "name": "Carga Rápida",
+      "desc": "◆<nobr><color=red>Mazorcañón Cristalino</color></nobr>：Tiempo de recarga reducido a 1/3\n◆<nobr><color=red>Melortero Cristalino</color></nobr>：Comparte el efecto anterior"
+    },
+    "16": {
+      "name": "Dureza de Obsidiana",
+      "desc": "◆<nobr><color=red>Nuez Obsidiana</color></nobr>：Dureza aumentada 2 veces\n◆<nobr><color=red>Patatapum Obsidiana</color></nobr>：Comparte el efecto anterior"
+    },
+    "17": {
+      "name": "Guardián Lateral",
+      "desc": "◆<nobr><color=red>Nuez Obsidiana</color></nobr>：Absorbe el daño de las plantas en su casilla y en las casillas adyacentes izquierda y derecha\n◆<nobr><color=red>Patatapum Obsidiana</color></nobr>：Comparte el efecto anterior"
+    },
+    "18": {
+      "name": "Dominación Total",
+      "desc": "◆<nobr><color=red>Seta Coratrón</color></nobr>：El umbral de salud para hipnotizar con proyectiles aumenta al 100%\n◆<nobr><color=red>Calabaza Captivadora</color></nobr>：El daño infligido a los zombis hipnotizados se reduce a la mitad"
+    },
+    "19": {
+      "name": "Carga Constante",
+      "desc": "◆<nobr><color=red>Seta Coratrón</color></nobr>：La carga no desciende por debajo de nivel 2; puede consumir metal manualmente para cargar a nivel 3 durante 5 minutos\n◆<nobr><color=red>Calabaza Captivadora</color></nobr>：Desbloquea el nivel 3 de carga"
+    },
+    "20": {
+      "name": "Poder Triplicado",
+      "desc": "Guisantidillón Obsidiana (+Guisantimillán Obsidiana): Poder de ataque triplicado"
+    },
+    "21": {
+      "name": "Energía Infinita",
+      "desc": "Guisantidillón Obsidiana: NV1 - Al usar su habilidad regresa 50k de Energía | NV2 - Su habilidad también inflige 20% daño adicional que ignora RD (Guisantimillán Obsidiana: NV1 - Defensa incrementa mientras sus PS decrementan. Bajo 500 PS, se vuelve inmune a daño bajo 1000 | NV2 - Bajo 500 PS, daño base x2)"
+    },
+    "22": {
+      "name": "Excedente Solar",
+      "desc": "◆<nobr><color=red>Heliocultor</color></nobr>：Al disparar proyectiles, consume 1/200 del sol excedente sobre 15000, aumentando el daño 20 veces la cantidad de sol consumido\n◆<nobr><color=red>Lunacultor</color></nobr>：La bonificación de daño por nivel de iluminación recibida por proyectiles ×3"
+    },
+    "23": {
+      "name": "Sol Ardiente",
+      "desc": "◆<nobr><color=red>Heliocultor</color></nobr>：El daño del sol invocado x3\n◆<nobr><color=red>Lunacultor</color></nobr>：La curación de la luna invocada ×3"
+    },
+    "24": {
+      "name": "Escuadrón Triple",
+      "desc": "◆<nobr><color=red>Calatrón</color></nobr>：Los drones de apoyo aumentan a 3\n◆<nobr><color=red>Hokaitrón</color></nobr>：Comparte el efecto anterior"
+    },
+    "25": {
+      "name": "Drones de Combate",
+      "desc": "◆<nobr><color=red>Calatrón</color></nobr>：Daño de drones de apoyo ×3\n◆El daño de drones láser ×3"
+    },
+    "26": {
+      "name": "Carga Máxima",
+      "desc": "◆<nobr><color=red>Mecaniseta</color></nobr>：Ganancia y límite de acumulación de carga ×3\n◆<nobr><color=red>Magmaseta</color></nobr>：Comparte el efecto anterior"
+    },
+    "27": {
+      "name": "Infierno Prolongado",
+      "desc": "◆<nobr><color=red>Mecaniseta</color></nobr>：La duración del mar de fuego aumenta a 5 segundos\n◆<nobr><color=red>Magmaseta</color></nobr>：El daño del proyectil y del fuego generado ×3"
+    },
+    "28": {
+      "name": "Codicia Dorada",
+      "desc": "◆<nobr><color=red>Alga Midas</color></nobr>：Por cada 1000 puntos poseídos, la velocidad aumenta un 1%\n◆<nobr><color=red>Alga Glotona de Caja Definitiva</color></nobr>：Comparte el efecto anterior"
+    },
+    "29": {
+      "name": "Descuento de Midas",
+      "desc": "◆<nobr><color=red>Alga Midas</color></nobr>：El límite de puntos obtenibles por proyectiles en cada ronda se duplica\n◆<nobr><color=red>Alga Glotona de Caja Definitiva</color></nobr>：Comparte el efecto anterior\n◆Al plantar Cajas Sorpresa, Imitadoras o Cajas Misteriosas de Zombis, hay probabilidad de generar cartas de estas dos plantas"
+    },
+    "30": {
+      "name": "Vórtice Absoluto",
+      "desc": "◆<nobr><color=red>Astromaíz II</color></nobr>：La tasa de conversión del daño de proyectiles absorbido por el agujero negro aumenta al 80%\n◆<nobr><color=red>Astronuez IV</color></nobr>：Obtiene 33% de reducción de daño al activar el agujero negro"
+    },
+    "31": {
+      "name": "Gravedad Extrema",
+      "desc": "◆<nobr><color=red>Astromaíz II</color></nobr>：La duración y el límite de tiempo de existencia del agujero negro se duplican, y por cada 1 s que exista, el daño aumenta 2%\n◆<nobr><color=red>Astronuez IV</color></nobr>：Comparte el efecto anterior"
+    },
+    "32": {
+      "name": "Sierra Persistente",
+      "desc": "Nitroserrucho: Las sierras de Nitroserrucho se mantienen por 15 segundos (Bambuido Álgido: Ahora recibe solo 1/3 de daño entrante)"
+    },
+    "33": {
+      "name": "Sanación Total",
+      "desc": "Nitroserrucho: Su curación ya no se divide entre plantas (Bambuido Álgido: Recuperación de PS y PE x2)"
+    },
+    "34": {
+      "name": "Alcance Titánico",
+      "desc": "<nobr><color=red>Luminívora Titán</color></nobr>：El rango de ataque aumenta"
+    },
+    "35": {
+      "name": "Digestión Luminosa",
+      "desc": "<nobr><color=red>Luminívora Titán</color></nobr>：Durante la masticación, otorga nivel 2 de iluminación en un área de 5x5"
+    },
+    "36": {
+      "name": "Furia Volcánica",
+      "desc": "◆<nobr><color=red>Mazorcañón Volcánico</color></nobr>：Daño de palomitas explosivas x3\n◆<nobr><color=red>Coltillería Volcánica</color></nobr>：Daño de col explosiva ×3"
+    },
+    "37": {
+      "name": "Reacción en Cadena",
+      "desc": "◆<nobr><color=red>Mazorcañón Volcánico</color></nobr>：Los proyectiles que impactan Petacerezas o Jalapeños desatan una devastadora explosión nuclear\n◆<nobr><color=red>Coltillería Volcánica</color></nobr>：Al atacar, hay un 10% de probabilidad de generar llamarada en boca de cañón y disparar proyectiles sin límite"
+    },
+    "38": {
+      "name": "Cadena Solar",
+      "desc": "<nobr><color=red>Nova Noble</color></nobr>：Los proyectiles de sol radiante detonan los proyectiles circundantes según su propio poder de ataque tras impactar zombis"
+    },
+    "39": {
+      "name": "Núcleo Solar Supremo",
+      "desc": "<nobr><color=red>Nova Noble</color></nobr>：Límite de energía almacenada x3, producción de sol por desbordamiento de almacenamiento x3"
+    },
+    "40": {
+      "name": "Enfoque Glacial",
+      "desc": "◆<nobr><color=red>Melonpulta Subzero</color></nobr>：La eficiencia de impacto de la nebulosa invocada mejora sustancialmente\n◆<nobr><color=red>Fungularidad</color></nobr>：Los portales creados se concentran en una sola columna y el total de corrientes gélidas espaciotemporales generadas se duplica"
+    },
+    "41": {
+      "name": "Melón Sextuplicado",
+      "desc": "◆<nobr><color=red>Melonpulta Subzero</color></nobr>：Daño de proyectiles lanzados ×6, radio de salpicadura reducido a la mitad\n◆Los zombis líderes y jefes inmunes a teletransporte reciben daño equivalente a (tiempo de estado de teletransporte)% de salud"
+    },
+    "42": {
+      "name": "Rugido Rápido",
+      "desc": "◆<nobr><color=red>Rabo de León</color></nobr>：Frecuencia de daño del rayo ×2\n◆<nobr><color=red>Seta Deucalión</color></nobr>：Bonificación de daño otorgada por la carga total x3"
+    },
+    "43": {
+      "name": "Zarpazo Triple",
+      "desc": "◆<nobr><color=red>Rabo de León</color></nobr>：Daño de proyectiles ×3\n◆<nobr><color=red>Seta Deucalión</color></nobr>：Comparte el efecto anterior"
+    },
+    "44": {
+      "name": "Marea Letal",
+      "desc": "Escilaseta: Una Algaseta puede arrastrar hasta 3 zombis al agua (o hacer el triple de daño). Por cada zombi arrastrado al agua se le otorgará 10 puntos de energía a Escilaseta"
+    },
+    "45": {
+      "name": "Triple Marea",
+      "desc": "Escilaseta: Escilaseta puede disparar 3 Marsetas a la vez"
+    },
+    "46": {
+      "name": "Alma Acumulada",
+      "desc": "◆<nobr><color=red>Obsidiana Hiperestable</color></nobr>：Cada vez que elimina 1 zombi líder recupera 1 acumulación de carga; límite de carga aumentado a 10 acumulaciones\n◆<nobr><color=red>Fragmento Obsidiana</color></nobr>：Comparte el efecto anterior"
+    },
+    "47": {
+      "name": "Bendición del Alma",
+      "desc": "◆<nobr><color=red>Obsidiana Hiperestable</color></nobr>：Al restaurar salud a las plantas, otorga 1 segundo de invulnerabilidad\n◆<nobr><color=red>Fragmento Obsidiana</color></nobr>：Comparte el efecto anterior"
+    },
+    "48": {
+      "name": "Prisma Infinito",
+      "desc": "◆<nobr><color=red>Bipetiprisma</color></nobr>：El límite de energía lumínica de todas las plantas aumenta a 2000\n<color=#FF7400>Mejora</color>：Límite de energía lumínica → 10000\n◆<nobr><color=red>Bipetiplaga</color></nobr>：Radio de daño de proyectiles corrosivos venenosos +50%"
+    },
+    "49": {
+      "name": "Transferencia Eficiente",
+      "desc": "◆<nobr><color=red>Bipetiprisma</color></nobr>：Eficiencia de transporte de energía lumínica aumentada 50%, aumentando un 250% adicional para objetivos con menos de 1000 de energía lumínica\n◆<nobr><color=red>Bipetiplaga</color></nobr>：Dispara 2 proyectiles adicionales desde la parte trasera al atacar"
+    },
+    "50": {
+      "name": "Instinto de Sargento",
+      "desc": "◆<nobr><color=red>Sargento Ferreo</color></nobr>：Probabilidad de liberar habilidad definitiva x3; casi todas las superametralladoras comparten este efecto y los proyectiles de la superametralladora papa se vuelven papas explosivas\n◆<nobr><color=red>Francoguisantes Sincronizador</color></nobr>：Tras un tiro a la cabeza, añade inmediatamente un disparo normal; los francotiradores fijadores comparten este efecto"
+    },
+    "51": {
+      "name": "Precisión de Élite",
+      "desc": "◆<nobr><color=red>Sargento Ferreo</color></nobr>：Daño de proyectiles de habilidad definitiva ×2, ángulo de dispersión reducido; casi todas las superametralladoras comparten este efecto\n◆<nobr><color=red>Francoguisantes Sincronizador</color></nobr>：Tiros necesarios para tiro a la cabeza reducidos a la mitad; los francotiradores fijadores comparten este efecto"
+    },
+    "52": {
+      "name": "Formación de Obsidiana",
+      "desc": "<nobr><color=red>Nuez de Jugger Obsidiana</color></nobr>：El daño de templado se duplica"
+    },
+    "53": {
+      "name": "Templado de Fuego Glacial",
+      "desc": "<nobr><color=red>Nuez de Jugger Obsidiana</color></nobr>：Mientras esté en el campo, según la cantidad de tipos de plantas de obsidiana presentes, reduce el daño final recibido por todas las plantas de obsidiana"
+    },
+    "54": {
+      "name": "Aura Tenaz",
+      "desc": "Termaloe Níveo Definitivo: La esencia aumenta la dureza base de las plantas en un 0.2% al caer al suelo"
+    },
+    "55": {
+      "name": "Oleada de Vitalidad",
+      "desc": "Termaloe Níveo Definitivo: Duplica la salud y escudo otorgados por la esencia, aumenta las plantas descongeladas a 3 y duplica la velocidad de reserva automática de esencia"
+    }
+  },
+  "debuffs": {
+    "0": {
+      "name": "Ruptura Académica",
+      "desc": "Vegezombi Becario: Puede atravesar plantas al romper su libro"
+    },
+    "1": {
+      "name": "Estudiante Inmune",
+      "desc": "Vegezombi Becario: Es inmune a todos los estados de efectos"
+    },
+    "2": {
+      "name": "Mordida Paralizante",
+      "desc": "Vegezombi Lethal-Star: Las plantas que muerde no podrán regenerarse por un segundo"
+    },
+    "3": {
+      "name": "Mordida Letal",
+      "desc": "Vegezombi Lethal-Star: Las plantas que muerde recibirán 3 veces más daño por un segundo"
+    },
+    "4": {
+      "name": "Torpedo Veloz",
+      "desc": "Submarinón: Su velocidad de movimiento se duplica"
+    },
+    "5": {
+      "name": "Casco Blindado",
+      "desc": "Submarinón: Recibe una reducción de daño del 50%"
+    },
+    "6": {
+      "name": "Vuelo Evasivo",
+      "desc": "Zomppelín Kírov: Inmune a Treboladores; velocidad de vuelvo aumentada"
+    },
+    "7": {
+      "name": "Escuadrón Blindado",
+      "desc": "Zomppelín Kírov: Durabilidad de drones aumentada x50"
+    },
+    "8": {
+      "name": "Detonación Garantizada",
+      "desc": "Pogozombi Bromista: Siempre explota sin importar su estado; tiempo de carga reducido un 90% (Payazombi Acuático: Daño de bomba +500)"
+    },
+    "9": {
+      "name": "Contagio de Payasos",
+      "desc": "Pogozombi Bromista: Los Payazombis afectados por su explosión se convierten en Pogozombis Bromistas (Payazombi Acuático: Daño de bomba +500)"
+    },
+    "10": {
+      "name": "Tridente Mortal",
+      "desc": "Vegezombi Pescador: Sus tridentes infligen el quintuple de daño"
+    },
+    "11": {
+      "name": "Ataque Errático",
+      "desc": "Vegezombi Pescador: Ataca objetivos aleatorios"
+    },
+    "12": {
+      "name": "Baile Mortal",
+      "desc": "Zombi Mercury: Ahora puede invocar Bailarines Expertos"
+    },
+    "13": {
+      "name": "Deslizamiento Imparable",
+      "desc": "Zombi Mercury: No se detiene al encontrar plantas mientras se desliza"
+    },
+    "14": {
+      "name": "Explosión Penetrante",
+      "desc": "Jiangshombi: El daño explosivo ignora inmunidades como Calabaza Bromista y otras plantas"
+    },
+    "15": {
+      "name": "Embestida Feroz",
+      "desc": "Jiangshombi: Intervalo de carga reducido; daño de ataque aumentado significativamente"
+    },
+    "16": {
+      "name": "Lluvia de Tridentes",
+      "desc": "Zombirtaria: Inmune a la mayoria de efectos; tira x5 de la cantidad de tridentes"
+    },
+    "17": {
+      "name": "Golpe Preventivo",
+      "desc": "Zombirtaria: Atacará por adelantado"
+    },
+    "18": {
+      "name": "Legado Letal",
+      "desc": "Zombictor Jackson: Aparece en cada ronda y al morir invoca un Zombi Mercury"
+    },
+    "19": {
+      "name": "Velocidad Extrema",
+      "desc": "Zombictor Jackson: Velocidad aumentada significativamente"
+    },
+    "20": {
+      "name": "Emboscada Colgante",
+      "desc": "Los zombis colgao's tienen una chance de colocar un zombi odisea en la cuarta columna y obtienen una reducción de daño de 90%"
+    },
+    "21": {
+      "name": "Resistencia Infinita",
+      "desc": "El Escuadrón Alfa ahora puede recuperarse infinitamente del estado de agonia"
+    },
+    "22": {
+      "name": "Rayo de Largo Alcance",
+      "desc": "Ovni Criogénico: Los Rayos Disolvedores ahora fijan a la planta más lejana dentro de su alcance"
+    },
+    "23": {
+      "name": "Drenaje Amplio",
+      "desc": "Ovni Criogénico: Rango del Drenador Sifón: 1 Casilla → Área de 3x3"
+    },
+    "24": {
+      "name": "Blindaje Total",
+      "desc": "Zombistein Prismático: Obtiene todas sus inmunidades a la vez"
+    },
+    "25": {
+      "name": "Arsenal Completo",
+      "desc": "Zombistein Prismático: Obtiene todas sus habilidades a la vez"
+    },
+    "26": {
+      "name": "Pesca Rápida",
+      "desc": "Vegezombi Pescador Colosal: Velocidad de recarga de tridentes x3"
+    },
+    "27": {
+      "name": "Pesca Vital",
+      "desc": "Vegezombi Pescador Colosal: Ahora recupera 10% de sus máximos PS al tirar tridentes"
+    },
+    "28": {
+      "name": "Escudo Inicial",
+      "desc": "Nuez Kírov: Durante los primeros 50 golpes, todos los zombies reciben solo 1 de daño"
+    },
+    "29": {
+      "name": "Reflejo Defensivo",
+      "desc": "Nuez Kírov: Durante los primeros 100 golpes, todos los zombis obtienen 0,1s de inmunidad al daño después de cada golpe"
+    },
+    "30": {
+      "name": "Estampida",
+      "desc": "Elefante Sombrío: Ahora aparece en grupos de 3"
+    },
+    "31": {
+      "name": "Escolta Alfa",
+      "desc": "Elefante Sombrío: Por cada uno en el jardín, los minijefes obtienen +100 de valor de reducción de daño"
+    },
+    "32": {
+      "name": "Capa Aislante",
+      "desc": "Brigada de Bobsleigh Férrea: Inmune a la mantequilla y a la congelación"
+    },
+    "33": {
+      "name": "Entrada Relámpago",
+      "desc": "Brigada de Bobsleigh Férrea: Entra al campo rápidamente, pero se ralentiza con el tiempo"
+    },
+    "34": {
+      "name": "Postura de Cobra",
+      "desc": "Giga Zombi Deportista Acróbata y Giga Zombi Nuez Deportista Acróbata: Ruedan una vez inmediatamente al aparecer"
+    },
+    "35": {
+      "name": "Persecución Feroz",
+      "desc": "Giga Zombi Deportista Acróbata y Giga Zombi Nuez Deportista Acróbata: Infligen x2 de daño después de rodar"
+    },
+    "36": {
+      "name": "Marcha de la Muerte",
+      "desc": "Giga Zombi Deportista Ametralladora: Se desplaza ignorando a las plantas"
+    },
+    "37": {
+      "name": "Orden Marcial",
+      "desc": "Giga Zombi Deportista Ametralladora: Dispara guisantes férreos malditos"
+    },
+    "38": {
+      "name": "Maldad Desbordante",
+      "desc": "Rey Bufón de Túnica Negra: La maldición que aplica se duplica, y recupera una cajita sorpresa maldita 6 segundos después de lanzarla"
+    },
+    "39": {
+      "name": "Metamorfosis Siniestra",
+      "desc": "Rey Bufón de Túnica Negra: Sus proyectiles no pueden ser repelidos por Paraplantas y al caer invocan a otro Rey Bufón de Túnica Negra"
+    },
+    "40": {
+      "name": "Cascos de Hierro",
+      "desc": "Zombi Jinete Deportista Negro: Al terminar su embestida, el área en la que aplica maldición se expande a 3x3"
+    },
+    "41": {
+      "name": "Asedio Imparable",
+      "desc": "Zombis aplastantes: Al ser resistido su aplastamiento, el retroceso forzado que sufren se reduce a la mitad"
+    },
+    "1000": {
+      "name": "Colapso Solar",
+      "desc": "Tus Soles se reiniciarán a 0"
+    },
+    "1001": {
+      "name": "Borrón y Cuenta Nueva",
+      "desc": "Tus Puntos se reiniciarán a 0"
+    },
+    "1002": {
+      "name": "Jardín Limitado",
+      "desc": "No podrás tener mas de 120 plantas en el campo"
+    },
+    "1003": {
+      "name": "Purga Aleatoria",
+      "desc": "Todas tus plantas tienen 1/3 de probabilidad de desaparecer (aplicado una vez)"
+    },
+    "1004": {
+      "name": "Escalada Feroz",
+      "desc": "Tasa de incrementación de máximos PS para zombis tras cada ronda: 20% → 30%"
+    },
+    "1005": {
+      "name": "Segunda Vida",
+      "desc": "Todos los zombis tendrán un 1/3 de chance para revivir a sus PS máximos al morir"
+    },
+    "1006": {
+      "name": "Oleada Masiva",
+      "desc": "Se incrementa el límite de zombis en una oleada a 100"
+    },
+    "1007": {
+      "name": "Élite Reducida",
+      "desc": "El número máximo de zombis por oleada se reduce a la mitad, pero todos los zombis tendrán x2 PS y Ataque"
+    },
+    "1008": {
+      "name": "Sanación Mermada",
+      "desc": "Toda la curación y otorgación de escudo en plantas se reduce un 50%"
+    },
+    "1009": {
+      "name": "Desgaste Progresivo",
+      "desc": "Plantas pierden PS máximos equivalentes al 10% del daño recibido (hasta 40%, se reestablece entre rondas) al recibir daño"
+    },
+    "1010": {
+      "name": "Inflación Solar",
+      "desc": "Todas las plantas costarán el triple de Sol"
+    },
+    "1011": {
+      "name": "Asalto Relámpago",
+      "desc": "El tiempo antes de la primera oleada de zombis se reduce a 5 segundos, y el intervalo entre oleadas de zombis se reduce a 15 segundos"
+    },
+    "1012": {
+      "name": "Revolución Vegetal",
+      "desc": "El ataque y PS máximos de plantas Odisea se reducen en un 90%, pero todas las demás plantas ahora tienen 40 veces más ataque y PS máximos, con 2 veces más velocidad de ataque"
+    },
+    "1013": {
+      "name": "Jefes Acelerados",
+      "desc": "Zombis minijefes obtienen una mejora de velocidad del 60% y una mejora de PS máximos del 30%"
+    },
+    "1014": {
+      "name": "Tropa Reforzada",
+      "desc": "Zombis no-minijefes obtienen una mejora de velocidad del 30% y una mejora de PS máximos del 60%"
+    },
+    "1015": {
+      "name": "Blindaje Aéreo",
+      "desc": "Zombis aéreos tendrán el doble de PS máximos"
+    },
+    "1016": {
+      "name": "Explosión Post Mortem",
+      "desc": "Cuando plantas mueren, infligen daño equivalente a sus PS máximos a otras plantas en un área de 3x3"
+    },
+    "1017": {
+      "name": "Ascenso Zombi",
+      "desc": "Todos los zombis no Odisea tendrán x2 de PS, daño de ataque y velocidad"
+    },
+    "1018": {
+      "name": "Ceguera Táctica I",
+      "desc": "Se desactiva la visualización de las barras de salud de las plantas"
+    },
+    "1019": {
+      "name": "Ceguera Táctica II",
+      "desc": "Se desactiva la visualización de las barras de salud de los zombis"
+    },
+    "2000": {
+      "name": "Aparición: Zombistein Celestial",
+      "desc": "Zombistein Celestial aparecerá"
+    },
+    "2001": {
+      "name": "Aparición: Vegezombi Jubilado",
+      "desc": "Vegezombi Jubilado aparecerá"
+    },
+    "2002": {
+      "name": "Aparición: Ovni P.R.A.D.",
+      "desc": "Ovni P.R.A.D. aparecerá"
+    },
+    "2003": {
+      "name": "Aparición: Francotirador Alfa",
+      "desc": "Francotirador Alfa aparecerá"
+    },
+    "2004": {
+      "name": "Crisis: Caballero de Élite",
+      "desc": "Capitán Zombi Caballero Perdigones aparecerá"
+    },
+    "2005": {
+      "name": "Crisis: Zombi Acróbata",
+      "desc": "Giga Zombi de Fútbol-Nuez Acróbata aparecerá"
+    },
+    "2006": {
+      "name": "Súper Zombi Tridente Glacial",
+      "desc": "Aparecerá el Súper Zombi Tridente Glacial."
+    },
+    "3000": {
+      "name": "Miniboss: Zombistein Abismal",
+      "desc": "Zombistein Abismal aparecerá como minijefe"
+    },
+    "3001": {
+      "name": "Última Voluntad",
+      "desc": "Zombistein Abismal: Invoca al Dr. Zomboss al morir"
+    },
+    "3002": {
+      "name": "Miniboss: Arca del Patito",
+      "desc": "Arca del Patito aparecerá como minijefe"
+    },
+    "3003": {
+      "name": "Esquiva Sanadora",
+      "desc": "Arca del Patito: Recuperará 500 PS cada vez que esquiva un ataque"
+    },
+    "3004": {
+      "name": "Miniboss: Concierto Jackson",
+      "desc": "Concierto Jackson aparecerá como minijefe"
+    },
+    "3005": {
+      "name": "Coraza de Estrella",
+      "desc": "Concierto Jackson: Gana una reducción de daño del 50%"
+    },
+    "3006": {
+      "name": "Miniboss: Lethal-Star Abanderado",
+      "desc": "Lethal-Star Abanderado aparecerá como minijefe"
+    },
+    "3007": {
+      "name": "Ascenso Acelerado",
+      "desc": "Lethal-Star Abanderado: Gana mejoras el doble de rápido"
+    },
+    "3008": {
+      "name": "Miniboss: Pozeidón",
+      "desc": "Pozeidón aparecerá como minijefe"
+    },
+    "3010": {
+      "name": "Miniboss: Nuez Kírov Gigante",
+      "desc": "Nuez Kírov Gigante aparecerá como minijefe"
+    },
+    "3012": {
+      "name": "Miniboss: Aereobot Kírov",
+      "desc": "Aereobot Kírov aparecerá como minijefe"
+    },
+    "3014": {
+      "name": "Miniboss: Profesor Zavier",
+      "desc": "Profesor Zavier aparecerá como minijefe"
+    },
+    "3016": {
+      "name": "Miniboss: Payasa Zorpresa",
+      "desc": "Payasa Zorpresa aparecerá como minijefe"
+    },
+    "3018": {
+      "name": "Miniboss: Escuadrón Omega",
+      "desc": "Escuadrón Omega aparecerá como minijefe"
+    },
+    "3020": {
+      "name": "Miniboss: Jinete del Apocalipsis",
+      "desc": "Jinete del Apocalipsis aparecerá como minijefe"
+    },
+    "3021": {
+      "name": "Ascensión Sombría",
+      "desc": "Jinete del Apocalipsis: Transforma su corcel en una guadaña y potencia significativamente sus habilidades tras desmontar"
+    },
+    "3022": {
+      "name": "Miniboss: Dragón Milenario y Guardián",
+      "desc": "Dragón Milenario y Guardián aparecerán como minijefe"
+    },
+    "3024": {
+      "name": "Miniboss: Jinete Cerasocetus",
+      "desc": "Jinete Cerasocetus aparecerá como minijefe"
+    },
+    "3026": {
+      "name": "Miniboss: Jinete Supremo de la Ballena Antigua",
+      "desc": "Jinete Supremo de la Ballena Antigua aparecerá como minijefe"
+    },
+    "4000": {
+      "name": "Aura Abismal",
+      "desc": "Zombistein Abismal otorga un valor de +400 de reducción de daño a todos los zombis mientras esté presente"
+    },
+    "4001": {
+      "name": "Aura del Arca",
+      "desc": "Arca del Patito otorga un valor de +400 de reducción de daño a todos los zombis mientras esté presente"
+    },
+    "4002": {
+      "name": "Aura de Guerra",
+      "desc": "Lethal-Star Abanderado otorga un valor de +400 de reducción de daño a todos los zombis mientras esté presente"
+    },
+    "4003": {
+      "name": "Aura de Estrella",
+      "desc": "Concierto Jackson otorga un valor de +400 de reducción de daño a todos los zombis mientras esté presente"
+    },
+    "4004": {
+      "name": "Aura del Apocalipsis",
+      "desc": "Jinete del Apocalipsis otorga un valor de +400 de reducción de daño a todos los zombis mientras esté presente"
+    },
+    "5000": {
+      "name": "Inmunidad Adaptativa",
+      "desc": "Los zombis obtienen inmunidad a los efectos de estado de ralentización durante 3 segundos después de estar continuamente bajo cualquier efecto de este tipo durante 5 segundos"
+    },
+    "5001": {
+      "name": "Escalada Exponencial",
+      "desc": "El daño de ataque de todos los zombis en el campo se duplica cada 3 segundos, hasta un máximo de 1 millón."
+    },
+    "5002": {
+      "name": "Coraza Progresiva",
+      "desc": "Los zombis obtienen un valor de RD equivalente al 1% del daño recibido cuando reciben más de 100 de daño, hasta un máximo de +1000 de valor de RD"
+    },
+    "5003": {
+      "name": "Contraataque Reflejo",
+      "desc": "Los zombis devuelven el 100% del daño a las plantas cuando estas esquivan un ataque, con un tiempo de recarga de 0,2 segundos"
+    },
+    "5004": {
+      "name": "Marca de la Ruina",
+      "desc": "Cuando un zombi inflige daño por aplastamiento a una planta, esa planta obtendrá acumulaciones de maldición equivalentes a [1% × (PS de la planta + Dureza de la planta) / 2]"
+    },
+    "10000": {
+      "name": "Pérdida de Suerte",
+      "desc": "La Suerte se reduce en 75 puntos"
+    },
+    "10001": {
+      "name": "Primer Ciclo Reforzado",
+      "desc": "Los zombis del primer ciclo obtienen +20% de PS y +20% de velocidad"
+    },
+    "10002": {
+      "name": "Segundo Ciclo Reforzado",
+      "desc": "Los zombis del segundo ciclo obtienen +40% de PS y +25% de velocidad"
+    },
+    "10003": {
+      "name": "Tercer Ciclo Reforzado",
+      "desc": "Los zombis del tercer ciclo obtienen +60% de PS y +30% de velocidad"
+    },
+    "10004": {
+      "name": "Crisis de Líderes",
+      "desc": "A partir de la oleada 50, cada oleada de bandera genera un líder zombi aleatorio"
+    },
+    "10005": {
+      "name": "Cese al Fuego",
+      "desc": "Durante los primeros 2 segundos de cada oleada, el daño infligido por las plantas se reduce a 1 punto"
+    },
+    "10006": {
+      "name": "Incentivo Ejemplar",
+      "desc": "La planta que lidere el daño en el jardín causa el 85% de su daño normal; las demás plantas causan el 105%"
+    },
+    "10007": {
+      "name": "Fuga de Amenazas",
+      "desc": "Desde la oleada 8 hasta la 50, al inicio de cada oleada aparece un zombi aleatorio de las oleadas 38 a 88"
+    },
+    "10008": {
+      "name": "Enjambre Creciente",
+      "desc": "Al aparecer un zombi, tiene probabilidad de duplicarse (excepto líderes y jefes); la probabilidad aumenta con cada oleada"
+    },
+    "10009": {
+      "name": "Singularidad",
+      "desc": "Al aparecer un zombi, puede desaparecer y otorgar el 80% de sus PS a otro zombi aleatorio (excepto líderes y jefes)"
+    },
+    "10010": {
+      "name": "Hibernación Forzada",
+      "desc": "Las plantas quedan congeladas durante 2 segundos tras revivir"
+    },
+    "10011": {
+      "name": "Alma Inestable",
+      "desc": "El tiempo de resurrección de las plantas aumenta un 50%"
+    },
+    "10012": {
+      "name": "Presión Constante",
+      "desc": "Los zombis evolucionan cada 4 oleadas"
+    },
+    "10013": {
+      "name": "Sin Cortacéspedes",
+      "desc": "Se desactivan todos los cortacéspedes"
+    },
+    "10014": {
+      "name": "Peligro Biológico",
+      "desc": "Cuando una planta desaparece, genera en su lugar un zombi aleatorio con bonificación de PS"
+    },
+    "10015": {
+      "name": "Danza de Sombras",
+      "desc": "Conforme avanzan las oleadas, aumenta la probabilidad de que aparezcan variantes especiales de Zombis Bailones"
+    },
+    "10016": {
+      "name": "Peligro al Acecho",
+      "desc": "En cada oleada aparecen zombis adicionales en líneas aleatorias (aumenta con las oleadas)"
+    },
+    "10017": {
+      "name": "Retiro del Héroe",
+      "desc": "En cada oleada, la planta con más mejoras acumuladas pierde un 1% de su bono de daño independiente (mínimo 0%)"
+    },
+    "10018": {
+      "name": "Legítima Defensa",
+      "desc": "Al recibir daño, los zombis disparan un guisante con el 10% de su ataque (mínimo 20; máx. 10 veces en 0.02 s)"
+    },
+    "10019": {
+      "name": "Invasión Temprana",
+      "desc": "A partir de la oleada 51, cada oleada invoca 5 zombis de las oleadas 1-50 con x10 de salud y +100% de velocidad independiente"
+    },
+    "10020": {
+      "name": "Ira del Periódico",
+      "desc": "Conforme avanzan las oleadas, aumenta la probabilidad de que aparezcan variantes especiales de Zombis con periódico"
+    },
+    "10021": {
+      "name": "Calamidad Aérea",
+      "desc": "Conforme avanzan las oleadas, aumenta la probabilidad de que aparezcan variantes especiales de Zombis colgados"
+    },
+    "10022": {
+      "name": "Préstamo de Suerte",
+      "desc": "Obtienes 75 de Suerte, pero a partir de la oleada 50 pierdes 1 de Suerte al inicio de cada oleada"
+    },
+    "10023": {
+      "name": "Tierra de Reposo",
+      "desc": "Al iniciar la partida aparecen 3 columnas de lápidas en el jardín"
+    },
+    "10024": {
+      "name": "Ataque Relámpago",
+      "desc": "Al inicio de cada oleada, 3 zombis aleatorios obtienen un +100% de velocidad independiente"
+    },
+    "10025": {
+      "name": "Aliento Corrupto",
+      "desc": "Cada 3 segundos aplica una maldición del 5% de la salud máxima a todas las plantas en el campo"
+    },
+    "10026": {
+      "name": "Reencarnación Impura",
+      "desc": "Al morir un zombi, tiene probabilidad de revivir en el extremo derecho de su fila como otro zombi (no afecta a líderes ni jefes)"
+    },
+    "10027": {
+      "name": "Daño Verdadero",
+      "desc": "Tras recibir daño, las plantas sufren un 30% de daño verdadero adicional"
+    },
+    "10028": {
+      "name": "Curación Simbiótica",
+      "desc": "Cuando una planta se cura, un zombi aleatorio recupera el 25% de su salud máxima (puede sobrecurar)"
+    },
+    "10029": {
+      "name": "Traslación Astral",
+      "desc": "Al inicio de cada oleada, tus plantas se mueven a posiciones aleatorias"
+    },
+    "10030": {
+      "name": "Combate Frenético",
+      "desc": "Intervalo de aparición reducido; al aparecer zombis, tiene probabilidad de activar la siguiente oleada de inmediato"
+    },
+    "10031": {
+      "name": "Fiesta de Bufones",
+      "desc": "Los zombis con menos del 10% de salud tienen probabilidad de autodestruirse (no afecta a líderes ni jefes)"
+    },
+    "10032": {
+      "name": "Llamado del Séquito",
+      "desc": "Al inicio de cada oleada, todos los zombis obtienen +20% de salud y +20% de velocidad"
+    },
+    "10033": {
+      "name": "Orden Suprema",
+      "desc": "Los zombis jefes obtienen +30% de salud y sus invocaciones obtienen +60% de salud adicional"
+    },
+    "10034": {
+      "name": "Duendecillos Traviesos",
+      "desc": "Los zombis comunes tienen un 30% menos de salud y tamaño, pero su velocidad aumenta un 200%"
+    },
+    "10035": {
+      "name": "Gigantismo",
+      "desc": "La salud y el tamaño de los zombis comunes aumentan un 60%, pero su velocidad se reduce un 50%"
+    },
+    "10036": {
+      "name": "Gusto Popular",
+      "desc": "Las mejoras de madera y plata otorgan el 110% de su valor; oro y diamante bajan al 70%"
+    },
+    "10037": {
+      "name": "Gusto Aristocrático",
+      "desc": "Las mejoras de madera y plata otorgan el 70% de su valor; oro y diamante otorgan el 110%"
+    },
+    "10038": {
+      "name": "Toque Dorado",
+      "desc": "Cuando aparece una mejora de diamante fuera del garantizado, se reemplaza por su versión de oro"
+    },
+    "10039": {
+      "name": "Abuso de Poder",
+      "desc": "Con 0/1/2/3/4/5/6+ plantas en el jardín, los zombis reciben 75%/80%/85%/90%/95%/100%/105% de daño"
+    },
+    "10040": {
+      "name": "Era Plateada",
+      "desc": "Fuera del garantizado solo aparecen mejoras de calidad plata; con Toque Dorado, oro y diamante bajan a madera"
+    },
+    "10041": {
+      "name": "Era Miaupisonaflor",
+      "desc": "Al aparecer un zombi, tiene probabilidad de desaparecer y generar un Vegezombi Miaupisonaflor con su salud restante"
+    },
+    "10042": {
+      "name": "Fatiga Acumulada",
+      "desc": "Cada vez que una planta revive, el tiempo para su próxima resurrección aumenta 0.5 s"
+    },
+    "10043": {
+      "name": "Inversión Absurda",
+      "desc": "Pierdes 25 de Suerte al relanzar mejoras"
+    },
+    "10044": {
+      "name": "Fortuna Incierta",
+      "desc": "Al elegir una mejora, obtienes entre -27 y +23 de Suerte al azar"
+    }
+  },
+  "unlocks": {
+    "0": {
+      "name": "Génesis: Cerezilla",
+      "desc": "Desbloquear Cerezilla: Cephazilla + Carnívora Carmesí\ny su subespecies Bodriozilla"
+    },
+    "1": {
+      "name": "Génesis: Cerezantralladora Explosiva",
+      "desc": "Desbloquear Cerezantralladora Explosiva: Cerezantralladora + Lanzacerezas Explosiva\ny su subespecies Dron Cerezantralladora"
+    },
+    "2": {
+      "name": "Génesis: Seta Emperador",
+      "desc": "Desbloquear Seta Emperador: Criordyseta + Hipnopolar\ny su subespecies Cactus Emperador"
+    },
+    "3": {
+      "name": "Génesis: Apisonantorcha Infernal",
+      "desc": "Desbloquear Apisonantorcha Infernal: Plantorcha Infernal + Apisonaflor Picante\ny su subespecies Frustorcha Infernal"
+    },
+    "4": {
+      "name": "Génesis: Emperador Estelar",
+      "desc": "Desbloquear Emperador Estelar: Frustrella + Magnetocactus\ny su subespecies Emperatriz Estelar"
+    },
+    "5": {
+      "name": "Génesis: Gammaseta",
+      "desc": "Desbloquear Gammaseta: Criordyseta + Gasoseta Gélida\ny su subespecies Gammafarol"
+    },
+    "6": {
+      "name": "Génesis: Colipulta",
+      "desc": "Desbloquear Colipulta: Tacopulta + Cebollipulta\ny su subespecies Colipultita"
+    },
+    "7": {
+      "name": "Génesis: Mazorcañón Cristalino",
+      "desc": "Desbloquear Mazorcañón Cristalino: Criogeniseta + Crio-cañón\ny su subespecies Melortero Cristalino"
+    },
+    "8": {
+      "name": "Génesis: Nuez Obsidiana",
+      "desc": "Desbloquear Nuez Obsidiana: Nuez Ártica + Nuez Infernal\ny su subespecies Patatapum Obsidiana"
+    },
+    "9": {
+      "name": "Génesis: Seta Coratrón",
+      "desc": "Desbloquear Seta Coratrón: Coraseta + Hipnomagneta\ny su subespecies Calabaza Captivadora"
+    },
+    "10": {
+      "name": "Génesis: Guisantidillón Obsidiana",
+      "desc": "Desbloquear Guisantidillón Obsidiana: Guisantidillón + Jalapeño de Obsidiana\ny su subespecies Guisantimillán Obsidiana"
+    },
+    "11": {
+      "name": "Génesis: Heliocultor",
+      "desc": "Desbloquear Heliocultor: Coltapulta Solar + Coltapulta Dorada\ny su subespecies Lunacultor"
+    },
+    "12": {
+      "name": "Génesis: Calatrón",
+      "desc": "Desbloquear Calatrón: Echinocactus + Magnetrebol\ny su subespecies Hokaitrón"
+    },
+    "13": {
+      "name": "Génesis: Mecaniseta",
+      "desc": "Desbloquear Mecaniseta: Humoseta All-Star + Melonpulta Ígnea"
+    },
+    "14": {
+      "name": "Génesis: Alga Midas",
+      "desc": "Desbloquear Alga Midas: Alga Hidra + Duorgarita\ny su subespecies Maceta Áurea"
+    },
+    "15": {
+      "name": "Génesis: Astromaíz II",
+      "desc": "Desbloquear Astromaíz II: Maicito (x3) + Cronomaíz\ny su subespecies Astronuez IV"
+    },
+    "16": {
+      "name": "Génesis: Nitroserrucho",
+      "desc": "Desbloquear Nitroserrucho: Hidroserrucho + Curabeto\ny su subespecies Bambuido Álgido"
+    },
+    "17": {
+      "name": "Génesis: Luminívora Titán",
+      "desc": "Desbloquear Luminívora Titán: Planta Luminívora + Carnívora Titán"
+    },
+    "18": {
+      "name": "Génesis: Mazorcañón Volcánico",
+      "desc": "Desbloquear Mazorcañón Volcánico: Ramo de Cerezas + Piro-cañón\ny su subespecies Coltillería Volcánica"
+    },
+    "19": {
+      "name": "Génesis: Nova Noble",
+      "desc": "Desbloquear Nova Noble: Fulgirasol + Girasol Dorado"
+    },
+    "20": {
+      "name": "Génesis: Melonpulta Subzero",
+      "desc": "Desbloquear Melonpulta Subzero: Melonpulta Congelada + Cronomelón\ny su subespecies Fungularidad"
+    },
+    "21": {
+      "name": "Génesis: Rabo de León",
+      "desc": "Desbloquear Rabo de León: Ramo de Cerezas + Rabo de Tigre"
+    },
+    "22": {
+      "name": "Génesis: Escilaseta",
+      "desc": "Desbloquear Escilaseta: Pescaseta + Krakenseta"
+    },
+    "23": {
+      "name": "Génesis: Obsidiana Hiperestable",
+      "desc": "Desbloquear Obsidiana Hiperestable: Obsidiana Inestable + Obsidiana Inestable\ny su subespecies Fragmento Obsidiana"
+    },
+    "24": {
+      "name": "Génesis: Bipetiprisma",
+      "desc": "Desbloquear Bipetiprisma: Bipetirayo + Cronoguisantes\ny su subespecies Bipetiplaga"
+    },
+    "25": {
+      "name": "Génesis: Sargento Ferreo",
+      "desc": "Desbloquear Sargento Ferreo: Deportralladora + Ferroguisantes\ny su subespecies Francoguisantes Sincronizador"
+    },
+    "26": {
+      "name": "Génesis: Nuez de Jugger Obsidiana",
+      "desc": "Desbloquear Nuez de Jugger Obsidiana: Pinchobsidiana + Nuez de Jugger"
+    },
+    "27": {
+      "name": "Génesis: Termaloe Níveo Definitivo",
+      "desc": "Desbloquear Termaloe Níveo Definitivo: Termaloe Níveo + Aloe Níveo"
+    }
+  },
+  "investmentBuffs": {
+    "0": {
+      "name": "Arranque Fulminante",
+      "desc": "Las plantas causan un 40% más de daño en el primera mitad de la ronda."
+    },
+    "1": {
+      "name": "Reserva Táctica",
+      "desc": "Al final de cada ronda, gana 300 puntos por cada tipo de planta que haya causado 0 daño en esta ronda (hasta 10 tipos de plantas)."
+    },
+    "2": {
+      "name": "Ronda Perfecta",
+      "desc": "Al final de cada ronda, gana 1.5k puntos y 5% más de PS máximos para todas tus plantas si ninguna de tus plantas alcanzó a tener 0 PS en esta ronda"
+    },
+    "3": {
+      "name": "Caos Controlado",
+      "desc": "Transforma todas las plantas en el jardin en plantas aleatorias, gana 1000 puntos inmediatamente y el Guante no tendrá CD en esta ronda"
+    },
+    "4": {
+      "name": "Botín de Odisea",
+      "desc": "Gana inmediatamente 10 plantas aleatorias de Odisea como paquetes de semillas"
+    },
+    "5": {
+      "name": "Victoria Curativa",
+      "desc": "Cada vez que se derrota a un minijefe, todas las plantas se curan un 10% de su PS máximo"
+    },
+    "6": {
+      "name": "Debilidad Común",
+      "desc": "Todos los zombis que no son minijefes tienen un 10% menos de PS"
+    },
+    "7": {
+      "name": "Grieta en la Armadura",
+      "desc": "Todos los minijefes tienen un 10% menos de PS"
+    },
+    "8": {
+      "name": "Golpe Decisivo",
+      "desc": "En cada oleada, el 1500 % del daño base se inflige al zombi con más PS."
+    },
+    "9": {
+      "name": "Especialización",
+      "desc": "El tipo de planta que causa más daño causa un 25% de daño adicional."
+    },
+    "10": {
+      "name": "Diversidad Defensiva",
+      "desc": "Al comienzo de cada ronda, tus plantas obtienen un 3 % de reducción de daño por cada tipo de planta que no sea Odisea en el jardín, hasta un 30 %."
+    },
+    "11": {
+      "name": "Élite de Combate",
+      "desc": "Al comienzo de cada ronda, las 6 plantas con más daño obtienen una mejora de daño del 20%."
+    },
+    "12": {
+      "name": "Paciencia Recompensada",
+      "desc": "Ganas 6 tiradas extra en la Tienda si no compraste nada de la última visita."
+    },
+    "13": {
+      "name": "Tirada Maestra",
+      "desc": "Ganas 11 tiradas extra en la Tienda."
+    },
+    "1000": {
+      "name": "Sacrificio Dorado",
+      "desc": "<color=#AF4900>Elimina todas tus plantas, pero tu Sol se duplica, y al comienzo de cada ronda todas las plantas obtienen PE igual a la cantidad total del costo en soles de las plantas eliminadas"
+    },
+    "1001": {
+      "name": "Renacimiento Dorado",
+      "desc": "<color=#AF4900>Elimina todas tus plantas, pero tu Sol se duplica, y los paquetes de semillas no tienen recarga en esta ronda"
+    },
+    "1002": {
+      "name": "Filo Crítico",
+      "desc": "<color=#AF4900>Tu equipo gana una chance del 18% de golpe crítico"
+    },
+    "1003": {
+      "name": "Sinfonía Vegetal",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda, tus plantas ganan un 3% más de PS y un 6% más de daño de ataque por cada tipo de planta en el jardín"
+    },
+    "1004": {
+      "name": "Supremacía Táctica",
+      "desc": "<color=#AF4900>El tipo de planta que causa más daño causa un 40% de daño adicional y tu equipo también causan un 10% más de daño"
+    },
+    "1005": {
+      "name": "Vanguardia Suicida",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda, la planta regular más a la izquierda en cada fila gana un aumento del 150% en la velocidad de ataque, pero al comienzo de cada oleada, reciben daño igual al 1000% de su PS máximo"
+    },
+    "1006": {
+      "name": "Simbiosis Extrema",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda, la planta regular más a la izquierda en cada fila gana un aumento de daño igual al 0.1% del PS máximo de la planta regular más a la derecha, y la planta regular más a la derecha gana PS máximo igual al 1000% del daño de la planta regular más a la izquierda"
+    },
+    "1007": {
+      "name": "Apuesta Crítica",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda, tu equipo gana una chance del 25% de golpe crítico, y un 30% menos de PS máximo"
+    },
+    "1008": {
+      "name": "Crítico Creciente",
+      "desc": "<color=#AF4900>Tus plantas ganan una chance del 10% de golpe crítico. Al comienzo de cada ronda, esa chance se incrementa en un 1%"
+    },
+    "1009": {
+      "name": "Ejército Imparable",
+      "desc": "<color=#AF4900>Tus plantas ganan un aumento del 10% en el daño de ataque. Al comienzo de cada ronda, si hay 200 o más plantas en tu equipo, todas las plantas ganan un aumento adicional del 50% en el daño de ataque"
+    },
+    "1010": {
+      "name": "Fortuna Constante",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda y ahora, gana 1,5k puntos y una tirada adicional."
+    },
+    "1011": {
+      "name": "Ascenso Automático",
+      "desc": "<color=#AF4900>Al comienzo de cada ronda, mejora una planta no Odisea aleatoria a Nivel 2"
+    },
+    "1012": {
+      "name": "Regalo de Fusión",
+      "desc": "<color=#AF4900>Ganas un Regalo Planta cada vez que realizas una fusión"
+    },
+    "1013": {
+      "name": "Remate Final",
+      "desc": "<color=#AF4900>Tus plantas hacen un 40% más de daño en la segunda mitad de la ronda"
+    },
+    "2000": {
+      "name": "Blindaje Crítico",
+      "desc": "<color=#007FFF>Tus plantas gana una chance del 25% de golpe crítico. También ganan una chance igual al 30% de su chance de golpe crítico para reducir cualquier daño entrante a 1"
+    },
+    "2001": {
+      "name": "Equilibrio Defensivo",
+      "desc": "<color=#007FFF>Tus plantas gana un 25% de reducción de daño, y una chance de golpe crítico igual a su tasa de reducción de daño"
+    },
+    "2002": {
+      "name": "Azar Ofensivo",
+      "desc": "<color=#007FFF>Al comienzo de cada ronda, cada planta tiene un 50% de posibilidades de obtener un aumento de daño de ataque del 100%"
+    },
+    "2003": {
+      "name": "Ascenso de Guerra",
+      "desc": "<color=#007FFF>Tus plantas obtienen un aumento permanente del daño de ataque del 8% cada vez que se derrota a un minijefe."
+    },
+    "2004": {
+      "name": "Ascenso Supremo",
+      "desc": "<color=#007FFF>Al comienzo de cada ronda, mejora una planta aleatoria que no sea Odisea al Nivel 3"
+    },
+    "2005": {
+      "name": "Crítico Desbordante",
+      "desc": "<color=#007FFF>Aumenta la probabilidad de crítico de tus equipos en un 30%. Si la probabilidad de crítico es superior al 100%, el daño crítico aumenta en un 40%"
+    },
+    "2006": {
+      "name": "Tesoro Escondido",
+      "desc": "<color=#007FFF>Aparece una Endoflama súper rara que contiene una tonelada de puntos (ganas 20k puntos)"
+    },
+    "2007": {
+      "name": "Frugalidad Rentable",
+      "desc": "<color=#007FFF>Ganas inmediatamente 5k puntos. A partir de ahora, ganarás 3.000 puntos si pasas a la siguiente ronda sin comprar nada en la tienda."
+    },
+    "2008": {
+      "name": "Suerte del Comerciante",
+      "desc": "<color=#007FFF>Tienes un 45% de posibilidades de obtener una repetición adicional cuando uses repeticiones"
+    },
+    "2009": {
+      "name": "Ingreso Constante",
+      "desc": "<color=#007FFF>Al comienzo de cada ronda, ganas 2k puntos"
+    },
+    "2010": {
+      "name": "Regalo Estelar",
+      "desc": "<color=#007FFF>Al comienzo de cada ronda, gana una Imitadora Estelar. Si se usa en una planta con forma estelar, se convierte en la variante estelar de esa planta"
+    },
+    "2011": {
+      "name": "Ganancia por Movimiento",
+      "desc": "<color=#007FFF>Ganas 500 puntos cada vez que vuelvas a tirar en la Tienda o al seleccionar Modificadores Zombi"
+    },
+    "2012": {
+      "name": "Apuesta Total",
+      "desc": "<color=#007FFF>Elimina todos tus puntos actuales. Por cada 1.000 puntos eliminados, tus plantas obtienen un 1% de probabilidad de realizar un golpe crítico"
+    },
+    "2013": {
+      "name": "Última Resistencia",
+      "desc": "<color=#007FFF>Solo para esta ronda, ganas 10.000 puntos y ganas la ronda si un zombie entra a tu casa"
+    }
+  },
+  "synergies": {
+    "0": {
+      "name": "La Fuerza Brinda Esperanza",
+      "desc": "Al usar el Guante para tomar un <color=red>Realeza Ígnea</color> y dárselo a un <color=red>Mazorcañón Volcánico</color>, todas las unidades de este último realizarán un ataque combinado: cada 8 disparos cae un meteorito explosivo que inflige un golpe devastador a todos los zombis."
+    },
+    "1": {
+      "name": "Reacción Elemental",
+      "desc": "<color=red>Seta Emperador</color> puede generar Zombis de Garras de Nieve de Obsidiana; el proyectil principal de <color=red>Mecaniseta</color> divide un melón de obsidiana cuyo daño aumenta según la cantidad de plantas gélidas e ígneas; al encontrarse el frío con el sobrecalentamiento se produce una explosión de obsidiana."
+    },
+    "2": {
+      "name": "Operación Diminuta",
+      "desc": "Cuando <color=red>Colipultita</color> y <color=red>Copitralladora Augmentada</color> se plantan juntas en la misma casilla: los proyectiles de la primera se dividen una vez más; y los proyectiles comunes y especiales de ambas adquieren parte de las propiedades de los de la otra."
+    },
+    "3": {
+      "name": "Soy Leyenda",
+      "desc": "Cuando <color=red>Cerezilla</color> y <color=red>Nuez Obsidiana</color> están juntos en el campo: el primero ya no tiene límite de salud y el segundo obtiene un 90% de reducción de daño adicional.\n<color=red>Bodriozilla y Patatapum Obsidiana</color> comparten este efecto."
+    },
+    "4": {
+      "name": "Fuego Ilimitado",
+      "desc": "Cuando <color=red>Dron Cerezantralladora</color> y <color=red>Setantralladora Termonuclear</color> coordinan sus ataques, el número de proyectiles disparados aumenta vertiginosamente. Al cesar el ataque, este incremento decae gradualmente."
+    },
+    "5": {
+      "name": "Amuleto Solilunar",
+      "desc": "Cuando hay al menos 6 <color=red>Emperatriz Estelar</color> y 6 <color=red>Lunacultor</color> en el campo: los proyectiles de la primera dañan adicionalmente al zombi con mayor dureza; y la segunda aumenta enormemente la iluminación global y sus lunas invocadas permanecen permanentemente."
+    },
+    "6": {
+      "name": "Evolución SP: Seta Desesporada",
+      "desc": "<nobr>Desbloquea <color=red>Copitralladora Augmentada</color>\nCopitralladora + Lanzaguisantes</nobr>\n<nobr>Desbloquea <color=red>Brillantralladora Augmentada</color>\nSolartralladora + Lanzaguisantes</nobr>\nHereda la fórmula de conversión original."
+    },
+    "7": {
+      "name": "Evolución SP: Petaseta",
+      "desc": "<nobr>Desbloquea <color=red>Petantralladora Termonuclear</color>\nPetantralladora Destructora + Petaseta</nobr>\n<nobr>Desbloquea <color=red>Setantralladora Termonuclear</color>\nPetamiédica Ametralladora + Petaseta</nobr>\nHereda la fórmula de conversión original."
+    },
+    "8": {
+      "name": "Evolución SP: Lanzaguisantes Fénix",
+      "desc": "<nobr>Desbloquea <color=red>Tripitidora Fénix Definitiva</color>\nTripitidora Fénix + Jalapeño</nobr>\n<nobr>Desbloquea <color=red>Tripitidora de Plasma Suprema</color></nobr>\nHereda la fórmula de conversión original."
+    },
+    "9": {
+      "name": "Evolución SP: Nuez Emperador",
+      "desc": "<nobr>Desbloquea <color=red>Realeza Solar</color>\nEmperador Solar + Nuez</nobr>\n<nobr>Desbloquea <color=red>Realeza Ígnea</color>\nEmperador Ígneo + Nuez</nobr>\nHereda la fórmula de conversión original."
+    },
+    "10": {
+      "name": "Unificación Cósmica",
+      "desc": "Cuando hay al menos 6 <color=red>Emperatriz Estelar</color> y 6 <color=red>Heliocultor</color> en el campo: los proyectiles de la primera brillan dorados como los de la segunda; los soles invocados por esta última permanecen permanentemente; y ambas se unen para invocar meteoritos solares."
+    },
+    "11": {
+      "name": "Nova del Silencio Eterno",
+      "desc": "El daño de las balas de nebulosa de <color=red>Melón Criogénico</color> se multiplica x6 y genera distorsiones de agujero negro; <color=red>Mazorcañón Espaciotemporal</color> siempre lanza un agujero negro supremo; al colapsar, el agujero negro supremo detona todas las distorsiones para aumentar su daño de colapso."
+    },
+    "12": {
+      "name": "Fuego Total",
+      "desc": "Cuando <color=red>Cerezaguisantes</color> ataca, las líneas superior e inferior disparan proyectiles de cereza explosivos en coordinación; las llamas de chile de una sola fila de <color=red>Antorcha Furiosa</color> y sus subespecies se mejoran a pantalla completa."
+    },
+    "13": {
+      "name": "Explosión de Supernova",
+      "desc": "<color=red>Lanzadestellos</color> puede transferir energía luminosa a <color=red>Planterna Suprema</color> en cualquier fila. Cuando esta última acumula suficiente energía, entra en estado de ataque sobreacelerado y finalmente estalla en un resplandor cegador que causa daño devastador a todos los zombis."
+    }
+  }
+}
