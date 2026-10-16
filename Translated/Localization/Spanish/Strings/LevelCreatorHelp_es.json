@@ -1,0 +1,1737 @@
+{
+  "topics": [
+    {
+      "title": "Crear un nivel por primera vez",
+      "body": "<b>Primero crea un nivel normal que se pueda jugar correctamente, y luego añade reglas especiales.</b>\n\n1. En los ajustes básicos, introduce el nombre del nivel y su número, elige el mapa y define el sol inicial y el total de oleadas. El rango actual permitido es de 10 a 100 oleadas; se recomienda empezar probando con 10 oleadas.\n2. En \"Configurar aparición de zombis\", selecciona los zombis que pueden salir, y luego entra en la página de oleadas para asignar los enemigos específicos que aparecerán en cada una.\n3. En la página de cartas, configura las plantas disponibles para el jugador y el número de casillas. Si modificas costes o tiempos de recarga, pulsa el botón de guardar cambios de dicha página.\n4. Define la condición de victoria. Para tu primer nivel utiliza la victoria normal y evita de momento activar modos especiales.\n5. Haz clic abajo en \"Guardar y generar nivel\", inicia la partida y comprueba que se pueda plantar, que los zombis salgan bien y que la partida finalice con normalidad.\n6. Una vez que el nivel básico funcione bien, pasa a la pestaña de eventos para añadir avisos, entregas periódicas de sol, selección de recompensas u otras reglas.\n\n<b>Los nodos de eventos no son obligatorios</b>\nLos niveles estándar pueden no tener ningún nodo. Utilízalos únicamente cuando necesites programar «qué debe ocurrir y en qué momento».\n\n<b>Práctica recomendada para principiantes</b>\nEn la pestaña de eventos, pulsa en \"Añadir plantilla de regla\" y elige \"Obtener sol cada 5 segundos\". Haz clic sobre el nodo para ver su descripción, ajusta la cantidad de sol, guarda y pruébalo en juego."
+    },
+    {
+      "title": "Mapa, reglas y victoria/derrota",
+      "body": "<b>El mapa define el escenario y las reglas definen la jugabilidad.</b>\n\nPestaña Básica: Nombre del nivel, número, mapa, sol inicial y oleadas totales.\nPestaña de Modos: Desactiva la aparición normal de zombis, soles naturales, cortacéspedes, o activa modos especiales como cinta transportadora, lluvia de semillas, Yo, Zombi, etc.\nPestaña de Victoria: Elige entre victoria estándar o victoria de Yo, Zombi.\n\n<b>Consejos para tu primera creación</b>\nAl principio ajusta solo el sol inicial y la aparición de zombis. Cada vez que actives un interruptor de modo, pruébalo en juego para verificar cómo cambia la experiencia.\n\"Desactivar aparición normal\" detiene el flujo habitual de oleadas; si lo activas, deberás programar tú mismo la generación de enemigos. Si no aparecen zombis, revisa esta opción primero.\nNo se recomienda activar demasiados modos a la vez en tu primer nivel; la interfaz no garantiza que todas las combinaciones funcionen bien juntas.\n\n<b>Nodos de victoria y derrota</b>\nPara objetivos especiales puedes usar los nodos \"Hacer que el juego gane / termine\", pero asegúrate de que solo se activen cuando la misión se haya completado o fallado realmente. Para niveles normales, utiliza las reglas estándar de victoria."
+    },
+    {
+      "title": "Cartas y aparición de zombis",
+      "body": "<b>Configuración de cartas</b>\nConfigura las cartas preseleccionadas, la cantidad de casillas y los costes o recargas personalizados. Tras modificar estos valores, usa primero la función de guardar cambios de esa página antes de guardar el nivel completo; no asumas que el texto escrito ya está guardado sin haber pulsado el botón.\n\n<b>Dos formas de generar zombis</b>\n\"Configurar aparición de zombis\" selecciona las clases de zombis disponibles para la aparición aleatoria.\nLa página de oleadas permite fijar enemigos y filas específicas en oleadas determinadas.\nAmbos métodos tienen propósitos distintos. Si aparecen enemigos inesperados, revisa las tres fuentes posibles: candidatos aleatorios, lista por oleadas y nodos de eventos.\n\n<b>Tiempo y oleadas</b>\nEl tiempo previo a la primera oleada y el intervalo entre oleadas se ajustan en la página de modos. En eventos, el nodo \"Al aumentar la oleada\" se ejecuta en cada avance; si deseas que actúe solo en la oleada 5, debes comparar si la oleada actual es igual a 5.\n\n<b>Cuidado con las coordenadas</b>\nLa página de edición de oleadas fijas usa números de fila visibles para el jugador (1 a 5); sin embargo, en los nodos de eventos las filas y columnas comienzan desde 0. En los nodos, la fila 1 es 0 y la fila 2 es 1; ten esto en cuenta para no equivocarte."
+    },
+    {
+      "title": "Colocar plantas y ajustes",
+      "body": "<b>Plantas y jarrones precolocados</b>\nEntra en \"Disponer campo de batalla\" para colocar plantas o jarrones. Al salir, la disposición se guardará en el borrador del menú actual. Al final, no olvides volver al menú y pulsar \"Guardar y generar nivel\".\nLas plantas precolocadas ya existen antes de que el gráfico de eventos comience a escuchar, por lo que el evento \"Al plantar planta\" no se activará para ellas. Si necesitas procesarlas todas, usa: \"Inicio del nivel → Obtener todas las plantas del campo → Recorrer lista de plantas\".\n\n<b>Las reglas de plantado siguen activas</b>\nEl agua, los tejados, las plantas de soporte y los espacios ocupados afectan la creación. El nodo \"Crear planta\" valida las reglas normales por defecto; si falla, puedes conectar un mensaje de texto. El \"Plantado forzado\" se usa solo cuando la mecánica requiera ignorar estas restricciones.\n\n<b>Página de ajustes especiales</b>\nLas rutas de evolución de Dioses y fases requieren confirmar la edición actual; la página de atributos aleatorios define los rangos de variación. Asegúrate primero de que el nivel básico funcione bien antes de activar estas opciones avanzadas.\nAntes de entrar a disponer el campo de batalla, guarda las configuraciones manuales de la página actual."
+    },
+    {
+      "title": "Cómo conectar nodos",
+      "body": "<b>Una regla = Cuándo ocurre → Qué comprobar → Qué hacer</b>\n\nEjemplo: \"Mostrar un aviso al inicio de la oleada 5\".\nAl aumentar la oleada → Bifurcación condicional → Mostrar texto (flujo de ejecución).\nOleada → Comparar enteros (igual a 5) → Condición de bifurcación (datos de evaluación).\n\n<b>Dos tipos de conexiones</b>\nSeñal de ejecución: Conecta desde la salida \"Disparar\" del evento hasta la entrada \"Disparar\" de la acción. Sin ella, la acción no se ejecutará.\nDatos: Transmiten números, texto, objetos de plantas, etc. Conectar únicamente datos no iniciará ninguna acción.\nArrastra desde la salida derecha hacia la entrada izquierda; los tipos deben coincidir. Para enteros y decimales se requieren nodos de conversión.\n\n<b>Cómo rellenar valores de entrada</b>\nSelecciona el nodo y haz clic arriba en \"Rellenar valores de entrada\". Por ejemplo, pon 5 en tiempo de espera o 25 en cantidad de sol sin necesidad de añadir nodos de constantes.\nLas entradas que ya tengan una conexión recibirán el valor del nodo anterior y no se pueden sobrescribir a mano; para usar el valor manual, desconecta la línea.\n\n<b>Conceptos clave</b>\nTipo de planta: Por ejemplo Lanzaguisantes, define «cuál especie». Objeto de planta: Una planta específica en el jardín, define «cuál ejemplar».\nLos puertos de variables son referencias compartidas. Si necesitas un número, conecta nodos de lectura como \"Obtener entero\".\nEn los nodos de eventos las filas y columnas empiezan en 0; el tiempo de espera se mide en segundos.\n\n<b>Controles del lienzo</b>\nClic derecho: Crear nodo. Clic izquierdo: Seleccionar. Clic central en espacio vacío: Arrastrar lienzo. Rueda del ratón: Zoom. Supr (Delete): Eliminar. Ctrl+C/V: Copiar y pegar. Ctrl+Z/Y: Deshacer y rehacer.\nHacer clic central sobre un nodo eliminará sus conexiones; para moverte por el lienzo, arrastra siempre desde una zona vacía.\nSelecciona un nodo y pulsa \"Explicación del nodo\" para consultar todos sus puertos y ejemplos."
+    },
+    {
+      "title": "Paso a paso: Sol periódico",
+      "body": "<b>Objetivo: Tras iniciar la partida, obtener 25 soles cada 5 segundos.</b>\n\nMétodo 1: En la pestaña de eventos → Añadir plantilla de regla → Obtener sol cada 5 segundos. El sistema conectará los nodos automáticamente y los centrará en pantalla.\n\nMétodo 2: Creación manual paso a paso.\n1. Haz clic derecho y añade los nodos: \"Inicio formal del nivel\", \"Alternar ciclo\" y \"Obtener sol\".\n2. Conecta \"Disparar\" de Inicio formal a \"Disparar\" de Alternar ciclo.\n3. Conecta \"Evento periódico\" de Alternar ciclo a \"Disparar\" de Obtener sol.\n4. Selecciona Alternar ciclo, pulsa \"Rellenar valores de entrada\" y pon el intervalo del ciclo en 5.\n5. Selecciona Obtener sol y pon la cantidad de sol en 25.\n6. Haz clic en \"Comprobar conexiones\", guarda y genera el nivel, y entra a jugar.\n\n<b>¿Qué deberías observar?</b>\nTras la animación de inicio («Listos, Ya, Planten»), comenzará la cuenta atrás; la primera entrega de sol ocurrirá tras 5 segundos y luego cada 5 segundos. Si pausas la partida, el temporizador también se pausará.\n\n<b>Si algo no funciona como esperabas:</b>\nNo pasa nada: Comprueba si conectaste las líneas de ejecución o si el juego sigue en pausa.\nSolo se ejecuta una vez: ¿Conectaste a la salida \"Al activar\" en lugar de \"Evento periódico\"?\nSe detiene de pronto: Volver a disparar el mismo nodo de ciclo lo desactiva; cambiar de fase de juego también detendrá los ciclos de la fase anterior."
+    },
+    {
+      "title": "Cómo usar la barra de herramientas",
+      "body": "<b>La barra superior contiene las \"Herramientas de reglas de eventos\".</b>\nTe ayuda a construir, modificar y verificar reglas; por sí sola no añade ningún efecto al nivel.\n\n<b>Acciones más frecuentes</b>\nAñadir plantilla de regla: Inserta un conjunto de reglas preconfiguradas en el lienzo para adaptarlas a tus necesidades.\nExplicación del nodo: Selecciona un nodo para consultar qué hace, qué va en cada puerto y ver ejemplos de conexión.\nRellenar valores de entrada: Escribe directamente valores como segundos de espera o cantidad de sol en entradas no conectadas.\nComprobar conexiones: Detecta nodos faltantes, incompatibilidad de tipos o bucles cerrados. Aun pasando la prueba, es necesario probar el nivel en juego.\nDeshacer / Rehacer: Restaura las ediciones recientes (guarda hasta 40 pasos en el historial).\n\n<b>Herramientas avanzadas</b>\nVer mapa completo: Centra y localiza nodos que hayan quedado fuera de la pantalla.\nVer registro de ejecución: Activa el registro, juega una partida de prueba y regresa para inspeccionar qué nodos se ejecutaron.\nGuardar / Restaurar borrador de nodos: Guarda únicamente el gráfico de eventos; no sustituye el guardado completo del nivel.\nCompatibilidad con niveles antiguos: Define si tras una espera se usan los datos del momento del disparo o los más recientes. Para niveles ya creados, mantén el ajuste original.\n\n<b>Los dos paneles laterales izquierdos</b>\nLos botones \"Detalles del nodo\" y \"Variables del nivel\" permiten expandir u ocultar los paneles sin perder información.\nDetalles del nodo: Muestra la función del nodo seleccionado (puedes desplazarte con la rueda del ratón). Abajo puedes escribir el ID de un nodo y pulsar Enter para localizarlo.\nVariables del nivel: Usa \"+ Entero / + Decimal / + Booleano / + Cadena / + Lista\" para crear variables. Haz clic en un elemento para editar su nombre y valor inicial en el panel de detalles, o arrástralo al lienzo para generar una referencia. Arrastrar la misma variable varias veces compartirá su valor. Eliminar una variable borrará también sus nodos de referencia asociados.\n\n<b>Flujo de trabajo recomendado</b>\nAñadir plantilla → Seleccionar nodo y leer explicación → Rellenar valores → Comprobar conexiones → Guardar nivel completo abajo → Probar en juego."
+    },
+    {
+      "title": "Guardar, probar y depurar",
+      "body": "<b>Los tres tipos de guardado no son lo mismo</b>\nGuardar cambios en la página: Confirma los cambios locales de cartas, rutas o configuraciones de esa pestaña.\nGuardar borrador de nodos: Crea una copia de seguridad del gráfico de eventos para recuperar su edición más adelante.\n\"Guardar y generar nivel\" (abajo): Exporta el nivel completo, integrando el gráfico de eventos y todas las páginas confirmadas.\n\n<b>Aspectos a revisar en las pruebas</b>\n¿Se pueden elegir cartas, plantar y aparecen zombis con normalidad? ¿Avanzan las oleadas? ¿Se activan la victoria y la derrota?\n¿Se disparan los eventos en el momento correcto? ¿Las recompensas únicas se entregan solo una vez? Si una planta en espera muere, ¿el juego lo gestiona bien?\nSal del nivel y vuelve a entrar para verificar que los contadores, misiones y recompensas no tengan datos residuales de la partida anterior.\n\n<b>Si las reglas no se ejecutan:</b>\nPulsa primero en \"Comprobar conexiones\" y asegúrate de haber conectado tanto las líneas de datos como las de ejecución. Ve a Más herramientas → Ver registro de ejecución → Activar registro y haz una prueba.\nSi el evento se registra pero no realiza ninguna acción, revisa las condiciones de bifurcación. Si el evento ni siquiera se dispara, revisa el activador (por ejemplo, las plantas precolocadas no disparan el evento \"Al plantar\").\nSi la recompensa por limpiar el campo no aparece, comprueba que el modo utilice oleadas estándar; los modos de generación especiales no siempre envían el evento de finalización necesario.\n\n<b>Protección de archivos</b>\nLos archivos de nivel con errores de carga se preservan y al sobrescribir se genera una copia de seguridad previa. No borres el archivo original para intentar solucionar problemas de nodos que no comprendas."
+    },
+    {
+      "title": "¿Qué novedades hay en esta versión?",
+      "body": "<b>Nuevas posibilidades para creadores</b>\n\n1. Inserción directa de plantillas como \"Aviso en oleada 5\", \"Sol cada 5 segundos\" o \"Elegir 1 de 3 tras limpiar\", ahorrando tiempo de conexión.\n2. Organización de flujos de combate y recompensas mediante nodos de fase, y uso de \"Ejecutar solo una vez\" para evitar entregas duplicadas.\n3. Asignación de nombres a objetivos en el campo (por ejemplo, \"Jefe\") para localizarlos en cualquier momento, monitorear fusiones, umbrales de vida o consultar capas de plantas en una casilla.\n4. Nuevo nodo de selección de recompensas para menús de 1 entre 3 opciones, evitando confusiones al conectar listas de opciones y objetos convencionales.\n5. Deshacer ediciones, rellenar valores de entrada directamente, comprobación de conexiones, registro de ejecución y guardado de borradores de nodos.\n\n<b>Corrección de errores anteriores</b>\nSe resolvieron problemas donde se leían conexiones antiguas tras modificarlas, eliminaciones incompletas al duplicar variables, errores cuando ciertas entradas de multiplicador no estaban conectadas y restos de esperas o retornos al salir del nivel.\n\n<b>Compatibilidad con niveles antiguos</b>\nLos nodos y conexiones existentes se conservan sin alterar su método de lectura por defecto. Las nuevas reglas pueden retener los datos de cada evento por separado para evitar sobreescrituras entre pulsaciones consecutivas.\n\n<b>Mejoras en la interfaz</b>\nMenú contextual superior; separación clara entre acciones frecuentes y herramientas avanzadas; acceso a la Guía del Creador desde cualquier página de ajustes; y descripciones de nodos enriquecidas con detalles de puertos, ejemplos prácticos y advertencias.\nRecuerda que todas estas son herramientas: necesitas añadir y enlazar las reglas correspondientes para que tengan efecto en el nivel."
+    },
+    {
+      "title": "Cadenas de texto, listas y objetos",
+      "body": "Las variables de nivel ahora incluyen \"+ Cadena\" y \"+ Lista\". Las cadenas de texto permiten lectura, escritura y conversión; en las listas puedes editar sus valores iniciales desde los detalles del nodo, admitiendo enteros, decimales, booleanos, cadenas, tipos de plantas, tipos de zombis y objetos. Muestran 8 elementos por página hasta un máximo de 512, con índices que empiezan en 0.\n\nUtiliza nodos de añadir, insertar, reemplazar, obtener o buscar que coincidan con el tipo de la lista. El nodo de búsqueda devuelve tanto el primer índice como un booleano de coincidencia (devuelve -1 si no lo encuentra). Al eliminar un elemento, los siguientes se desplazan; duplicar una lista crea una copia independiente cuyos cambios no alteran la lista original.\n\nLa vinculación de objetos permite asignar un nombre identificador a elementos del campo para consultarlos después. Estos tokens de objeto solo tienen validez durante la partida actual y no se guardan en el archivo de guardado permanente. Los objetos de evento creados funcionan como marcadores visuales que no ocupan casillas de plantas; destruir objetos solo elimina marcadores creados por este gráfico. Las plantas y zombis deben seguir creándose o eliminándose mediante sus propios nodos dedicados."
+    },
+    {
+      "title": "Límites de las nuevas reglas de combate",
+      "body": "La configuración de modos ahora incluye la opción \"Derrota si los zombis entran a la casa\", activada por defecto (los niveles antiguos conservan su comportamiento previo). Si la desactivas, podrás determinar la victoria o derrota mediante eventos personalizados, aunque otras condiciones como proteger objetivos seguirán vigentes.\n\nModo avanzado de cartas → Valores completos: Permite ajustar vida, daño, intervalo de ataque, protecciones, etc., aplicándose únicamente al nivel actual; requiere guardar el nivel completo para aplicarse.\n\nLa generación y movimiento de zombis admite ahora \"Columna (decimal)\"; por ejemplo, 2.5 se sitúa entre la 3.ª y 4.ª columna. Si se deja en blanco, utilizará el puerto entero tradicional.\n\nLos nodos \"Esperar condición\" y \"Bucle hasta condición\" comprueban periódicamente el estado (cada 0.1 s por defecto); no provocan bloqueos en el mismo frame y se cancelan automáticamente al cambiar de fase o salir del nivel.\n\nEl cambio de mapa solo es compatible entre variantes de día y noche del mismo tipo de terreno; no reconstruye las casillas ocupadas ni altera la velocidad del juego. Si se intenta entre terrenos distintos, saldrá por la ruta de fallo indicando el motivo.\n\nLos proyectiles se gestionan a través del pool de objetos del juego. Los nodos de modificación usan referencias específicas que caducan al reciclarse el proyectil; no reutilices referencias caducadas para proyectiles posteriores. Los límites máximos son: hasta 128 objetos o proyectiles creados por frame, un máximo total de 256 objetos de evento y 1024 proyectiles de evento simultáneos.\n\nEliminar modificadores de Odisea revoca la posesión y sus efectos continuos posteriores, pero los recursos obtenidos de una sola vez y los valores alterados de forma permanente no se revertirán."
+    }
+  ],
+  "nodes": [
+    {
+      "type": "OnBoardStartNode",
+      "purpose": "Las reglas de inicialización se ejecutan cuando la placa está lista.",
+      "usage": "Conecte la salida del gatillo a la acción de inicialización; Ahora se coloca la planta predeterminada.",
+      "example": "Comienza el nivel → Mostrar texto, complete las instrucciones de bienvenida.",
+      "warning": "Precede a la inauguración oficial. Si solo quieres que el cronómetro comience desde la batalla oficial, usa \"Nivel de inicio oficial\"."
+    },
+    {
+      "type": "OnGameStartNode",
+      "purpose": "Las reglas comenzarán a aplicarse después de la inauguración oficial.",
+      "usage": "Conecte desencadenantes a ciclos, indicaciones o recompensas iniciales.",
+      "example": "El nivel comienza oficialmente → Cambio de ciclo → Recibe luz solar.",
+      "warning": "También se activará saltarse la escena inicial. La primera acción del ciclo ocurre después de un intervalo."
+    },
+    {
+      "type": "WaveEventNode",
+      "purpose": "Ejecute la regla cada vez que se incremente la onda y proporcione el número de onda actual.",
+      "usage": "La interfaz de activación está conectada a una acción o rama, y ​​los datos de onda están conectados a una comparación de enteros.",
+      "example": "La onda se conecta al valor A de la comparación de enteros y el valor B se completa con 5; igual a la condición de la rama, y ​​la rama verdadera está conectada al texto de visualización.",
+      "warning": "Se activará en cada onda y no hay un filtro incorporado \"solo en qué onda\"."
+    },
+    {
+      "type": "OnMouseClickNode",
+      "purpose": "Lea la cuadrícula en la que hizo clic el jugador, los elementos en la mano y las teclas izquierda y derecha.",
+      "usage": "El puerto de ejecución inicia la regla y el puerto de fila y columna se pasa para crear o consultar el nodo.",
+      "example": "Haga clic en → Rama; \"Sí, clic izquierdo\" está conectado a la condición y se muestra un mensaje para la salida verdadera.",
+      "warning": "Puede activarse con las teclas izquierda y derecha. La cola comienza en 0; Los niveles antiguos esperan y luego leen el clic más reciente."
+    },
+    {
+      "type": "OnKeyPressNode",
+      "purpose": "Ejecute la regla cuando se presione la tecla especificada.",
+      "usage": "Primero ingrese un botón en el nodo y luego conecte la salida del gatillo.",
+      "example": "Seleccione un botón → Mostrar texto para indicaciones de interacción en el nivel.",
+      "warning": "No se activará cuando no se ingresen claves. No entre en conflicto con las teclas de acceso directo del juego existente."
+    },
+    {
+      "type": "OnPlantCreateNode",
+      "purpose": "Las reglas se aplican cuando se plantan plantas y se proporcionan las plantas correspondientes.",
+      "usage": "El puerto de activación inicia la acción y el puerto de la planta se utiliza para leer los atributos del objetivo o procesar el objetivo.",
+      "example": "Activador de evento → Obtener luz solar, completar la cantidad hasta 25; Si necesita limitar las especies, primero proceda con la división de atributos de la planta y la comparación de tipos.",
+      "warning": "Las plantas preestablecidas que ya estaban disponibles al comienzo del juego no se volverán a publicar."
+    },
+    {
+      "type": "OnPlantClickNode",
+      "purpose": "Cuando el jugador hace clic en la planta, se ejecutan las reglas y se proporciona la planta correspondiente.",
+      "usage": "El puerto de activación inicia la acción y el puerto de la planta se utiliza para leer los atributos del objetivo o procesar el objetivo.",
+      "example": "Activador de evento → Obtener luz solar, completar la cantidad hasta 25; Si necesita limitar las especies, primero proceda con la división de atributos de la planta y la comparación de tipos.",
+      "warning": "Es diferente del evento del mouse de hacer clic en un cuadro vacío."
+    },
+    {
+      "type": "OnPlantDieNode",
+      "purpose": "Cuando la salud de la planta llega a cero, se ejecutan las reglas y se proporciona la planta correspondiente.",
+      "usage": "El puerto de activación inicia la acción y el puerto de la planta se utiliza para leer los atributos del objetivo o procesar el objetivo.",
+      "example": "Activador de evento → Obtener luz solar, completar la cantidad hasta 25; Si necesita limitar las especies, primero proceda con la división de atributos de la planta y la comparación de tipos.",
+      "warning": "No están cubiertas todas las causas de muerte, como la fusión y la eliminación activa."
+    },
+    {
+      "type": "OnPlantDeathCompleteNode",
+      "purpose": "Cuando la planta completa el proceso de muerte, se ejecutan las reglas y se proporciona la planta correspondiente.",
+      "usage": "El puerto de activación inicia la acción y el puerto de la planta se utiliza para leer los atributos del objetivo o procesar el objetivo.",
+      "example": "Activador de evento → Obtener luz solar, completar la cantidad hasta 25; Si necesita limitar las especies, primero proceda con la división de atributos de la planta y la comparación de tipos.",
+      "warning": "El objeto podrá ser destruido posteriormente; Después de esperar, es necesario determinar si el objetivo todavía existe. La causa de la muerte es un número entero."
+    },
+    {
+      "type": "OnPlantMixedNode",
+      "purpose": "Cuando se completa la fusión de plantas, se ejecutan las reglas y se proporcionan las plantas correspondientes.",
+      "usage": "El puerto de activación inicia la acción y el puerto de la planta se utiliza para leer los atributos del objetivo o procesar el objetivo.",
+      "example": "Activador de evento → Obtener luz solar, completar la cantidad hasta 25; Si necesita limitar las especies, primero proceda con la división de atributos de la planta y la comparación de tipos.",
+      "warning": "Solo monitorea eventos de fusión y no se activará con una siembra normal."
+    },
+    {
+      "type": "OnZombieSpawnNode",
+      "purpose": "Ejecute reglas cuando se generen zombis y proporcione los zombis correspondientes.",
+      "usage": "Comportamiento de la interfaz de activación, división de atributos de la interfaz zombie o procesamiento de objetivos.",
+      "example": "Evento → Mostrar texto; División de atributos de zombies → Comparación de tipos → Rama, que se puede limitar a tipos específicos.",
+      "warning": "Se pueden activar tanto la generación normal como la generación de encanto, y los objetivos se pueden examinar más a fondo si es necesario."
+    },
+    {
+      "type": "OnZombieDieNode",
+      "purpose": "Cuando un zombie muere, se ejecutan las reglas y se proporcionan los zombies correspondientes.",
+      "usage": "Comportamiento de la interfaz de activación, división de atributos de la interfaz zombie o procesamiento de objetivos.",
+      "example": "Evento → Mostrar texto; División de atributos de zombies → Comparación de tipos → Rama, que se puede limitar a tipos específicos.",
+      "warning": "El objetivo puede ser destruido posteriormente y el procesamiento después de la espera no puede asumir que el objeto todavía está vivo."
+    },
+    {
+      "type": "OnWaveClearedNode",
+      "purpose": "Después de que se complete una determinada ola de generación de monstruos normales, las reglas se ejecutarán una vez cuando se eliminen los enemigos en esa ola.",
+      "usage": "Cada ola se registra por separado; cuando el puerto de activación recibe recompensas o ingresa a la siguiente etapa, el puerto de onda genera la onda que acaba de borrarse.",
+      "example": "Después de que se elimine la primera oleada de enemigos después de que comience la segunda oleada, la oleada 1 seguirá emitiéndose; No es necesario eliminar la segunda oleada de enemigos al mismo tiempo.",
+      "warning": "Los enemigos generados o convocados pertenecen a la ola actual y ya no serán bloqueados después de la muerte, la partida o el hechizo; Cada ola solo se puede usar una vez como máximo. Dependiendo de la notificación normal de finalización del desove de monstruos, es posible que no se active el modo especial de desove de monstruos; el acuerdo de victoria final también puede terminar la batalla primero."
+    },
+    {
+      "type": "OnZombieHealthBelowNode",
+      "purpose": "Se activa cuando el volumen de sangre del cuerpo del zombi especificado alcanza el umbral.",
+      "usage": "La boca del zombie está conectada al objeto líder; Complete la proporción de volumen de sangre con 0,5 para indicar la mitad de la salud.",
+      "example": "Crear jefe → zombie llamado; obtener el nombre de zombie → evento de umbral de salud → cambiar de etapa.",
+      "warning": "No cuenta armadura. Monitorear continuamente el mismo objetivo solo se activará una vez. Cambie el objetivo y vuelva a detectarlo; Los objetivos muertos no se activarán."
+    },
+    {
+      "type": "OnStageEnterNode",
+      "purpose": "La regla se activa al ingresar a la fase de juego nombrada.",
+      "usage": "Complete el nombre de la fase en el nodo y use el mismo nombre que la fase de conmutación.",
+      "example": "Complete \"recompensa\" al cambiar de etapa; complete \"recompensa\" al ingresar a la etapa → muestre la selección de recompensa.",
+      "warning": "El escenario está inicialmente vacío; El cambio continuo de la misma etapa no se activará repetidamente y los nombres deben ser consistentes."
+    },
+    {
+      "type": "ChangeStageNode",
+      "purpose": "Cambia el gráfico de eventos de este juego a la etapa de juego designada.",
+      "usage": "Conecte la entrada del disparador y complete el nombre del escenario; el puerto de finalización puede continuar con acciones posteriores.",
+      "example": "El líder tiene la mitad de salud → Cambiar de etapa, complete el nombre como \"Segunda etapa\".",
+      "warning": "El nuevo método detendrá la espera y el ciclo de la etapa anterior; El nombre artístico no cambiará automáticamente para generar monstruos ni pausar el juego."
+    },
+    {
+      "type": "GetStageNode",
+      "purpose": "Lea el nombre de la etapa de juego actual.",
+      "usage": "Conecte la salida de texto a la entrada de texto que requiere el nombre artístico.",
+      "example": "Obtener el puerto de texto de la etapa actual → mostrar texto; Utilice eventos clave para activar la visualización.",
+      "warning": "Esta es una consulta de datos, no hay un puerto de activación; no cambiará de etapa por sí solo."
+    },
+    {
+      "type": "DoOnceNode",
+      "purpose": "Hacer que una recompensa o acción solo se ejecute la primera vez que se reciba una señal.",
+      "usage": "Una acción única al activar el enlace de salida por primera vez; actívelo cuando sea necesario volver a permitir y establezca el reinicio en verdadero.",
+      "example": "Eventos recurrentes → ejecutados solo una vez → reciben luz solar.",
+      "warning": "Esta llamada para restablecer a verdadero solo limpia el estado y no realiza la primera acción; es necesario activarlo nuevamente más tarde."
+    },
+    {
+      "type": "BindPlantNode",
+      "purpose": "Dale un nombre a una planta en tu campo para que pueda encontrarse en otro lugar.",
+      "usage": "Ingrese el objeto de planta específico, complete el nombre y conecte la señal de activación.",
+      "example": "La planta se creó correctamente → Asigne un nombre a la planta y complete \"Destino\" para el nombre; la salida del objeto también está conectada al nodo de nombre.",
+      "warning": "Vincular nuevamente con el mismo nombre reemplazará el objetivo anterior y solo es válido en el gráfico de eventos actual."
+    },
+    {
+      "type": "GetBoundPlantNode",
+      "purpose": "Encuentre plantas previamente vinculadas por su nombre.",
+      "usage": "Complete exactamente el mismo nombre que el nodo nombrado, utilizando la salida Objeto y Existencia.",
+      "example": "Obtenga la \"existencia\" de la planta nombrada → condición de rama; la rama verdadera luego opera su salida de objeto.",
+      "warning": "Vaciar cuando no se encuentre o el objeto haya sido destruido; primero verifique la existencia, no solo el nombre."
+    },
+    {
+      "type": "BindZombieNode",
+      "purpose": "Dale un nombre a un zombie en el campo para que sea más fácil encontrarlo en otro lugar.",
+      "usage": "Ingrese el objeto zombie específico, complete el nombre y conecte la señal de activación.",
+      "example": "El zombie se creó con éxito → Nombra el zombie y completa \"Objetivo\" para el nombre; la salida del objeto también está conectada al nodo de nombre.",
+      "warning": "Vincular nuevamente con el mismo nombre reemplazará el objetivo anterior y solo es válido en el gráfico de eventos actual."
+    },
+    {
+      "type": "GetBoundZombieNode",
+      "purpose": "Encuentra zombies previamente atados por su nombre.",
+      "usage": "Complete exactamente el mismo nombre que el nodo nombrado, utilizando la salida Objeto y Existencia.",
+      "example": "Obtenga la \"existencia\" del zombi nombrado → condición de rama; la rama verdadera luego opera en la salida de su objeto.",
+      "warning": "Vaciar cuando no se encuentre o el objeto haya sido destruido; primero verifique la existencia, no solo el nombre."
+    },
+    {
+      "type": "SetPlantNode",
+      "purpose": "Crea una planta en la cuadrícula especificada.",
+      "usage": "Proporcione tipos de plantas y filas, conéctese al activador; A la salida exitosa le sigue un procesamiento posterior.",
+      "example": "Iniciado oficialmente → Crear planta; fila 0, columna 0, lanzaguisantes; La interfaz de falla muestra texto.",
+      "warning": "Si no se aplican por defecto, la superficie del agua, el techo, el soporte y la ocupación pueden causar fallas; las filas comienzan desde 0."
+    },
+    {
+      "type": "CreateZombieNode",
+      "purpose": "Genera el tipo especificado de zombies en la ubicación especificada.",
+      "usage": "Configure la cola, el tipo y si desea encantar, y use el objeto zombie generado después de la activación.",
+      "example": "Evento clave → Crear zombie; Después de una creación exitosa, entregue el objeto al \"zombi con nombre\".",
+      "warning": "El puerto de datos no generará objetos por sí solo y primero debe realizar la acción de creación; preste atención a la ubicación de generación."
+    },
+    {
+      "type": "MovePlantNode",
+      "purpose": "Mueva las plantas existentes a la fila especificada.",
+      "usage": "Conecte el objeto de planta específico en el campo a las coordenadas del objetivo y luego conecte el disparador.",
+      "example": "Cree la planta y luego mueva el nodo para cambiar la columna de destino a otra cuadrícula.",
+      "warning": "Las categorías no pueden reemplazar objetos; Los objetos fuera de los límites, ocupados o no válidos pueden causar fallas y es necesario conectar la rama de resultados correspondiente."
+    },
+    {
+      "type": "MoveZombieNode",
+      "purpose": "Mueve los zombies existentes a la fila designada.",
+      "usage": "Conecte el objeto zombie específico en el campo a las coordenadas del objetivo y luego conecte el disparador.",
+      "example": "Crea un zombie y luego mueve el nodo, cambiando la columna de destino a otra cuadrícula.",
+      "warning": "Las categorías no pueden reemplazar objetos; Los objetos fuera de los límites, ocupados o no válidos pueden causar fallas y es necesario conectar la rama de resultados correspondiente."
+    },
+    {
+      "type": "CreatePlantCardNode",
+      "purpose": "Genera tarjetas de plantas en el campo que se pueden recoger.",
+      "usage": "Especifique el tipo de planta y las filas generadas y luego conecte el disparador.",
+      "example": "Los zombis mueren → Crea tarjetas de plantas y establece los tipos de plantas que se dejarán caer.",
+      "warning": "Crea tarjetas en el campo, en lugar de agregarlas directamente a la ranura para tarjetas; este último utiliza \"agregar tarjetas de plantas\"."
+    },
+    {
+      "type": "AddPlantCardNode",
+      "purpose": "Agrega una tarjeta de planta a la ranura para tarjetas de jugador.",
+      "usage": "Seleccione el tipo de planta; Si necesita cambiar el precio y el enfriamiento, cierre los datos predeterminados y complete la entrada correspondiente.",
+      "example": "Se hizo clic en la opción de recompensas → Agregar tarjeta de planta, configurar el tirador de guisantes.",
+      "warning": "Puede fallar cuando la ranura para tarjetas esté llena; la salida se activa al plantar para rastrear las plantas plantadas por esta tarjeta."
+    },
+    {
+      "type": "DeleteCardByTypeNode",
+      "purpose": "Elimina el tipo especificado de tarjeta de planta de la ranura para tarjetas.",
+      "usage": "Conecte desencadenantes y proporcione especies de plantas.",
+      "example": "Entrando en una etapa determinada → Elimine las tarjetas de plantas en la ranura para tarjetas y agregue nuevas tarjetas disponibles.",
+      "warning": "Las cartas de este tipo serán eliminadas y no se eliminarán las plantas ya plantadas en el campo."
+    },
+    {
+      "type": "HealPlantNode",
+      "purpose": "Restaura la vida a plantas específicas.",
+      "usage": "La interfaz del objeto está conectada a la planta específica y se completa la cantidad; solo tendrá efecto después de recibir el disparador.",
+      "example": "El puerto de planta del evento → el puerto objeto de este nodo; el desencadenante del evento → el desencadenante de este nodo, complete la cantidad requerida.",
+      "warning": "Confirme que el tipo de número y el objetivo sean válidos; La recuperación de la salud vegetal y los escudos no modifican directamente el volumen máximo de salud."
+    },
+    {
+      "type": "DamagePlantNode",
+      "purpose": "Provoca daños a plantas específicas.",
+      "usage": "La interfaz del objeto está conectada a la planta específica y se completa la cantidad; solo tendrá efecto después de recibir el disparador.",
+      "example": "El puerto de planta del evento → el puerto objeto de este nodo; el desencadenante del evento → el desencadenante de este nodo, complete la cantidad requerida.",
+      "warning": "Confirme que el tipo de número y el objetivo sean válidos; La recuperación de la salud vegetal y los escudos no modifican directamente el volumen máximo de salud."
+    },
+    {
+      "type": "DamageZombieNode",
+      "purpose": "Causa daño a los zombies designados.",
+      "usage": "La interfaz del objeto está conectada al zombi específico y se completa la cantidad; solo tendrá efecto después de recibir el disparador.",
+      "example": "El puerto zombie del evento → el puerto objeto de este nodo; el evento desencadenante → desencadena este nodo, complete el número requerido.",
+      "warning": "Confirme que el tipo de número y el objetivo sean válidos; La recuperación de la salud vegetal y los escudos no modifican directamente el volumen máximo de salud."
+    },
+    {
+      "type": "GivePlantShieldNode",
+      "purpose": "Agrega escudo a plantas específicas.",
+      "usage": "La interfaz del objeto está conectada a la planta específica y se completa la cantidad; solo tendrá efecto después de recibir el disparador.",
+      "example": "El puerto de planta del evento → el puerto objeto de este nodo; el desencadenante del evento → el desencadenante de este nodo, complete la cantidad requerida.",
+      "warning": "Confirme que el tipo de número y el objetivo sean válidos; La recuperación de la salud vegetal y los escudos no modifican directamente el volumen máximo de salud."
+    },
+    {
+      "type": "DiePlantNode",
+      "purpose": "Retire directamente las plantas designadas y realice tratamientos mortales.",
+      "usage": "Conecte el objeto de la planta a la señal de activación.",
+      "example": "Cuando se hace clic en una planta → rama condicional → hace que la planta muera y acceda al objeto de la planta en el que se hizo clic.",
+      "warning": "A diferencia de infligir daño, no hay garantía de que pase un evento de reinicio de salud; no reciba aleatoriamente todos los eventos de plantación."
+    },
+    {
+      "type": "SetZombieMindControlledNode",
+      "purpose": "Cambia el zombie designado al lado del jugador.",
+      "usage": "Conecte el objeto zombie a la señal de activación.",
+      "example": "Después de generar un zombie, conecte este nodo y configure el zombie que crea la salida para que sea encantador.",
+      "warning": "La entrada es el zombi específico, no el tipo; debe confirmar que el objetivo sigue siendo válido."
+    },
+    {
+      "type": "ModifyPlantAttackNode",
+      "purpose": "Modifica el bono de ataque de la planta especificada.",
+      "usage": "Conecte el objeto de la planta al disparador y complete el bono o multiplicador deseado para la entrada decimal.",
+      "example": "La planta se creó con éxito → este nodo; la salida del objeto está conectada y el valor objetivo se observa después de la modificación.",
+      "warning": "La entrada es una bonificación/multiplicador, no una configuración directa del ataque final o el volumen de sangre; la planta utiliza el canal de bonificación por evento. Si no se completa, el valor predeterminado es 1. Las configuraciones repetidas no son equivalentes a la multiplicación acumulativa cada vez."
+    },
+    {
+      "type": "ModifyPlantHealthNode",
+      "purpose": "Modifica el bono de vida de la planta especificada.",
+      "usage": "Conecte el objeto de la planta al disparador y complete el bono o multiplicador deseado para la entrada decimal.",
+      "example": "La planta se creó con éxito → este nodo; la salida del objeto está conectada y el valor objetivo se observa después de la modificación.",
+      "warning": "La entrada es una bonificación/multiplicador, no una configuración directa del ataque final o el volumen de sangre; la planta utiliza el canal de bonificación por evento. Si no se completa, el valor predeterminado es 1. Las configuraciones repetidas no son equivalentes a la multiplicación acumulativa cada vez."
+    },
+    {
+      "type": "ModifyZombieHealthNode",
+      "purpose": "Modifica el multiplicador de vida del zombie especificado.",
+      "usage": "Conecte el objeto zombie al disparador y complete el bono o multiplicador deseado para la entrada decimal.",
+      "example": "El zombie se crea con éxito → este nodo; la salida del objeto está conectada y el valor objetivo se observa después de la modificación.",
+      "warning": "La entrada es una bonificación/multiplicador, no una configuración directa del ataque final o el volumen de sangre; la planta utiliza el canal de bonificación por evento. Si no se completa, el valor predeterminado es 1. Las configuraciones repetidas no son equivalentes a la multiplicación acumulativa cada vez."
+    },
+    {
+      "type": "PlantSplitNode",
+      "purpose": "Lea filas, columnas y especies de plantas específicas.",
+      "usage": "Ingrese el objeto específico y conecte la salida de coordenadas o categoría al nodo de consulta/comparación correspondiente.",
+      "example": "Eventos de planta → División de atributos → Comparación de tipos de planta → Ramificación condicional.",
+      "warning": "No genera acciones y aún necesita eventos para activar ramas; cuando el objeto está vacío, las coordenadas predeterminadas no pueden considerarse como la posición real."
+    },
+    {
+      "type": "ZombieSplitNode",
+      "purpose": "Lee la fila, columna y tipo de un zombie específico.",
+      "usage": "Ingrese el objeto específico y conecte la salida de coordenadas o categoría al nodo de consulta/comparación correspondiente.",
+      "example": "Evento zombie → división de atributos → comparación de tipos de zombies → rama condicional.",
+      "warning": "No genera acciones y aún necesita eventos para activar ramas; cuando el objeto está vacío, las coordenadas predeterminadas no pueden considerarse como la posición real."
+    },
+    {
+      "type": "GetPlantsInCellNode",
+      "purpose": "Obtenga todas las plantas registradas en una cuadrícula.",
+      "usage": "Complete las filas y columnas y la salida de la lista luego se recorrerá a través de la lista de plantas.",
+      "example": "Fila del mouse → obtener plantas de la cuadrícula → recorrer la lista de plantas; el gatillo del mouse y luego atravesar.",
+      "warning": "Incluirá capas de ubicación como nenúfares, macetas y moscas, no solo las plantas principales."
+    },
+    {
+      "type": "GetPlantsOnLayerNode",
+      "purpose": "Consulta únicamente las plantas en la posición especificada en una cuadrícula.",
+      "usage": "Complete las filas y seleccione la planta principal, maceta, nenúfar, calabaza o capa voladora.",
+      "example": "Fila del mouse → este nodo (capa de planta principal) → recorre la lista de plantas.",
+      "warning": "La capa de ubicación no es una clasificación de combate de plantas; devuelve una lista vacía si está fuera de los límites o si la capa está vacía."
+    },
+    {
+      "type": "GetAllPlantsNode",
+      "purpose": "Obtenga una lista de plantas registradas en el campo.",
+      "usage": "La salida de la lista está conectada al recorrido de la lista de plantas y otro evento inicia el recorrido.",
+      "example": "Inicio de nivel → Recorrer la lista de plantas; esta lista de nodos está conectada a la entrada transversal.",
+      "warning": "No se realizará un recorrido de solo lista; el objetivo puede morir durante acciones posteriores."
+    },
+    {
+      "type": "GetNearestZombieNode",
+      "purpose": "Consulta el zombie más cercano a la fila especificada.",
+      "usage": "Proporcione coordenadas y luego genere el objeto para recibir daño, encanto o división de atributos.",
+      "example": "El evento del botón se activa para herir al zombie; La salida zombie más cercana está conectada al objetivo.",
+      "warning": "Puede estar vacío si no hay objetivos adecuados en el campo; La consulta no causa daño por sí sola."
+    },
+    {
+      "type": "GetEventPositionNode",
+      "purpose": "Lea la posición del mouse o de la entidad registrada más recientemente de esta cadena de ejecución.",
+      "usage": "Habilite la retención de datos de activación, primero determine la posición y luego genere en filas y columnas. Después de esperar, las coordenadas en el momento de la activación aún se conservarán y no se moverán con el mouse actual.",
+      "example": "Haga clic en el campo de batalla → espere 1 segundo → cree una planta en la cuadrícula de clic original; las filas y columnas de este nodo crearán coordenadas.",
+      "warning": "Las coordenadas aún se pueden leer después de que la entidad muere, pero es posible que el objetivo original no sobreviva; cuando no hay posición, la posición es falsa y la fila y la columna son 0. El método de valor anterior no puede usar las coordenadas predeterminadas para determinar la posición original cuando no hay una instantánea de la posición."
+    },
+    {
+      "type": "ForEachPlantNode",
+      "purpose": "Trabaja en cada planta de la lista por turno.",
+      "usage": "La lista se conecta a la entrada y se activa el evento; el cuerpo del bucle está conectado al comportamiento que debe repetirse y se utiliza el elemento actual.",
+      "example": "Consigue todas las plantas en el campo → atravesar; el cuerpo del bucle conecta las acciones de los objetos/tipos correspondientes.",
+      "warning": "El mismo marco se recorre sincrónicamente sin esperar al nodo de espera en el cuerpo del bucle; el método de valor anterior puede leer el último elemento después del retraso."
+    },
+    {
+      "type": "ForEachPlantTypeNode",
+      "purpose": "Trabaja en cada especie de planta de la lista por turno.",
+      "usage": "La lista se conecta a la entrada y se activa el evento; el cuerpo del bucle está conectado al comportamiento que debe repetirse y se utiliza el elemento actual.",
+      "example": "Obtenga la lista de tipos de plantas → atravesar; el cuerpo del bucle conecta las acciones de los objetos/tipos correspondientes.",
+      "warning": "El mismo marco se recorre sincrónicamente sin esperar al nodo de espera en el cuerpo del bucle; el método de valor anterior puede leer el último elemento después del retraso."
+    },
+    {
+      "type": "PlantTypeValueNode",
+      "purpose": "Proporcionar una especie de planta fija.",
+      "usage": "Seleccione el tipo en el nodo y la salida se conectará para crear o comparar tipos.",
+      "example": "Tipo de planta → Ingrese el tipo de planta que se creará; otra conexión comenzará oficialmente a activar la creación.",
+      "warning": "Los tipos no son objetos de campo y no requieren señales de activación."
+    },
+    {
+      "type": "ZombieTypeValueNode",
+      "purpose": "Proporciona una especie de zombie fija.",
+      "usage": "Seleccione el tipo en el nodo y la salida se conectará para crear o comparar tipos.",
+      "example": "Tipo de zombie → Ingrese el tipo de zombie a crear; otra conexión comenzará oficialmente a activar la creación.",
+      "warning": "Los tipos no son objetos de campo y no requieren señales de activación."
+    },
+    {
+      "type": "ComparePlantTypeNode",
+      "purpose": "Determinar si dos especies de plantas son iguales.",
+      "usage": "Las dos categorías están conectadas a la entrada y el resultado de la comparación está conectado a la condición de bifurcación.",
+      "example": "Los atributos se dividen para obtener el tipo, que se compara con el tipo de planta fijo; el evento desencadena la rama.",
+      "warning": "La comparación solo produce valores verdadero y falso y no ejecuta la rama verdadera por sí sola."
+    },
+    {
+      "type": "CompareZombieTypeNode",
+      "purpose": "Determina si dos zombies son del mismo tipo.",
+      "usage": "Las dos categorías están conectadas a la entrada y el resultado de la comparación está conectado a la condición de bifurcación.",
+      "example": "Los atributos se dividen para obtener el tipo, que se compara con el tipo de zombie fijo; el evento desencadena la rama.",
+      "warning": "La comparación solo produce valores verdadero y falso y no ejecuta la rama verdadera por sí sola."
+    },
+    {
+      "type": "SinglePlantTypeListNode",
+      "purpose": "Envuelve una planta en una lista.",
+      "usage": "El puerto de tipo está conectado al tipo de planta y el puerto de lista se utiliza para fusionar, aleatorizar o atravesar.",
+      "example": "Tipo de planta → Lista de tipos de plantas individuales → Lista de tipos de plantas combinadas.",
+      "warning": "Lo que obtienes es una lista de tipos, no una lista de objetos vegetales en el campo."
+    },
+    {
+      "type": "MultiPlantTypeListNode",
+      "purpose": "Configure múltiples especies de plantas en un nodo.",
+      "usage": "Utilice la edición de lista en nodos y la salida se conectará a una selección aleatoria o recorrido.",
+      "example": "Lista de tipos de plantas múltiples → Obtener tipos de plantas aleatoriamente → Agregar tarjetas de plantas.",
+      "warning": "Cuando la lista está vacía, es posible que las selecciones aleatorias posteriores no sean válidas."
+    },
+    {
+      "type": "MergePlantTypeListsNode",
+      "purpose": "Combina las dos listas de especies de plantas.",
+      "usage": "Tome dos listas como entrada y utilice el resultado o la longitud combinados.",
+      "example": "Dos listas de tipos de plantas únicas → fusionar → obtener tipos de plantas aleatoriamente.",
+      "warning": "La fusión no significa la ejecución automática de acciones posteriores; Los tipos repetidos deben ser verificados por usted mismo de acuerdo con los requisitos del juego."
+    },
+    {
+      "type": "PlantTypeListStorageNode",
+      "purpose": "Guarde y modifique la lista de especies de plantas en esta sesión.",
+      "usage": "Envíe la lista al nodo de almacenamiento, seleccione establecer, agregar o eliminar y activar según la operación del nodo.",
+      "example": "Configure el fondo de recompensas al principio; elimine la categoría correspondiente después de seleccionar la recompensa y luego lea la lista restante.",
+      "warning": "A diferencia de las variables de propiedad como los números enteros; las modificaciones en ejecución no se escriben automáticamente en la lista inicial del editor."
+    },
+    {
+      "type": "GetRandomPlantTypeNode",
+      "purpose": "Extraiga una planta de la lista de entrada.",
+      "usage": "Ingrese una lista de tipos no vacía y genere el tipo de puerto para recibir tarjetas o crear plantas.",
+      "example": "Lista de tipos de plantas múltiples → Obtener tipos de plantas aleatoriamente → Crear tarjetas de plantas; el evento desencadena la creación.",
+      "warning": "Extraer por lectura, varias lecturas pueden ser diferentes; no considere una lista vacía como un grupo de recompensas válido."
+    },
+    {
+      "type": "RemovePlantTypeNode",
+      "purpose": "Elimina la especie especificada de la lista de especies de plantas.",
+      "usage": "Conecte la lista original con la categoría que se eliminará, utilizando la lista de resultados y la salida exitosa.",
+      "example": "Lista de grupo de recompensas y especies recién seleccionadas → Eliminar tipo de planta → Procesamiento posterior de la lista.",
+      "warning": "Utilice la lista de resultados para obtener el resultado de la eliminación; no elimina la planta en el campo ni la tarjeta en la ranura para tarjetas."
+    },
+    {
+      "type": "ShowTextNode",
+      "purpose": "Muestra un mensaje en la pantalla del juego.",
+      "usage": "Complete el texto y la duración, y conecte la entrada del disparador.",
+      "example": "Wave 5 True Branch → Mostrar texto, complete el contenido como \"El líder viene\".",
+      "warning": "Sólo no se mostrarán datos de texto; la duración es en segundos."
+    },
+    {
+      "type": "PlaySoundNode",
+      "purpose": "Reproduce efectos de sonido de juegos existentes.",
+      "usage": "Seleccione o complete un número de efecto de sonido válido y conecte la señal de activación.",
+      "example": "Se hizo clic en la opción de bonificación → Reproducir efecto de sonido.",
+      "warning": "El número del efecto de sonido corresponde al recurso del juego, no a la ruta del archivo local; una numeración incorrecta no obtendrá el sonido deseado."
+    },
+    {
+      "type": "PlayZombieAnimNode",
+      "purpose": "Deje que el zombie especificado cambie la animación.",
+      "usage": "Conecte el objeto zombie y complete el nombre de animación real del objeto.",
+      "example": "Los zombis se generan con éxito → Reproduce la animación de zombies y completa el recorrido.",
+      "warning": "El nombre de la animación distingue los recursos reales; este nodo solo controla el rendimiento y no agrega daño de ataque automáticamente."
+    },
+    {
+      "type": "GetSunNode",
+      "purpose": "Agrega una cantidad específica de luz solar al reproductor.",
+      "usage": "Complete la cantidad entera y conecte el disparador.",
+      "example": "Se hace clic en la opción de recompensa → Obtener sol, complete la cantidad hasta 50.",
+      "warning": "La cantidad es un número entero; Se repetirán los disparos repetidos. Si se necesita una recompensa, va precedida de \"ejecutar sólo una vez\"."
+    },
+    {
+      "type": "GetMoneyNode",
+      "purpose": "Agrega una cantidad específica de monedas de oro al jugador.",
+      "usage": "Complete la cantidad entera y conecte el disparador.",
+      "example": "Se hace clic en la opción de recompensa → Obtener monedas de oro, complete la cantidad hasta 50.",
+      "warning": "La cantidad es un número entero; Se repetirán los disparos repetidos. Si se necesita una recompensa, va precedida de \"ejecutar sólo una vez\"."
+    },
+    {
+      "type": "UseSunNode",
+      "purpose": "Intente restar la cantidad especificada de luz solar.",
+      "usage": "Complete la cantidad de consumo y recibirá el efecto de compra si tiene éxito, y recibirá un mensaje si falla.",
+      "example": "Evento de interacción → Consumo de luz solar; recompensa por el éxito, indicación insuficiente por el fracaso.",
+      "warning": "No conectes la recompensa a otra línea paralela del evento, de lo contrario podrás obtener la recompensa incluso si falla el consumo."
+    },
+    {
+      "type": "UseMoneyNode",
+      "purpose": "Intente deducir la cantidad especificada de monedas de oro.",
+      "usage": "Complete la cantidad de consumo y recibirá el efecto de compra si tiene éxito, y recibirá un mensaje si falla.",
+      "example": "Evento interactivo → Consumir monedas de oro; recompensa si tiene éxito, muestra un mensaje insuficiente si falla.",
+      "warning": "No conectes la recompensa a otra línea paralela del evento, de lo contrario podrás obtener la recompensa incluso si falla el consumo."
+    },
+    {
+      "type": "GetSunAmountNode",
+      "purpose": "Lee la cantidad de luz solar que tiene actualmente el jugador.",
+      "usage": "El número entero de salida está conectado a la comparación u operación.",
+      "example": "Compare la luz solar actual con la condición de 100 → rama; rama de desencadenadores de eventos interactivos.",
+      "warning": "Es sólo una consulta, no sumará ni restará luz solar; Se recomienda utilizar la rama de éxito que consume luz solar para el comportamiento de compra."
+    },
+    {
+      "type": "GetTravelBuffNode",
+      "purpose": "Agregue entradas de viaje designadas a esta oficina.",
+      "usage": "Configure la categoría de entrada y la entrada en el nodo, y la conexión desencadena la ejecución.",
+      "example": "Selección de recompensas → Obtenga condiciones de viaje y elija las mejoras que desea ofrecer.",
+      "warning": "La versión antigua de los nodos \"obsoletos\" sigue siendo compatible y las nuevas reglas dan prioridad a \"obtener condiciones de viaje\" en la categoría de comportamiento."
+    },
+    {
+      "type": "GetTravelEntryNode",
+      "purpose": "Agregue entradas de viaje designadas a esta oficina.",
+      "usage": "Configure la categoría de entrada y la entrada en el nodo, y la conexión desencadena la ejecución.",
+      "example": "Selección de recompensas → Obtenga condiciones de viaje y elija las mejoras que desea ofrecer.",
+      "warning": "La versión antigua de los nodos \"obsoletos\" sigue siendo compatible y las nuevas reglas dan prioridad a \"obtener condiciones de viaje\" en la categoría de comportamiento."
+    },
+    {
+      "type": "GameOverNode",
+      "purpose": "Toma la iniciativa para hacer que esta ronda fracase.",
+      "usage": "La conexión se activa en la rama condicional que realmente falló y se puede completar el motivo.",
+      "example": "Condiciones de derrota para proteger el objetivo → Finaliza el juego y completa el motivo como \"el objetivo fue destruido\".",
+      "warning": "No se conecte a un evento de inicio incondicional; la falta de resolución pone fin a la batalla actual."
+    },
+    {
+      "type": "GameWinNode",
+      "purpose": "Toma la iniciativa de dejar que esta ronda entre en el acuerdo de victoria.",
+      "usage": "La conexión de rama se activa cuando se completa la tarea.",
+      "example": "Lograr el objetivo de conteo → la rama condicional es verdadera → hacer que el juego gane.",
+      "warning": "Simplemente obtener un resultado de comparación no se resolverá, la señal aún debe ejecutarse."
+    },
+    {
+      "type": "CreateGraveNode",
+      "purpose": "Crea una lápida en la ubicación especificada.",
+      "usage": "Complete las filas, columnas y parámetros adicionales proporcionados por el nodo y luego conéctese al disparador.",
+      "example": "Especifique onda → Cree una lápida y establezca la fila y la columna en la posición deseada.",
+      "warning": "Los rangos comienzan en 0; lápidas, cráteres, bloques de hielo, etc. pueden cambiar el espacio de plantación. El humo blanco solo tiene un efecto de rendimiento y las plantas dentro del cubo de hielo deben configurarse por separado."
+    },
+    {
+      "type": "CreateParticleNode",
+      "purpose": "Crea un efecto de humo blanco en la ubicación especificada.",
+      "usage": "Complete las filas, columnas y parámetros adicionales proporcionados por el nodo y luego conéctese al disparador.",
+      "example": "Especifique la onda → Cree un efecto de humo blanco y establezca la fila y la columna en la posición deseada.",
+      "warning": "Los rangos comienzan en 0; lápidas, cráteres, bloques de hielo, etc. pueden cambiar el espacio de plantación. El humo blanco solo tiene un efecto de rendimiento y las plantas dentro del cubo de hielo deben configurarse por separado."
+    },
+    {
+      "type": "CreateLadderNode",
+      "purpose": "Crea una escalera en la ubicación especificada.",
+      "usage": "Complete las filas, columnas y parámetros adicionales proporcionados por el nodo y luego conéctese al disparador.",
+      "example": "Especifique la ola → Cree una escalera, configurando las filas y columnas en las posiciones deseadas.",
+      "warning": "Los rangos comienzan en 0; lápidas, cráteres, bloques de hielo, etc. pueden cambiar el espacio de plantación. El humo blanco solo tiene un efecto de rendimiento y las plantas dentro del cubo de hielo deben configurarse por separado."
+    },
+    {
+      "type": "CreateCraterNode",
+      "purpose": "Crea un cráter en la ubicación especificada.",
+      "usage": "Complete las filas, columnas y parámetros adicionales proporcionados por el nodo y luego conéctese al disparador.",
+      "example": "Especifique onda → cree cráter y establezca fila y columna en la posición deseada.",
+      "warning": "Los rangos comienzan en 0; lápidas, cráteres, bloques de hielo, etc. pueden cambiar el espacio de plantación. El humo blanco solo tiene un efecto de rendimiento y las plantas dentro del cubo de hielo deben configurarse por separado."
+    },
+    {
+      "type": "CreateIceBlockNode",
+      "purpose": "Crea un cubo de hielo en la ubicación especificada.",
+      "usage": "Complete las filas, columnas y parámetros adicionales proporcionados por el nodo y luego conéctese al disparador.",
+      "example": "Especifique la onda → cree el cubo de hielo y establezca la fila y la columna en la posición deseada.",
+      "warning": "Los rangos comienzan en 0; lápidas, cráteres, bloques de hielo, etc. pueden cambiar el espacio de plantación. El humo blanco solo tiene un efecto de rendimiento y las plantas dentro del cubo de hielo deben configurarse por separado."
+    },
+    {
+      "type": "CreateIceShroomEffectNode",
+      "purpose": "Produce directamente el efecto congelante de las setas de hielo.",
+      "usage": "Establezca los parámetros de posición, tiempo o daño proporcionados por el nodo, y afectará a todo el campo después de activarse.",
+      "example": "Evento del botón de habilidad → Efecto de congelación de hongos de hielo, complete los parámetros correspondientes y luego pruebe el rango de juego.",
+      "warning": "Este es un efecto directo y no se plantará una planta primero. El comportamiento del enemigo y de los objetivos y cráteres enemigos en diferentes explosiones es diferente. Esto debe verificarse primero en el nivel de prueba."
+    },
+    {
+      "type": "CreateJalapenoEffectNode",
+      "purpose": "Produce directamente un efecto de pimiento picante.",
+      "usage": "Establezca los parámetros de posición, tiempo o daño proporcionados por el nodo y actúe en la fila especificada después de la activación.",
+      "example": "Evento de botón de habilidad → Efecto pimiento picante, complete los parámetros correspondientes y pruebe el rango.",
+      "warning": "Este es un efecto directo y no se plantará una planta primero. El comportamiento del enemigo y de los objetivos y cráteres enemigos en diferentes explosiones es diferente. Esto debe verificarse primero en el nivel de prueba."
+    },
+    {
+      "type": "CreateDoomShroomEffectNode",
+      "purpose": "Produce directamente el efecto de explosión del Hongo Destructivo.",
+      "usage": "Establezca los parámetros de posición, tiempo o daño proporcionados por el nodo y actúe cerca de la fila y columna especificadas después de la activación.",
+      "example": "Evento de botón de habilidad → Efecto de explosión de hongo de destrucción, complete los parámetros correspondientes y luego pruebe el rango de juego.",
+      "warning": "Este es un efecto directo y no se plantará una planta primero. El comportamiento del enemigo y de los objetivos y cráteres enemigos en diferentes explosiones es diferente. Esto debe verificarse primero en el nivel de prueba."
+    },
+    {
+      "type": "CreateCherryExplodeNode",
+      "purpose": "Produce directamente un efecto de explosión de cereza.",
+      "usage": "Establezca los parámetros de posición, tiempo o daño proporcionados por el nodo y actúe cerca de la fila y columna especificadas después de la activación.",
+      "example": "Evento del botón de habilidad → efecto de explosión de cereza, complete los parámetros correspondientes y luego pruebe el rango de juego.",
+      "warning": "Este es un efecto directo y no se plantará una planta primero. El comportamiento del enemigo y de los objetivos y cráteres enemigos en diferentes explosiones es diferente. Esto debe verificarse primero en el nivel de prueba."
+    },
+    {
+      "type": "CreateZombieExplodeNode",
+      "purpose": "Produce directamente un efecto de explosión de payaso.",
+      "usage": "Establezca los parámetros de posición, tiempo o daño proporcionados por el nodo y actúe cerca de la ubicación especificada después de la activación.",
+      "example": "Evento del botón de habilidad → efecto de explosión de payaso, complete los parámetros correspondientes y luego pruebe el rango de juego.",
+      "warning": "Este es un efecto directo y no se plantará una planta primero. El comportamiento del enemigo y de los objetivos y cráteres enemigos en diferentes explosiones es diferente. Esto debe verificarse primero en el nivel de prueba."
+    },
+    {
+      "type": "TypedChoiceOptionNode",
+      "purpose": "Se agregó una opción en la que se puede hacer clic al menú de recompensas.",
+      "usage": "Complete el título, la descripción y muestre el contenido; la salida de la lista está conectada a la siguiente opción o menú y haga clic en la salida para vincular la acción de recompensa.",
+      "example": "Las tres opciones para agregar se enumeran en secuencia → se muestra el menú; Haga clic en la salida para recibir sol, monedas de oro y tarjetas respectivamente.",
+      "warning": "Las opciones se construyen cuando el menú lee la lista y se agregan una por una sin activadores adicionales. Utilice el menú de categoría \"Selección de recompensas\" en consecuencia."
+    },
+    {
+      "type": "AddMultipleChoiceOptionNode",
+      "purpose": "Se agregó una opción en la que se puede hacer clic al menú de recompensas.",
+      "usage": "Complete el título, la descripción y muestre el contenido; la salida de la lista está conectada a la siguiente opción o menú y haga clic en la salida para vincular la acción de recompensa.",
+      "example": "Las tres opciones para agregar se enumeran en secuencia → se muestra el menú; Haga clic en la salida para recibir sol, monedas de oro y tarjetas respectivamente.",
+      "warning": "Las opciones se construyen cuando el menú lee la lista y se agregan una por una sin activadores adicionales. Este es el antiguo puerto de opción de GameObject. Debe coincidir con el antiguo menú de selección múltiple y no puede aceptar elementos normales del mouse."
+    },
+    {
+      "type": "TypedChoiceMenuNode",
+      "purpose": "Abre un menú de selección múltiple para permitir a los jugadores seleccionar recompensas.",
+      "usage": "La lista de opciones está conectada a la entrada y el activador de eventos está conectado al puerto de salida; se configuran la cantidad de visualización, la actualización y la cancelación.",
+      "example": "Evento de liquidación → Mostrar menú; Se conectan tres opciones después de encadenarse en una lista y el número de ventanas se establece en 3.",
+      "warning": "El número de ventanas está limitado de 1 a 5. Utilice la lista de opciones de recompensa dedicada. El menú pausará el juego, elegirá o saldrá normalmente para continuar."
+    },
+    {
+      "type": "ShowMultipleChoiceMenuNode",
+      "purpose": "Abre un menú de selección múltiple para permitir a los jugadores seleccionar recompensas.",
+      "usage": "La lista de opciones está conectada a la entrada y el activador de eventos está conectado al puerto de salida; se configuran la cantidad de visualización, la actualización y la cancelación.",
+      "example": "Evento de liquidación → Mostrar menú; Se conectan tres opciones después de encadenarse en una lista y el número de ventanas se establece en 3.",
+      "warning": "El número de ventanas está limitado de 1 a 5. Aunque el puerto de opción anterior se denomina objeto de elemento, en realidad necesita pasar la lista de opciones. El menú pausará el juego, elegirá o saldrá normalmente para continuar."
+    },
+    {
+      "type": "TypedChoiceMergeNode",
+      "purpose": "Combine dos listas de opciones de recompensa en una.",
+      "usage": "Las listas A y B están conectadas a las opciones correspondientes, y la salida está conectada al menú o continúa fusionándose.",
+      "example": "Dos listas de opciones separadas → opciones de combinación → muestran menús de los tipos correspondientes.",
+      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. 取消合并默认false；true只输出A，不读取B。"
+    },
+    {
+      "type": "MergeMultipleChoiceOptionListsNode",
+      "purpose": "Combine dos listas de opciones de recompensa en una.",
+      "usage": "Las listas A y B están conectadas a las opciones correspondientes, y la salida está conectada al menú o continúa fusionándose.",
+      "example": "Dos listas de opciones separadas → opciones de combinación → muestran menús de los tipos correspondientes.",
+      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. 取消合并默认false；true只输出A，不读取B。"
+    },
+    {
+      "type": "CreateInfoCardNode",
+      "purpose": "Cree tarjetas que muestren información y respondan a los clics.",
+      "usage": "Establezca el contenido de la pantalla y active la creación de la conexión; haga clic en la salida para exportar la acción interactiva.",
+      "example": "Inicio oficial → Crear tarjeta de información; haga clic en la tarjeta → mostrar indicaciones de tareas.",
+      "warning": "Se utiliza para la interacción de información y no es equivalente a tarjetas de plantas plantables; la devolución de llamada de clic anterior deja de ser válida una vez que finaliza la imagen."
+    },
+    {
+      "type": "BranchNode",
+      "purpose": "Dependiendo de las condiciones verdaderas y falsas, elija qué ruta ejecutar.",
+      "usage": "Se desencadenan eventos y los resultados de la comparación se conectan a las condiciones; Las salidas verdaderas y falsas están conectadas a acciones posteriores respectivamente.",
+      "example": "Luz solar actual ≥ 100 → condición; El botón activa la rama, verdadero/falso, cada uno muestra un texto diferente.",
+      "warning": "El valor predeterminado es falso si la condición no está conectada. \"False (stop)\" aún ejecuta la rama falsa de la conexión, pero no detiene por completo todas las reglas."
+    },
+    {
+      "type": "WaitNode",
+      "purpose": "Después de recibir la señal, espere unos segundos antes de realizar acciones posteriores.",
+      "usage": "Complete el tiempo de espera, active la salida y luego realice la acción posterior.",
+      "example": "Inicio oficial → Esperar (5 segundos) → Mostrar texto.",
+      "warning": "Espere individualmente por cada desencadenante; el cronómetro se detiene cuando el juego está en pausa. Los niveles antiguos pueden leer los últimos eventos después del retraso, y salir del mapa cancelará la espera."
+    },
+    {
+      "type": "ForLoopNode",
+      "purpose": "Repita el cuerpo del bucle dentro del mismo marco.",
+      "usage": "Complete el número de bucles, el cuerpo del bucle está conectado a la acción y el índice actual comienza desde 0.",
+      "example": "Bucle 3 veces → Crear plantas; los índices van seguidos de columnas y las columnas 0, 1 y 2 se pueden utilizar en secuencia.",
+      "warning": "No se ejecuta una vez por segundo ni espera a que el cuerpo del bucle complete la tarea asincrónica; la ejecución a intervalos utiliza conmutación periódica. Los tiempos excesivos activarán la protección de ejecución."
+    },
+    {
+      "type": "ToggleCycleNode",
+      "purpose": "Activa o desactiva una acción que se repite a intervalos regulares.",
+      "usage": "El primer disparador lo enciende y el segundo lo apaga; Los eventos periódicos conducen a un comportamiento repetido.",
+      "example": "Inicio oficial → cambio de ciclo; intervalo de ciclo 5 → obtenga 25 rayos solares cada vez.",
+      "warning": "El primer ciclo se ejecuta después de esperar un intervalo; el límite inferior es 0,1 segundos y el reloj se detiene cuando se hace una pausa. Las salidas de apertura/cierre no son salidas de bicicletas."
+    },
+    {
+      "type": "RandomTriggerNode",
+      "purpose": "Ejecuta aleatoriamente el número especificado de múltiples objetivos conectados.",
+      "usage": "Se conectan varias acciones candidatas al mismo puerto de salida, se establece el número de extracciones y se permite la repetición.",
+      "example": "Evento clave → Activado aleatoriamente → Tres nodos de aviso diferentes.",
+      "warning": "Cuando no se permita la repetición, el número no excederá el número de objetivos candidatos; selecciona una ruta de ejecución, no un número aleatorio."
+    },
+    {
+      "type": "CounterNode",
+      "purpose": "Registre la cantidad de factores desencadenantes para el progreso del objetivo y el juicio de condición.",
+      "usage": "El evento se activa y la salida del número se conecta a la comparación de enteros; Se pueden configurar el valor inicial y la entrada de reinicio.",
+      "example": "Los zombis mueren → contador; el número es igual a 10 → rama → mensaje completo.",
+      "warning": "La primera ejecución carga el valor inicial y luego cuenta; el reinicio volverá a cero en lugar de restaurar el valor inicial."
+    },
+    {
+      "type": "ToggleNode",
+      "purpose": "Alterna entre encendido y apagado con cada disparador.",
+      "usage": "La entrada del disparador es responsable de invertir, la salida de estado proporciona verdadero y falso, y la salida de cambio de estado realiza la acción.",
+      "example": "Botón → cambiar; el estado está conectado a la condición de rama y el cambio de estado está conectado al disparador de rama.",
+      "warning": "El estado de lectura no cambia automáticamente; El estado de ejecución de cada ronda es independiente de la configuración en el menú."
+    },
+    {
+      "type": "PulseNode",
+      "purpose": "Solo se genera verdadero durante la ejecución síncrona en sentido descendente.",
+      "usage": "Después de la activación, la salida booleana se entrega a la condición de sincronización descendente.",
+      "example": "Evento → Pulso; la salida de ejecución de pulso está conectada a la rama y la salida booleana está conectada a la condición.",
+      "warning": "La llamada síncrona se restablece inmediatamente, no el siguiente fotograma. Es posible que la lectura retrasada se haya vuelto falsa en el método anterior, pero el nuevo método puede conservar el valor actual."
+    },
+    {
+      "type": "NotNode",
+      "purpose": "Invierta verdadero de falso.",
+      "usage": "La entrada está conectada a un valor verdadero o falso y la salida está conectada a una rama condicional.",
+      "example": "Después de ingresar verdadero, se genera falso; Se utiliza otra señal de evento para iniciar la rama.",
+      "warning": "Es un cálculo condicional y no desencadena acciones por sí solo."
+    },
+    {
+      "type": "AndNode",
+      "purpose": "Determine si ambas condiciones son verdaderas.",
+      "usage": "La entrada está conectada a un valor verdadero o falso y la salida está conectada a una rama condicional.",
+      "example": "Hay suficiente luz solar y se alcanza la onda especificada; Se utiliza otra señal de evento para iniciar la rama.",
+      "warning": "Es un cálculo condicional y no desencadena acciones por sí solo."
+    },
+    {
+      "type": "OrNode",
+      "purpose": "Determine si al menos una de las dos condiciones es verdadera.",
+      "usage": "La entrada está conectada a un valor verdadero o falso y la salida está conectada a una rama condicional.",
+      "example": "Derrota al jefe o alcanza el conteo objetivo; Además, utilice señales de eventos para iniciar sucursales.",
+      "warning": "Es un cálculo condicional y no desencadena acciones por sí solo."
+    },
+    {
+      "type": "CompareIntNode",
+      "purpose": "Compare dos números enteros y genere los resultados verdaderos o falsos correspondientes.",
+      "usage": "Las dos entradas están conectadas a los datos y el resultado deseado está conectado a la rama condicional.",
+      "example": "Compare la onda con 5 y conecte iguales a la condición de la rama.",
+      "warning": "Los tipos deben corresponder; los objetos comparados son la misma instancia, no el mismo nombre o tipo de planta."
+    },
+    {
+      "type": "CompareFloatNode",
+      "purpose": "Compare dos decimales y genere los resultados verdaderos o falsos correspondientes.",
+      "usage": "Las dos entradas están conectadas a los datos y el resultado deseado está conectado a la rama condicional.",
+      "example": "Compare la onda con 5 y conecte iguales a la condición de la rama.",
+      "warning": "Los tipos deben corresponder; los objetos comparados son la misma instancia, no el mismo nombre o tipo de planta."
+    },
+    {
+      "type": "CompareGameObjectNode",
+      "purpose": "Compare dos objetos de elementos y genere los resultados verdaderos o falsos correspondientes.",
+      "usage": "Las dos entradas están conectadas a los datos y el resultado deseado está conectado a la rama condicional.",
+      "example": "Compare el elemento en la mano del mouse con el objeto del elemento objetivo y conecte la condición de igualdad.",
+      "warning": "Los tipos deben corresponder; los objetos comparados son la misma instancia, no el mismo nombre o tipo de planta."
+    },
+    {
+      "type": "IntValueNode",
+      "purpose": "Proporcione números enteros fijos a múltiples nodos.",
+      "usage": "Complete los valores en los nodos y conecte la salida a la entrada del mismo tipo.",
+      "example": "Complete 25 y conéctese a la entrada de comportamiento que requiere este valor; conecte otro evento para desencadenar el comportamiento.",
+      "warning": "No es necesario activar las constantes; si solo completa una entrada no conectada, también puede usar directamente la barra de herramientas para \"completar el valor de entrada\"."
+    },
+    {
+      "type": "FloatValueNode",
+      "purpose": "Proporcione decimales fijos a varios nodos.",
+      "usage": "Complete los valores en los nodos y conecte la salida a la entrada del mismo tipo.",
+      "example": "Complete 0.5 y conéctese a la entrada de comportamiento que requiere este valor; conecte otro evento para desencadenar el comportamiento.",
+      "warning": "No es necesario activar las constantes; si solo completa una entrada no conectada, también puede usar directamente la barra de herramientas para \"completar el valor de entrada\"."
+    },
+    {
+      "type": "BoolValueNode",
+      "purpose": "Proporcione verdadero y falso fijos a múltiples nodos.",
+      "usage": "Complete los valores en los nodos y conecte la salida a la entrada del mismo tipo.",
+      "example": "Complete verdadero y conéctese a la entrada de comportamiento que requiere este valor; conecte otro evento para desencadenar el comportamiento.",
+      "warning": "No es necesario activar las constantes; si solo completa una entrada no conectada, también puede usar directamente la barra de herramientas para \"completar el valor de entrada\"."
+    },
+    {
+      "type": "StringValueNode",
+      "purpose": "Proporcionar texto fijo a múltiples nodos.",
+      "usage": "Complete los valores en los nodos y conecte la salida a la entrada del mismo tipo.",
+      "example": "Complete el líder y conéctelo a la entrada de comportamiento que requiere este valor; conecte otro evento para desencadenar el comportamiento.",
+      "warning": "No es necesario activar las constantes; si solo completa una entrada no conectada, también puede usar directamente la barra de herramientas para \"completar el valor de entrada\"."
+    },
+    {
+      "type": "AddNode",
+      "purpose": "Calcula el resultado de la suma.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 2 y 3, el resultado de la suma es 5; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "SubtractNode",
+      "purpose": "Calcula el resultado de la resta.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 5 y 2, el resultado de la resta es 3; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "MultiplyNode",
+      "purpose": "Calcula el resultado de la multiplicación.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 2 y 3, el resultado de la multiplicación es 6; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "DivideNode",
+      "purpose": "Calcula el resultado de la división.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 6 y 2, el resultado de la división es 3; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "IntAddNode",
+      "purpose": "Calcula el resultado de la suma de números enteros.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 2 y 3, el resultado de la suma de números enteros es 5; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "IntSubtractNode",
+      "purpose": "Calcula el resultado de la resta de números enteros.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 5 y 2, el resultado de la resta de números enteros es 3; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "IntMultiplyNode",
+      "purpose": "Calcula el resultado de la multiplicación de números enteros.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 2 y 3, el resultado de la multiplicación de números enteros es 6; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "IntDivideNode",
+      "purpose": "Calcula el resultado de la división de números enteros.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 7 y 2, el resultado de la división entera es 3; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "IntModuloNode",
+      "purpose": "Calcula el resultado del módulo de un número entero.",
+      "usage": "Conecte dos números del mismo tipo y conecte el resultado a una acción, comparación o entrada de variable establecida.",
+      "example": "Ingrese 7 y 2, el resultado del módulo entero es 1; Utilice el evento para desencadenar la acción de leer el resultado.",
+      "warning": "No mezcle puertos enteros y decimales; evite dividir por 0 durante la división y el módulo. La división de números enteros descarta la parte decimal."
+    },
+    {
+      "type": "StringConcatNode",
+      "purpose": "Ordena los dos párrafos del texto.",
+      "usage": "Los dos textos están conectados a la entrada y la salida está conectada al texto de visualización.",
+      "example": "\"Recompensa actual:\" se empalma con \"sol\" y luego se activa para mostrar.",
+      "warning": "Primero es necesario convertir los números en texto; el empalme no agrega automáticamente espacios ni saltos de línea."
+    },
+    {
+      "type": "RandomIntNode",
+      "purpose": "Dibuja un número entero aleatorio de un rango.",
+      "usage": "Complete los valores mínimo y máximo y la salida se conectará al monto de la recompensa u otra entrada numérica.",
+      "example": "Establezca el rango de 10 a 50 → obtenga la cantidad de luz solar; convierta decimales a números enteros según sea necesario.",
+      "warning": "Cada lectura se puede volver a aleatorizar. Cuando varias acciones necesiten utilizar el mismo resultado, escriba la variable primero y luego léala. Los números enteros son inclusivos."
+    },
+    {
+      "type": "RandomFloatNode",
+      "purpose": "Dibuja un número decimal aleatorio dentro de un rango.",
+      "usage": "Complete los valores mínimo y máximo y la salida se conectará al monto de la recompensa u otra entrada numérica.",
+      "example": "Establezca el rango de 10 a 50 → obtenga la cantidad de luz solar; convierta decimales a números enteros según sea necesario.",
+      "warning": "Cada lectura se puede volver a aleatorizar. Cuando varias acciones necesiten utilizar el mismo resultado, escriba la variable primero y luego léala. Los números enteros son inclusivos."
+    },
+    {
+      "type": "IntVariableNode",
+      "purpose": "Hace referencia a una variable entera compartida en el panel de variables de nivel.",
+      "usage": "Arrastre desde el panel de variables de nivel; la conexión del puerto variable corresponde al nodo get o set.",
+      "example": "Referencia de variable → Obtener un número entero → Comparar u operar.",
+      "warning": "Arrastrar la misma variable varias veces seguirá compartiendo el valor; la copia normal compartirá la variable original y la inserción de plantilla copiará la variable independiente."
+    },
+    {
+      "type": "GetIntVariableValueNode",
+      "purpose": "Leer el valor almacenado actualmente de una variable entera.",
+      "usage": "La entrada variable está conectada a la referencia variable arrastrada al panel de variables de nivel y la salida proporciona valores ordinarios.",
+      "example": "Referencia de variable → obtener valor → suma/comparación → comportamiento posterior.",
+      "warning": "No hay puerto de activación, solo se lee el valor actual; La lectura no realiza automáticamente la acción de configuración ascendente."
+    },
+    {
+      "type": "SetIntVariableValueNode",
+      "purpose": "Almacene el nuevo valor en una variable entera compartida.",
+      "usage": "Conecte referencias de variables, nuevos valores y activadores; conexiones de exportación completas que dependen de acciones posteriores sobre el nuevo valor.",
+      "example": "Evento → Establecer variable; Finalización → Mostrar o comprobar resultados actualizados.",
+      "warning": "Si solo se conecta el nuevo valor sin activarlo, no se escribirá; La salida variable también se puede conectar en serie con otros nodos de configuración, pero la secuencia de acción aún requiere líneas de ejecución."
+    },
+    {
+      "type": "FloatVariableNode",
+      "purpose": "Hace referencia a una variable decimal compartida en el panel de variables de nivel.",
+      "usage": "Arrastre desde el panel de variables de nivel; la conexión del puerto variable corresponde al nodo get o set.",
+      "example": "Referencia de variable → Obtener número de punto flotante → Comparar u operar.",
+      "warning": "Arrastrar la misma variable varias veces seguirá compartiendo el valor; la copia normal compartirá la variable original y la inserción de plantilla copiará la variable independiente."
+    },
+    {
+      "type": "GetFloatVariableValueNode",
+      "purpose": "Lea el valor almacenado actualmente de la variable decimal.",
+      "usage": "La entrada variable está conectada a la referencia variable arrastrada al panel de variables de nivel y la salida proporciona valores ordinarios.",
+      "example": "Referencia de variable → obtener valor → suma/comparación → comportamiento posterior.",
+      "warning": "No hay puerto de activación, solo se lee el valor actual; La lectura no realiza automáticamente la acción de configuración ascendente."
+    },
+    {
+      "type": "SetFloatVariableValueNode",
+      "purpose": "Guarde el nuevo valor en la variable decimal compartida.",
+      "usage": "Conecte referencias de variables, nuevos valores y activadores; conexiones de exportación completas que dependen de acciones posteriores sobre el nuevo valor.",
+      "example": "Evento → Establecer variable; Finalización → Mostrar o comprobar resultados actualizados.",
+      "warning": "Si solo se conecta el nuevo valor sin activarlo, no se escribirá; La salida variable también se puede conectar en serie con otros nodos de configuración, pero la secuencia de acción aún requiere líneas de ejecución."
+    },
+    {
+      "type": "BoolVariableNode",
+      "purpose": "Hace referencia a una variable compartida verdadera o falsa en el panel de variables de nivel.",
+      "usage": "Arrastre desde el panel de variables de nivel; la conexión del puerto variable corresponde al nodo get o set.",
+      "example": "Referencia de variable → Obtener booleano → Comparar u operar.",
+      "warning": "Arrastrar la misma variable varias veces seguirá compartiendo el valor; la copia normal compartirá la variable original y la inserción de plantilla copiará la variable independiente."
+    },
+    {
+      "type": "GetBoolVariableValueNode",
+      "purpose": "Lea el valor almacenado actualmente de la variable verdadero o falso.",
+      "usage": "La entrada variable está conectada a la referencia variable arrastrada al panel de variables de nivel y la salida proporciona valores ordinarios.",
+      "example": "Referencia de variable → obtener valor → suma/comparación → comportamiento posterior.",
+      "warning": "No hay puerto de activación, solo se lee el valor actual; La lectura no realiza automáticamente la acción de configuración ascendente."
+    },
+    {
+      "type": "SetBoolVariableValueNode",
+      "purpose": "Almacene el nuevo valor en las variables compartidas verdadero y falso.",
+      "usage": "Conecte referencias de variables, nuevos valores y activadores; conexiones de exportación completas que dependen de acciones posteriores sobre el nuevo valor.",
+      "example": "Evento → Establecer variable; Finalización → Mostrar o comprobar resultados actualizados.",
+      "warning": "Si solo se conecta el nuevo valor sin activarlo, no se escribirá; La salida variable también se puede conectar en serie con otros nodos de configuración, pero la secuencia de acción aún requiere líneas de ejecución."
+    },
+    {
+      "type": "IntToFloatNode",
+      "purpose": "Convierte un número entero a decimal.",
+      "usage": "Entrada entera, salida decimal está conectada al puerto que requiere decimal.",
+      "example": "Entero 5 → Número entero a punto flotante → Tiempo de espera.",
+      "warning": "El valor 5 se convierte en 5,0 y no escala a 0,05."
+    },
+    {
+      "type": "FloatToIntNode",
+      "purpose": "Convierte un decimal en un número entero, truncando la parte decimal.",
+      "usage": "Entrada decimal, salida entera conectada al conteo, cantidad de luz solar, etc.",
+      "example": "Después de convertir 2,9, obtienes 2 y luego proporcionas una entrada que requiere un número entero.",
+      "warning": "No hay redondeo; Los números negativos también se truncan hacia 0."
+    },
+    {
+      "type": "FloatToStringNode",
+      "purpose": "Convierta números en texto para mostrarlos.",
+      "usage": "Ingrese un decimal y establezca el número de decimales que se conservarán en el nodo.",
+      "example": "Valor numérico → decimal a cadena → puerto de texto para mostrar texto.",
+      "warning": "El resultado es texto y no puede conectarse directamente a cálculos numéricos; el número de decimales oscila entre 0 y 6."
+    },
+    {
+      "type": "VariableNode",
+      "purpose": "Implementación básica de referencia de variable, utilizada por nodos de variables específicos.",
+      "usage": "Cree una variable entera, decimal o booleana desde el panel Variables de nivel sin crear este nodo base directamente.",
+      "example": "Utilice referencia de variable entera → Obtenga un número entero.",
+      "warning": "Este tipo no está en el menú de creación del botón derecho y no se usa como un nodo para que los jugadores lo usen de forma independiente."
+    },
+    {
+      "type": "GetStringVariableValueNode",
+      "purpose": "Lea el texto actualmente almacenado en la variable de cadena compartida.",
+      "usage": "Lea el texto actualmente almacenado en la variable de cadena compartida.",
+      "example": "Referencia de variable de cadena → Obtener la cadena → Mostrar el contenido del texto.",
+      "warning": "Devuelve una cadena vacía cuando no está conectado; las lecturas no realizan operaciones de escritura."
+    },
+    {
+      "type": "SetStringVariableValueNode",
+      "purpose": "Modifique las variables de cadena compartidas después de la activación.",
+      "usage": "Modifique las variables de cadena compartidas después de la activación.",
+      "example": "Apertura oficial → Establecer la cuerda; la variable se conecta al \"texto de la tarea\" y el nuevo valor se completa en \"Mantener el líder\".",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "IntVariableArithmeticNode",
+      "purpose": "Un disparador suma, resta, multiplica, divide o lleva el resto directamente a la variable compartida.",
+      "usage": "Un disparador suma, resta, multiplica, divide o lleva el resto directamente a la variable compartida.",
+      "example": "El enemigo muere → Operación de variable entera; seleccione \"Agregar\", complete el operando con 1, lo que significa que el recuento aumentará automáticamente.",
+      "warning": "Al dividir por cero o desbordarse, se produce una salida fallida y el valor original permanece sin cambios. La división de enteros se trunca hacia 0 y los operandos no completados por defecto son 1."
+    },
+    {
+      "type": "FloatVariableArithmeticNode",
+      "purpose": "Un disparador suma, resta, multiplica, divide o lleva el resto directamente a la variable compartida.",
+      "usage": "Un disparador suma, resta, multiplica, divide o lleva el resto directamente a la variable compartida.",
+      "example": "El enemigo muere → Operación de variable decimal; seleccione \"Agregar\" y complete 1 para el operando, lo que significa que el recuento aumentará automáticamente.",
+      "warning": "Al dividir por cero o desbordarse, se produce una salida fallida y el valor original permanece sin cambios. La división de enteros se trunca hacia 0 y los operandos no completados por defecto son 1."
+    },
+    {
+      "type": "PowerNode",
+      "purpose": "Evalúa un decimal finito elevado a una potencia o al logaritmo de una base específica.",
+      "usage": "Evalúa un decimal finito elevado a una potencia o al logaritmo de una base específica.",
+      "example": "Valor 8, base 2 → resultado logarítmico 3; valor 2, exponente 3 → resultado de potencia 8.",
+      "warning": "Los logaritmos requieren que el valor y la base sean mayores que 0 y que la base no sea 1; Los resultados no expresables devuelven 0 y son efectivamente falsos."
+    },
+    {
+      "type": "LogarithmNode",
+      "purpose": "Evalúa un decimal finito elevado a una potencia o al logaritmo de una base específica.",
+      "usage": "Evalúa un decimal finito elevado a una potencia o al logaritmo de una base específica.",
+      "example": "Valor 8, base 2 → resultado logarítmico 3; valor 2, exponente 3 → resultado de potencia 8.",
+      "warning": "Los logaritmos requieren que el valor y la base sean mayores que 0 y que la base no sea 1; Los resultados no expresables devuelven 0 y son efectivamente falsos."
+    },
+    {
+      "type": "IntToBoolNode",
+      "purpose": "0 es falso y otros números finitos son verdaderos.",
+      "usage": "0 es falso y otros números finitos son verdaderos.",
+      "example": "Recuento de enteros → Convertir entero a booleano → Rama condicional.",
+      "warning": "Los valores fraccionarios de NaN e infinito devuelven falso; Los números negativos también son ciertos."
+    },
+    {
+      "type": "FloatToBoolNode",
+      "purpose": "0 es falso y otros números finitos son verdaderos.",
+      "usage": "0 es falso y otros números finitos son verdaderos.",
+      "example": "Recuento de enteros → Convertir entero a booleano → Rama condicional.",
+      "warning": "Los valores fraccionarios de NaN e infinito devuelven falso; Los números negativos también son ciertos."
+    },
+    {
+      "type": "IntToStringNode",
+      "purpose": "Convierta un valor numérico o una enumeración en texto legible.",
+      "usage": "Convierta un valor numérico o una enumeración en texto legible.",
+      "example": "Entero → Convertir entero en cadena → Establecer cadena.",
+      "warning": "Los números utilizan formato de punto decimal fijo; plantas/zombis generan nombres de miembros de enumeración, no nombres chinos localizados."
+    },
+    {
+      "type": "StringToIntNode",
+      "purpose": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "usage": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "example": "Cadena \"25\" → Convertir cadena a número entero → Número de luz solar; primero verifique la salida válida.",
+      "warning": "Los nombres vacíos/no válidos/números fuera de límites devuelven valores predeterminados y son válidos como falsos; La conversión ASCII utiliza un nodo separado."
+    },
+    {
+      "type": "StringToFloatNode",
+      "purpose": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "usage": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "example": "Cadena \"25\" → Convertir cadena a número entero → Número de luz solar; primero verifique la salida válida.",
+      "warning": "Los nombres vacíos/no válidos/números fuera de límites devuelven valores predeterminados y son válidos como falsos; La conversión ASCII utiliza un nodo separado."
+    },
+    {
+      "type": "PlantTypeToStringNode",
+      "purpose": "Convierta un valor numérico o una enumeración en texto legible.",
+      "usage": "Convierta un valor numérico o una enumeración en texto legible.",
+      "example": "Tipo de planta → Tipo de planta a cadena → Establecer cadena.",
+      "warning": "Los números utilizan formato de punto decimal fijo; plantas/zombis generan nombres de miembros de enumeración, no nombres chinos localizados."
+    },
+    {
+      "type": "StringToPlantTypeNode",
+      "purpose": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "usage": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "example": "Cadena \"25\" → Convertir cadena a número entero → Número de luz solar; primero verifique la salida válida.",
+      "warning": "Los nombres vacíos/no válidos/números fuera de límites devuelven valores predeterminados y son válidos como falsos; La conversión ASCII utiliza un nodo separado."
+    },
+    {
+      "type": "ZombieTypeToStringNode",
+      "purpose": "Convierta un valor numérico o una enumeración en texto legible.",
+      "usage": "Convierta un valor numérico o una enumeración en texto legible.",
+      "example": "Tipo de zombie → Tipo de zombie a cadena → Establecer cadena.",
+      "warning": "Los números utilizan formato de punto decimal fijo; plantas/zombis generan nombres de miembros de enumeración, no nombres chinos localizados."
+    },
+    {
+      "type": "StringToZombieTypeNode",
+      "purpose": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "usage": "Analiza un número, nombre de enumeración o número de enumeración y muestra si fue exitoso.",
+      "example": "Cadena \"25\" → Convertir cadena a número entero → Número de luz solar; primero verifique la salida válida.",
+      "warning": "Los nombres vacíos/no válidos/números fuera de límites devuelven valores predeterminados y son válidos como falsos; La conversión ASCII utiliza un nodo separado."
+    },
+    {
+      "type": "StringToAsciiNode",
+      "purpose": "Lea el código ASCII en la posición especificada en la cadena y el índice comienza desde 0.",
+      "usage": "Lea el código ASCII en la posición especificada en la cadena y el índice comienza desde 0.",
+      "example": "Cadena \"A\", índice 0 → 65.",
+      "warning": "Sólo acepta caracteres ASCII del 0 al 127; El chino no pertenece a ASCII y devuelve válido como falso."
+    },
+    {
+      "type": "AsciiToStringNode",
+      "purpose": "Convierte códigos ASCII del 0 al 127 en un carácter.",
+      "usage": "Convierte códigos ASCII del 0 al 127 en un carácter.",
+      "example": "Código ASCII 65 → \"A\".",
+      "warning": "Devuelve una cadena vacía fuera de los límites; Es posible que los caracteres de control no sean visibles."
+    },
+    {
+      "type": "AppendIntListNode",
+      "purpose": "Agrega un valor entero a la lista compartida.",
+      "usage": "Cree una lista de números enteros para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se adjunta la lista de números enteros; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertIntListNode",
+      "purpose": "Inserte un valor entero en una lista compartida.",
+      "usage": "Cree una lista de números enteros para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se realiza después de la activación.",
+      "example": "Apertura oficial → Se inserta la lista de números enteros; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceIntListNode",
+      "purpose": "Reemplace los valores enteros en una lista compartida.",
+      "usage": "Cree una lista de números enteros para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → Reemplazo de lista de enteros; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetIntListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindIntListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendFloatListNode",
+      "purpose": "Agregue un valor decimal a la lista compartida.",
+      "usage": "Cree una lista decimal para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se adjunta la lista decimal; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertFloatListNode",
+      "purpose": "Inserte un valor decimal en una lista compartida.",
+      "usage": "Cree una lista decimal para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se inserta la lista decimal; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceFloatListNode",
+      "purpose": "Reemplace los valores decimales en listas compartidas.",
+      "usage": "Cree una lista decimal para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → reemplazo de la lista decimal; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetFloatListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindFloatListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendBoolListNode",
+      "purpose": "Agregue un valor booleano a la lista compartida.",
+      "usage": "Cree una lista booleana para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se adjunta lista booleana; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertBoolListNode",
+      "purpose": "Inserte un valor booleano en una lista compartida.",
+      "usage": "Cree una lista booleana para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se realiza después de la activación.",
+      "example": "Apertura oficial → Inserción de lista booleana; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceBoolListNode",
+      "purpose": "Reemplace el valor booleano en la lista compartida.",
+      "usage": "Cree una lista booleana para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → Reemplazo de lista booleana; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetBoolListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindBoolListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendStringListNode",
+      "purpose": "Agrega un valor de cadena a la lista compartida.",
+      "usage": "Cree una lista de cadenas para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y se agrega después de la activación.",
+      "example": "Apertura oficial → Se adjunta la lista de cadenas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertStringListNode",
+      "purpose": "Inserte un valor de cadena en una lista compartida.",
+      "usage": "Cree una lista de cadenas para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se realiza después de la activación.",
+      "example": "Apertura oficial → Inserción de lista de cadenas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceStringListNode",
+      "purpose": "Reemplace un valor de cadena en una lista compartida.",
+      "usage": "Cree una lista de cadenas para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → Reemplazo de la lista de cadenas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetStringListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindStringListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendPlantTypeListNode",
+      "purpose": "Agregue el valor del tipo de planta a la lista compartida.",
+      "usage": "Cree una lista de tipos de plantas en la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Inauguración oficial → Se agrega la lista de tipos de plantas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertPlantTypeListNode",
+      "purpose": "Inserte un valor de tipo de planta en una lista compartida.",
+      "usage": "Cree una lista de tipos de plantas en la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se ejecuta después de la activación.",
+      "example": "Inauguración oficial → Se inserta la lista de tipos de plantas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplacePlantTypeListNode",
+      "purpose": "Reemplace el valor del tipo de planta en la lista compartida.",
+      "usage": "Cree una lista de tipos de plantas en la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Inauguración oficial → Reemplazo de lista de tipos de plantas; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetPlantTypeListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindPlantTypeListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendZombieTypeListNode",
+      "purpose": "Agregue el valor del tipo zombie a la lista compartida.",
+      "usage": "Crea una lista de tipos de zombies en la variable de nivel y arrástrala al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se agrega la lista de tipos de zombies; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertZombieTypeListNode",
+      "purpose": "Inserte un valor de tipo zombie en una lista compartida.",
+      "usage": "Cree una lista de tipos de zombies en la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la inserción se realiza después de la activación.",
+      "example": "Apertura oficial → Se inserta la lista de tipos de zombies; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceZombieTypeListNode",
+      "purpose": "Reemplace el valor del tipo zombie en la lista compartida.",
+      "usage": "Cree una lista de tipos de zombies en la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → Reemplazo de la lista de tipos de zombies; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetZombieTypeListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindZombieTypeListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "AppendObjectListNode",
+      "purpose": "Agregue el valor del objeto a la lista compartida.",
+      "usage": "Cree una lista de objetos para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y la adición se ejecuta después de la activación.",
+      "example": "Apertura oficial → Se adjunta la lista de objetos; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "InsertObjectListNode",
+      "purpose": "Inserte valores de objetos en una lista compartida.",
+      "usage": "La variable de nivel crea una lista de objetos y la arrastra al lienzo. El puerto de lista está conectado a este nodo y la inserción se realiza después de la activación.",
+      "example": "Apertura oficial → Inserción de lista de objetos; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "ReplaceObjectListNode",
+      "purpose": "Reemplace los valores de los objetos en una lista compartida.",
+      "usage": "Cree una lista de objetos para la variable de nivel y arrástrela al lienzo. El puerto de lista está conectado a este nodo y el reemplazo se realiza después de la activación.",
+      "example": "Apertura oficial → Reemplazo de la lista de objetos; la lista está conectada al \"grupo de recompensas\" y el valor está conectado a la constante u objeto correspondiente.",
+      "warning": "El índice comienza desde 0. La inserción permite un índice igual a la longitud, el reemplazo ya debe tener el elemento; máximo 512 artículos. Si el tipo no coincide o el índice cruza el límite, se producirá un error y la lista original permanecerá sin cambios."
+    },
+    {
+      "type": "GetObjectListItemNode",
+      "purpose": "Lea el valor en la posición especificada en la lista compartida.",
+      "usage": "Lea el valor en la posición especificada en la lista compartida.",
+      "example": "Enumere \"cantidad de recompensas\" → lista de números enteros obtenga el artículo (índice 0) → obtenga sol.",
+      "warning": "El índice comienza desde 0; es válido como falso cuando el tipo no coincide o excede los límites. La lista de objetos puede guardar el nombre del enlace del objeto como valor inicial y devuelve un objeto vacío cuando el enlace no existe o ha sido destruido."
+    },
+    {
+      "type": "FindObjectListValueNode",
+      "purpose": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "usage": "Genera la posición de la primera aparición del valor coincidente y si la lista contiene ese valor.",
+      "example": "Enumere \"Tareas completadas\" y valor \"Cabeza\" → Búsqueda de lista de cadenas → Contiene ramas condicionales de interfaz.",
+      "warning": "No encontrado devuelve el índice -1, contiene es falso; los decimales usan comparación de igualdad exacta, las cadenas distinguen entre mayúsculas y minúsculas."
+    },
+    {
+      "type": "GetListLengthNode",
+      "purpose": "Lea el número actual de elementos en la lista compartida.",
+      "usage": "Lea el número actual de elementos en la lista compartida.",
+      "example": "lista → longitud de la lista → comparación de enteros (igual a 0).",
+      "warning": "La lista no conectada o vacía devuelve 0."
+    },
+    {
+      "type": "RemoveListItemNode",
+      "purpose": "Elimine un elemento en el índice especificado y los elementos posteriores avanzarán automáticamente.",
+      "usage": "Elimine un elemento en el índice especificado y los elementos posteriores avanzarán automáticamente.",
+      "example": "Reciba recompensas → Elimine el artículo (índice 0) de la lista y el siguiente artículo se convertirá en el nuevo artículo 0.",
+      "warning": "El índice comienza desde 0 y, si cruza el límite, fallará."
+    },
+    {
+      "type": "CopyListValuesNode",
+      "purpose": "Reemplace la lista de destino con el contenido de la lista de origen y luego los dos contenedores serán independientes.",
+      "usage": "Reemplace la lista de destino con el contenido de la lista de origen y luego los dos contenedores serán independientes.",
+      "example": "Comienza la etapa → Copiar el contenido de la lista: el grupo de recompensas predeterminado se copia al grupo de recompensas de la ronda actual.",
+      "warning": "Los tipos de elementos de las dos listas deben ser los mismos. Copia el contenedor y el valor; los elementos del objeto todavía apuntan al mismo objeto de escena, el objeto no se clona."
+    },
+    {
+      "type": "ClearListValuesNode",
+      "purpose": "Elimine todo el contenido de la lista compartida.",
+      "usage": "Elimine todo el contenido de la lista compartida.",
+      "example": "Comienza una nueva ronda → Borra la lista \"Objetivos derrotados en esta ronda\".",
+      "warning": "Todos los nodos que hacen referencia a la misma lista ven inmediatamente la lista vacía."
+    },
+    {
+      "type": "GetAllZombiesNode",
+      "purpose": "Obtén una instantánea de los zombies que aún están vivos en el tablero actual.",
+      "usage": "Obtén una instantánea de los zombies que aún están vivos en el tablero actual.",
+      "example": "Luego recorre la lista de zombies y configura el modo frío para todos los zombies.",
+      "warning": "El tablero solo se enumera durante la lectura y no se realiza ningún escaneo permanente; la lista incluye zombis enemigos y encantadores, y puede filtrarse aún más mediante la división de zombis."
+    },
+    {
+      "type": "ForEachZombieNode",
+      "purpose": "Genere cada zombi superviviente en la lista por turno y active la finalización una vez que se complete el recorrido.",
+      "usage": "Genere cada zombi superviviente en la lista por turno y active la finalización una vez que se complete el recorrido.",
+      "example": "Todos los zombies → lista de zombies; cada ciclo → modifica el estado zombie.",
+      "warning": "La entrada se copiará una vez y matar o generar zombis durante el ciclo no cambiará la colección de esta ronda. La versión anterior de lectura retrasada todavía usa la semántica anterior y el nuevo retraso del gráfico conserva los objetos de cada ciclo."
+    },
+    {
+      "type": "SetZombieStatusNode",
+      "purpose": "Establece el estado, los segundos de duración o las capas del zombie especificado.",
+      "usage": "Seleccione el estado en el cuadro desplegable. Complete los segundos para resfriado, envenenamiento, congelación y teletransportación; complete la temperatura roja/brasa con 0 para liberar y un número positivo para encender; Complete la capa objetivo con valor de ajo/valor de maleza/valor de congelación.",
+      "example": "Elija frío, valor 5, dura 5 segundos después del disparo.",
+      "warning": "Utilice la entrada de estado existente del juego, conservando inmunidad, reacciones elementales y reglas de congelación. 0 significa que se elimina el estado; el daño aún se resolverá de acuerdo con las reglas del juego después de que se libere el teletransporte. Red Temperature y Ember originalmente no tenían estado de cuenta regresiva."
+    },
+    {
+      "type": "GetZombieStatusNode",
+      "purpose": "Lea los segundos restantes, la bandera abierta o el número de capas en el estado especificado.",
+      "usage": "Lea los segundos restantes, la bandera abierta o el número de capas en el estado especificado.",
+      "example": "Seleccione el valor congelado y conecte el nodo de comparación decimal para determinar si llega a 50.",
+      "warning": "La temperatura roja/brasa devuelve 1 o 0; frío/veneno/congelación/teletransporte devuelve los segundos restantes; el resto devuelve el número de capas. Los objetos vacíos devuelven 0/falso."
+    },
+    {
+      "type": "CursePlantNode",
+      "purpose": "Se coloca una maldición de un valor fijo específico sobre la planta y se levantará si el valor es 0.",
+      "usage": "Se coloca una maldición de un valor fijo específico sobre la planta y se levantará si el valor es 0.",
+      "example": "El valor de la maldición es 50, lo que agrega 50 maldiciones adicionales a la planta objetivo.",
+      "warning": "Usando el mecanismo de maldición del juego, crecerá con el tiempo y puede provocar la muerte; Se suman los números positivos y se levanta el 0."
+    },
+    {
+      "type": "SilencePlantNode",
+      "purpose": "Suspender acciones según las reglas de silencio originales de la planta.",
+      "usage": "Suspender acciones según las reglas de silencio originales de la planta.",
+      "example": "Segundos 3, fuerza falsa, prueba silencio según mapa y resistencia vegetal.",
+      "warning": "Esta vez, el silencio se aplica con éxito y la salida se completa inmediatamente; la salida falla cuando el objetivo está vacío, muerto, inmune o los segundos no son válidos. El número de segundos debe ser mayor que 0 y no exceder 100000. Force=true omite la verificación de resistencia, y el multiplicador de tiempo del campo nevado, los efectos de carga y recuperación mantienen las reglas del juego; El silencio existente aún se puede superponer y no es necesario esperar a que se recupere antes de generar."
+    },
+    {
+      "type": "SetPlantAttackSpeedNode",
+      "purpose": "Cubre la bonificación total de velocidad de ataque de la planta y el multiplicador de 1 es la velocidad de ataque base.",
+      "usage": "Cubre la bonificación total de velocidad de ataque de la planta y el multiplicador de 1 es la velocidad de ataque base.",
+      "example": "El multiplicador 2 hace que la cuenta regresiva del ataque disminuya al doble de la velocidad base.",
+      "warning": "Permite de 0,01 a 100; sobrescribe el bono total actual, y los términos de viaje, etc., pueden continuar ajustándose en el futuro. Las animaciones de ataque y las habilidades exclusivas de las diferentes plantas siguen las reglas originales."
+    },
+    {
+      "type": "GetPlantAttackSpeedNode",
+      "purpose": "Lea el multiplicador de velocidad de ataque actual y el intervalo de ataque básico.",
+      "usage": "Lea el multiplicador de velocidad de ataque actual y el intervalo de ataque básico.",
+      "example": "Después de leer el aumento, multiplíquelo por 1,2 y luego escríbalo para establecer la velocidad de ataque de la planta.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "SetPlantAttributeCountdownNode",
+      "purpose": "Establezca la cuenta regresiva para los atributos utilizados por las habilidades, el crecimiento o la deglución de las plantas.",
+      "usage": "Los segundos restantes cambian el tiempo actual y la entrada vacía se maneja como 0 y se completa en el siguiente fotograma. Complete el número máximo de segundos con -1 para conservar el período actual; el valor no negativo se seguirá utilizando para la posterior cuenta atrás de atributos de la planta, que es al menos igual a los segundos restantes de este tiempo.",
+      "example": "Segundos restantes 0, segundos máximo 5: la habilidad original se activará en el siguiente cuadro y cada cuenta regresiva de atributos posterior tomará 5 segundos.",
+      "warning": "Solo afecta a las habilidades que usan cuenta regresiva de atributos y no cambia el intervalo de ataque normal. Los segundos máximos 0 se pueden completar como máximo una vez por cuadro y aún así cumplir con las reglas de reinicio, pausa y muerte de las habilidades originales de las plantas."
+    },
+    {
+      "type": "GetPlantAttributeCountdownNode",
+      "purpose": "Lea la cuenta regresiva del atributo actual y el máximo de segundos.",
+      "usage": "Si se establece el período de duración, regresa a este período; de lo contrario, regresa al valor máximo de la barra de progreso original.",
+      "example": "Se utiliza para crear texto de enfriamiento de atributos o activación condicional.",
+      "warning": "Cuando el período de duración no está establecido y no hay barra de progreso, la cuenta atrás actual se utiliza como valor máximo; Esta no es una configuración de enfriamiento de habilidad común para todas las plantas."
+    },
+    {
+      "type": "TryPlantSuperSkillNode",
+      "purpose": "Intente activar directamente el último movimiento del grano de café dorado de la planta.",
+      "usage": "Intente activar directamente el último movimiento del grano de café dorado de la planta.",
+      "example": "Haz clic en la planta designada para intentar activar un movimiento definitivo de forma gratuita.",
+      "warning": "Llame a SuperSkill directamente, no se deducirán monedas de oro, no se actualizará la planta de plata y no se generarán efectos derivados adicionales del consumo de monedas de oro; la planta fallará si no tiene un movimiento final o no se puede activar actualmente."
+    },
+    {
+      "type": "UpgradeEventPlantNode",
+      "purpose": "Da a las plantas designadas una mejora o un efecto de estrella.",
+      "usage": "Llame a la mejora existente o al efecto de fortalecimiento enchufable de la planta.",
+      "example": "Objetivo nivel 2, complemento falso, actualice al nivel 2 de forma gratuita.",
+      "warning": "El nivel objetivo es de 0 a 3 y debe ser superior al nivel actual; prueba StarUp cuando Starlight sea verdadero. Sólo las plantas que admitan Starlight tendrán éxito y los datos globales de la planta no se modificarán."
+    },
+    {
+      "type": "SetZombieStatsNode",
+      "purpose": "Establece la salud corporal, la salud máxima, el poder de ataque, la salud de la armadura, la velocidad de movimiento básica o el tamaño del cuerpo.",
+      "usage": "Seleccione el valor que necesita modificarse, conecte el objeto zombie y complete el valor.",
+      "example": "Seleccione la velocidad de movimiento base y complete 2. Los multiplicadores de velocidad, como el frío, siguen siendo válidos.",
+      "warning": "Si el volumen de sangre del cuerpo es 0, se realizará el procesamiento de muerte normal. Si excede el límite superior original, el límite superior se incrementará simultáneamente; el volumen de sangre máximo es al menos 1, y cuando se reduce, el volumen de sangre actual será limitado. HP y ataque se redondean. Los ajustes de armadura sólo se aplican a armaduras existentes; el límite de tamaño es de 0,1 a 5 y el límite de velocidad de movimiento es de 0 a 100."
+    },
+    {
+      "type": "GetZombieStatsNode",
+      "purpose": "Lea la salud del cuerpo, la salud máxima, el poder de ataque, la salud de la armadura, la velocidad de movimiento básica o el tamaño del cuerpo.",
+      "usage": "Seleccione el valor e ingrese el objeto zombie específico; El volumen de sangre del cuerpo no incluye los dos tipos de armadura.",
+      "example": "Seleccione el volumen de sangre del cuerpo y compárelo con un decimal para determinar si el volumen de sangre del cuerpo es inferior a 100.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "GetMoneyAmountNode",
+      "purpose": "Lee las monedas de oro actuales en el tablero de este juego.",
+      "usage": "Lee las monedas de oro actuales en el tablero de este juego.",
+      "example": "La selección de recompensas está abierta cuando las monedas de oro son mayores o iguales a 1000.",
+      "warning": "Lea las monedas de oro de este juego, no lea ni modifique la moneda de la tienda archivada."
+    },
+    {
+      "type": "AddZombieCardNode",
+      "purpose": "Agrega una tarjeta de zombie a la ranura para tarjetas actual con un precio y tiempo de reutilización específicos.",
+      "usage": "Agrega una tarjeta de zombie a la ranura para tarjetas actual con un precio y tiempo de reutilización específicos.",
+      "example": "Zombis ordinarios, precio 50, tiempo de reutilización de 5 segundos, disponible de inmediato.",
+      "warning": "Precio/relleno de refrigeración -1 para leer los datos del nivel. El uso inmediato sólo afecta al estado inicial de la nueva tarjeta; se volverá a enfriar según el número total de segundos después de cada colocación exitosa. No colocarlo no lo consumirá. El movimiento falla cuando la ranura para tarjetas está llena o no hay ranura para tarjetas disponible, sin dejar tarjetas fuera del campo."
+    },
+    {
+      "type": "DeleteZombieCardsNode",
+      "purpose": "Elimina todas las cartas de zombies del tipo especificado en la ranura para tarjetas actual.",
+      "usage": "Elimina todas las cartas de zombies del tipo especificado en la ranura para tarjetas actual.",
+      "example": "Elimina todas las cartas de zombies que bloquean la carretera.",
+      "warning": "Admite ranuras para tarjetas normales y ranuras para tarjetas iZombie. Las tarjetas de galería que no estén seleccionadas en la ranura para tarjetas no se eliminarán. 0 imágenes también se completaron normalmente."
+    },
+    {
+      "type": "DeleteInfoCardsNode",
+      "purpose": "Elimine todas las tarjetas de información o ingrese una tarjeta de información correspondiente al objeto.",
+      "usage": "Elimine todas las tarjetas de información o ingrese una tarjeta de información correspondiente al objeto.",
+      "example": "El objeto de tarjeta que crea la tarjeta de información está conectado a este nodo, todo falso.",
+      "warning": "Si no hay ningún objeto conectado y todos son falsos, se eliminarán 0 tarjetas para evitar la eliminación accidental de otras tarjetas de información."
+    },
+    {
+      "type": "SetZombieCardCooldownNode",
+      "purpose": "Modifica el tiempo de reutilización total y el tiempo de reutilización restante de las cartas de zombies del mismo tipo en la ranura para tarjetas actual.",
+      "usage": "Modifica el tiempo de reutilización total y el tiempo de reutilización restante de las cartas de zombies del mismo tipo en la ranura para tarjetas actual.",
+      "example": "El número total de segundos es 10 y los segundos restantes son 0. El tiempo de reutilización se completa inmediatamente y el tiempo de reutilización es de 10 segundos cada vez que se usa a partir de entonces.",
+      "warning": "Los segundos restantes no deben exceder los segundos totales; solo las tarjetas existentes se ven afectadas, y se agregarán nuevas tarjetas más adelante agregando parámetros de nodo o datos de nivel zombie."
+    },
+    {
+      "type": "ToolTypeValueNode",
+      "purpose": "Seleccione el tipo de accesorio para los nodos de consulta, enfriamiento y comparación.",
+      "usage": "Seleccione el tipo de accesorio para los nodos de consulta, enfriamiento y comparación.",
+      "example": "Seleccione los guantes y conéctelos para configurar el enfriamiento de la hélice.",
+      "warning": "Las vistas previas de plantas, vistas previas de zombies, granos de café, etc. pueden reconocer el tipo de retención, pero no hay tiempo de reutilización de la herramienta."
+    },
+    {
+      "type": "GetHeldToolNode",
+      "purpose": "Obtenga el objeto del elemento y escriba actualmente en poder del mouse.",
+      "usage": "Reconozca palas, guantes, martillos, barriles, miras de cañones, etc. basándose en objetos reales y genere el objeto y el tipo de elementos.",
+      "example": "Compare el tipo con el tipo de accesorio para determinar si está sosteniendo guantes.",
+      "warning": "Vacío devuelve \"Ninguno\" y un objeto vacío; prevalecerá el objeto real que sostiene el mouse."
+    },
+    {
+      "type": "CompareToolTypeNode",
+      "purpose": "Determina si dos accesorios son del mismo tipo.",
+      "usage": "Determina si dos accesorios son del mismo tipo.",
+      "example": "Tipo de accesorio del mouse comparado con la constante \"guante\".",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "SetToolCooldownNode",
+      "purpose": "Se modificó el tiempo de reutilización de la pala, el guante, el martillo o el carro en este juego.",
+      "usage": "Se modificó el tiempo de reutilización de la pala, el guante, el martillo o el carro en este juego.",
+      "example": "Guantes, segundos totales 5, segundos restantes 0, disponibles inmediatamente.",
+      "warning": "La configuración de segundos totales dura hasta que se destruyen los accesorios de este juego, y los usos posteriores seguirán usando este valor; los segundos restantes solo cambiarán el tiempo actual. Sin modo de enfriamiento y las reglas originales de IZ sin enfriamiento tienen prioridad."
+    },
+    {
+      "type": "GetToolCooldownNode",
+      "purpose": "Lea el tiempo de reutilización total, el tiempo restante y la existencia del accesorio especificado.",
+      "usage": "Lea el tiempo de reutilización total, el tiempo restante y la existencia del accesorio especificado.",
+      "example": "Lea los segundos restantes del guante y muéstrelos en texto.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "WaitUntilNode",
+      "purpose": "Las condiciones se verifican a intervalos específicos y el proceso posterior continúa cuando se cumplen.",
+      "usage": "Verifique inmediatamente por primera vez y luego verifique a intervalos; si la condición es verdadera, el disparador se completa, si es falsa, continúa esperando. El tiempo de espera se produce cuando se agota el número máximo de comprobaciones. Activar nuevamente el mismo nodo reemplazará la espera anterior.",
+      "example": "Si el valor de la variable entera >= 10, la condición está conectada, con un intervalo de 0,2 segundos; cuando la variable llegue a 10, continúe.",
+      "warning": "La falla indica que los parámetros son ilegales, por ejemplo, el intervalo es inferior a 0,1 segundos; la condición falsa no provocará una falla. Salir de un nivel o cambiar de etapa cancelará la espera. Las variables y los cálculos puros en la condición se vuelven a leer y el objeto de evento y el índice de bucle aún conservan el contexto de activación original."
+    },
+    {
+      "type": "RepeatUntilNode",
+      "purpose": "Repita la acción cuando no se cumpla la condición y continúe el proceso posterior una vez que se cumpla.",
+      "usage": "Verifique inmediatamente por primera vez, la condición falsa activa cada bucle, espere el intervalo especificado antes de volver a verificar; true desencadena la finalización. El tiempo de espera se produce cuando se agota el número de cheques. Activar el mismo nodo nuevamente reemplazará el bucle anterior.",
+      "example": "La condición está conectada a una variable entera> = 10, y cada bucle agrega 1 a la variable con un intervalo de 0,2 segundos; se completa cuando llega a 10. Simplemente espere cuando se establezca la condición de espera, y este nodo también puede realizar acciones repetidamente.",
+      "warning": "La falla indica que los parámetros son ilegales, por ejemplo, el intervalo es inferior a 0,1 segundos; la condición falsa desencadena cada bucle. Salir de un nivel o cambiar de etapa cancelará el bucle. Las variables y los cálculos puros en la condición se vuelven a leer y el objeto de evento y el índice de bucle aún conservan el contexto de activación original."
+    },
+    {
+      "type": "OnZombieClickNode",
+      "purpose": "Se activa al hacer clic izquierdo en un zombi vivo en el campo de batalla.",
+      "usage": "Se activa al hacer clic izquierdo en un zombi vivo en el campo de batalla.",
+      "example": "El gatillo se usa para dañar al zombie, y la boca del zombie está conectada al objetivo, creando un juego de zombies en el que se hace clic para destruir.",
+      "warning": "Consulta el cuerpo de colisión solo cuando haya un clic válido en el campo de batalla y selecciona el más cercano a la posición del clic cuando se superponga; La tarjeta original o el funcionamiento de la herramienta no se cortarán."
+    },
+    {
+      "type": "OnWorldPlantEffectNode",
+      "purpose": "Monitoriza los efectos de las setas de hielo en todo el campo o de los pimientos picantes en una sola línea.",
+      "usage": "Monitoriza los efectos de las setas de hielo en todo el campo o de los pimientos picantes en una sola línea.",
+      "example": "Seleccione el pimiento picante y, cuando se active, la boca de la línea emitirá la línea donde se produce la llama.",
+      "warning": "Ice Mushroom es un efecto de campo completo y la línea devuelve -1. No solo monitorea los efectos causados ​​por las plantas, sino que también monitorea los nodos que llaman a la misma entrada de efectos del juego; Evite eventos que reciban el mismo efecto y provoquen recurrencia."
+    },
+    {
+      "type": "SetZombieHouseRuleNode",
+      "purpose": "Controla si la entrada de zombies en este juego activa la determinación de falla original.",
+      "usage": "Controla si la entrada de zombies en este juego activa la determinación de falla original.",
+      "example": "El nivel comienza a conectarse a este nodo, si no logra ingresar a la casa será falso. Utilice eventos para personalizar el resultado.",
+      "warning": "Sólo se cambia el juicio de entrada y otras fuentes de falla, como la muerte de plantas protegidas y fallas manuales, permanecen sin cambios. Después de cerrar, los zombies continuarán caminando y se marcharán de acuerdo con las reglas originales al cruzar el límite izquierdo original."
+    },
+    {
+      "type": "SetWaveCountdownPausedNode",
+      "purpose": "La pausa ingresa automáticamente a la siguiente ola y los zombies que se han generado continúan actuando.",
+      "usage": "La pausa ingresa automáticamente a la siguiente ola y los zombies que se han generado continúan actuando.",
+      "example": "True para pausar cuando comienza la conversación, false para pausar nuevamente una vez completada la conversación.",
+      "warning": "Pausa el tiempo de la siguiente ola y actualiza la sangre restante por adelantado sin interrumpir a los zombis que se generan en esta ola. Se libera automáticamente después de detener el gráfico de eventos."
+    },
+    {
+      "type": "DeleteGridItemsNode",
+      "purpose": "Elimine lápidas, cráteres, escaleras o bloques de hielo en la cuadrícula especificada.",
+      "usage": "Elimine lápidas, cráteres, escaleras o bloques de hielo en la cuadrícula especificada.",
+      "example": "Seleccione el cráter, fila 2, columna 3 y elimine los cráteres diurnos y nocturnos en esta cuadrícula.",
+      "warning": "Los rangos comienzan desde 0."
+    },
+    {
+      "type": "ChangeEventMusicNode",
+      "purpose": "Reproduce música seleccionada del juego.",
+      "usage": "Reproduce música seleccionada del juego.",
+      "example": "El evento de entrada al escenario está conectado a este nodo y se selecciona la música de fondo de este escenario.",
+      "warning": "Sólo se utiliza la música del juego cargada; El proceso de música del menú original aún se hace cargo de salir de un nivel. No lo llames repetidamente en cada cuadro, de lo contrario se reproducirá desde el principio una y otra vez."
+    },
+    {
+      "type": "RemoveTravelEntryNode",
+      "purpose": "Elimina la entrada de viaje designada en este juego, detiene el efecto continuo correspondiente y actualiza el vínculo.",
+      "usage": "Seleccione la categoría de entrada y complete el nombre interno, el número o el título mostrado del juego; También puedes completar la descripción completa. Las entradas válidas que no se retienen se completan normalmente, las eliminadas son falsas; el nombre no es válido o el título es ambiguo y falla.",
+      "example": "Seleccione la entrada de zombies y el nombre completo será abrumador. Puede eliminar la entrada denominada Er Ye Ignore Plant.",
+      "warning": "Cerrar sesión en el seguimiento de esta entrada y detener el ciclo continuo; Los golpes poderosos y la energía eléctrica eliminan mutuamente los multiplicadores independientes, y el endurecimiento se actualiza de acuerdo con los niveles restantes. Los recursos, cartas, entidades y cambios permanentes que se hayan emitido no serán revertidos, y el escudo o maldición que se haya aplicado finalizará según sus propias reglas. La entrada final también elimina los registros secundarios."
+    },
+    {
+      "type": "GetPlantBasicComponentsNode",
+      "purpose": "Divida recursivamente la fórmula de fusión y genere una lista de tipos de plantas de componentes básicos.",
+      "usage": "Divida recursivamente la fórmula de fusión y genere una lista de tipos de plantas de componentes básicos.",
+      "example": "Ingrese a la planta de fusión, luego recorra los nodos del tipo de planta para ver la composición uno por uno; Se conservarán los materiales duplicados.",
+      "warning": "Utiliza recetas de fusión estáticas y no adivina la historia real de fusiones aleatorias. Ninguna receta regresa sola; el anillo de receta y la profundidad anormal tienen protección límite."
+    },
+    {
+      "type": "MakeVector3Node",
+      "purpose": "Combina tres decimales en coordenadas mundiales.",
+      "usage": "Combina tres decimales en coordenadas mundiales.",
+      "example": "X=0, Y=1, Z=0, conecta las ubicaciones donde se crean los objetos de la escena.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "GetMouseWorldPositionNode",
+      "purpose": "Lea las coordenadas mundiales y la cuadrícula del mouse en el campo de batalla.",
+      "usage": "Lea las coordenadas mundiales y la cuadrícula del mouse en el campo de batalla.",
+      "example": "Las coordenadas están conectadas al objeto de escena creado; las filas y columnas están conectadas a los nodos de acción de la cuadrícula.",
+      "warning": "Cuando el mouse está fuera del tablero de ajedrez, las filas y columnas pueden salirse de los límites y el nodo de generación de entidades verificará el rango."
+    },
+    {
+      "type": "CreateEventObjectNode",
+      "purpose": "Cree un objeto vacío administrado por el gráfico de eventos del nivel actual, opcionalmente decorado con íconos de plantas.",
+      "usage": "Cree un objeto vacío administrado por el gráfico de eventos del nivel actual, opcionalmente decorado con íconos de plantas.",
+      "example": "Seleccione el lanzador de guisantes para el ícono de la planta y cree una marca decorativa en la ubicación del mouse.",
+      "warning": "Este es un marcador de escena y no realiza ataques ni ocupación de plantas. Cada gráfico tiene un máximo de 256 objetos vivos, los cuales se borrarán al salir del gráfico; utilice los nodos de creación originales para entidades de plantas/zombis."
+    },
+    {
+      "type": "BindObjectNode",
+      "purpose": "Guarde el objeto con un nombre para que los eventos posteriores puedan leerlo.",
+      "usage": "Guarde el objeto con un nombre para que los eventos posteriores puedan leerlo.",
+      "example": "Complete el nombre del punto de referencia 1 y luego use la cadena para objetar para leer el punto de referencia 1.",
+      "warning": "Los enlaces con el mismo nombre sobrescriben los valores antiguos; el nombre solo es válido dentro del gráfico de ejecución actual. Las viñetas agrupadas requieren el uso de controladores de viñetas dedicados y no se pueden convertir en objetos de escena a largo plazo."
+    },
+    {
+      "type": "ObjectToStringNode",
+      "purpose": "Genera el texto de referencia único del objeto en el diagrama en ejecución actual.",
+      "usage": "Genera el texto de referencia único del objeto en el diagrama en ejecución actual.",
+      "example": "Almacene el texto de referencia del objeto en la lista de cadenas y luego léalo convirtiendo la cadena en el objeto.",
+      "warning": "El texto es el token de referencia para esta ejecución, no el nombre del objeto o el ID de guardado entre niveles. Se devuelve una cadena vacía cuando hay objetos vacíos, viñetas agrupadas o más de 1024 referencias válidas simultáneas."
+    },
+    {
+      "type": "StringToObjectNode",
+      "purpose": "Lea el texto de referencia del objeto o el nombre del enlace del objeto correspondiente al objeto.",
+      "usage": "Lea el texto de referencia del objeto o el nombre del enlace del objeto correspondiente al objeto.",
+      "example": "Complete el texto del punto de referencia 1 y lea el punto de referencia guardado por el nodo del objeto de escena vinculado.",
+      "warning": "Una referencia que no es válida, está destruida u otra ejecución devuelve NULL. No se realizará un escaneo completo del campo por nombre y no se creará ningún objeto."
+    },
+    {
+      "type": "PlantToObjectNode",
+      "purpose": "Convierta plantas en referencias de objetos de escena.",
+      "usage": "Convierta plantas en referencias de objetos de escena.",
+      "example": "Se utiliza para vincular objetos, listas de objetos o leer coordenadas.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "ObjectToPlantNode",
+      "purpose": "Lea el componente de la planta en el objeto.",
+      "usage": "Lea el componente de la planta en el objeto.",
+      "example": "Después de seleccionar el elemento de la lista de objetos, se convierte en una planta y se conecta al nodo de combate existente.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "ZombieToObjectNode",
+      "purpose": "Convierte zombies en referencias de objetos de escena.",
+      "usage": "Convierte zombies en referencias de objetos de escena.",
+      "example": "Se utiliza para vincular objetos, listas de objetos o leer coordenadas.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "ObjectToZombieNode",
+      "purpose": "Lea el componente zombie en el objeto.",
+      "usage": "Lea el componente zombie en el objeto.",
+      "example": "Después de seleccionar el elemento de la lista de objetos, se convierte en zombie y se conecta al nodo de combate existente.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "GetObjectTransformNode",
+      "purpose": "Lea la posición mundial, la escala y el estado de presencia del objeto.",
+      "usage": "Lea la posición mundial, la escala y el estado de presencia del objeto.",
+      "example": "Lea la posición del objeto vegetal como la posición de generación del objeto decorativo.",
+      "warning": "Utilice la salida de error/el valor predeterminado cuando el objeto esté vacío, el tipo no coincida o la entrada esté fuera de los límites y no se crearán entidades no válidas."
+    },
+    {
+      "type": "SetEventObjectTransformNode",
+      "purpose": "Mueva y escale los marcadores generados por los nodos del objeto de escena creado.",
+      "usage": "Mueva y escale los marcadores generados por los nodos del objeto de escena creado.",
+      "example": "Mueva el punto de referencia a la posición del mouse con una ampliación de tamaño de 0,5.",
+      "warning": "Sólo se modifican los objetos de decoración creados por el gráfico de eventos. Utilice nodos móviles dedicados para plantas/zombis para evitar errores de ocupación o índice de filas causados ​​por solo cambiar la Transformación."
+    },
+    {
+      "type": "DestroyEventObjectNode",
+      "purpose": "Elimina la marca de escena creada por el gráfico de eventos actual.",
+      "usage": "Elimina la marca de escena creada por el gráfico de eventos actual.",
+      "example": "Elimine el punto de ruta temporal vinculado.",
+      "warning": "Sólo se permite eliminar los objetos que pertenecen al gráfico de eventos; entidades como plantas, zombis y cartas utilizan los nodos correspondientes para evitar omitir el proceso de limpieza del juego."
+    },
+    {
+      "type": "BulletTypeValueNode",
+      "purpose": "Selecciona el tipo de bala en el juego.",
+      "usage": "Selecciona el tipo de bala en el juego.",
+      "example": "Bullet_pea es un guisante común y ambos bandos pueden disparar la misma bala.",
+      "warning": "Los tipos con recursos descargados fallarán en el lanzamiento. El método de movimiento adopta uniformemente un vuelo recto y libre en un ángulo específico."
+    },
+    {
+      "type": "ShootEventBulletNode",
+      "purpose": "Dispara balas en una dirección determinada en la cuadrícula o posición especificada del mouse.",
+      "usage": "Dispara balas en una dirección determinada en la cuadrícula o posición especificada del mouse.",
+      "example": "Fila 2, columna 3.5, daño 20, velocidad 6, ángulo 0, tamaño 1; ángulo de 180 hacia la izquierda.",
+      "warning": "Los rangos comienzan desde 0. Ángulo 0 hacia la derecha, 90 hacia arriba, 180 hacia la izquierda, 270 hacia abajo. Utilice el grupo de objetos del juego y el efecto de colisión; Si se sale de los límites o supera los 20 segundos, se reciclará de todos modos según las reglas del juego."
+    },
+    {
+      "type": "ModifyEventBulletNode",
+      "purpose": "Modifica el tamaño, la velocidad, el daño o la dirección de la bala del evento superviviente.",
+      "usage": "Modifica el tamaño, la velocidad, el daño o la dirección de la bala del evento superviviente.",
+      "example": "Seleccione el ángulo de dirección y el valor 90 para girar la bala hacia arriba.",
+      "warning": "Si la bala no se mueve después de haber sido recuperada, el grupo no cambiará accidentalmente la nueva bala si reutiliza el mismo GameObject. El tamaño se basa en el tamaño original de la viñeta y las configuraciones repetidas no se multiplicarán."
+    },
+    {
+      "type": "ChangeEventMapNode",
+      "purpose": "Cambia el fondo diurno y nocturno entre el mismo mapa de terreno, conservando las entidades del tablero de ajedrez y los caminos de hielo.",
+      "usage": "Cambia el fondo diurno y nocturno entre el mismo mapa de terreno, conservando las entidades del tablero de ajedrez y los caminos de hielo.",
+      "example": "El evento de escenario del mapa Día está conectado a este nodo, seleccione Noche y cambie a noche.",
+      "warning": "Admite el intercambio dentro de grupos de Día/Noche, Día_6/Noche_6, Piscina/NochePool, Techo/NocheRoof, viaje en la azotea de tres períodos, piscina en la azotea de tres períodos y SnowPool día y noche. Si falla la salida de diferentes grupos o mapas especiales, el campo de batalla original permanece sin cambios. Con al menos 1 segundo de diferencia y no cambia la luz del sol, las cuadrículas, las entidades, las ondas ni la velocidad del juego."
+    },
+    {
+      "type": "ForEachAllZombiesNode",
+      "purpose": "Enfréntate a todos los zombis supervivientes en el campo de batalla actual uno por uno.",
+      "usage": "Enfréntate a todos los zombis supervivientes en el campo de batalla actual uno por uno.",
+      "example": "El estado zombie se aplica a cada ciclo y el zombie actual se conecta al objetivo.",
+      "warning": "Cuando se activa, se genera una instantánea y los zombis recién agregados al ciclo se incluirán la próxima vez; Se omitirán los zombis que murieron durante el ciclo. Incluye encantar zombies, filtro a pedido."
+    },
+    {
+      "type": "SetPlantAttackIntervalNode",
+      "purpose": "Establece el intervalo de ataque base de la propia planta especificada.",
+      "usage": "Establece el intervalo de ataque base de la propia planta especificada.",
+      "example": "Ingrese 0,5 segundos para cambiar el tiempo de espera base de la planta para cada ataque a 0,5 segundos.",
+      "warning": "El rango es de 0,05 a 3600 segundos; La ganancia de velocidad de ataque todavía se superpone según la fórmula original del juego. Solo funciona en plantas que utilizan el intervalo de ataque base y no restablece la animación de ataque actual ni el temporizador de habilidades especiales."
+    },
+    {
+      "type": "FeedGoldenBeanNode",
+      "purpose": "Invoca el proceso de alimentar con granos de café dorados a la planta especificada.",
+      "usage": "Invoca el proceso de alimentar con granos de café dorados a la planta especificada.",
+      "example": "El disparador se conecta a este nodo y la planta al objetivo, e intenta automáticamente alimentar frijoles; el puerto efectivo determina si la alimentación real es exitosa.",
+      "warning": "No es necesario que el jugador recoja los frijoles; Se siguen respetando las monedas de oro, los tipos actualizables y las condiciones finales, y se deduce el coste original. Completo significa que el intento se completó y Efectivo significa que el proceso original fue exitoso. También hay un nodo de movimiento definitivo de la planta donde puedes llamar directamente a las habilidades de forma gratuita, pero no activa la mejora de la planta plateada ni la cadena de alimentación de frijoles."
+    },
+    {
+      "type": "StringVariableNode",
+      "purpose": "Referencia a una variable de cadena compartida.",
+      "usage": "Haga clic en la variable de nivel punto + cadena, establezca el valor inicial y arrástrelo al lienzo, luego obtenga o establezca la variable de cadena.",
+      "example": "Establezca la variable de cadena \"Tarea completada\" → muestre el texto.",
+      "warning": "Las referencias copiadas comparten la misma variable; Las variables de la plantilla se copian de forma independiente."
+    },
+    {
+      "type": "ListVariableNode",
+      "purpose": "Hace referencia a una lista escrita compartida.",
+      "usage": "En la lista de punto + variable de nivel, seleccione el tipo de elemento, complete el valor inicial elemento por elemento y luego arrástrelo al lienzo.",
+      "example": "Lista de números enteros → longitud de la lista; activa la adición de números enteros a la lista y luego lee la longitud nuevamente.",
+      "warning": "La indexación comienza en 0 y alcanza un máximo de 512 elementos. El tipo de elemento debe ser coherente con el nodo de operación; copiar la lista copia el valor y no comparte el contenedor. El valor inicial del objeto se completa con el nombre del enlace del objeto."
+    }
+  ]
+}
