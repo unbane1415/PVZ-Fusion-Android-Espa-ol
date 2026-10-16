@@ -1148,11 +1148,11 @@
     },
     "52": {
       "name": "Formación de Obsidiana",
-      "desc": "<nobr><color=red>Nuez de Jugger Obsidiana</color></nobr>：El daño de templado se duplica"
+      "desc": "<nobr><color=red>Nuez Colosal de Obsidiana</color></nobr>：El daño de templado se duplica"
     },
     "53": {
       "name": "Templado de Fuego Glacial",
-      "desc": "<nobr><color=red>Nuez de Jugger Obsidiana</color></nobr>：Mientras esté en el campo, según la cantidad de tipos de plantas de obsidiana presentes, reduce el daño final recibido por todas las plantas de obsidiana"
+      "desc": "<nobr><color=red>Nuez Colosal de Obsidiana</color></nobr>：Mientras esté en el campo, según la cantidad de tipos de plantas de obsidiana presentes, reduce el daño final recibido por todas las plantas de obsidiana"
     },
     "54": {
       "name": "Aura Tenaz",
@@ -1843,8 +1843,8 @@
       "desc": "Desbloquear Sargento Ferreo: Deportralladora + Ferroguisantes\ny su subespecies Francoguisantes Sincronizador"
     },
     "26": {
-      "name": "Génesis: Nuez de Jugger Obsidiana",
-      "desc": "Desbloquear Nuez de Jugger Obsidiana: Pinchobsidiana + Nuez de Jugger"
+      "name": "Génesis: Nuez Colosal de Obsidiana",
+      "desc": "Desbloquear Nuez Colosal de Obsidiana: Pinchobsidiana + Nuez Colosal"
     },
     "27": {
       "name": "Génesis: Termaloe Níveo Definitivo",
