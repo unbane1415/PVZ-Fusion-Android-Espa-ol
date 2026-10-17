@@ -375,7 +375,7 @@
   "汽车在(\\d+)秒后修理完毕": "El vehículo será reparado en {0} segundos!",
   "即将撤离([^\\s]+)": "<size=15>Evacuando en:\n{0} segundos",
   "最后一击[：:]\\s*([^\\r\\n]+)\nDPS[：:]\\s*([^\\r\\n]+)\n总伤害[：:]\\s*([^\\r\\n]+)": "Último daño: {0}\nDPS: {1}\nDaño total: {2}",
-  "^最后一击[：:]\\s*(.+)$": "Último daño: {0}",
+  "^最后一击[：:]\\s*(.+)$": "Último daño: {0}\n",
   "最后一击[：:]\\s*(.+)": "Último daño: {0}",
   "^HP：(\\d+)/(\\d+)\n一类：(\\d+)/(\\d+)\n二类：(\\d+)/(\\d+)$": "PS: {0}/{1}\nArmadura Tipo 1: {2}/{3}\nArmadura Tipo 2: {4}/{5}",
   "^HP：(\\d+)/(\\d+)\n一类：(\\d+)/(\\d+)$": "PS: {0}/{1}\nArmadura Tipo 1: {2}/{3}",
