@@ -1,4 +1,5 @@
-Traduccion de Blooms y agregado por Unbane para la version 4.0
+Actualizacion PVZ Fusión 4.0.5
+Traduccion de Blooms y agregado por Unbane para la version 4.0.5
 
 1. Noche Nevada (Nuevo Escenario)
 - El diario obtenido tras vencer a la Reina de las Nieves en El Tiempo de Aventura permite revivir la expedición del Escuadrón Alfa.
