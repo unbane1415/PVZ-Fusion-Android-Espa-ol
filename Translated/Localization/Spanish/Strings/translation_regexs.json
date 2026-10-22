@@ -6,6 +6,7 @@
   "^(<color=[^>]+>)?([^<()（）:：\\n]+)\\s*[(（](\\d+)[)）][：:](</color>)?$": "{0}{1}({2}):{3}",
   "^(<color=[^>]+>)?([^<()（）:：\\n]+)\\s*[(（](\\d+)[)）](</color>)[：:]$": "{0}{1}({2}){3}:",
   "^(<color=[^>]+>)?\\s*奖励[0-9一二A-Za-z]?[：:]\\s*([^\\r\\n]+?)(</color>)?$": "{0}Recompensa: {1}{2}",
+  "^(<color=[^>]+>)?\\s*.*融合专精.*双发射手.*?(</color>)?$": "{0}Tarea B: Fusiona 5 Repetidoras (deben permanecer en el jardín hasta completar la tarea){1}",
   "^是否消耗\\s*(\\d+)\\s*(?:诸神币|Monedas de Dioses|神币)?永久解锁[“\\\"]([^”\\\"]+)[”\\\"]？\\s*\\n+([\\s\\S]*)$": "¿Gastar {0} Monedas de Dioses para desbloquear permanentemente «{1}»?\n\n{2}",
   "^是否消耗\\s*(\\d+)\\s*(?:诸神币|Monedas de Dioses|神币)?永久解锁[“\\\"]([^”\\\"]+)[”\\\"]？?$": "¿Gastar {0} Monedas de Dioses para desbloquear permanentemente «{1}»?",
   "^是否消耗\\s*(\\d+)\\s*(?:诸神币|Monedas de Dioses|神币)?解锁该升级路线？\\s*\\n+([\\s\\S]*)$": "¿Gastar {0} Monedas de Dioses para desbloquear esta ruta evolutiva?\n\n{1}",
