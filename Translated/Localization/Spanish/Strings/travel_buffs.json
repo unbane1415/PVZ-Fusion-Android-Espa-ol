@@ -672,6 +672,10 @@
       "name": "Transmutación: Torreta Láser",
       "desc": "Guisantimillán Obsidiana dispara un rayo láser continuo e ininterrumpido."
     },
+    "12027": {
+      "name": "Mejora - Furia Desatada",
+      "desc": "Súper Gasoseta Ametralladora siempre activa su habilidad especial al atacar, pero el número de proyectiles se reduce a la mitad."
+    },
     "13000": {
       "name": "Protección Antiexplosiva",
       "desc": "El daño de las explosiones de los Zombis con cajita sorpresa se reduce a 1000."
