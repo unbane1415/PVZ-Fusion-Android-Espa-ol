@@ -902,8 +902,8 @@
     },
     {
       "theZombieType": 216,
-      "name": "Zombirtaria",
-      "introduce": "<color=#3D1400>Zombirtaria es un perfeccionista... si por perfección entendemos \"llenar un cañón con 28 tridentes\". Su lema: \"¿Por qué disparar uno cuando puedes disparar TODOS?\" Spoiler: nadie le explicó el concepto de 'sobrecarga'.</color>",
+      "name": "Zombipulta Pinchudo",
+      "introduce": "<color=#3D1400>Zombipulta Pinchudo es un perfeccionista... si por perfección entendemos \"llenar un cañón con 28 tridentes\". Su lema: \"¿Por qué disparar uno cuando puedes disparar TODOS?\" Spoiler: nadie le explicó el concepto de 'sobrecarga'.</color>",
       "info": "Lanza 28 tridentes en dos oleadas destructivas.\n\n<color=#3D1400>Durabilidad:</color> <color=#4B0082>1350 + 4400 (Tipo 1)</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Descarga 14 tridentes → pausa dramática → ¡otros 14! Ángulo fijo, precisión... cuestionable. Tras lanzar todos sus tridentes, avanza sin parar.\n<color=purple>Mejoras de Odisea: </color><color=#4B0082>\n- Inmune a la mayoria de efectos; tira x5 de la cantidad de tridentes\n- Atacará por adelantado</color>"
     },
     {
@@ -1046,8 +1046,8 @@
     },
     {
       "theZombieType": 240,
-      "name": "Zombistein Jugger-nuez del Tridente",
-      "introduce": "<align=justified><color=black>Cuando los Zombistein de distintos linajes se encuentran en el campo de batalla, intercambian saludos con profundos rugidos, y el Zombistein Jugger-nuez del Tridente siempre se yergue con orgullo en esos momentos. TLa Jugger-nuez sobre su cabeza es como una insignia cargada de gloria: una prueba de honor conseguida únicamente tras destrozar trescientas Nueces.</color>",
+      "name": "Zombistein Colosal Pescador",
+      "introduce": "<align=justified><color=black>Cuando los Zombistein de distintos linajes se encuentran en el campo de batalla, intercambian saludos con profundos rugidos, y el Zombistein Colosal Pescador siempre se yergue con orgullo en esos momentos. La Nuez Colosal sobre su cabeza es como una insignia cargada de gloria: una prueba de honor conseguida únicamente tras destrozar trescientas Nueces.</color>",
       "info": "Obtiene defensa adicional según los distintos tipos de Zombistein presentes en el campo. \n\n<color=black>, Durabilidad: </color><color=#4B0082>18000</color>\n<color=black>Características: </color><color=#4B0082>\n<color=black>•</color> Por cada tipo de Zombistein presente en el campo, el daño recibido se reduce adicionalmente en un 10%.\n<color=black>•</color> Su canasta puede almacenar hasta 7 tridentes. Cuando su vida baja del 50% y la canasta está llena, lanza todos sus tridentes en ángulos fijos al recibir daño. La cesta se recarga con 1 tridente por segundo.</color>\n<color=black>Modificador de Odisea:\n</color><color=#4B0082>1. Velocidad de Recarga de Tridentes ×3</color>"
     },
     {
@@ -1376,21 +1376,21 @@
     },
     {
       "theZombieType": 333,
-      "name": "Zombirtaria - T1",
-      "introduce": "<color=#3D1400>\"Cuando los perales florecen por toda la tierra, el río fluye bajo una suave gasa\". Zombirtaria (T1) leyó esta balada en un libro amarillento, conmovido por la leyenda que la inspiraba. Desafortunadamente, no comprendió que cohetes necesitan motores para volar.</color>",
+      "name": "Zombipulta Pinchudo - T1",
+      "introduce": "<color=#3D1400>\"Cuando los perales florecen por toda la tierra, el río fluye bajo una suave gasa\". Zombipulta Pinchudo (T1) leyó esta balada en un libro amarillento, conmovido por la leyenda que la inspiraba. Desafortunadamente, no comprendió que cohetes necesitan motores para volar.</color>",
       "info": "Tier 1. Suelta una carga liviana de tridentes.\n\n<color=#3D1400>Durabilidad: </color><color=#4B0082>3000</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Ataca disparando 4 tridentes a la vez, puede recargar y disparar de nuevo una vez, y luego continúa avanzando y destruye plantas. Los tridentes caen 5 a 7 casillas más adelante.</color>"
     },
     {
       "theZombieType": 334,
-      "name": "Zombirtaria - T2",
-      "introduce": "<color=#3D1400>Entrenar con la Zombirtaria (T2) implica ejercicios de precisión únicos. Como los tridentes no pueden cambiar de trayectoria en el aire, el conductor debe reposicionar todo el carro para apuntar. \"Ajusta un poco... más... solo un poquito...\" ¡Chapoteo! El carro cae en un estanque cercano.</color>",
-      "info": "Tier 2. Suelta una carga mas grande de tridentes.\n\n<color=#3D1400>Durabilidad: </color><color=#4B0082>6000</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Hereda rasgos de sus rangos anteriores (dispara 14 tridentes por recarga).</color>"
+      "name": "Zombipulta Pinchudo - T2",
+      "introduce": "<color=#3D1400>Entrenar con Zombipulta Pinchudo (T2) implica ejercicios de precisión únicos. Como los tridentes no pueden cambiar de trayectoria en el aire, el conductor debe reposicionar todo el carro para apuntar. \"Ajusta un poco... más... solo un poquito...\" ¡Chapoteo! El carro cae en un estanque cercano.</color>",
+      "info": "Zombipulta Pinchudo Tier 2. Suelta una carga mas grande de tridentes.\n\n<color=#3D1400>Durabilidad: </color><color=#4B0082>6000</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Hereda rasgos de sus rangos anteriores (dispara 14 tridentes por recarga).</color>"
     },
     {
       "theZombieType": 335,
-      "name": "Zombirtaria - T3",
+      "name": "Zombipulta Pinchudo - T3",
       "introduce": "<color=#3D1400>Un veterano guerrero tridente, condecorado y curtido, se ha unido a la División Tridente como su nueva unidad. Ha cazado Hielabestias en la tundra y luchado contra cocodrilos en los pantanos. Ahora está ante ti, listo para la batalla. A ver, ¿podrás aguantarte esta?</color>",
-      "info": "Tier 3. Dispersa sus tridentes restantes al morir.\n\n<color=#3D1400>Durabilidad: </color><color=#4B0082>12000</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Hereda rasgos de sus rangos anteriores. Al morir, los tridentes no utilizados se dispersan aleatoriamente dentro de 3,5 casillas en su fila y dañan todas las plantas alcanzadas.</color>"
+      "info": "Zombipulta Pinchudo Tier 3. Dispersa sus tridentes restantes al morir.\n\n<color=#3D1400>Durabilidad: </color><color=#4B0082>12000</color>\n<color=#3D1400>Características:</color> <color=#4B0082>Hereda rasgos de sus rangos anteriores. Al morir, los tridentes no utilizados se dispersan aleatoriamente dentro de 3,5 casillas en su fila y dañan todas las plantas alcanzadas.</color>"
     },
     {
       "theZombieType": 336,
