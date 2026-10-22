@@ -1172,8 +1172,8 @@
     },
     {
       "theZombieType": 262,
-      "name": "Zombi Tridente Glacial",
-      "introduce": "<color=#3D1400>El Zombi Tridente Glacial es el pescador más célebre que habita en el círculo polar ártico. Su arpón le sirve para capturar los peces vivos más frescos bajo el manto de hielo, y su cabeza de Nuez Cáscara-rabias para partir en pedazos los peces congelados preservados durante décadas.\n</color>",
+      "name": "Vegezombi Tridente Ártico",
+      "introduce": "<color=#3D1400>El Vegezombi Tridente Ártico es el pescador más célebre que habita en el círculo polar ártico. Su arpón le sirve para capturar los peces vivos más frescos bajo el manto de hielo, y su cabeza de Nuez Cáscara-rabias para partir en pedazos los peces congelados preservados durante décadas.\n</color>",
       "info": "Arroja arpones de nieve para congelar a sus presas y luego las remata con estocadas directas.\n\n<color=#3D1400>Durabilidad: </color><color=red>3000+6000 (Tipo 1)</color>\n<color=#3D1400>Daño: </color><color=red>200</color>\n<color=#3D1400>Velocidad: </color><color=red>Media</color>\n<color=#3D1400>Objetivo de Lanzamiento: </color><color=red>Plantas al azar a más de 4 columnas de distancia hacia adelante</color>\n<color=#3D1400>Características: </color><color=red>Resistencia al frío Nivel 1. Tras 6~9 s de entrar al campo o al ser bloqueado por plantas, lanza 3 arpones de nieve; cada impacto inflige un daño del [20% de salud de la planta, mín. 60] y la atrapa en hielo. Luego realiza ataques cuerpo a cuerpo aplicando 1 s de congelación y 10 puntos de escarcha a las plantas en las 2 casillas frontales. Al acumular 100 puntos de escarcha, la planta quedará atrapada en un bloque de hielo.</color>"
     },
     {
