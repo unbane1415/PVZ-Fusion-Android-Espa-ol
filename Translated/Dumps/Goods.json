@@ -1,0 +1,28 @@
+﻿{
+	"datas":[
+		{
+			"itemType": 0,
+			"cost": 1,
+			"countPerBuy": 10,
+			"description": "高级肥料"
+		},
+		{
+			"itemType": 1,
+			"cost": 1,
+			"countPerBuy": 20,
+			"description": "高级除草剂"
+		},
+		{
+			"itemType": 2,
+			"cost": 1,
+			"countPerBuy": 20,
+			"description": "高级唱片机"
+		},
+		{
+			"itemType": 3,
+			"cost": 5,
+			"countPerBuy": 1,
+			"description": "超级肥料"
+		}
+	]
+}

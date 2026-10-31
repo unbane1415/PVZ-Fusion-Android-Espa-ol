@@ -1,0 +1,378 @@
+{
+  "plants": [
+    {
+      "key": "Peashooter",
+      "value": {
+        "basePlant": "Peashooter",
+        "routes": [
+          {
+            "routeName": "机枪路线",
+            "stages": [
+              { "plantType": "Peashooter", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "GatlingPea", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "BigGatling", "attackDamage": 120, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "SuperGatling", "attackDamage": 300, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateBigGatling", "attackDamage": 1500, "attackInterval": 1.0, "maxHealth": 10000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500, 5000]
+          },
+          {
+            "routeName": "樱桃路线",
+            "stages": [
+              { "plantType": "Peashooter", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "DoubleCherry", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "CherryGatling", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "SuperCherryShooter", "attackDamage": 1800, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateGatling", "attackDamage": 3000, "attackInterval": 1.0, "maxHealth": 10000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500, 5000]
+          },
+          {
+            "routeName": "寒冰路线",
+            "stages": [
+              { "plantType": "Peashooter", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "DoubleSnow", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SnowGatling", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "SuperSnowGatling", "attackDamage": 150, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "毁灭路线",
+            "stages": [
+              { "plantType": "Peashooter", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "DoomPeashooter", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "DoomGatling", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateDoomGatling", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "WallNut",
+      "value": {
+        "basePlant": "WallNut",
+        "routes": [
+          {
+            "routeName": "黑高路线",
+            "stages": [
+              { "plantType": "WallNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 8000, "attackSpeedAdder": 0 },
+              { "plantType": "TallNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 16000, "attackSpeedAdder": 0 },
+              { "plantType": "TallIceNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 32000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateTallNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 64000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "灾果路线",
+            "stages": [
+              { "plantType": "WallNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 8000, "attackSpeedAdder": 0 },
+              { "plantType": "FireNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 12000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperJalaNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 16000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateJalaNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 20000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "FumeShroom",
+      "value": {
+        "basePlant": "FumeShroom",
+        "routes": [
+          {
+            "routeName": "大喷路线",
+            "stages": [
+              { "plantType": "FumeShroom", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "IceFumeShroom", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperFume", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateFume", "attackDamage": 600, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "忧郁路线",
+            "stages": [
+              { "plantType": "FumeShroom", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "GloomShroom", "attackDamage": 150, "attackInterval": 1.5, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "IceGloom", "attackDamage": 600, "attackInterval": 1.5, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateGloom", "attackDamage": 600, "attackInterval": 1.5, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "StarFruit",
+      "value": {
+        "basePlant": "StarFruit",
+        "routes": [
+          {
+            "routeName": "大帝路线",
+            "stages": [
+              { "plantType": "StarFruit", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "LanternStar", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperStar", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "IFVStar", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateStar", "attackDamage": 1000, "attackInterval": 1.0, "maxHealth": 10000, "attackSpeedAdder": 1 }
+            ],
+            "stageCost": [100, 500, 1500, 2500, 5000]
+          },
+          {
+            "routeName": "剑仙路线",
+            "stages": [
+              { "plantType": "StarFruit", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "SwordStar", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "AbyssSwordStar", "attackDamage": 3600, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Chomper",
+      "value": {
+        "basePlant": "Chomper",
+        "routes": [
+          {
+            "routeName": "战神路线",
+            "stages": [
+              { "plantType": "Chomper", "attackDamage": 0, "attackInterval": 0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "NutChomper", "attackDamage": 0, "attackInterval": 0, "maxHealth": 8000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperChomper", "attackDamage": 0, "attackInterval": 0, "maxHealth": 12000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateChomper", "attackDamage": 0, "attackInterval": 0, "maxHealth": 16000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "ScaredyShroom",
+      "value": {
+        "basePlant": "ScaredyShroom",
+        "routes": [
+          {
+            "routeName": "毁胆路线",
+            "stages": [
+              { "plantType": "ScaredyShroom", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "ScaredyDoom", "attackDamage": 160, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "GatlingDoomScaredy", "attackDamage": 320, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateDoomScaredy", "attackDamage": 640, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "魅胆路线",
+            "stages": [
+              { "plantType": "ScaredyShroom", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "ScaredyHypno", "attackDamage": 200, "attackInterval": 0.5, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperHypno", "attackDamage": 800, "attackInterval": 0.5, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateHypno", "attackDamage": 800, "attackInterval": 0.5, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "HypnoShroom",
+      "value": {
+        "basePlant": "HypnoShroom",
+        "routes": [
+          {
+            "routeName": "魅后路线",
+            "stages": [
+              { "plantType": "HypnoShroom", "attackDamage": 0, "attackInterval": 0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "HypnoEmperor", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "HypnoQueen", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Cornpult",
+      "value": {
+        "basePlant": "Cornpult",
+        "routes": [
+          {
+            "routeName": "冰炮路线",
+            "stages": [
+              { "plantType": "Cornpult", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CobCannon", "attackDamage": 8000, "attackInterval": 10.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "IceCannon", "attackDamage": 16000, "attackInterval": 10.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateCannon", "attackDamage": 16000, "attackInterval": 10.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "火炮路线",
+            "stages": [
+              { "plantType": "Cornpult", "attackDamage": 100, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CobCannon", "attackDamage": 8000, "attackInterval": 10.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "FireCannon", "attackDamage": 16000, "attackInterval": 10.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateExplodeCannon", "attackDamage": 16000, "attackInterval": 10.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Melonpult",
+      "value": {
+        "basePlant": "Melonpult",
+        "routes": [
+          {
+            "routeName": "火神路线",
+            "stages": [
+              { "plantType": "Melonpult", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "MelonFume", "attackDamage": 2400, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateSpring", "attackDamage": 600, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          },
+          {
+            "routeName": "究投路线",
+            "stages": [
+              { "plantType": "Melonpult", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CabbageMelon", "attackDamage": 400, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperMelon", "attackDamage": 1600, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateMelon", "attackDamage": 1600, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "瓜炮路线",
+            "stages": [
+              { "plantType": "Melonpult", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "MelonCannon", "attackDamage": 600, "attackInterval": 10.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateMelonCannon", "attackDamage": 600, "attackInterval": 10.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Cabbagepult",
+      "value": {
+        "basePlant": "Cabbagepult",
+        "routes": [
+          {
+            "routeName": "菜炮路线",
+            "stages": [
+              { "plantType": "Cabbagepult", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CabbageCannon", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateCabbageCannon", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "ThreePeater",
+      "value": {
+        "basePlant": "ThreePeater",
+        "routes": [
+          {
+            "routeName": "大哥路线",
+            "stages": [
+              { "plantType": "ThreePeater", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 800, "attackSpeedAdder": 0 },
+              { "plantType": "AllPeater", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "SuperThreeGatling", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          },
+          {
+            "routeName": "浴火路线",
+            "stages": [
+              { "plantType": "ThreePeater", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 800, "attackSpeedAdder": 0 },
+              { "plantType": "DarkThreePeater", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 800, "attackSpeedAdder": 0 },
+              { "plantType": "SuperThreePeater", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 800, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Umbrellaleaf",
+      "value": {
+        "basePlant": "Umbrellaleaf",
+        "routes": [
+          {
+            "routeName": "绿伞路线",
+            "stages": [
+              { "plantType": "Umbrellaleaf", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "CabbageUmbrella", "attackDamage": 0, "attackInterval": 0, "maxHealth": 2000, "attackSpeedAdder": 0 },
+              { "plantType": "EmeraldUmbrella", "attackDamage": 0, "attackInterval": 0, "maxHealth": 4000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Caltrop",
+      "value": {
+        "basePlant": "Caltrop",
+        "routes": [
+          {
+            "routeName": "玄钢路线",
+            "stages": [
+              { "plantType": "Caltrop", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "IceCaltrop", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "IceSpikeRock", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 1500, "attackSpeedAdder": 0 },
+              { "plantType": "ObsidianSpike", "attackDamage": 800, "attackInterval": 1.0, "maxHealth": 2000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500, 2500]
+          },
+          {
+            "routeName": "刺果路线",
+            "stages": [
+              { "plantType": "Caltrop", "attackDamage": 200, "attackInterval": 1.0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CaltropNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 8000, "attackSpeedAdder": 0 },
+              { "plantType": "ObsidianWallNut", "attackDamage": 0, "attackInterval": 0, "maxHealth": 32000, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    },
+    {
+      "key": "Jalapeno",
+      "value": {
+        "basePlant": "Jalapeno",
+        "routes": [
+          {
+            "routeName": "爆竹路线",
+            "stages": [
+              { "plantType": "Jalapeno", "attackDamage": 0, "attackInterval": 0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "CherryJalapeno", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "BambooDragon", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          },
+          {
+            "routeName": "黑曜路线",
+            "stages": [
+              { "plantType": "Jalapeno", "attackDamage": 0, "attackInterval": 0, "maxHealth": 500, "attackSpeedAdder": 0 },
+              { "plantType": "ObsidianJalapeno", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1000, "attackSpeedAdder": 0 },
+              { "plantType": "UltimateJalapeno", "attackDamage": 0, "attackInterval": 0, "maxHealth": 1500, "attackSpeedAdder": 0 }
+            ],
+            "stageCost": [100, 500, 1500]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1409,6 +1409,24 @@
       "name": "Elefante Carmesí",
       "introduce": "<align=left><color=black>El Elefante Carmesí deja escapar un rugido enfurecido y golpea el suelo con sus cuatro patas, haciendo temblar la tierra misma. Después de escapar del laboratorio hace años, no solo regresó a las fuerzas de Fútbol Gigante, sino que se convirtió en un elefante de guerra de élite y fue equipado con una armadura pesada especializada. Sin embargo, la espina de cactus que pisó durante aquella caótica fuga sigue clavada en su pata hasta el día de hoy.</color>",
       "info": "Lanza un asalto devastador contra la primera línea, empujando a las tropas hacia adelante y desatando una poderosa onda de choque.\n\n<color=black>Daño: </color><color=#4B0082>7200 (sin mordida)</color>\n<color=black>Durabilidad: </color><color=#4B0082>72000</color>\n<color=black>Características: </color><color=#4B0082>\n<color=black>•</color> Zombi Evolucionado de Tier 3.\n<color=black>•</color> Inmune al empujamiento y a la hipnosis. Cada 5.º ataque realiza un ataque aplastante, empujando a los zombis no jefe frente a él 0,74 casillas hacia adelante e infligiendo daño de área en un radio de 1,5 casillas.</color>"
+    },
+    {
+      "theZombieType": 339,
+      "name": "<BOSS> Pozeidon Abisal",
+      "introduce": "<color=#3D1400>Tras incontables batallas, el Zombi Pozeidon obtuvo finalmente el favor del Tridente Abisal, dejando de ser un simple ejecutor para erigirse como el señor de la tempestad. Ha trascendido los instintos primarios de destrucción: ahora él y el tridente son la encarnación viva del abismo marino.</color>",
+      "info": "Desciende entre tormentas y relámpagos; la marea implacable de su tridente sumerge a cualquiera bajo las aguas.\n\n<color=#3D1400>Dureza: </color><color=red>90000</color>\n<color=#3D1400>Características: </color><color=red>Inmune a congelación, inmovilización y retroceso. Alterna entre invocar rayos celestes y descargar tempestades eléctricas</color>"
+    },
+    {
+      "theZombieType": 134,
+      "name": "Veyezombi Jinete Nuez de Delfín de Rugby",
+      "introduce": "<color=#3D1400>Un riguroso entrenamiento le otorgó un físico colosal, pero también una coronilla notablemente puntiaguda. Aunque él insiste en que reduce la resistencia al viento, los demás zombis concuerdan en que sencillamente no terminó de evolucionar al salir del mar.</color>",
+      "info": "Cruza el jardín de un lado a otro sembrando el caos y embistiendo las defensas; su juego de pies se vuelve aún más rápido cuando está en óptima condición física.\n\n<color=#3D1400>Daño de mordisco: </color><color=red>100</color>\n<color=#3D1400>Dureza: </color><color=red>3000 + 12000 (Blindaje Clase 1)</color>"
+    },
+    {
+      "theZombieType": 135,
+      "name": "Veyezombi Belisario Cereza",
+      "introduce": "<color=#3D1400>Cansados de ser pulverizados una y otra vez por el Belisario Cereza aliado, los zombis decidieron criar a su propio dios de la guerra. Aunque el resultado del laboratorio resultó algo inestable, fue un éxito rotundo: ¡se come literalmente todo lo que encuentra a su paso! Espera... ¿quién dejó abierta su jaula?!</color>",
+      "info": "Se fortalece y gana robustez continuamente conforme desgarra a las plantas en el frente.\n\n<color=#3D1400>Daño de mordisco: </color><color=red>50</color>\n<color=#3D1400>Daño de desgarro: </color><color=red>1000</color>\n<color=#3D1400>Dureza: </color><color=red>2200</color>"
     }
   ]
 }

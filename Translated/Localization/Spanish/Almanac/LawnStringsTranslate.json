@@ -5046,6 +5046,153 @@
       "introduce": "<color=#3D1400>“Cuando era pequeño, esperaba con ansias el Año Nuevo”, relata con calma Maceta Dragón Ígnea. En su juventud fue famoso por sus travesuras, y solo en Año Nuevo se libraba de los regaños por causar destrozos. Hoy, entrado en años, solo busca descansar plácidamente mientras saborea los recuerdos del pasado y contempla a los pequeños jugar con alegría... como si todos los días fueran Año Nuevo.\n</color>",
       "info": "Impulsa a sus aliadas a eliminar zombis en un ambiente cálido y festivo.\n<color=blue>Subespecie de Brote de Dragón</color>\n\n<color=#3D1400>Uso: </color><color=red>Modo Odisea</color>\n<color=#3D1400>Fórmula de Conversión: </color><color=red>Pala ←→ Maceta</color>\n<color=#3D1400>Características: </color><color=red>Baja, Portadora, Plantable en suelo firme</color>\n<color=#3D1400>Especial: ①</color><color=red>Otorga un 30% de bonificación de ataque a las plantas fusionadas con Petacereza situadas encima.</color>\n<color=#3D1400>②</color><color=red>Otorga un 30% de bonificación de ataque a las plantas fusionadas con Jalapeño situadas encima.</color>\n<color=#3D1400>③</color><color=red>Con un límite individual de una vez cada 0.2 s, al recibir un efecto de [Explosión de Cereza / Jalapeño], restaura 100 PS a la fusión correspondiente superior y otorga un [1%/5%] de velocidad acumulable durante 5 s a las plantas disparadoras en ella.\n*Al activar [Petacereza Verdadera], el aumento de velocidad otorgado por la explosión se multiplica ×10.</color>\n<color=#3D1400>Mejora 1: </color><color=red>Ráfaga Explosiva: Duplica la duración de la bonificación de velocidad.</color>\n<color=#3D1400>Mejora 2: </color><color=red>Filo Abrasador: Desata el efecto de Petacereza y Jalapeño cada 4 segundos.</color>",
       "cost": ""
+    },
+    {
+      "seedType": 210,
+      "name": "Girasol Artista",
+      "introduce": "<color=#3D1400>Girasol Pintora se graduó en la facultad de artes de la Universidad Solar, conocida en todo el expresionismo abstracto por su técnica del espacio en blanco. \"El vacío representa infinitas posibilidades\", comentó en una entrevista. \"Incluso si la esencia de la pintura no cambia a ojos del artista, cada planta ve en su corazón un mundo entero de flores y brotes\".</color>",
+      "info": "Produce sol, pinta retratos botánicos y atrae periódicamente a plantas que buscan encargos artísticos.\n\n<color=#3D1400>Producción solar: </color><color=red>25×2 cada 20s</color>\n<color=#3D1400>Características: ① </color><color=red>Toca para tomar o soltar el pincel; con el pincel en mano, toca otra planta para pintar su retrato</color>\n<color=#3D1400>② </color><color=red>A los 5s de entrar en juego, atrae en la casilla delantera a una planta aleatoria de silueta misteriosa<sup>[1]</sup><sup>[2]</sup>. Si pasan 30s sin retratarla, se retirará. Recarga de atracción: 90s</color>\n<color=#3D1400>[1]: </color><color=red>En el modo Coliseo y Niveles Personalizados se muestra su aspecto completo</color>\n<color=#3D1400>[2]: </color><color=red>Plantas obtenibles de la Caja Sorpresa</color>",
+      "cost": "Costo: <color=red>150</color>\nRecarga: <color=red>7,5 Segundos</color>"
+    },
+    {
+      "seedType": 312,
+      "name": "Dracofénix",
+      "introduce": "<color=#3D1400>Cuentan que un viejo artesano se internó en las montañas a cortar bambú para los petardos de Año Nuevo. Sabiendo que su salud decaía, decidió crear su obra cumbre: eligió un bambú milenario y lo rellenó con cinabrio. En Nochevieja encendió la mecha, pero el bambú pareció apagarse. Justo cuando cerraba los ojos con tristeza, el bambú se elevó al firmamento envuelto en llamas emitiendo un rugido que resonó entre fénix y dragón. El pueblo quedó asombrado, y el artesano sonrió con tal dicha que sanó al instante.</color>",
+      "info": "Los disparos dispersos condensan el alma del dragón; en estado Despertar exhala proyectiles perforantes de flama dracónica.\n\n<color=#3D1400>Modo de juego: </color><color=red>Modo Misterio</color>\n<color=#3D1400>Daño: </color><color=red>300×10 cada 0,33s\n1500×5 cada 0,66s (Llamarada)</color>\n<color=#3D1400>Características: </color><color=red>Toca para cambiar de modo de ataque. Dispersión dentro de ±15°</color>\n<color=#A86A44>Modo Dispersión: </color><color=red>Obtiene 1 de energía por ciclo</color>\n<color=#A86A44>Modo Flama Dracónica: </color><color=red>Consume 3 de energía por ciclo. Proyectiles con perforación infinita que avanzan hasta 5 casillas</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 313,
+      "name": "Plantorcha Antiespiral",
+      "introduce": "<color=#3D1400>Plantorcha Antiespiral está sumamente orgulloso de su hueco de madera. Ya alberga un microuniverso paralelo y aún tiene espacio de sobra para libros, manjares y juguetes. Debido a que este diminuto universo solo coincide dimensionalmente con el nuestro, se asegura siempre de elegir cuidadosamente su ubicación en el jardín.</color>",
+      "info": "Manipula el tejido espaciotemporal proyectando los proyectiles que lo atraviesan a todas las líneas del jardín.\n\n<color=#3D1400>Modo de juego: </color><color=red>Modo Misterio</color>\n<color=#3D1400>Características: ① </color><color=red>Divide cada proyectil aliado que lo cruce en una réplica para cada línea</color>\n<color=#3D1400>② </color><color=red>Solo se permite uno por línea, y todos deben plantarse alineados en la misma columna</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1489,
+      "name": "Lanzacol Magnética",
+      "introduce": "<color=#3D1400>\"Odio esta fuerza magnética, atrae virutas de hierro a mi cabeza sin parar\", se lamenta Lanzacol Magnética. Su peinado es infinitamente más difícil de arreglar que el de sus hermanos, por lo que en cada evento siempre llega el último.</color>",
+      "info": "Lanzacol capaz de fusionarse con objetos metálicos.\n\n<color=#3D1400>Daño: </color><color=red>80 cada 3s</color>\n<color=#3D1400>Fusión con metales: </color><color=red>Cubo de hierro, Fragmento temporal</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Lanzacol + Magnetoseta</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1490,
+      "name": "Lanzacol de Hierro",
+      "introduce": "<color=#3D1400>Lanzacol de Hierro está obsesionado con la celesta metálica, y ni el campo de batalla lo aparta de su pasión musical. Envuelve las teclas en hojas de col para tocar melodías con resonancia metálica. Los zombis que han tenido el lujo de oírlo afirman que la música les perfora directamente el cráneo.</color>",
+      "info": "Lanza coles acorazadas que rebotan sucesivamente contra los cascos de los zombis con un tintineo resonante.\n\n<color=#3D1400>Dureza: </color><color=red>2000</color>\n<color=#3D1400>Daño: </color><color=red>160 cada 3s</color>\n<color=#3D1400>Características: </color><color=red>Rebota 1 vez cada vez que golpea una protección metálica de tipo 1</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Lanzacol Magnética (base) + Cubo de Hierro</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1491,
+      "name": "Lanzacol Hiperespacial",
+      "introduce": "<color=#3D1400>\"Para comprender la naturaleza del espacio superpuesto, primero debes entender la estructura de una col: tienen demasiadas capas en común\", explica Lanzacol Hiperespacial. \"¿Interestelar? Mejor habla de eso con Lanzamaíz Hiperespacial, a mí los agujeros de gusano no me van mucho\".</color>",
+      "info": "Lanza coles rápidamente transfiriendo el estado teletransporte, pero se sobrecalienta brevemente tras combos prolongados.\n\n<color=#3D1400>Daño: </color><color=red>0 cada 1s</color>\n<color=#3D1400>Características: ① </color><color=red>Las coles rebotan 1 vez tras impactar a zombis teletransportados (efecto idéntico a Guisante Hiperespacial)</color>\n<color=#3D1400>② </color><color=red>Tras atacar 16 veces seguidas, necesita descansar durante 10 intervalos de ataque</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Lanzacol Magnética (base) + Fragmento Temporal</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1492,
+      "name": "Humoseta Flotante",
+      "introduce": "<color=#3D1400>Gracias a su sincera amistad con Trihumoseta, Humoseta Flotante se convirtió en el primer piloto de pruebas de 'Setas Traviesas'. \"¡La experiencia fue grandiosa!\", declaró sonriente tras el aterrizaje. \"Aunque sigo sin entender del todo por qué me colgaron por fuera de la cabina\".</color>",
+      "info": "Exhala humo tóxico para abatir enemigos a baja altura y desata una lluvia de esporas sobre los zombis terrestres.\n\n<color=#3D1400>Daño: </color><color=red>40 cada 1,5s</color>\n<color=#3D1400>Características: </color><color=red>El humo solo daña objetivos aéreos; hace caer 12 esporas de daño 10 que impactan a los zombis terrestres</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Humoseta + Trébol</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1493,
+      "name": "Humoceta",
+      "introduce": "<color=#3D1400>Humoceta en realidad no nació siendo maceta. \"Originalmente era una humoseta común y corriente...\", explica con voz sabia y profunda. \"Jamás asomes la cabeza desprevenidamente cuando estén jugando a machacar zombis... no me preguntes por qué...\"</color>",
+      "info": "Permite que los hongos superiores liberen factores beneficiosos al atacar, potenciando a las plantas de su misma especie.\n\n<color=#3D1400>Características: </color><color=red>Planta baja, soporte de cultivo, plantable en suelo descubierto</color>\n<color=#3D1400>Efecto: </color><color=red>Cada vez que la planta superior ataca, todas las plantas de su misma especie obtienen una bonificación acumulable de ataque por 10s:\n· Súper Humoseta: +4%\n· Gran Hongo: +8%\n· Otras Humosetas: +1%\n· Serie Gasoseta: +4%</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Maceta + Humoseta</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1494,
+      "name": "Apisonaflor Magnética",
+      "introduce": "<color=#3D1400>Su potente magnetismo es su mayor bendición y su mayor condena. Cada vez que salta para aplastar a un zombi con cubo, el metal se pega a su frente como un imán gigantesco dejándola desconcertada unos instantes.</color>",
+      "info": "Al caer libera un campo magnético especial que hace que las armaduras de hierro caigan sobre sus portadores como apisonaflores.\n\n<color=#3D1400>Daño: </color><color=red>1800 (Aplastamiento)</color>\n<color=#3D1400>Alcance: </color><color=red>0,5 casillas a la izquierda ~ 1 casilla a la derecha</color>\n<color=#3D1400>Características: </color><color=red>Al atacar, desprende las protecciones metálicas en un radio de 1,5 casillas y las hace aplastar a los zombis</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Apisonaflor + Magnetoseta</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1495,
+      "name": "Apisonaflor Paraplanta",
+      "introduce": "<color=#3D1400>\"¡Nadie entra a mi jardín desde arriba!\", grita Apisonaflor Paraplanta con orgullo. Se pasa el día vigilando el cielo por si algún zombi colgado intenta pasarse de listo.</color>",
+      "info": "Apisonaflor camuflada como paraplantas; cuando sus hojas protectoras se agotan, pasa a la ofensiva activa.\n\n<color=#3D1400>Daño: </color><color=red>1800 (Aplastamiento)</color>\n<color=#3D1400>Características: ① </color><color=red>Los proyectiles rebotados caen aleatoriamente sobre los zombis infligiendo 600 de daño</color>\n<color=#3D1400>② </color><color=red>Tras rebotar proyectiles o empujar 3 veces, salta como apisonaflor hacia el zombi más cercano (prioriza su línea)</color>\n<color=#3D1400>③ </color><color=red>El empuje de sombrilla no inflige daño</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Apisonaflor + Paraplantas</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1496,
+      "name": "Lanzamelones Disparador",
+      "introduce": "<color=#3D1400>Una fusión audaz entre la puntería horizontal y el bombardeo en parábola. \"¿Por qué elegir entre línea recta y arco cuando puedes tener ambos?\", presume mientras carga melones a toda máquina.</color>",
+      "info": "Lanza su dispositivo al aire para disparar ráfagas de sandías rápidas; al agotarse la munición vuelve a ser catapultadora.\n\n<color=#3D1400>Daño: </color><color=red>60×4 cada 1,5s</color>\n<color=#3D1400>Características: ① </color><color=red>En las primeras 15 rondas lanza ráfagas de 4 proyectiles</color>\n<color=#3D1400>② </color><color=red>En la ronda 16 arroja el lanzador infligiendo daño ×5 y vuelve a convertirse en Melonpulta</color>\n<color=#3D1400>③ </color><color=red>Tanto los proyectiles como el lanzador infligen daño de salpicadura de sandía</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Melonpulta + Lanzaguisantes</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1497,
+      "name": "Tripitidora Miedica",
+      "introduce": "<color=#3D1400>Tres cabezas llenas de pánico. Cuando una se asusta, las otras dos se esconden aún más rápido. A pesar de sus temores, su fuego triple de esporas mantiene a raya cualquier avance zombi.</color>",
+      "info": "Dispara ráfagas a tres líneas con cadencia acelerada; si los zombis se aproximan demasiado, desata un ataque desesperado.\n\n<color=#3D1400>Daño: </color><color=red>20×3 cada 1,5s</color>\n<color=#3D1400>Características: ① </color><color=red>Cada ataque otorga +5% de velocidad de disparo (hasta un máximo de +150%)</color>\n<color=#3D1400>② </color><color=red>Por cada zombi en un área 3×3, esconde sucesivamente la cabeza inferior, superior y central. Al ocultar todas, dispara 20 guisantes a cada una de las 3 líneas y reinicia la bonificación de velocidad</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Seta Miedica + Tripitidora</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1498,
+      "name": "Humoseta Apisonadora",
+      "introduce": "<color=#3D1400>Fiel creyente de que el espacio personal es sagrado. Si el humo no convence al zombi de dar media vuelta, un buen salto aplastante dejará las cosas bien claras.</color>",
+      "info": "Exhala humo penetrante contra hordas de zombis e invoca apisonaflores para aplastar a los enemigos cercanos.\n\n<color=#3D1400>Daño: </color><color=red>40 cada 1,5s</color>\n<color=#3D1400>Características: </color><color=red>Al atacar, asoman dos apisonaflores con daño igual a 20 veces su ataque, que tras 2s aplastan al zombi más cercano a la izquierda (prioriza su línea); recarga de 10s</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Humoseta + Apisonaflor</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1499,
+      "name": "Lanzacol Disparadora",
+      "introduce": "<color=#3D1400>Lanzacol Disparadora fue originalmente un hábil mayordomo en los campos de guisantes, coordinando cosechas y entrevistas. Fue despedido tras descubrirse que vendía recuerdos de hojas de col con forma de cañones de guisante.</color>",
+      "info": "Lanza su dispositivo al aire para disparar ráfagas de coles; al vaciarse puede fusionarse con otro lanzador frontal.\n\n<color=#3D1400>Daño: </color><color=red>40×4 cada 1,5s</color>\n<color=#3D1400>Características: ① </color><color=red>En las primeras 15 rondas dispara ráfagas de 4 coles con un rebote</color>\n<color=#3D1400>② </color><color=red>En la ronda 16 arroja el lanzador: si hay una Lanzacol delante se fusiona con ella, de lo contrario golpea a los zombis con daño ×5 y vuelve a ser Lanzacol</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Lanzacol + Lanzaguisantes</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1500,
+      "name": "Melonseta Miedica",
+      "introduce": "<color=#3D1400>\"B-bienvenidos a mi casa...\", tartamudea escondido tras el sofá. En la pared cuelga su medalla de oro del X Torneo de Halterofilia de Setas Miedicas: la ganó levantando medio melón durante cinco minutos seguidos.</color>",
+      "info": "Aumenta vertiginosamente la cadencia al lanzar melones; cuando se asusta acumula energía en silencio preparando un contraataque colosal.\n\n<color=#3D1400>Daño: </color><color=red>80 cada 3s</color>\n<color=#3D1400>Características: ① </color><color=red>Cada ataque otorga +10% de velocidad (hasta +200%). Se reinicia al asustarse</color>\n<color=#3D1400>② </color><color=red>Mientras está asustada acumula energía; al levantarse lanza un melón devastador al objetivo más cercano de hasta 1800 de daño</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Seta Miedica + Melonpulta</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1501,
+      "name": "Apisonaflor Agrío",
+      "introduce": "<color=#3D1400>Apisonaflor Agrío siempre tiene los ojos llorosos. Unos dicen que no soporta su propio aroma; otros, que falla sus saltos. Solo ella sabe que son lágrimas por llevar meses con una dieta estricta de ajo sin bajar ni un gramo.</color>",
+      "info": "Apisonaflor aromática que con solo levantarse desvía de línea a los zombis aterrados por su olor.\n\n<color=#3D1400>Daño: </color><color=red>1800 (Aplastamiento)</color>\n<color=#3D1400>Características: </color><color=red>Al saltar hace cambiar de línea a los zombis. Si el objetivo no es un zombi gigante y su vida es inferior a su ataque, le aplica 1 punto de Ajo y efecto de Veneno haciéndolo huir rápidamente</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Apisonaflor + Ajo</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1502,
+      "name": "Apisonaflor Plateada",
+      "introduce": "<color=#3D1400>\"Muchos me confunden con una apisonaflor de metal común. Quiero aclarar formalmente: ellos son hierro, yo soy plata purísima\", declara con orgullo. \"La plata es más maleable, ¡así que mis expresiones al aplastar son mucho más expresivas!\"</color>",
+      "info": "Pesada como una montaña de plata fina.\n\n<color=#3D1400>Daño: </color><color=red>2400 (Aplastamiento)</color>\n<color=#3D1400>Alcance: </color><color=red>0,5 casillas a la izquierda ~ 1 casilla a la derecha</color>\n<color=#3D1400>Características: </color><color=red>Puede mejorarse a <b>Apisonaflor Dorada</b> gastando 3,000 monedas</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Apisonaflor + Margarita</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 1503,
+      "name": "Apisonaflor Dorada",
+      "introduce": "<color=#3D1400>Estrella en ascenso de Wall Street, Apisonaflor Dorada enfrenta rumores de plagio de patentes. \"¡Son calumnias zombis!\", exclama indignado. Para defender su honor, ha contratado a precio de oro a un escuadrón de apisonaflores para aplastar cualquier sospechoso.</color>",
+      "info": "Pesada como una montaña de oro macizo. Su habilidad definitiva convoca apisonaflores que se precipitan por todo el tablero.\n\n<color=#3D1400>Daño: </color><color=red>3600 (Aplastamiento)</color>\n<color=#3D1400>Alcance: </color><color=red>0,5 casillas a la izquierda ~ 1 casilla a la derecha</color>\n<color=#3D1400>Características: </color><color=red>Al evolucionar desde Apisonaflor Plateada activa su habilidad definitiva gratis</color>\n<color=#3D1400>Habilidad Definitiva: </color><color=red>Cuesta 3,000 monedas, recarga de 15s. Invoca 3 Apisonaflores Doradas que caen al azar sobre los zombis con daño ×0,5</color>\n<color=#3D1400>Fórmula de evolución: </color><color=red>Apisonaflor Plateada + 3,000 Monedas</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 5006,
+      "name": "Emperatriz Setabismal",
+      "introduce": "<color=#3D1400>Dicen las leyendas que al filo de perder la cordura, una cálida voz susurra al oído. Quien mantiene su voluntad brilla con luz propia; quien cede al deseo, se deforma en una bestia incontrolable. Es tanto una invitación a la salvación como un anzuelo hacia la perdición eterna.</color>",
+      "info": "Su detonación hipnotiza a los zombis malheridos e invoca a un Zombistein protector que estabiliza el campo de batalla.\n<color=blue>Forma avanzada de la Setabismal</color>\n\n<color=#3D1400>Modo de juego: </color><color=red>Modo Odisea</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Seta de la Setabismal + Petaseta</color>\n<color=#3D1400>Daño: </color><color=red>7200 (Ceniza)</color>\n<color=#3D1400>Características: </color><color=red>Tras la explosión de Petaseta:\n· Hipnotiza zombis en rango con ≤75% de salud\n· Aplica estado Setabismal (al morir detonan como Petaseta sin dejar cráter)\n· Invoca un Zombistein de Obsidiana aliado con 90% de reducción de daño por 6s</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 5007,
+      "name": "Emperatriz Setavaricia",
+      "introduce": "<color=#3D1400>Para quienes anteponen el oro a cualquier principio ético, esta seta es su fría encarnación viviente. Si anhelas riqueza, te la concederá multiplicada por diez; no obstante, todo préstamo exige su tributo, y siempre cobrará hasta el último céntimo de tu alma.</color>",
+      "info": "Convierte en estatuas de oro macizo a los zombis derrotados por la explosión y explota las crisis para amasar fortunas inimaginables.\n<color=blue>Subespecie avanzada de Seta de la Setabismal</color>\n\n<color=#3D1400>Modo de juego: </color><color=red>Modo Odisea</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Setavaricia + Petaseta</color>\n<color=#3D1400>Daño: </color><color=red>7200 (Ceniza)</color>\n<color=#3D1400>Características: </color><color=red>Tras la detonación:\n· Convierte zombis con ≤75% de salud en estatuas de plata\n· Convierte zombis con recompensa en estatuas de oro puro</color>",
+      "cost": ""
+    },
+    {
+      "seedType": 5008,
+      "name": "Nuez Apisomagnética",
+      "introduce": "<color=#3D1400>Tiene un trastorno obsesivo-compulsivo severo: no tolera el desorden. En mitad de la refriega alinea con esmero cada proyectil a lo largo de sus líneas de inducción magnética. A menudo los zombis murmuran que nada es más caótico que su aspecto... hasta que desata su furia apisonadora.</color>",
+      "info": "Atrae proyectiles aliados a su órbita cargándolos con energía cinética masiva y luego los precipita en masa sobre los zombis.\n\n<color=#3D1400>Modo de juego: </color><color=red>Modo Odisea</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Nuez Apisonadora + Nuez Magnética</color>\n<color=#3D1400>Dureza: </color><color=red>4000</color>\n<color=#3D1400>Daño: </color><color=red>1800 (Aplastamiento)</color>\n<color=#3D1400>Alcance: </color><color=red>Área 5×5</color>\n<color=#3D1400>Características: </color><color=red>Atrae proyectiles en un radio de 1,5 casillas acumulando su daño. Al capturar 10 proyectiles, los descarga en aplastamientos consecutivos</color>",
+      "cost": ""
     }
   ]
 }

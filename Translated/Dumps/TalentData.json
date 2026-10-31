@@ -1,0 +1,380 @@
+{
+	"talentDatas":[
+		{
+			"id": 0,
+			"cost": 0,
+			"name": "梦的开始",
+			"description":"在这里可以选择不同的技能点进行升级",
+			"icon": 254,
+			"needLevel": 0
+		},
+		{
+			"id": 1,
+			"cost": 1,
+			"name": "更多阳光",
+			"description":"增加25点初始阳光",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 2,
+			"cost": 2,
+			"name": "光合作用",
+			"description":"增加50点初始阳光",
+			"icon": 1033,
+			"needLevel": 0
+		},
+		{
+			"id": 3,
+			"cost": 2,
+			"name": "精打细算",
+			"description":"植物阳光消耗降低2点",
+			"icon": 1031,
+			"needLevel": 0
+		},
+		{
+			"id": 4,
+			"cost": 1,
+			"name": "射击训练",
+			"description":"植物子弹的暴击率+10%",
+			"icon": 0,
+			"needLevel": 0
+		},
+		{
+			"id": 5,
+			"cost": 2,
+			"name": "精准打击",
+			"description":"植物子弹的暴击率+20%",
+			"icon": 1032,
+			"needLevel": 0
+		},
+		{
+			"id": 6,
+			"cost": 2,
+			"name": "绝对力量",
+			"description":"植物的攻击力+10%",
+			"icon": 1070,
+			"needLevel": 0
+		},
+		{
+			"id": 7,
+			"cost": 1,
+			"name": "坚不可摧",
+			"description":"植物的生命值上限+10%",
+			"icon": 3,
+			"needLevel": 0
+		},
+		{
+			"id": 8,
+			"cost": 2,
+			"name": "正当防卫",
+			"description":"植物的生命值上限+20%",
+			"icon": 1027,
+			"needLevel": 0
+		},
+		{
+			"id": 9,
+			"cost": 2,
+			"name": "铜墙铁壁",
+			"description":"植物的伤害减免+10%",
+			"icon": 24,
+			"needLevel": 0
+		},
+		{
+			"id": 10,
+			"cost": 1,
+			"name": "人工栽培",
+			"description":"铲掉植物时掉落5阳光，需要植物价格大于0",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 11,
+			"cost": 2,
+			"name": "全息制冷",
+			"description":"卡牌冷却时间-10%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 12,
+			"cost": 2,
+			"name": "至极手速",
+			"description":"手套冷却时间-10%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 13,
+			"cost": 3,
+			"name": "光合作用II",
+			"description":"增加75点初始阳光",
+			"icon": 1033,
+			"needLevel": 0
+		},
+		{
+			"id": 14,
+			"cost": 5,
+			"name": "光合作用III",
+			"description":"每次获得阳光时额外获得5点阳光",
+			"icon": 1033,
+			"needLevel": 0
+		},
+		{
+			"id": 15,
+			"cost": 3,
+			"name": "精打细算II",
+			"description":"植物阳光消耗降低3点",
+			"icon": 1031,
+			"needLevel": 0
+		},
+		{
+			"id": 16,
+			"cost": 5,
+			"name": "精打细算III",
+			"description":"植物阳光消耗降低5%（至少5点）",
+			"icon": 1031,
+			"needLevel": 0
+		},
+		{
+			"id": 17,
+			"cost": 3,
+			"name": "精准打击II",
+			"description":"植物子弹的暴击率增加20%",
+			"icon": 1032,
+			"needLevel": 0
+		},
+		{
+			"id": 18,
+			"cost": 5,
+			"name": "精准打击III",
+			"description":"植物子弹的暴击伤害增加50%，攻击血量低于一半的僵尸时，额外造成20%原伤害的真实伤害",
+			"icon": 1032,
+			"needLevel": 0
+		},
+		{
+			"id": 19,
+			"cost": 3,
+			"name": "绝对力量II",
+			"description":"植物的攻击力+15%",
+			"icon": 1070,
+			"needLevel": 0
+		},
+		{
+			"id": 20,
+			"cost": 5,
+			"name": "绝对力量III",
+			"description":"当本类型植物造成的总伤害为全场最高时，每次攻击额外造成30%原伤害的真实伤害",
+			"icon": 1070,
+			"needLevel": 0
+		},
+		{
+			"id": 21,
+			"cost": 3,
+			"name": "正当防卫II",
+			"description":"植物的生命值上限+20%",
+			"icon": 1027,
+			"needLevel": 0
+		},
+		{
+			"id": 22,
+			"cost": 5,
+			"name": "正当防卫III",
+			"description":"植物生命值降低时，对本行最靠左的僵尸造成植物2%最大生命值的伤害，该伤害不会超过受到伤害的100%",
+			"icon": 1027,
+			"needLevel": 0
+		},
+		{
+			"id": 23,
+			"cost": 3,
+			"name": "铜墙铁壁II",
+			"description":"植物的伤害减免+10%",
+			"icon": 24,
+			"needLevel": 0
+		},
+		{
+			"id": 24,
+			"cost": 5,
+			"name": "铜墙铁壁III",
+			"description":"植物生命值降低时，回复10+1%最大生命值的血量，该伤害不会超过受到伤害的50%",
+			"icon": 24,
+			"needLevel": 0
+		},
+		{
+			"id": 25,
+			"cost": 3,
+			"name": "全息制冷II",
+			"description":"卡牌冷却时间-10%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 26,
+			"cost": 5,
+			"name": "全息制冷III",
+			"description":"卡牌冷却时间-20%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 27,
+			"cost": 3,
+			"name": "至极手速II",
+			"description":"手套冷却-10%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 28,
+			"cost": 5,
+			"name": "至极手速III",
+			"description":"手套冷却时间-20%",
+			"icon": 1,
+			"needLevel": 0
+		},
+		{
+			"id": 29,
+			"cost": 5,
+			"name": "返璞归真I",
+			"description":"基础植物获得100%速度加成",
+			"icon": 27,
+			"needLevel": 0
+		},
+		{
+			"id": 30,
+			"cost": 10,
+			"name": "返璞归真II",
+			"description":"基础植物获得200%伤害加成",
+			"icon": 4,
+			"needLevel": 0
+		},
+		{
+			"id": 31,
+			"cost": 15,
+			"name": "返璞归真III",
+			"description":"基础植物获得300%血量加成",
+			"icon": 5,
+			"needLevel": 0
+		},
+		{
+			"id": 32,
+			"cost": 5,
+			"name": "勤能补拙",
+			"description":"每融合1次植物，下次融合的植物获得1%伤害加成，无尽模式中不生效",
+			"icon": 1000,
+			"needLevel": 0
+		},
+		{
+			"id": 33,
+			"cost": 10,
+			"name": "超光速提拔",
+			"description":"每局开始种下的第一颗植物升到3星",
+			"icon": 2,
+			"needLevel": 0
+		},
+		{
+			"id": 34,
+			"cost": 10,
+			"name": "超级-白天",
+			"description":"解锁超级樱桃射手、超级大嘴花",
+			"icon": 1005,
+			"needLevel": 6
+		},
+		{
+			"id": 35,
+			"cost": 10,
+			"name": "超级-黑夜",
+			"description":"解锁超级魅惑菇、超级大喷菇",
+			"icon": 1026,
+			"needLevel": 18
+		},
+		{
+			"id": 36,
+			"cost": 10,
+			"name": "超级-泳池",
+			"description":"解锁超级水草、超级火炬",
+			"icon": 1052,
+			"needLevel": 30
+		},
+		{
+			"id": 37,
+			"cost": 5,
+			"name": "超级-浓雾",
+			"description":"解锁超级杨桃、超级南瓜",
+			"icon": 1104,
+			"needLevel": 42
+		},
+		{
+			"id": 38,
+			"cost": 25,
+			"name": "超级-屋顶",
+			"description":"解锁超级投手、超级伞",
+			"icon": 1126,
+			"needLevel": 54
+		},
+		{
+			"id": 39,
+			"cost": 0,
+			"name": "深度探索",
+			"description":"探索中",
+			"icon": 901,
+			"needLevel": 54
+		},
+		{
+			"id": 40,
+			"cost": 0,
+			"name": "新的开始",
+			"description":"探索中",
+			"icon": 903,
+			"needLevel": 54
+		},
+		{
+			"id": 41,
+			"cost": 5,
+			"name": "急速狂热",
+			"description":"植物的攻击速度增加15%",
+			"icon": 1161,
+			"needLevel": 0
+		},
+		{
+			"id": 42,
+			"cost": 5,
+			"name": "急速狂热II",
+			"description":"植物的攻击速度增加25%",
+			"icon": 1161,
+			"needLevel": 0
+		},
+		{
+			"id": 43,
+			"cost": 10,
+			"name": "爽快射击",
+			"description":"植物射击50次后（投手需要的次数减半），接下来的1秒内获得无限射速",
+			"icon": 1161,
+			"needLevel": 0
+		},
+		{
+			"id": 44,
+			"cost": 5,
+			"name": "生命偷取",
+			"description":"植物获得2%生命偷取，作用于全场血量百分比最低的植物",
+			"icon": 1013,
+			"needLevel": 0
+		},
+		{
+			"id": 45,
+			"cost": 5,
+			"name": "生命偷取II",
+			"description":"植物的生命偷取增加2%",
+			"icon": 1013,
+			"needLevel": 0
+		},
+		{
+			"id": 46,
+			"cost": 10,
+			"name": "生命偷取III",
+			"description":"植物的生命偷取增加4%",
+			"icon": 1013,
+			"needLevel": 0
+		}
+	]
+}

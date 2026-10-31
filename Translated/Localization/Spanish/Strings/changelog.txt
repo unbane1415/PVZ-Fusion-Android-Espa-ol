@@ -1,35 +1,48 @@
-Actualizacion PVZ Fusión 4.0.5
-Traduccion de Blooms y agregado por Unbane para la version 4.0.5
+APK realizado por Unbane gracias a la traducción de Blooms, disponible en PVZ Fusion Fans Discord
 
-1. Noche Nevada (Nuevo Escenario)
-- El diario obtenido tras vencer a la Reina de las Nieves en El Tiempo de Aventura permite revivir la expedición del Escuadrón Alfa.
-- Accesible desde los Niveles Recomendados del menú principal.
+【Notas de Actualización - Fusión v4.1】
 
-2. Actualización del Modo Infinito
-- Nuevas Plantas Malditas: otorgan desventajas tácticas al plantarlas a cambio de mayor desafío.
-- Próximamente se añadirá una tienda de maldiciones con recompensas exclusivas.
+Contenido de la Actualización:
 
-3. Evolución de Dioses
-- Flujo de niveles optimizado: ahora se obtienen Monedas Divinas al completar partidas.
-- Nuevo Almanaque de Dioses: consulta rutas de evolución, catálogo de mejoras y desbloquea contenido con Monedas Divinas.
-- Si ya habías completado Evolución de Dioses, recibirás 2000 Monedas Divinas al iniciar.
+1. Odisea: Rediseño del Modo Evolución
+- Obtén puntos en cada ronda para comprar plantas, subir de nivel y refrescar la tienda.
+- Consigue cartas de mayor calidad fusionando plantas o mejorando la tienda.
+- Equipa diversos accesorios a tus cartas de plantas para otorgarles bonificaciones adicionales.
+- Al fusionar plantas en el jardín, heredarán la calidad y equipamientos de ambos materiales.
+- Si los zombis entran a la casa no perderás la partida de inmediato; en su lugar, se restará una cantidad de vida.
 
-4. Nuevas Plantas
-- Básicas: Planta Rodante Nevada, Seta Cuchilla, Seta Escudo, Manto de Escarcha.
-- Blancas: Grano de Café.
-- Malditas: Lanzaguisantes Maldito, Girasol Maldito, Calabaza Maldita.
-- Fusiones Comunes: Carnívora de Hielo, Nuez Pinchuda, Cáctus Apisonador, Rodante Cuchilla, Rodante Escudo, Seta Cuchilla Escudo, Rodante Acuática, Seta Cuchilla Acuática, Seta Escudo Acuática, Tripitidora Fume, Maceta Ígnea, Rodante Escarchada, Manto Cuchilla, Manto Escudo, Manto Acuático, y variantes de Termaloe.
-- Definitivas: Emperador Celestial Supremo, Súper Metralleta Flotante, Nenúfar Francotirador, Rabo de Gato Francotirador, Maceta Dragón Llameante.
+2. Nuevas Plantas
+- Serie Común: Girasol Artista, Lanzacol Magnética, Lanzacol de Hierro, Lanzacol Hiperespacial, Humoseta Flotante, Humoceta, Apisonaflor Magnética, Apisonaflor Paraplanta, Lanzamelones Disparador, Tripitidora Miedica, Humoseta Apisonadora, Lanzacol Disparadora, Melonseta Miedica, Apisonaflor Agrío, Apisonaflor Plateada, Apisonaflor Dorada.
+- Serie Definitiva: Emperatriz Setabisal, Emperatriz Setavaricia, Nuez Apisomagnética, Dracofénix, Plantorcha Antiespiral.
 
-5. Nuevos Zombis
-- Enemigos: Mecanismo Perdido (y sus variantes Escudo, Asalto, Pingüino, Bestia Nieve y Tirador), Cangrejo de las Nieves.
-- Neutrales: Pájaro de las Nieves.
-- Zombi Definitivo: Zombi Tridente Glacial.
+3. Nuevos Zombis
+- Zombi Derivado: Veyezombi Belisario Cereza.
+- Zombi Definitivo: Veyezombi Jinete Nuez de Delfín de Rugby.
+- BOSS: Pozeidon Abisal.
 
-6. Nuevos Niveles
-- Súper Aleatorio: Rasca y Gana de Plantas (en Niveles Recomendados).
-- Nuevos niveles agregados al Modo Puzle.
+4. Actualización de Niveles
+- Súper Aleatorio - Batalla de Signos de Interrogación: Dibuja retratos de las plantas aleatorias que atraiga Girasol Pintora y úsalas para repeler a las hordas de zombis.
 
-7. Ajustes de Equilibrio y Correcciones
-- Ajustes a Termaloe, Hipnoseta Definitiva y Trébol Definitivo.
-- Corrección de errores en mejoras de sinergia y optimización del rendimiento general.
+5. Nuevo Modificador (Efecto)
+- Rayo Reductor: ¡Mini Profesor Z!
+
+6. Ajustes de Equilibrio
+- Maceta Trébol, Trébol Patata y Calabaza Solar: Mejoras en sus valores y estadísticas.
+- Serie Tripitidoras Cañón: Se redujo su velocidad de ataque.
+- Nuez con Cubo, Calabaza con Cubo y Nuez Cascarrabias de Rugby: Aumento masivo de curación al usar sus respectivos objetos de hierro.
+- Trébol Magnético: Tras digerir objetos de hierro, ahora los convierte en recompensas que caen al suelo.
+- Seta Abisal y Seta de la Avaricia: Efectos rediseñados. Se eliminó la restricción de uso de Seta de la Avaricia en la dificultad Maldición de Odisea.
+- Tridente: Ahora aplica el efecto de ralentización por estado Húmedo.
+- Tridente Abisal Definitivo: Ahora puede morder como un tridente y potencia el debuff húmedo; el tridente gigante genera vórtices que atraen proyectiles.
+- Zombistein Tridente de Fortaleza: Ya no requiere tener menos de la mitad de vida para arrojar su tridente.
+
+7. Otras Optimizaciones
+- En el modo aleatorio, las oleadas ya no se activarán inmediatamente cuando la vida total de los zombis sea baja.
+- Se mejoraron las animaciones de expresiones faciales de varias plantas.
+- El plugin de reconocimiento del Pincel Mágico (MaLiang) ahora está alojado en el servidor, funcionando de manera independiente del dispositivo.
+- Se optimizó el ritmo de obtención de puntos y modificadores en el Modo Odisea Clásico.
+
+8. Corrección de Errores
+- Se corrigió un error donde el Sargento Aéreo (Supermetralladora Flotante) desaparecía al cambiar de escena.
+- Se corrigió un error donde la bonificación de puntos se aplicaba indebidamente en dificultad Maldición.
+- Se corrigieron errores conocidos adicionales y se optimizó la estabilidad general.
