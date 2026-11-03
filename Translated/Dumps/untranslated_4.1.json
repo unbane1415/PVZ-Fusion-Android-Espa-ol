@@ -1,0 +1,7242 @@
+[
+  {
+    "index": 45,
+    "chinese": "<b>怎么用</b>"
+  },
+  {
+    "index": 47,
+    "chinese": "但"
+  },
+  {
+    "index": 49,
+    "chinese": "定位："
+  },
+  {
+    "index": 50,
+    "chinese": "尚未拥有这个词条"
+  },
+  {
+    "index": 51,
+    "chinese": "当前武器词条上限：\n{0}/{1}"
+  },
+  {
+    "index": 53,
+    "chinese": "点击上方“节点说明”查看端口与连接例子。"
+  },
+  {
+    "index": 55,
+    "chinese": "该词条已拥有{0}个"
+  },
+  {
+    "index": 56,
+    "chinese": "难度积分：{0}"
+  },
+  {
+    "index": 57,
+    "chinese": "--- 测试"
+  },
+  {
+    "index": 59,
+    "chinese": "<color=green>价格：{0}</color>"
+  },
+  {
+    "index": 61,
+    "chinese": "<color=red>价格：{0}</color>"
+  },
+  {
+    "index": 62,
+    "chinese": "<color=red>需要完成前置关卡：{0}</color>"
+  },
+  {
+    "index": 63,
+    "chinese": "<color=yellow>奖励："
+  },
+  {
+    "index": 64,
+    "chinese": "<size=85%>本局获得：{0}诸神币"
+  },
+  {
+    "index": 65,
+    "chinese": "=== 存档槽位 ==="
+  },
+  {
+    "index": 66,
+    "chinese": "=== 所有羁绊统计 ==="
+  },
+  {
+    "index": 67,
+    "chinese": "=== 扫雷求解器测试结束 ==="
+  },
+  {
+    "index": 68,
+    "chinese": "=== 激活的羁绊 ==="
+  },
+  {
+    "index": 69,
+    "chinese": "=== 示例10：导出 {0} 融合树可视化 ==="
+  },
+  {
+    "index": 70,
+    "chinese": "=== 示例2：查询融合配方 ==="
+  },
+  {
+    "index": 71,
+    "chinese": "=== 示例3：查询父节点 ==="
+  },
+  {
+    "index": 72,
+    "chinese": "=== 示例4：尝试融合 ==="
+  },
+  {
+    "index": 73,
+    "chinese": "=== 示例5：打印融合树 ==="
+  },
+  {
+    "index": 74,
+    "chinese": "=== 示例6：查询融合路径 ==="
+  },
+  {
+    "index": 75,
+    "chinese": "=== 示例7：查找从 {0} 到 {1} 的最佳路径 ==="
+  },
+  {
+    "index": 76,
+    "chinese": "=== 示例8：批量查询融合能力 ==="
+  },
+  {
+    "index": 77,
+    "chinese": "=== 示例9：查找 {0} 最有价值的融合目标 ==="
+  },
+  {
+    "index": 94,
+    "chinese": "✅ 验证:"
+  },
+  {
+    "index": 96,
+    "chinese": "不死：{0}秒"
+  },
+  {
+    "index": 97,
+    "chinese": "中心3x3的数字："
+  },
+  {
+    "index": 98,
+    "chinese": "中心3x4区域的数字："
+  },
+  {
+    "index": 99,
+    "chinese": "从(1,1)开始测试求解..."
+  },
+  {
+    "index": 100,
+    "chinese": "从(1,2)开始测试求解..."
+  },
+  {
+    "index": 101,
+    "chinese": "从(2,2)开始测试求解..."
+  },
+  {
+    "index": 102,
+    "chinese": "但也开到了一些僵尸"
+  },
+  {
+    "index": 108,
+    "chinese": "冷却：{0}秒"
+  },
+  {
+    "index": 109,
+    "chinese": "剩余{0}"
+  },
+  {
+    "index": 110,
+    "chinese": "参考价值：{0}"
+  },
+  {
+    "index": 111,
+    "chinese": "同时解锁首条进化路线："
+  },
+  {
+    "index": 114,
+    "chinese": "已持有{0}个"
+  },
+  {
+    "index": 115,
+    "chinese": "当前分数：{0}"
+  },
+  {
+    "index": 117,
+    "chinese": "当前版本："
+  },
+  {
+    "index": 118,
+    "chinese": "待审核"
+  },
+  {
+    "index": 119,
+    "chinese": "成长值：{0}"
+  },
+  {
+    "index": 121,
+    "chinese": "敌方护甲：{0:F0}"
+  },
+  {
+    "index": 123,
+    "chinese": "植物品质：{0}"
+  },
+  {
+    "index": 124,
+    "chinese": "概率计算:"
+  },
+  {
+    "index": 127,
+    "chinese": "点击中栏此词条，可永久解锁该组的满阶战术。"
+  },
+  {
+    "index": 129,
+    "chinese": "版本："
+  },
+  {
+    "index": 130,
+    "chinese": "生效范围：\n{0}x{1}"
+  },
+  {
+    "index": 131,
+    "chinese": "生效间隔：\n3秒"
+  },
+  {
+    "index": 132,
+    "chinese": "生长阶段：{0}"
+  },
+  {
+    "index": 134,
+    "chinese": "等级：{0}"
+  },
+  {
+    "index": 135,
+    "chinese": "耐久：{0}/{1}"
+  },
+  {
+    "index": 136,
+    "chinese": "获得植物："
+  },
+  {
+    "index": 137,
+    "chinese": "融合能力最强的10个植物:"
+  },
+  {
+    "index": 140,
+    "chinese": "请检查设备权限是否开启"
+  },
+  {
+    "index": 141,
+    "chinese": "豌豆射手可以融合出机枪射手吗？"
+  },
+  {
+    "index": 142,
+    "chinese": "豌豆射手总共可融合出 {0} 种植物（包括间接融合）"
+  },
+  {
+    "index": 143,
+    "chinese": "路径:"
+  },
+  {
+    "index": 144,
+    "chinese": "还需{0}"
+  },
+  {
+    "index": 145,
+    "chinese": "追踪："
+  },
+  {
+    "index": 146,
+    "chinese": "阳光消耗：{0}"
+  },
+  {
+    "index": 149,
+    "chinese": "🎲 测试3：蒙特卡洛模拟"
+  },
+  {
+    "index": 150,
+    "chinese": "📈 测试2：概率分布"
+  },
+  {
+    "index": 151,
+    "chinese": "📊 测试1：品质权重计算"
+  },
+  {
+    "index": 152,
+    "chinese": "📋 完整概率表格"
+  },
+  {
+    "index": 153,
+    "chinese": "🔍 验证 Lucky = 1.0"
+  },
+  {
+    "index": 220,
+    "chinese": "- 词条: {0}, 次数: {1}"
+  },
+  {
+    "index": 224,
+    "chinese": "// Hold音符结束时间"
+  },
+  {
+    "index": 227,
+    "chinese": "[{0}] {1} - {2}费"
+  },
+  {
+    "index": 232,
+    "chinese": "{0}费植物: {1}个"
+  },
+  {
+    "index": 233,
+    "chinese": "·  加入黑名单"
+  },
+  {
+    "index": 234,
+    "chinese": "·  移出黑名单"
+  },
+  {
+    "index": 235,
+    "chinese": "基础植物数量: {0}"
+  },
+  {
+    "index": 236,
+    "chinese": "总权重: {0:F1}"
+  },
+  {
+    "index": 237,
+    "chinese": "总权重: {0}"
+  },
+  {
+    "index": 238,
+    "chinese": "总计:     {0:F1}% (应该=100%)"
+  },
+  {
+    "index": 239,
+    "chinese": "总计: {0} 次"
+  },
+  {
+    "index": 240,
+    "chinese": "普通:   50 × (1 + {0}) = {1}"
+  },
+  {
+    "index": 241,
+    "chinese": "普通:   {0:F1} (50 × {1:F1})"
+  },
+  {
+    "index": 242,
+    "chinese": "普通: {0} 次 ({1:F1}%)"
+  },
+  {
+    "index": 243,
+    "chinese": "普通概率: {0:F1}%"
+  },
+  {
+    "index": 244,
+    "chinese": "普通概率: {0} / {1} × 100 = {2:F1}%"
+  },
+  {
+    "index": 245,
+    "chinese": "最多子植物的植物: {0} ({1}个)"
+  },
+  {
+    "index": 246,
+    "chinese": "最大树深度: {0}"
+  },
+  {
+    "index": 247,
+    "chinese": "校验:   总权重应该 = 100 + 150 × {0:F1} = {1:F1}"
+  },
+  {
+    "index": 248,
+    "chinese": "植物类型总数: {0}"
+  },
+  {
+    "index": 249,
+    "chinese": "结论: 金色权重和概率都是钻石的3倍 ✅"
+  },
+  {
+    "index": 250,
+    "chinese": "融合配方总数: {0}"
+  },
+  {
+    "index": 251,
+    "chinese": "豌豆射手 + {0} = {1}"
+  },
+  {
+    "index": 252,
+    "chinese": "路径 {0}: {1}"
+  },
+  {
+    "index": 253,
+    "chinese": "金色:   15 × (1 + {0}) = {1}"
+  },
+  {
+    "index": 254,
+    "chinese": "金色:   {0:F1} (15 × {1:F1})"
+  },
+  {
+    "index": 255,
+    "chinese": "金色: {0} 次 ({1:F1}%)"
+  },
+  {
+    "index": 256,
+    "chinese": "金色权重 / 钻石权重 = {0} / {1} = {2:F1}"
+  },
+  {
+    "index": 257,
+    "chinese": "金色概率 / 钻石概率 = {0:F1}% / {1:F1}% = {2:F1}"
+  },
+  {
+    "index": 258,
+    "chinese": "金色概率: {0:F1}%"
+  },
+  {
+    "index": 259,
+    "chinese": "金色概率: {0} / {1} × 100 = {2:F1}%"
+  },
+  {
+    "index": 260,
+    "chinese": "钻石:   5 × (1 + {0}) = {1}"
+  },
+  {
+    "index": 261,
+    "chinese": "钻石:   {0:F1} (5 × {1:F1})"
+  },
+  {
+    "index": 262,
+    "chinese": "钻石: {0} 次 ({1:F1}%)"
+  },
+  {
+    "index": 263,
+    "chinese": "钻石概率: {0:F1}%"
+  },
+  {
+    "index": 264,
+    "chinese": "钻石概率: {0} / {1} × 100 = {2:F1}%"
+  },
+  {
+    "index": 265,
+    "chinese": "银色:   30 × (1 + {0}) = {1}"
+  },
+  {
+    "index": 266,
+    "chinese": "银色:   {0:F1} (30 × {1:F1})"
+  },
+  {
+    "index": 267,
+    "chinese": "银色: {0} 次 ({1:F1}%)"
+  },
+  {
+    "index": 268,
+    "chinese": "银色概率: {0:F1}%"
+  },
+  {
+    "index": 269,
+    "chinese": "银色概率: {0} / {1} × 100 = {2:F1}%"
+  },
+  {
+    "index": 279,
+    "chinese": "(找不到映射)"
+  },
+  {
+    "index": 476,
+    "chinese": "| 开始: {0:F3}s ({1}.{2}拍)"
+  },
+  {
+    "index": 477,
+    "chinese": "| 持续: {0:F3}s"
+  },
+  {
+    "index": 478,
+    "chinese": "| 时间: {0:F3}s ({1}.{2}拍)"
+  },
+  {
+    "index": 479,
+    "chinese": "| 结束: {0:F3}s ({1}.{2}拍)"
+  },
+  {
+    "index": 482,
+    "chinese": "· 50诸神币"
+  },
+  {
+    "index": 484,
+    "chinese": "· 专家植物"
+  },
+  {
+    "index": 485,
+    "chinese": "· 先解锁基础植物"
+  },
+  {
+    "index": 486,
+    "chinese": "· 免费"
+  },
+  {
+    "index": 487,
+    "chinese": "· 已解锁"
+  },
+  {
+    "index": 488,
+    "chinese": "· 已购买"
+  },
+  {
+    "index": 489,
+    "chinese": "· 当前"
+  },
+  {
+    "index": 490,
+    "chinese": "· 未购买 · {0}诸神币"
+  },
+  {
+    "index": 491,
+    "chinese": "· 被动"
+  },
+  {
+    "index": 493,
+    "chinese": "与"
+  },
+  {
+    "index": 494,
+    "chinese": "个词条 · 前三级免费"
+  },
+  {
+    "index": 495,
+    "chinese": "作弊模式已开启"
+  },
+  {
+    "index": 496,
+    "chinese": "关卡首胜会额外获得10张抽奖券，重复刷单个关卡也能产出抽奖券"
+  },
+  {
+    "index": 497,
+    "chinese": "创建成功"
+  },
+  {
+    "index": 498,
+    "chinese": "右键放罐（I）"
+  },
+  {
+    "index": 499,
+    "chinese": "含重复分类："
+  },
+  {
+    "index": 500,
+    "chinese": "失败:"
+  },
+  {
+    "index": 501,
+    "chinese": "找不到任何 Dirt"
+  },
+  {
+    "index": 502,
+    "chinese": "无效："
+  },
+  {
+    "index": 503,
+    "chinese": "时发生错误:"
+  },
+  {
+    "index": 504,
+    "chinese": "未实现 GetPortValue，返回默认值"
+  },
+  {
+    "index": 507,
+    "chinese": "的"
+  },
+  {
+    "index": 508,
+    "chinese": "的anim组件为空"
+  },
+  {
+    "index": 509,
+    "chinese": "的位置层无效"
+  },
+  {
+    "index": 511,
+    "chinese": "级"
+  },
+  {
+    "index": 512,
+    "chinese": "缺少数据或僵尸类型无效"
+  },
+  {
+    "index": 513,
+    "chinese": "缺少数据或植物类型无效"
+  },
+  {
+    "index": 514,
+    "chinese": "随机卡槽（O）"
+  },
+  {
+    "index": 515,
+    "chinese": "非直线连接，跳过"
+  },
+  {
+    "index": 600,
+    "chinese": "#{0}  {1} · {2} · {3} {4}\n装备 {5}/3 · 当前选中 {6}"
+  },
+  {
+    "index": 891,
+    "chinese": "(加|扣)(\\d+\\.?\\d*)(幸运)"
+  },
+  {
+    "index": 904,
+    "chinese": ") 的瓦片数组不是 16 张"
+  },
+  {
+    "index": 917,
+    "chinese": ")，回退纯"
+  },
+  {
+    "index": 930,
+    "chinese": "+ 列表"
+  },
+  {
+    "index": 931,
+    "chinese": "+ 字符串"
+  },
+  {
+    "index": 932,
+    "chinese": "+ 小数"
+  },
+  {
+    "index": 933,
+    "chinese": "+ 布尔"
+  },
+  {
+    "index": 934,
+    "chinese": "+ 整数"
+  },
+  {
+    "index": 1159,
+    "chinese": "// 歌曲:"
+  },
+  {
+    "index": 1227,
+    "chinese": "0为假，其他有限数为真。"
+  },
+  {
+    "index": 1379,
+    "chinese": "120%独立伤害增幅"
+  },
+  {
+    "index": 1390,
+    "chinese": "160%基础伤害"
+  },
+  {
+    "index": 1391,
+    "chinese": "1600%基础伤害"
+  },
+  {
+    "index": 1393,
+    "chinese": "1原金币=100积分；原经验作为升级抵扣；费用对应卡品质，2星再升1档，3星再升2档。"
+  },
+  {
+    "index": 1394,
+    "chinese": "1原金币=100积分；原经验作为升级抵扣；费用对应卡品质，2星再升1档，3星再升2档。原配置位面列表为空，含义未证实；本作显式开放第1～3大关。"
+  },
+  {
+    "index": 1396,
+    "chinese": "1次轮回，最终面临僵王的挑战\n通关获得75诸神币"
+  },
+  {
+    "index": 1470,
+    "chinese": "240%基础伤害"
+  },
+  {
+    "index": 1475,
+    "chinese": "2次轮回，最终面临黄金僵王的挑战\n通关获得100诸神币"
+  },
+  {
+    "index": 1492,
+    "chinese": "3x3范围内有植物受到伤害时，将伤害转移至自身（结算为生命流失，强制扣血，不受减伤、护盾的影响）"
+  },
+  {
+    "index": 1494,
+    "chinese": "3×3内不高于{0}的植物恢复{1:P0}最大生命\n共用冷却{2:0}秒，不能复活"
+  },
+  {
+    "index": 1499,
+    "chinese": "40%速度增幅"
+  },
+  {
+    "index": 1500,
+    "chinese": "400%基础伤害"
+  },
+  {
+    "index": 1508,
+    "chinese": "4个节点后，进行一次不能刷新的棱彩投资策略三选一。"
+  },
+  {
+    "index": 1509,
+    "chinese": "4个节点后，进行一次不能刷新的黄金投资策略三选一。"
+  },
+  {
+    "index": 1510,
+    "chinese": "4个节点后，进行一次棱彩海克斯三选一，每个选项可免费刷新1次。"
+  },
+  {
+    "index": 1511,
+    "chinese": "4个节点后，进行一次黄金海克斯三选一，每个选项可免费刷新1次。"
+  },
+  {
+    "index": 1515,
+    "chinese": "500%基础伤害"
+  },
+  {
+    "index": 1520,
+    "chinese": "5个节点后，进行一次不能刷新的棱彩投资策略三选一。"
+  },
+  {
+    "index": 1521,
+    "chinese": "5个节点后，进行一次不能刷新的黄金投资策略三选一。"
+  },
+  {
+    "index": 1522,
+    "chinese": "5个节点后，进行一次棱彩海克斯三选一，每个选项可免费刷新1次。"
+  },
+  {
+    "index": 1523,
+    "chinese": "5个节点后，进行一次黄金海克斯三选一，每个选项可免费刷新1次。"
+  },
+  {
+    "index": 1524,
+    "chinese": "5费聘用书适配为究极邀请函，四选一获得黄金品质究极植物；金币1:100积分，保留明确位面限制。"
+  },
+  {
+    "index": 1529,
+    "chinese": "60%速度增幅"
+  },
+  {
+    "index": 1539,
+    "chinese": "80%独立伤害增幅"
+  },
+  {
+    "index": 1541,
+    "chinese": "800%基础伤害"
+  },
+  {
+    "index": 1675,
+    "chinese": "<b>右侧输出：可以拿来做什么</b>"
+  },
+  {
+    "index": 1676,
+    "chinese": "<b>填写数值</b>\n节点本身的文本框和下拉框可以直接编辑。未连接的基础输入，可选中节点后点“填写输入值”。连线值优先；清除填写值后沿用节点原设置。"
+  },
+  {
+    "index": 1677,
+    "chinese": "<b>容易弄错的地方</b>"
+  },
+  {
+    "index": 1678,
+    "chinese": "<b>左侧输入：需要接什么</b>"
+  },
+  {
+    "index": 1679,
+    "chinese": "<b>怎么使用</b>"
+  },
+  {
+    "index": 1680,
+    "chinese": "<b>照着连接</b>"
+  },
+  {
+    "index": 1681,
+    "chinese": "<b>用来做什么</b>"
+  },
+  {
+    "index": 1682,
+    "chinese": "<b>试玩验证</b>\n保存并生成关卡后再进入关卡。先只测试这一条规则，确认触发时机、执行次数与目标，再连接其他规则。"
+  },
+  {
+    "index": 1689,
+    "chinese": "<color=#3D1400>出怪等级：</color><color=red>{0}</color>"
+  },
+  {
+    "index": 1904,
+    "chinese": "<size=20>排查时可使用节点编号："
+  },
+  {
+    "index": 1924,
+    "chinese": "=== 存档系统信息 ==="
+  },
+  {
+    "index": 1925,
+    "chinese": "=== 扫雷求解器测试开始 ==="
+  },
+  {
+    "index": 1928,
+    "chinese": "=== 测试局面：211, 101, 311 ==="
+  },
+  {
+    "index": 1929,
+    "chinese": "=== 测试局面：2111, 1001, 1123 ==="
+  },
+  {
+    "index": 1931,
+    "chinese": "=== 羁绊系统信息 ==="
+  },
+  {
+    "index": 2038,
+    "chinese": "ASCII码"
+  },
+  {
+    "index": 2039,
+    "chinese": "ASCII码转字符"
+  },
+  {
+    "index": 3593,
+    "chinese": "DPS：{0:F2}万"
+  },
+  {
+    "index": 3594,
+    "chinese": "DPS：{0:F2}亿"
+  },
+  {
+    "index": 4239,
+    "chinese": "Esc 返回游戏"
+  },
+  {
+    "index": 4374,
+    "chinese": "F8随时开关\n打开时暂停战斗\n修改自动保存\n持续选项仅本次运行\n命令↑↓查历史"
+  },
+  {
+    "index": 6643,
+    "chinese": "OOTD-金"
+  },
+  {
+    "index": 10153,
+    "chinese": "UI/TravelRogue/究极模仿者"
+  },
+  {
+    "index": 10837,
+    "chinese": "While循环"
+  },
+  {
+    "index": 10838,
+    "chinese": "While循环超过执行限制，请检查条件是否能变为假"
+  },
+  {
+    "index": 11126,
+    "chinese": "[AddPlantCardNode] 种植回调：植物对象为空，节点ID:"
+  },
+  {
+    "index": 11138,
+    "chinese": "[AutoChessLevel] 自走棋系统启动失败:"
+  },
+  {
+    "index": 11140,
+    "chinese": "[AutoChessSaveSystem] 创建存档文件夹:"
+  },
+  {
+    "index": 11141,
+    "chinese": "[AutoChessSaveSystem] 删除存档失败:"
+  },
+  {
+    "index": 11143,
+    "chinese": "[AutoChessSaveSystem] 删除自动存档失败:"
+  },
+  {
+    "index": 11149,
+    "chinese": "[AutoChessSaveSystem] 自动存档加载成功:"
+  },
+  {
+    "index": 11150,
+    "chinese": "[AutoChessSaveSystem] 自动存档失败:"
+  },
+  {
+    "index": 11152,
+    "chinese": "[AutoChessSaveSystem] 自动存档成功:"
+  },
+  {
+    "index": 11162,
+    "chinese": "[BoolVariableNode] 变量Asset未设置，返回false，节点ID:"
+  },
+  {
+    "index": 11170,
+    "chinese": "[CreateParticleNode] ParticleManager实例不存在，节点ID:"
+  },
+  {
+    "index": 11175,
+    "chinese": "[DamagePlantNode] 植物对象为空，无法造成伤害，节点ID:"
+  },
+  {
+    "index": 11176,
+    "chinese": "[DamageZombieNode] 僵尸对象为空，无法造成伤害，节点ID:"
+  },
+  {
+    "index": 11180,
+    "chinese": "[DiePlantNode] 植物对象为 null，无法执行死亡，节点ID:"
+  },
+  {
+    "index": 11181,
+    "chinese": "[DiePlantNode] 植物已经在死亡过程中，节点ID:"
+  },
+  {
+    "index": 11182,
+    "chinese": "[DivideNode] 除数为零！返回0，节点ID:"
+  },
+  {
+    "index": 11201,
+    "chinese": "[EventNodeCanvasInputHandler] 创建的节点不是VariableNode类型:"
+  },
+  {
+    "index": 11204,
+    "chinese": "[EventNodeCanvasInputHandler] 未知的Asset类型:"
+  },
+  {
+    "index": 11208,
+    "chinese": "[EventNodeManager] OnMouseClick事件收到的数据不是MouseClickData对象，而是:"
+  },
+  {
+    "index": 11209,
+    "chinese": "[EventNodeManager] OnPlantClick事件收到的数据不是Plant对象，而是:"
+  },
+  {
+    "index": 11210,
+    "chinese": "[EventNodeManager] OnPlantCreate事件收到的数据不是Plant对象，而是:"
+  },
+  {
+    "index": 11211,
+    "chinese": "[EventNodeManager] OnPlantDeath事件收到的数据不是Plant对象，而是:"
+  },
+  {
+    "index": 11212,
+    "chinese": "[EventNodeManager] OnZombieDeath事件收到的数据不是Zombie对象，而是:"
+  },
+  {
+    "index": 11213,
+    "chinese": "[EventNodeManager] OnZombieSpawn事件收到的数据不是Zombie对象，而是:"
+  },
+  {
+    "index": 11216,
+    "chinese": "[FloatVariableNode] 变量Asset未设置，返回0，节点ID:"
+  },
+  {
+    "index": 11217,
+    "chinese": "[ForEachPlantNode] 植物列表为空或null，节点ID:"
+  },
+  {
+    "index": 11218,
+    "chinese": "[ForEachPlantTypeNode] 植物类型列表为空或null，节点ID:"
+  },
+  {
+    "index": 11220,
+    "chinese": "[GetAllPlantsNode] Board不存在，节点ID:"
+  },
+  {
+    "index": 11221,
+    "chinese": "[GetBoolVariableValueNode] 变量节点未连接或获取失败，返回默认值，节点ID:"
+  },
+  {
+    "index": 11222,
+    "chinese": "[GetFloatVariableValueNode] 变量节点未连接或获取失败，返回默认值，节点ID:"
+  },
+  {
+    "index": 11223,
+    "chinese": "[GetIntVariableValueNode] 变量节点未连接或获取失败，返回默认值，节点ID:"
+  },
+  {
+    "index": 11224,
+    "chinese": "[GetPlantsInCellNode] 棋盘不存在，节点ID:"
+  },
+  {
+    "index": 11225,
+    "chinese": "[GetRandomPlantTypeNode] 列表为空，返回默认值 Nothing，节点ID:"
+  },
+  {
+    "index": 11227,
+    "chinese": "[GivePlantShieldNode] 植物对象为空，无法增加护盾，节点ID:"
+  },
+  {
+    "index": 11228,
+    "chinese": "[HealPlantNode] 植物对象为空，无法回血，节点ID:"
+  },
+  {
+    "index": 11229,
+    "chinese": "[IntDivideNode] 除数为零！返回0，节点ID:"
+  },
+  {
+    "index": 11230,
+    "chinese": "[IntModuloNode] 除数为零！返回0，节点ID:"
+  },
+  {
+    "index": 11232,
+    "chinese": "[IntVariableNode] 变量Asset未设置，返回0，节点ID:"
+  },
+  {
+    "index": 11239,
+    "chinese": "[ModifyPlantAttackNode] 植物对象为空，无法修改攻击力，节点ID:"
+  },
+  {
+    "index": 11240,
+    "chinese": "[ModifyPlantHealthNode] 植物对象为空，无法修改血量，节点ID:"
+  },
+  {
+    "index": 11241,
+    "chinese": "[ModifyZombieHealthNode] 僵尸对象为空，无法修改血量，节点ID:"
+  },
+  {
+    "index": 11243,
+    "chinese": "[MovePlantNode] 植物对象为 null，无法移动，节点ID:"
+  },
+  {
+    "index": 11244,
+    "chinese": "[MoveZombieNode] 僵尸对象为 null，无法移动，节点ID:"
+  },
+  {
+    "index": 11247,
+    "chinese": "[NodeInfoPanel] 未找到节点类型信息:"
+  },
+  {
+    "index": 11253,
+    "chinese": "[OnBoardStartNode] Board.Instance 为 null，无法触发关卡开始事件，节点ID:"
+  },
+  {
+    "index": 11254,
+    "chinese": "[OnGameStartNode] Board.Instance 为 null，无法触发关卡开始事件，节点ID:"
+  },
+  {
+    "index": 11255,
+    "chinese": "[OnKeyPressNode] targetKey 为 None，无法触发按键事件，节点ID:"
+  },
+  {
+    "index": 11256,
+    "chinese": "[OnMouseClickNode] clickData 为 null，无法触发鼠标点击事件，节点ID:"
+  },
+  {
+    "index": 11257,
+    "chinese": "[OnPlantClickNode] clickedPlant 为 null，无法触发植物点击事件，节点ID:"
+  },
+  {
+    "index": 11258,
+    "chinese": "[OnPlantCreateNode] currentPlant 为 null，无法触发植物种植事件，节点ID:"
+  },
+  {
+    "index": 11259,
+    "chinese": "[OnPlantDeathCompleteNode] currentPlant 为 null，无法触发植物死亡完成事件，节点ID:"
+  },
+  {
+    "index": 11260,
+    "chinese": "[OnPlantDieNode] currentPlant 为 null，无法触发植物死亡事件，节点ID:"
+  },
+  {
+    "index": 11261,
+    "chinese": "[OnZombieDieNode] currentZombie 为 null，无法触发僵尸死亡事件，节点ID:"
+  },
+  {
+    "index": 11262,
+    "chinese": "[OnZombieSpawnNode] currentZombie 为 null，无法触发僵尸生成事件，节点ID:"
+  },
+  {
+    "index": 11268,
+    "chinese": "[PlantSplitNode] 植物对象为空，返回默认值，节点ID:"
+  },
+  {
+    "index": 11269,
+    "chinese": "[PlayZombieAnimNode] 僵尸"
+  },
+  {
+    "index": 11270,
+    "chinese": "[PlayZombieAnimNode] 僵尸对象为空，无法播放动画，节点ID:"
+  },
+  {
+    "index": 11277,
+    "chinese": "[RemovePlantTypeNode] 输入列表为 null，节点ID:"
+  },
+  {
+    "index": 11279,
+    "chinese": "[RuntimeEventNodeEditor] 克隆节点失败:"
+  },
+  {
+    "index": 11282,
+    "chinese": "[RuntimeEventNodeEditor] 无法重建连接:"
+  },
+  {
+    "index": 11284,
+    "chinese": "[RuntimeEventNodeEditor] 粘贴节点失败:"
+  },
+  {
+    "index": 11292,
+    "chinese": "[SetBoolVariableValueNode] 变量节点未连接，节点ID:"
+  },
+  {
+    "index": 11293,
+    "chinese": "[SetFloatVariableValueNode] 变量节点未连接，节点ID:"
+  },
+  {
+    "index": 11294,
+    "chinese": "[SetIntVariableValueNode] 变量节点未连接，节点ID:"
+  },
+  {
+    "index": 11295,
+    "chinese": "[SetZombieMindControlledNode] 僵尸对象为空，无法魅惑，节点ID:"
+  },
+  {
+    "index": 11296,
+    "chinese": "[ShopManager] 商店刷新完成"
+  },
+  {
+    "index": 11313,
+    "chinese": "[SynergyManager] 添加植物:"
+  },
+  {
+    "index": 11314,
+    "chinese": "[SynergyManager] 羁绊失效:"
+  },
+  {
+    "index": 11325,
+    "chinese": "[WaveEventNode] Board.Instance 为 null，无法触发波次事件，节点ID:"
+  },
+  {
+    "index": 11326,
+    "chinese": "[ZombieSplitNode] 僵尸对象为空，返回默认值，节点ID:"
+  },
+  {
+    "index": 11344,
+    "chinese": "[{0}级] {1} ({2}个): {3}"
+  },
+  {
+    "index": 11346,
+    "chinese": "[在线关卡] 成功加载关卡:"
+  },
+  {
+    "index": 11347,
+    "chinese": "[在线关卡] 正在下载关卡:"
+  },
+  {
+    "index": 11404,
+    "chinese": "] 端口"
+  },
+  {
+    "index": 12546,
+    "chinese": "card add 植物 品质 数量 / card quality 卡牌ID 品质 / card clone 卡牌ID 数量 / card remove 卡牌ID"
+  },
+  {
+    "index": 12551,
+    "chinese": "card支持add / quality / clone / remove"
+  },
+  {
+    "index": 13154,
+    "chinese": "equipment 编号 数量 究极0或1"
+  },
+  {
+    "index": 13512,
+    "chinese": "hex 编号或名称"
+  },
+  {
+    "index": 13842,
+    "chinese": "item 编号 数量"
+  },
+  {
+    "index": 13882,
+    "chinese": "json数据解析异常 rawMessage:"
+  },
+  {
+    "index": 14385,
+    "chinese": "offers 植物 品质"
+  },
+  {
+    "index": 14575,
+    "chinese": "plant 卡牌ID 行 列"
+  },
+  {
+    "index": 15019,
+    "chinese": "spawn 僵尸 行 数量，行从1开始"
+  },
+  {
+    "index": 15911,
+    "chinese": "{0:+0.##;-0.##;0}积分"
+  },
+  {
+    "index": 15918,
+    "chinese": "{0:0}秒"
+  },
+  {
+    "index": 15942,
+    "chinese": "{0}\n阶段 {1} · 波次 {2}/{3} · 阳光 {4} · 积分 {5:0}\n生命 {6}/{7} · 连胜 {8} · 商店 Lv.{9} · 免费刷新 {10}\n卡牌 {11}（溢出 {12}）· 装备 {13} · 道具 {14} · 礼盒 {15} · 海克斯 {16}"
+  },
+  {
+    "index": 15949,
+    "chinese": "{0}  |  {1}  |  积分 {2:0}  阳光 {3}  生命 {4}/{5}"
+  },
+  {
+    "index": 15992,
+    "chinese": "{0} {1} · 第{2}路第{3}格"
+  },
+  {
+    "index": 16000,
+    "chinese": "{0} 个变量"
+  },
+  {
+    "index": 16007,
+    "chinese": "{0} 的装备（{1}/3）"
+  },
+  {
+    "index": 16009,
+    "chinese": "{0} 第{1}大关 {2}"
+  },
+  {
+    "index": 16054,
+    "chinese": "{0}: {1}个"
+  },
+  {
+    "index": 16087,
+    "chinese": "{0}品质卡牌×{1}"
+  },
+  {
+    "index": 16091,
+    "chinese": "{0}礼盒 ×{1}"
+  },
+  {
+    "index": 16093,
+    "chinese": "{0}秒"
+  },
+  {
+    "index": 16094,
+    "chinese": "{0}积分"
+  },
+  {
+    "index": 16095,
+    "chinese": "{0}级"
+  },
+  {
+    "index": 16105,
+    "chinese": "{0}费: {1:F0}%"
+  },
+  {
+    "index": 16108,
+    "chinese": "{0}阳光"
+  },
+  {
+    "index": 16109,
+    "chinese": "{0}阶"
+  },
+  {
+    "index": 16110,
+    "chinese": "{0}阶：<color=red>{1}%</color>"
+  },
+  {
+    "index": 16111,
+    "chinese": "{0}难度 · 共{1}位领袖 · 按大关顺序展示"
+  },
+  {
+    "index": 16112,
+    "chinese": "{0}需要{1}，范围{2}～{3}；原值未变。"
+  },
+  {
+    "index": 16113,
+    "chinese": "{0}（{1}份）"
+  },
+  {
+    "index": 16114,
+    "chinese": "{0}，生命 {1}/{2}，难度 {3}"
+  },
+  {
+    "index": 16273,
+    "chinese": "✅ 成功加载:"
+  },
+  {
+    "index": 16282,
+    "chinese": "❌ 无法加载音频文件（尝试了所有格式）:"
+  },
+  {
+    "index": 16345,
+    "chinese": "一次性消耗品 · 不可升级"
+  },
+  {
+    "index": 16348,
+    "chinese": "一次触发直接给共享变量加、减、乘、除或取余。"
+  },
+  {
+    "index": 16352,
+    "chinese": "一般物品对象。旧多选菜单也使用此类型传选项列表，搭配时请看下方例子，不要混接。"
+  },
+  {
+    "index": 16353,
+    "chinese": "一键同步"
+  },
+  {
+    "index": 16354,
+    "chinese": "一键同步\n{0}阳光"
+  },
+  {
+    "index": 16355,
+    "chinese": "一键测试礼包"
+  },
+  {
+    "index": 16372,
+    "chinese": "三维坐标"
+  },
+  {
+    "index": 16373,
+    "chinese": "三连击！"
+  },
+  {
+    "index": 16380,
+    "chinese": "上传用户关卡时发生错误:"
+  },
+  {
+    "index": 16381,
+    "chinese": "上场结算 +{0}积分\n基础 {1}　连胜 {2}\n利息 {3}　额外 {4}"
+  },
+  {
+    "index": 16382,
+    "chinese": "上场结算：暂无"
+  },
+  {
+    "index": 16384,
+    "chinese": "下一个Boss战后，获得每种基础装备各1件。"
+  },
+  {
+    "index": 16385,
+    "chinese": "下一个奖励节点额外获得钻石聘用书、进阶装备盒和黄金礼盒各1个。"
+  },
+  {
+    "index": 16386,
+    "chinese": "下一次和每4次商店刷新都将是全3费角色。获得5次刷新。"
+  },
+  {
+    "index": 16387,
+    "chinese": "下一次和每4次商店刷新都将是全黄金品质植物卡。获得5次免费刷新。"
+  },
+  {
+    "index": 16390,
+    "chinese": "下一轮"
+  },
+  {
+    "index": 16393,
+    "chinese": "下波 {0:0}秒"
+  },
+  {
+    "index": 16394,
+    "chinese": "下载关卡"
+  },
+  {
+    "index": 16395,
+    "chinese": "下载关卡失败:"
+  },
+  {
+    "index": 16402,
+    "chinese": "不可碾压"
+  },
+  {
+    "index": 16414,
+    "chinese": "不等价交换"
+  },
+  {
+    "index": 16424,
+    "chinese": "与出战卡一致，无需同步"
+  },
+  {
+    "index": 16426,
+    "chinese": "专家招募"
+  },
+  {
+    "index": 16427,
+    "chinese": "专家招募+"
+  },
+  {
+    "index": 16431,
+    "chinese": "专用选项列表类型，点击时保留本次事件上下文"
+  },
+  {
+    "index": 16469,
+    "chinese": "买断制"
+  },
+  {
+    "index": 16470,
+    "chinese": "乱成一锅粥"
+  },
+  {
+    "index": 16471,
+    "chinese": "乱成一锅粥+"
+  },
+  {
+    "index": 16473,
+    "chinese": "事件创作工具"
+  },
+  {
+    "index": 16474,
+    "chinese": "事件子弹达到每帧128次或同时1024枚的上限"
+  },
+  {
+    "index": 16475,
+    "chinese": "事件对象"
+  },
+  {
+    "index": 16476,
+    "chinese": "事件工具窗口"
+  },
+  {
+    "index": 16477,
+    "chinese": "事件规则工具  ·"
+  },
+  {
+    "index": 16488,
+    "chinese": "五个商品已替换，可测试真实购买与三合一"
+  },
+  {
+    "index": 16489,
+    "chinese": "交换后小队生命值归零"
+  },
+  {
+    "index": 16492,
+    "chinese": "产光"
+  },
+  {
+    "index": 16497,
+    "chinese": "人才激励"
+  },
+  {
+    "index": 16498,
+    "chinese": "人才激励+"
+  },
+  {
+    "index": 16503,
+    "chinese": "仅已获得"
+  },
+  {
+    "index": 16508,
+    "chinese": "从3件不同进阶装备中选1件获得。本局后续获得该配方的任一种基础材料时，改为获得所选进阶装备。"
+  },
+  {
+    "index": 16509,
+    "chinese": "从3件进阶装备中选择一件获取。本局游戏中，你获得组成该装备的简易装备时，改为获得该进阶装备。"
+  },
+  {
+    "index": 16521,
+    "chinese": "从相同类型的输出口连到输入口。带触发输入的节点需要执行连线才能工作。只有数据连线不会执行动作。"
+  },
+  {
+    "index": 16527,
+    "chinese": "仓库等级：{0}     容量：{1}"
+  },
+  {
+    "index": 16541,
+    "chinese": "以你的画作代替画出的植物或魅惑僵尸贴图"
+  },
+  {
+    "index": 16543,
+    "chinese": "以战养战"
+  },
+  {
+    "index": 16545,
+    "chinese": "价值补给-金"
+  },
+  {
+    "index": 16546,
+    "chinese": "价值补给•彩"
+  },
+  {
+    "index": 16548,
+    "chinese": "价格：{0}"
+  },
+  {
+    "index": 16549,
+    "chinese": "价格：{0}积分"
+  },
+  {
+    "index": 16555,
+    "chinese": "优势火力论"
+  },
+  {
+    "index": 16557,
+    "chinese": "伟大征服"
+  },
+  {
+    "index": 16569,
+    "chinese": "伤害增幅：{0:F0}%"
+  },
+  {
+    "index": 16575,
+    "chinese": "位置"
+  },
+  {
+    "index": 16584,
+    "chinese": "你不再获得利息。即刻获得15金币。每次进入新节点时，获得4经验。"
+  },
+  {
+    "index": 16607,
+    "chinese": "你无法在商店购买植物卡和刷新，持续3个节点。在此之后，获得2000积分。"
+  },
+  {
+    "index": 16608,
+    "chinese": "你无法在商店购买角色和刷新，持续3个节点。在此之后，获得20金币。"
+  },
+  {
+    "index": 16611,
+    "chinese": "你每次消耗金币刷新商店，都会获得2经验值。"
+  },
+  {
+    "index": 16612,
+    "chinese": "你没有按向日葵要求完成画作，植物已被收回"
+  },
+  {
+    "index": 16630,
+    "chinese": "你真的要永久删除这个关卡吗"
+  },
+  {
+    "index": 16635,
+    "chinese": "你能铲了他么！"
+  },
+  {
+    "index": 16640,
+    "chinese": "你购买的下1个4费角色将立刻升到2星。获得12金币。"
+  },
+  {
+    "index": 16647,
+    "chinese": "使当前连胜数变为4。获得400积分。"
+  },
+  {
+    "index": 16648,
+    "chinese": "使当前连胜数变为4。获得4金币。"
+  },
+  {
+    "index": 16651,
+    "chinese": "使植物获得防碾压的效果"
+  },
+  {
+    "index": 16654,
+    "chinese": "使用手套可以融合植物，但只能融合长大以后的植物\r\n快捷键123456等为对应左上角的道具"
+  },
+  {
+    "index": 16663,
+    "chinese": "依次输出列表中的每只存活僵尸，遍历结束后触发完成。"
+  },
+  {
+    "index": 16665,
+    "chinese": "保存关卡失败，原存档已保留："
+  },
+  {
+    "index": 16666,
+    "chinese": "保存失败，原存档已保留"
+  },
+  {
+    "index": 16667,
+    "chinese": "保存失败，原文件保留："
+  },
+  {
+    "index": 16673,
+    "chinese": "保存花园存档失败"
+  },
+  {
+    "index": 16675,
+    "chinese": "保存进度"
+  },
+  {
+    "index": 16676,
+    "chinese": "保存选中节点为模板"
+  },
+  {
+    "index": 16685,
+    "chinese": "保险"
+  },
+  {
+    "index": 16695,
+    "chinese": "修复"
+  },
+  {
+    "index": 16696,
+    "chinese": "修改仍存活的事件子弹大小、速度、伤害或方向。"
+  },
+  {
+    "index": 16699,
+    "chinese": "修改后不能重做原来的分支"
+  },
+  {
+    "index": 16700,
+    "chinese": "修改子弹数值"
+  },
+  {
+    "index": 16701,
+    "chinese": "修改当前卡槽中同种僵尸卡的总冷却和剩余冷却。"
+  },
+  {
+    "index": 16703,
+    "chinese": "修改持有卡牌不会回写已经种下的植物快照。复制卡不复制装备；移除卡牌按来源退回全部装备，不发出售积分。"
+  },
+  {
+    "index": 16704,
+    "chinese": "修改数量"
+  },
+  {
+    "index": 16705,
+    "chinese": "修改本局铲子、手套、锤子或小推车的冷却。"
+  },
+  {
+    "index": 16707,
+    "chinese": "修改植物攻击间隔"
+  },
+  {
+    "index": 16712,
+    "chinese": "倍率"
+  },
+  {
+    "index": 16713,
+    "chinese": "倍速范围0～10，0为暂停"
+  },
+  {
+    "index": 16718,
+    "chinese": "值无效：枚举可填成员名，布尔使用true/false，浮点使用小数点"
+  },
+  {
+    "index": 16719,
+    "chinese": "假"
+  },
+  {
+    "index": 16722,
+    "chinese": "停止记录"
+  },
+  {
+    "index": 16725,
+    "chinese": "僵尸"
+  },
+  {
+    "index": 16728,
+    "chinese": "僵尸分类资源"
+  },
+  {
+    "index": 16729,
+    "chinese": "僵尸分类资源 {0} 的水中形态无效或反向映射重复：{1}"
+  },
+  {
+    "index": 16730,
+    "chinese": "僵尸分类资源 {0} 的类型无效或重复：{1}"
+  },
+  {
+    "index": 16739,
+    "chinese": "僵尸对象"
+  },
+  {
+    "index": 16742,
+    "chinese": "僵尸摇摆！"
+  },
+  {
+    "index": 16744,
+    "chinese": "僵尸数值资源"
+  },
+  {
+    "index": 16745,
+    "chinese": "僵尸数值资源存在重复类型 {0}，请检查 {1}"
+  },
+  {
+    "index": 16750,
+    "chinese": "僵尸生命额外 ×{0:0}\n战斗关 {1} 波\nBoss 数量 {2}\n{3}\nBoss 于第一个旗帜波登场"
+  },
+  {
+    "index": 16755,
+    "chinese": "僵尸种类"
+  },
+  {
+    "index": 16756,
+    "chinese": "僵尸种类列表"
+  },
+  {
+    "index": 16760,
+    "chinese": "僵尸类型列表插入"
+  },
+  {
+    "index": 16761,
+    "chinese": "僵尸类型列表替换"
+  },
+  {
+    "index": 16762,
+    "chinese": "僵尸类型列表查找"
+  },
+  {
+    "index": 16763,
+    "chinese": "僵尸类型列表获取项"
+  },
+  {
+    "index": 16764,
+    "chinese": "僵尸类型列表追加"
+  },
+  {
+    "index": 16767,
+    "chinese": "僵尸类型转字符串"
+  },
+  {
+    "index": 16768,
+    "chinese": "僵尸血量达到阈值时"
+  },
+  {
+    "index": 16773,
+    "chinese": "僵尸转对象"
+  },
+  {
+    "index": 16775,
+    "chinese": "僵尸进家失败"
+  },
+  {
+    "index": 16777,
+    "chinese": "僵尸进家，本节点失败，扣除{0}点生命，剩余{1}"
+  },
+  {
+    "index": 16778,
+    "chinese": "僵尸阵营"
+  },
+  {
+    "index": 16790,
+    "chinese": "元素类型"
+  },
+  {
+    "index": 16791,
+    "chinese": "充能电池"
+  },
+  {
+    "index": 16792,
+    "chinese": "充能电池Ⅱ"
+  },
+  {
+    "index": 16793,
+    "chinese": "先亏后盈"
+  },
+  {
+    "index": 16794,
+    "chinese": "先从已有积分中每扣400积分获得1张随机黄金植物卡，最多扣4000积分；再获得1600积分和1个模仿者。拖到卡牌上可获得对应植物的黄金品质卡牌。"
+  },
+  {
+    "index": 16795,
+    "chinese": "先删除列表全部元素，再修改元素类型；已有内容不会被自动丢弃。"
+  },
+  {
+    "index": 16797,
+    "chinese": "先处理溢出卡牌：出售、合成卡牌或升级商店腾出位置"
+  },
+  {
+    "index": 16798,
+    "chinese": "先开启记录，再试玩；回来查看哪些节点执行了。"
+  },
+  {
+    "index": 16799,
+    "chinese": "先探索"
+  },
+  {
+    "index": 16800,
+    "chinese": "先添加规则模板 → 选中节点看说明、改数值 → 检查连线 → 保存并试玩"
+  },
+  {
+    "index": 16802,
+    "chinese": "先选中一个节点"
+  },
+  {
+    "index": 16803,
+    "chinese": "先选择一个节点，再编辑输入默认值"
+  },
+  {
+    "index": 16805,
+    "chinese": "光明之剑"
+  },
+  {
+    "index": 16806,
+    "chinese": "光明手枪"
+  },
+  {
+    "index": 16810,
+    "chinese": "光照等级：{0}"
+  },
+  {
+    "index": 16814,
+    "chinese": "免疫一次致命进家伤害。\n触发后恢复至40点生命，并获得6000积分，每局只能触发一次。"
+  },
+  {
+    "index": 16815,
+    "chinese": "免费刷新 {0}次 · {1}秒"
+  },
+  {
+    "index": 16816,
+    "chinese": "免费刷新×{0}"
+  },
+  {
+    "index": 16817,
+    "chinese": "免费刷新已设为{0}"
+  },
+  {
+    "index": 16818,
+    "chinese": "免费刷新次数"
+  },
+  {
+    "index": 16820,
+    "chinese": "免费刷新（剩余{0}次）"
+  },
+  {
+    "index": 16821,
+    "chinese": "免费午餐"
+  },
+  {
+    "index": 16822,
+    "chinese": "免费重抽"
+  },
+  {
+    "index": 16833,
+    "chinese": "全员晋升"
+  },
+  {
+    "index": 16846,
+    "chinese": "全部开启"
+  },
+  {
+    "index": 16848,
+    "chinese": "全都要"
+  },
+  {
+    "index": 16849,
+    "chinese": "全都要-金"
+  },
+  {
+    "index": 16850,
+    "chinese": "全都要-银"
+  },
+  {
+    "index": 16854,
+    "chinese": "共{0}项 · 第{1}/{2}页"
+  },
+  {
+    "index": 16855,
+    "chinese": "共{0}项，显示前10项。修复后重新检查。"
+  },
+  {
+    "index": 16856,
+    "chinese": "共享列表"
+  },
+  {
+    "index": 16859,
+    "chinese": "关"
+  },
+  {
+    "index": 16865,
+    "chinese": "关卡删除失败:"
+  },
+  {
+    "index": 16866,
+    "chinese": "关卡制作中："
+  },
+  {
+    "index": 16867,
+    "chinese": "关卡制作指南"
+  },
+  {
+    "index": 16868,
+    "chinese": "关卡制作指南入口"
+  },
+  {
+    "index": 16869,
+    "chinese": "关卡包含无法恢复的事件节点，已阻止覆盖原文件"
+  },
+  {
+    "index": 16870,
+    "chinese": "关卡变量"
+  },
+  {
+    "index": 16871,
+    "chinese": "关卡名称为空或包含无效文件名字符"
+  },
+  {
+    "index": 16893,
+    "chinese": "关闭  F8 / Esc"
+  },
+  {
+    "index": 16898,
+    "chinese": "内容面板"
+  },
+  {
+    "index": 16900,
+    "chinese": "内鬼交易"
+  },
+  {
+    "index": 16906,
+    "chinese": "军备供应链"
+  },
+  {
+    "index": 16907,
+    "chinese": "军火贸易"
+  },
+  {
+    "index": 16908,
+    "chinese": "军火贸易+"
+  },
+  {
+    "index": 16921,
+    "chinese": "冰雪"
+  },
+  {
+    "index": 16925,
+    "chinese": "冷却时间-{0:P0}"
+  },
+  {
+    "index": 16926,
+    "chinese": "冷却时间额外降低50%，与面板乘算"
+  },
+  {
+    "index": 16927,
+    "chinese": "冷却时间额外降低75%，与面板乘算"
+  },
+  {
+    "index": 16928,
+    "chinese": "冷却秒数"
+  },
+  {
+    "index": 16930,
+    "chinese": "冷却：{0:F1}秒"
+  },
+  {
+    "index": 16936,
+    "chinese": "冻结场上敌方僵尸{0:0}秒\n共用冷却{1:0}秒，期间新出现的僵尸不受影响"
+  },
+  {
+    "index": 16938,
+    "chinese": "准备读取存档失败："
+  },
+  {
+    "index": 16940,
+    "chinese": "减伤+{0:P0}"
+  },
+  {
+    "index": 16949,
+    "chinese": "出售全部卡牌并返还装备；获得1张钻石、2张黄金、2张白银随机植物卡。"
+  },
+  {
+    "index": 16950,
+    "chinese": "出售场上和备战席的所有植物卡，获得双倍价格的积分。你接下来6次购买植物卡是免费的。"
+  },
+  {
+    "index": 16951,
+    "chinese": "出售场上和备战席的所有植物卡，获得双倍价格的积分。获得6次免费刷新。"
+  },
+  {
+    "index": 16952,
+    "chinese": "出售场上和备战席的所有角色。获得1个随机的2星3费角色、2个2星2费角色和2个2星1费角色。"
+  },
+  {
+    "index": 16953,
+    "chinese": "出售场上和备战席的所有角色，获得双倍价格的金币。你接下来6次购买角色是免费的。"
+  },
+  {
+    "index": 16954,
+    "chinese": "出售场上和备战席的所有角色，获得双倍价格的金币。获得6次免费刷新。"
+  },
+  {
+    "index": 16955,
+    "chinese": "出售植物卡时，会将进阶装备拆分成基础装备。获得1件进阶装备，并在4个节点后获得1件随机基础装备。"
+  },
+  {
+    "index": 16956,
+    "chinese": "出售植物卡时，会将进阶装备拆分成基础装备。获得1件进阶装备，并在5个节点后获得1件随机基础装备。"
+  },
+  {
+    "index": 16958,
+    "chinese": "出售角色时，会将进阶装备拆分成简易装备。获得1件进阶装备，并在4个节点后获得1件随机简易装备。"
+  },
+  {
+    "index": 16959,
+    "chinese": "出售角色时，会将进阶装备拆分成简易装备。获得1件进阶装备，并在5个节点后获得1件随机简易装备。"
+  },
+  {
+    "index": 16962,
+    "chinese": "出售选中"
+  },
+  {
+    "index": 16965,
+    "chinese": "出怪预览 · 第{0}～{1}轮"
+  },
+  {
+    "index": 16966,
+    "chinese": "出战"
+  },
+  {
+    "index": 16967,
+    "chinese": "出战 ·"
+  },
+  {
+    "index": 16968,
+    "chinese": "出战卡"
+  },
+  {
+    "index": 16969,
+    "chinese": "出战卡槽和备战席已满，请先整理卡牌"
+  },
+  {
+    "index": 16970,
+    "chinese": "出战卡："
+  },
+  {
+    "index": 16972,
+    "chinese": "出现条件："
+  },
+  {
+    "index": 16975,
+    "chinese": "击杀并发奖励"
+  },
+  {
+    "index": 16991,
+    "chinese": "分类节点列表"
+  },
+  {
+    "index": 16995,
+    "chinese": "切图间隔至少1秒"
+  },
+  {
+    "index": 16996,
+    "chinese": "切换关卡阶段；新执行模式会取消上个阶段的等待与周期"
+  },
+  {
+    "index": 16998,
+    "chinese": "切换地图"
+  },
+  {
+    "index": 17005,
+    "chinese": "切换背景音乐"
+  },
+  {
+    "index": 17006,
+    "chinese": "切换阶段"
+  },
+  {
+    "index": 17013,
+    "chinese": "列表为空，点击上方“添加一项”填写默认值。"
+  },
+  {
+    "index": 17014,
+    "chinese": "列表元素{0}"
+  },
+  {
+    "index": 17015,
+    "chinese": "列表初值 ·"
+  },
+  {
+    "index": 17016,
+    "chinese": "列表删除项"
+  },
+  {
+    "index": 17017,
+    "chinese": "列表已达到512项上限。"
+  },
+  {
+    "index": 17020,
+    "chinese": "列（小数）"
+  },
+  {
+    "index": 17030,
+    "chinese": "创建场景对象"
+  },
+  {
+    "index": 17038,
+    "chinese": "创建完成"
+  },
+  {
+    "index": 17049,
+    "chinese": "创建由当前关卡事件图管理的空对象，可选植物图标作装饰。"
+  },
+  {
+    "index": 17052,
+    "chinese": "初始值 · 字符串"
+  },
+  {
+    "index": 17053,
+    "chinese": "初始解锁"
+  },
+  {
+    "index": 17055,
+    "chinese": "删除信息卡牌"
+  },
+  {
+    "index": 17056,
+    "chinese": "删除僵尸卡牌"
+  },
+  {
+    "index": 17058,
+    "chinese": "删除全部信息卡，或输入对象对应的一张信息卡。"
+  },
+  {
+    "index": 17060,
+    "chinese": "删除关卡时发生错误:"
+  },
+  {
+    "index": 17063,
+    "chinese": "删除场景对象"
+  },
+  {
+    "index": 17066,
+    "chinese": "删除当前事件图创建的场景标记。"
+  },
+  {
+    "index": 17067,
+    "chinese": "删除当前卡槽里指定类型的所有僵尸卡牌。"
+  },
+  {
+    "index": 17068,
+    "chinese": "删除指定格子的墓碑、弹坑、梯子或冰块。"
+  },
+  {
+    "index": 17069,
+    "chinese": "删除指定索引的一项，后续元素自动前移。"
+  },
+  {
+    "index": 17070,
+    "chinese": "删除数量"
+  },
+  {
+    "index": 17071,
+    "chinese": "删除文件失败:"
+  },
+  {
+    "index": 17072,
+    "chinese": "删除格子障碍"
+  },
+  {
+    "index": 17075,
+    "chinese": "删除用户关卡异常:"
+  },
+  {
+    "index": 17077,
+    "chinese": "判断两个道具种类是否相同。"
+  },
+  {
+    "index": 17078,
+    "chinese": "利息上调"
+  },
+  {
+    "index": 17080,
+    "chinese": "别踩红线：不让僵尸越过红线"
+  },
+  {
+    "index": 17082,
+    "chinese": "刷怪：行 / 数量（最多50）"
+  },
+  {
+    "index": 17083,
+    "chinese": "刷新 {0}积分"
+  },
+  {
+    "index": 17086,
+    "chinese": "刷新商店时，若刷新的植物卡中出现2个相同的植物卡，获得100积分。获得4次免费刷新。"
+  },
+  {
+    "index": 17087,
+    "chinese": "刷新商店时，若刷新的角色中出现2个相同的角色，获得1金币。获得4次免费刷新。"
+  },
+  {
+    "index": 17095,
+    "chinese": "刷新（1次）"
+  },
+  {
+    "index": 17097,
+    "chinese": "前三级免费 ·"
+  },
+  {
+    "index": 17106,
+    "chinese": "剩余秒数"
+  },
+  {
+    "index": 17107,
+    "chinese": "剩余积分：{0:0}"
+  },
+  {
+    "index": 17109,
+    "chinese": "剩余金币：{0}"
+  },
+  {
+    "index": 17110,
+    "chinese": "剩余阳光：{0}"
+  },
+  {
+    "index": 17112,
+    "chinese": "力大砖飞：\n植物方的樱桃爆炸伤害增加2倍"
+  },
+  {
+    "index": 17123,
+    "chinese": "加油站"
+  },
+  {
+    "index": 17125,
+    "chinese": "加载关卡类型"
+  },
+  {
+    "index": 17126,
+    "chinese": "加载在线关卡列表时发生错误:"
+  },
+  {
+    "index": 17127,
+    "chinese": "加载失败:"
+  },
+  {
+    "index": 17130,
+    "chinese": "加载统一存档失败:"
+  },
+  {
+    "index": 17131,
+    "chinese": "加载自动存档失败:"
+  },
+  {
+    "index": 17134,
+    "chinese": "动物"
+  },
+  {
+    "index": 17137,
+    "chinese": "包含"
+  },
+  {
+    "index": 17139,
+    "chinese": "匹配到{0}项，请用完整名称或编号"
+  },
+  {
+    "index": 17150,
+    "chinese": "十旗挑战：胆小菇之梦"
+  },
+  {
+    "index": 17153,
+    "chinese": "十旗挑战：随机僵尸"
+  },
+  {
+    "index": 17154,
+    "chinese": "十旗挑战：随机植物"
+  },
+  {
+    "index": 17159,
+    "chinese": "十选一"
+  },
+  {
+    "index": 17160,
+    "chinese": "升为{0} · {1}阳光"
+  },
+  {
+    "index": 17164,
+    "chinese": "升级为{0} · {1}阳光"
+  },
+  {
+    "index": 17166,
+    "chinese": "升级商店 {0}生命"
+  },
+  {
+    "index": 17167,
+    "chinese": "升级商店 {0}积分"
+  },
+  {
+    "index": 17170,
+    "chinese": "升级成功："
+  },
+  {
+    "index": 17174,
+    "chinese": "升级锅炉"
+  },
+  {
+    "index": 17176,
+    "chinese": "升至目标等级"
+  },
+  {
+    "index": 17183,
+    "chinese": "卡位已满，多余卡牌已排在备战席右侧，请整理后进入下一轮"
+  },
+  {
+    "index": 17185,
+    "chinese": "卡牌"
+  },
+  {
+    "index": 17186,
+    "chinese": "卡牌 #{0} 操作完成；已种植物快照不回写"
+  },
+  {
+    "index": 17187,
+    "chinese": "卡牌 / 装备"
+  },
+  {
+    "index": 17189,
+    "chinese": "卡牌免等待："
+  },
+  {
+    "index": 17190,
+    "chinese": "卡牌冷却时间降低{0:P0}"
+  },
+  {
+    "index": 17192,
+    "chinese": "卡牌对象"
+  },
+  {
+    "index": 17193,
+    "chinese": "卡牌未装备或当前不能卸下"
+  },
+  {
+    "index": 17195,
+    "chinese": "卡牌立即就绪"
+  },
+  {
+    "index": 17196,
+    "chinese": "卡牌阳光消耗降低{0:P0}"
+  },
+  {
+    "index": 17205,
+    "chinese": "卸下全部装备"
+  },
+  {
+    "index": 17208,
+    "chinese": "及时雨"
+  },
+  {
+    "index": 17214,
+    "chinese": "发射植物或僵尸子弹"
+  },
+  {
+    "index": 17219,
+    "chinese": "发放"
+  },
+  {
+    "index": 17220,
+    "chinese": "发放卡牌"
+  },
+  {
+    "index": 17221,
+    "chinese": "发放品质"
+  },
+  {
+    "index": 17222,
+    "chinese": "发放数量"
+  },
+  {
+    "index": 17223,
+    "chinese": "发放数量可设1～100；同种同品自动三合一，超过卡位进入溢出栏。"
+  },
+  {
+    "index": 17224,
+    "chinese": "发放礼盒"
+  },
+  {
+    "index": 17226,
+    "chinese": "发生错误"
+  },
+  {
+    "index": 17228,
+    "chinese": "取消合并"
+  },
+  {
+    "index": 17231,
+    "chinese": "受到伤害降低{0:P0}"
+  },
+  {
+    "index": 17234,
+    "chinese": "变量创建网格"
+  },
+  {
+    "index": 17235,
+    "chinese": "变量引用"
+  },
+  {
+    "index": 17236,
+    "chinese": "变量引用未绑定，请重新从属性面板拖入"
+  },
+  {
+    "index": 17239,
+    "chinese": "只在开局商店使用"
+  },
+  {
+    "index": 17241,
+    "chinese": "只执行一次"
+  },
+  {
+    "index": 17242,
+    "chinese": "只有两件基础装备可以合成"
+  },
+  {
+    "index": 17244,
+    "chinese": "只有进阶装备可以升级为究极"
+  },
+  {
+    "index": 17245,
+    "chinese": "只能和其他"
+  },
+  {
+    "index": 17250,
+    "chinese": "召唤权重"
+  },
+  {
+    "index": 17252,
+    "chinese": "召唤等级"
+  },
+  {
+    "index": 17256,
+    "chinese": "可以按F1隐藏菜单，照着植物画"
+  },
+  {
+    "index": 17261,
+    "chinese": "可合成装备（{0}）"
+  },
+  {
+    "index": 17262,
+    "chinese": "可同步"
+  },
+  {
+    "index": 17263,
+    "chinese": "可带小数的数值，例如0.5、5。整数口需要先经“整数转浮点数”；具体单位见用法和注意事项。"
+  },
+  {
+    "index": 17266,
+    "chinese": "可直接点按钮，也可输入命令。改动会保存到当前游戏存档槽。"
+  },
+  {
+    "index": 17268,
+    "chinese": "可选植物不足4种"
+  },
+  {
+    "index": 17269,
+    "chinese": "可选究极植物不足4种"
+  },
+  {
+    "index": 17270,
+    "chinese": "可选装备不足{0}件"
+  },
+  {
+    "index": 17275,
+    "chinese": "合并两个专用选项列表"
+  },
+  {
+    "index": 17278,
+    "chinese": "合并同类项"
+  },
+  {
+    "index": 17279,
+    "chinese": "合并奖励选项"
+  },
+  {
+    "index": 17282,
+    "chinese": "合成"
+  },
+  {
+    "index": 17283,
+    "chinese": "合成与获得进阶装备时，改为获得一个【好运令牌】。获得2件随机简易装备。"
+  },
+  {
+    "index": 17284,
+    "chinese": "合成普通进阶装备时，改为获得1枚【好运令牌】。获得2件随机基础装备。令牌点击后随机出现10件不重复的进阶装备，自选1件。"
+  },
+  {
+    "index": 17285,
+    "chinese": "合成装备时，获得2次刷新。"
+  },
+  {
+    "index": 17290,
+    "chinese": "合理投资：旅行词条刷新次数+3"
+  },
+  {
+    "index": 17293,
+    "chinese": "同一数据输入有多个来源，旧节点只读取第一个"
+  },
+  {
+    "index": 17297,
+    "chinese": "同步状态：暂无对应出战卡"
+  },
+  {
+    "index": 17298,
+    "chinese": "同步类型："
+  },
+  {
+    "index": 17299,
+    "chinese": "名称"
+  },
+  {
+    "index": 17301,
+    "chinese": "名称可用中文、英文枚举或数字ID；模糊匹配须唯一。数量默认1。行列从1开始。\nsun 数值 | points 数值 | health 当前 [上限] | streak 数值 | refreshes 次数 | xp 经验 | level 目标等级 | speed 0～10\ncard add 植物 [品质1～6] [数量] | card quality 卡牌ID 品质 | card clone 卡牌ID [数量] | card remove 卡牌ID\nequipment 装备 [数量] [究极0或1] | item 道具 [数量] | equipment equip 卡牌ID 库存序号 | equipment unequip 卡牌ID\nequipment remove 序号 | item remove 序号 | equipment ultimate 序号 | equipment combine 序号1 序号2\nhex 海克斯 | gift 品质1～4 [数量] | offers 植物 [品质] | reroll | lock 0或1\nstart | shop | next | jump 轮次 | win | fail | wave | spawn 僵尸 [行] [数量] | plant 卡牌ID 行 列\nclear zombies（无掉落）| clear kills（触发击杀奖励）| clear plants | heal | cooldown | mowers | giftlimit\npreset（测试礼包）| save | copy（复制Run JSON）| status | help\n示例：card add Peashooter 5 1；equipment 战术小刀 3 1；spawn NormalZombie 2 5。每次只执行一条。"
+  },
+  {
+    "index": 17302,
+    "chinese": "名称或编号"
+  },
+  {
+    "index": 17304,
+    "chinese": "向卡槽添加一张豌豆射手"
+  },
+  {
+    "index": 17308,
+    "chinese": "向当前卡槽添加僵尸卡牌，可指定价格和冷却。"
+  },
+  {
+    "index": 17329,
+    "chinese": "命令 / 记录"
+  },
+  {
+    "index": 17330,
+    "chinese": "命令，例如 points 100000；输入 help 查看全部格式"
+  },
+  {
+    "index": 17331,
+    "chinese": "命名僵尸"
+  },
+  {
+    "index": 17332,
+    "chinese": "命名植物"
+  },
+  {
+    "index": 17344,
+    "chinese": "品质"
+  },
+  {
+    "index": 17345,
+    "chinese": "品质低于钻石的出战卡牌变为高1级品质的随机植物，最高钻石，保留装备和价值；钻石、棱彩与至尊红卡不变。"
+  },
+  {
+    "index": 17346,
+    "chinese": "品质卡×"
+  },
+  {
+    "index": 17347,
+    "chinese": "品质卡牌中选择1张\n消耗品，选取成功后消耗1个"
+  },
+  {
+    "index": 17348,
+    "chinese": "品质："
+  },
+  {
+    "index": 17349,
+    "chinese": "售卖\n（{0}积分）"
+  },
+  {
+    "index": 17353,
+    "chinese": "商店 / 关卡"
+  },
+  {
+    "index": 17354,
+    "chinese": "商店 Lv.{0} · 升级保留真实触发效果"
+  },
+  {
+    "index": 17355,
+    "chinese": "商店 Lv.{0}　卡槽 {1}/{2}\n备战 {3}/{4}　装备 {5}　礼盒 {6}"
+  },
+  {
+    "index": 17356,
+    "chinese": "商店升级改为消耗生命，每100积分升级费用折合1点生命。\n每次Boss战后恢复50点生命。"
+  },
+  {
+    "index": 17357,
+    "chinese": "商店升级费用降低25%。\n每次升级商店后，刷新商品并直接获得其中最贵的3张卡牌。"
+  },
+  {
+    "index": 17358,
+    "chinese": "商店已升至 Lv.{0}，升级触发效果照常结算"
+  },
+  {
+    "index": 17359,
+    "chinese": "商店已满级"
+  },
+  {
+    "index": 17360,
+    "chinese": "商店已锁定 · 点击解锁"
+  },
+  {
+    "index": 17361,
+    "chinese": "商店首次达到8级时，获得4000积分。"
+  },
+  {
+    "index": 17363,
+    "chinese": "嗜血镰刀"
+  },
+  {
+    "index": 17364,
+    "chinese": "嘴硬"
+  },
+  {
+    "index": 17365,
+    "chinese": "四选一"
+  },
+  {
+    "index": 17366,
+    "chinese": "回到 Lv.{0}"
+  },
+  {
+    "index": 17369,
+    "chinese": "回收计划+"
+  },
+  {
+    "index": 17374,
+    "chinese": "回满生命"
+  },
+  {
+    "index": 17378,
+    "chinese": "困难"
+  },
+  {
+    "index": 17383,
+    "chinese": "图、阶段或周期已结束"
+  },
+  {
+    "index": 17384,
+    "chinese": "图中有无法恢复的节点，请保留原关卡文件，不要覆盖保存"
+  },
+  {
+    "index": 17385,
+    "chinese": "图标植物"
+  },
+  {
+    "index": 17386,
+    "chinese": "图检查（点击问题定位节点）"
+  },
+  {
+    "index": 17389,
+    "chinese": "在(\\d+)路放置(\\d+)个(.+)"
+  },
+  {
+    "index": 17393,
+    "chinese": "在下个奖励节点额外获取一个棱彩晶矿，里面装满了丰厚的战利品。"
+  },
+  {
+    "index": 17394,
+    "chinese": "在你到达9级时，提供40金币。"
+  },
+  {
+    "index": 17404,
+    "chinese": "在同地形地图之间切换昼夜背景，保留棋盘实体与冰道。"
+  },
+  {
+    "index": 17408,
+    "chinese": "在战场左键点击存活僵尸时触发。"
+  },
+  {
+    "index": 17412,
+    "chinese": "在指定格子或鼠标位置向给定方向发射子弹。"
+  },
+  {
+    "index": 17421,
+    "chinese": "在接下来3个节点只有3个备战席位置。随后，获得3件简易装备。"
+  },
+  {
+    "index": 17432,
+    "chinese": "在进入7个新节点后，获得1个究极装备盒。"
+  },
+  {
+    "index": 17433,
+    "chinese": "在进入7个节点后，获得1个【特权武装箱】。"
+  },
+  {
+    "index": 17434,
+    "chinese": "在遭遇节点战斗后，获得1个【基础装备盒】。获得600积分。"
+  },
+  {
+    "index": 17435,
+    "chinese": "在遭遇节点战斗后，获得1个【简易武装箱】。获得6金币。"
+  },
+  {
+    "index": 17438,
+    "chinese": "在鼠标处"
+  },
+  {
+    "index": 17440,
+    "chinese": "地图资源未加载"
+  },
+  {
+    "index": 17449,
+    "chinese": "场上植物数量: {0}"
+  },
+  {
+    "index": 17450,
+    "chinese": "场上植物特殊效果发生时"
+  },
+  {
+    "index": 17452,
+    "chinese": "场上的所有角色会永久升级成比自身高1费的随机角色(最大5费)。获得2个【拆装扳手】。"
+  },
+  {
+    "index": 17457,
+    "chinese": "坐标"
+  },
+  {
+    "index": 17462,
+    "chinese": "坚果台球"
+  },
+  {
+    "index": 17469,
+    "chinese": "坚果防线\n{0:0.#}工作秒"
+  },
+  {
+    "index": 17473,
+    "chinese": "基地受伤，剩余 {0} 点耐久"
+  },
+  {
+    "index": 17474,
+    "chinese": "基地耐久耗尽"
+  },
+  {
+    "index": 17475,
+    "chinese": "基本保障"
+  },
+  {
+    "index": 17478,
+    "chinese": "基础植物 ·"
+  },
+  {
+    "index": 17479,
+    "chinese": "基础装备"
+  },
+  {
+    "index": 17480,
+    "chinese": "基础装备没有究极状态，请选择进阶装备"
+  },
+  {
+    "index": 17481,
+    "chinese": "基础装备盒子"
+  },
+  {
+    "index": 17490,
+    "chinese": "填写输入值"
+  },
+  {
+    "index": 17491,
+    "chinese": "填写输入值：不用添加常量节点；已经连线的输入由上游提供"
+  },
+  {
+    "index": 17493,
+    "chinese": "增加"
+  },
+  {
+    "index": 17494,
+    "chinese": "增加商店经验"
+  },
+  {
+    "index": 17497,
+    "chinese": "备份现有统一存档:"
+  },
+  {
+    "index": 17498,
+    "chinese": "备战"
+  },
+  {
+    "index": 17501,
+    "chinese": "复制"
+  },
+  {
+    "index": 17502,
+    "chinese": "复制Run快照"
+  },
+  {
+    "index": 17505,
+    "chinese": "复制列表内容"
+  },
+  {
+    "index": 17506,
+    "chinese": "复制卡\n不复制装备，参与自动合成\n消耗品，成功使用后消耗1个"
+  },
+  {
+    "index": 17507,
+    "chinese": "复制卡："
+  },
+  {
+    "index": 17508,
+    "chinese": "复制执行记录"
+  },
+  {
+    "index": 17509,
+    "chinese": "复制状态JSON"
+  },
+  {
+    "index": 17516,
+    "chinese": "多功能盾牌"
+  },
+  {
+    "index": 17519,
+    "chinese": "多选菜单需要选项列表，不能使用鼠标物品等普通GameObject"
+  },
+  {
+    "index": 17533,
+    "chinese": "大富翁：\n◆<color=red>摇钱三线树桩</color>：每持有1000金钱，使增幅的攻击载体的伤害增加1%\n◆<color=red>摇钱三线路灯花</color>：共享以上效果"
+  },
+  {
+    "index": 17535,
+    "chinese": "大小"
+  },
+  {
+    "index": 17536,
+    "chinese": "大小倍率"
+  },
+  {
+    "index": 17546,
+    "chinese": "大扩招"
+  },
+  {
+    "index": 17559,
+    "chinese": "大裁员"
+  },
+  {
+    "index": 17562,
+    "chinese": "大麦之战2：拆拆乐"
+  },
+  {
+    "index": 17567,
+    "chinese": "太阳能电池"
+  },
+  {
+    "index": 17568,
+    "chinese": "失去你现在所有的金币，并在5个节点后，获得该金币数+70的总金币。"
+  },
+  {
+    "index": 17576,
+    "chinese": "奖励关"
+  },
+  {
+    "index": 17577,
+    "chinese": "奖励选择"
+  },
+  {
+    "index": 17578,
+    "chinese": "奖励选项列表"
+  },
+  {
+    "index": 17579,
+    "chinese": "好运令牌"
+  },
+  {
+    "index": 17580,
+    "chinese": "好运令牌-词条"
+  },
+  {
+    "index": 17581,
+    "chinese": "好运令牌-金"
+  },
+  {
+    "index": 17582,
+    "chinese": "好运令牌-银"
+  },
+  {
+    "index": 17583,
+    "chinese": "好运令牌·彩"
+  },
+  {
+    "index": 17584,
+    "chinese": "好运来"
+  },
+  {
+    "index": 17585,
+    "chinese": "好运连连：\n<nobr>·解锁<color=red>摇钱三线路灯花</color></nobr>\n◆<color=red>摇钱三线树桩</color>：钱币子弹能造成火焰豌豆一样的溅射伤害"
+  },
+  {
+    "index": 17590,
+    "chinese": "子弹"
+  },
+  {
+    "index": 17591,
+    "chinese": "子弹参数越界或类型未加载"
+  },
+  {
+    "index": 17594,
+    "chinese": "子弹对象"
+  },
+  {
+    "index": 17595,
+    "chinese": "子弹弹射数量+1"
+  },
+  {
+    "index": 17596,
+    "chinese": "子弹操作"
+  },
+  {
+    "index": 17598,
+    "chinese": "子弹种类"
+  },
+  {
+    "index": 17599,
+    "chinese": "子弹类型"
+  },
+  {
+    "index": 17603,
+    "chinese": "字符串列表插入"
+  },
+  {
+    "index": 17604,
+    "chinese": "字符串列表替换"
+  },
+  {
+    "index": 17605,
+    "chinese": "字符串列表查找"
+  },
+  {
+    "index": 17606,
+    "chinese": "字符串列表获取项"
+  },
+  {
+    "index": 17607,
+    "chinese": "字符串列表追加"
+  },
+  {
+    "index": 17608,
+    "chinese": "字符串变量"
+  },
+  {
+    "index": 17610,
+    "chinese": "字符串转僵尸类型"
+  },
+  {
+    "index": 17611,
+    "chinese": "字符串转对象"
+  },
+  {
+    "index": 17612,
+    "chinese": "字符串转小数"
+  },
+  {
+    "index": 17613,
+    "chinese": "字符串转整数"
+  },
+  {
+    "index": 17614,
+    "chinese": "字符串转植物类型"
+  },
+  {
+    "index": 17615,
+    "chinese": "字符串长度不能超过4096"
+  },
+  {
+    "index": 17616,
+    "chinese": "字符转ASCII码"
+  },
+  {
+    "index": 17619,
+    "chinese": "存在"
+  },
+  {
+    "index": 17620,
+    "chinese": "存在同步触发环，请通过等待或周期安排下一次执行"
+  },
+  {
+    "index": 17621,
+    "chinese": "存在数值依赖环"
+  },
+  {
+    "index": 17623,
+    "chinese": "存在空连线"
+  },
+  {
+    "index": 17624,
+    "chinese": "存在重复连线；旧图保留原来的重复执行语义"
+  },
+  {
+    "index": 17625,
+    "chinese": "存档"
+  },
+  {
+    "index": 17630,
+    "chinese": "存档失败:"
+  },
+  {
+    "index": 17631,
+    "chinese": "存档已重命名为"
+  },
+  {
+    "index": 17633,
+    "chinese": "存档文件夹:"
+  },
+  {
+    "index": 17646,
+    "chinese": "守护目标"
+  },
+  {
+    "index": 17647,
+    "chinese": "安装{0:0.0}s"
+  },
+  {
+    "index": 17648,
+    "chinese": "完全傻了！"
+  },
+  {
+    "index": 17652,
+    "chinese": "完成绘画"
+  },
+  {
+    "index": 17653,
+    "chinese": "完整数值"
+  },
+  {
+    "index": 17654,
+    "chinese": "完整数值 ·"
+  },
+  {
+    "index": 17658,
+    "chinese": "定向已有植物；棱彩同种最低钻石，红卡同种不再刷新。\n3钻石合棱彩，3棱彩合至尊红卡；概率已计入持有卡的钻石保底。"
+  },
+  {
+    "index": 17660,
+    "chinese": "定期福利"
+  },
+  {
+    "index": 17666,
+    "chinese": "实际数字："
+  },
+  {
+    "index": 17684,
+    "chinese": "对数运算"
+  },
+  {
+    "index": 17685,
+    "chinese": "对有限小数计算幂或指定底数的对数。"
+  },
+  {
+    "index": 17687,
+    "chinese": "对简易装备使用冶金炉会使其变为随机进阶装备，获得2个【冶金炉】。"
+  },
+  {
+    "index": 17688,
+    "chinese": "对象"
+  },
+  {
+    "index": 17691,
+    "chinese": "对象列表插入"
+  },
+  {
+    "index": 17692,
+    "chinese": "对象列表替换"
+  },
+  {
+    "index": 17693,
+    "chinese": "对象列表查找"
+  },
+  {
+    "index": 17694,
+    "chinese": "对象列表获取项"
+  },
+  {
+    "index": 17695,
+    "chinese": "对象列表追加"
+  },
+  {
+    "index": 17696,
+    "chinese": "对象操作"
+  },
+  {
+    "index": 17697,
+    "chinese": "对象绑定"
+  },
+  {
+    "index": 17698,
+    "chinese": "对象转僵尸"
+  },
+  {
+    "index": 17699,
+    "chinese": "对象转字符串"
+  },
+  {
+    "index": 17700,
+    "chinese": "对象转植物"
+  },
+  {
+    "index": 17707,
+    "chinese": "射速：<color={0}>{1:F2}</color><color={2}>(+{3:F0}%)</color>"
+  },
+  {
+    "index": 17708,
+    "chinese": "射速：{0:F2}(+{1:F0}%)"
+  },
+  {
+    "index": 17709,
+    "chinese": "将0～127的ASCII码转换为一个字符。"
+  },
+  {
+    "index": 17711,
+    "chinese": "将三个小数组合为世界坐标。"
+  },
+  {
+    "index": 17716,
+    "chinese": "将僵尸类型值插入到共享列表中。"
+  },
+  {
+    "index": 17717,
+    "chinese": "将僵尸类型值替换到共享列表中。"
+  },
+  {
+    "index": 17718,
+    "chinese": "将僵尸类型值追加到共享列表中。"
+  },
+  {
+    "index": 17719,
+    "chinese": "将僵尸转换为场景对象引用。"
+  },
+  {
+    "index": 17723,
+    "chinese": "将字符串值插入到共享列表中。"
+  },
+  {
+    "index": 17724,
+    "chinese": "将字符串值替换到共享列表中。"
+  },
+  {
+    "index": 17725,
+    "chinese": "将字符串值追加到共享列表中。"
+  },
+  {
+    "index": 17726,
+    "chinese": "将对象值插入到共享列表中。"
+  },
+  {
+    "index": 17727,
+    "chinese": "将对象值替换到共享列表中。"
+  },
+  {
+    "index": 17728,
+    "chinese": "将对象值追加到共享列表中。"
+  },
+  {
+    "index": 17729,
+    "chinese": "将小数值插入到共享列表中。"
+  },
+  {
+    "index": 17730,
+    "chinese": "将小数值替换到共享列表中。"
+  },
+  {
+    "index": 17731,
+    "chinese": "将小数值追加到共享列表中。"
+  },
+  {
+    "index": 17733,
+    "chinese": "将布尔值插入到共享列表中。"
+  },
+  {
+    "index": 17734,
+    "chinese": "将布尔值替换到共享列表中。"
+  },
+  {
+    "index": 17735,
+    "chinese": "将布尔值追加到共享列表中。"
+  },
+  {
+    "index": 17737,
+    "chinese": "将数值或枚举转换为可读文字。"
+  },
+  {
+    "index": 17742,
+    "chinese": "将植物类型值插入到共享列表中。"
+  },
+  {
+    "index": 17743,
+    "chinese": "将植物类型值替换到共享列表中。"
+  },
+  {
+    "index": 17744,
+    "chinese": "将植物类型值追加到共享列表中。"
+  },
+  {
+    "index": 17745,
+    "chinese": "将植物转换为场景对象引用。"
+  },
+  {
+    "index": 17756,
+    "chinese": "小复制+"
+  },
+  {
+    "index": 17764,
+    "chinese": "小数列表插入"
+  },
+  {
+    "index": 17765,
+    "chinese": "小数列表替换"
+  },
+  {
+    "index": 17766,
+    "chinese": "小数列表查找"
+  },
+  {
+    "index": 17767,
+    "chinese": "小数列表获取项"
+  },
+  {
+    "index": 17768,
+    "chinese": "小数列表追加"
+  },
+  {
+    "index": 17769,
+    "chinese": "小数变量"
+  },
+  {
+    "index": 17770,
+    "chinese": "小数变量运算"
+  },
+  {
+    "index": 17771,
+    "chinese": "小数转布尔"
+  },
+  {
+    "index": 17772,
+    "chinese": "小数运算溢出，原值保留"
+  },
+  {
+    "index": 17777,
+    "chinese": "小标题"
+  },
+  {
+    "index": 17780,
+    "chinese": "小队与场上植物已恢复生命"
+  },
+  {
+    "index": 17781,
+    "chinese": "小队生命 / 上限"
+  },
+  {
+    "index": 17782,
+    "chinese": "小队生命 {0}/{1}"
+  },
+  {
+    "index": 17783,
+    "chinese": "小队生命已耗尽"
+  },
+  {
+    "index": 17790,
+    "chinese": "尚未进入战场"
+  },
+  {
+    "index": 17799,
+    "chinese": "尾款交付"
+  },
+  {
+    "index": 17807,
+    "chinese": "属性倒计时：{0:F1}秒"
+  },
+  {
+    "index": 17808,
+    "chinese": "属性倒计速率：{0:F0}%"
+  },
+  {
+    "index": 17809,
+    "chinese": "属性计数：{0}"
+  },
+  {
+    "index": 17814,
+    "chinese": "工具栏怎么用"
+  },
+  {
+    "index": 17818,
+    "chinese": "巨人之怒2"
+  },
+  {
+    "index": 17820,
+    "chinese": "己方卡牌每穿戴一种不同装备，为全体植物提供3%生命和6%攻击力。"
+  },
+  {
+    "index": 17823,
+    "chinese": "已从开局商店进入1-1"
+  },
+  {
+    "index": 17826,
+    "chinese": "已免费重抽商店，触发真实刷新效果"
+  },
+  {
+    "index": 17829,
+    "chinese": "已击杀所有敌人，正常触发击杀与掉落"
+  },
+  {
+    "index": 17834,
+    "chinese": "已刷新"
+  },
+  {
+    "index": 17836,
+    "chinese": "已发放{0}{1}×{2}，参与真实三合一"
+  },
+  {
+    "index": 17837,
+    "chinese": "已合成"
+  },
+  {
+    "index": 17839,
+    "chinese": "已售出"
+  },
+  {
+    "index": 17841,
+    "chinese": "已增加{0}经验（每点抵100积分升级费用）"
+  },
+  {
+    "index": 17842,
+    "chinese": "已复制当前Run快照JSON"
+  },
+  {
+    "index": 17843,
+    "chinese": "已完成"
+  },
+  {
+    "index": 17846,
+    "chinese": "已恢复编辑记录 {0}/{1}"
+  },
+  {
+    "index": 17850,
+    "chinese": "已显示"
+  },
+  {
+    "index": 17851,
+    "chinese": "已更新：{0} = {1}（当前关卡）"
+  },
+  {
+    "index": 17857,
+    "chinese": "已清空全部卡牌冷却"
+  },
+  {
+    "index": 17858,
+    "chinese": "已清除场上植物，卡牌保留"
+  },
+  {
+    "index": 17859,
+    "chinese": "已清除所有敌人，不触发奖励关掉落"
+  },
+  {
+    "index": 17861,
+    "chinese": "已生成{0}个{1}礼盒，内容按真实奖励表固定"
+  },
+  {
+    "index": 17863,
+    "chinese": "已生效"
+  },
+  {
+    "index": 17864,
+    "chinese": "已直接发放{0}{1}×{2}"
+  },
+  {
+    "index": 17866,
+    "chinese": "已种植"
+  },
+  {
+    "index": 17867,
+    "chinese": "已种装备"
+  },
+  {
+    "index": 17868,
+    "chinese": "已移除"
+  },
+  {
+    "index": 17869,
+    "chinese": "已移除指定库存物品"
+  },
+  {
+    "index": 17872,
+    "chinese": "已经是最早记录"
+  },
+  {
+    "index": 17876,
+    "chinese": "已结束当前波次等待，按原出怪器推进"
+  },
+  {
+    "index": 17877,
+    "chinese": "已获得"
+  },
+  {
+    "index": 17878,
+    "chinese": "已获得 {0} / {1}"
+  },
+  {
+    "index": 17879,
+    "chinese": "已获得好运令牌"
+  },
+  {
+    "index": 17880,
+    "chinese": "已获得海克斯"
+  },
+  {
+    "index": 17881,
+    "chinese": "已获得究极装备盒"
+  },
+  {
+    "index": 17882,
+    "chinese": "已获得该海克斯，避免重复发放一次性奖励"
+  },
+  {
+    "index": 17883,
+    "chinese": "已补足{0}阳光，重新冷却木头向日葵种子恢复经营"
+  },
+  {
+    "index": 17885,
+    "chinese": "已解锁 · 当前"
+  },
+  {
+    "index": 17887,
+    "chinese": "已解除锁定"
+  },
+  {
+    "index": 17888,
+    "chinese": "已触发"
+  },
+  {
+    "index": 17891,
+    "chinese": "已走本轮失败流程，发放基础积分和利息，不扣额外生命"
+  },
+  {
+    "index": 17892,
+    "chinese": "已走真实胜利结算流程"
+  },
+  {
+    "index": 17893,
+    "chinese": "已跳转到"
+  },
+  {
+    "index": 17894,
+    "chinese": "已转化为"
+  },
+  {
+    "index": 17897,
+    "chinese": "已达最高品质"
+  },
+  {
+    "index": 17899,
+    "chinese": "已进入下一轮"
+  },
+  {
+    "index": 17900,
+    "chinese": "已进入商店（未领取战斗结算）"
+  },
+  {
+    "index": 17901,
+    "chinese": "已连接：由上游提供"
+  },
+  {
+    "index": 17905,
+    "chinese": "已通过真实装备合成入口合成"
+  },
+  {
+    "index": 17908,
+    "chinese": "已重置全部推车与本轮推车统计基线"
+  },
+  {
+    "index": 17909,
+    "chinese": "已重置当前奖励关礼盒掉落额度"
+  },
+  {
+    "index": 17910,
+    "chinese": "已锁定商店"
+  },
+  {
+    "index": 17911,
+    "chinese": "已隐藏"
+  },
+  {
+    "index": 17912,
+    "chinese": "已领取"
+  },
+  {
+    "index": 17916,
+    "chinese": "布尔列表插入"
+  },
+  {
+    "index": 17917,
+    "chinese": "布尔列表替换"
+  },
+  {
+    "index": 17918,
+    "chinese": "布尔列表查找"
+  },
+  {
+    "index": 17919,
+    "chinese": "布尔列表获取项"
+  },
+  {
+    "index": 17920,
+    "chinese": "布尔列表追加"
+  },
+  {
+    "index": 17946,
+    "chinese": "幸运一击伤害：{0:F0}%"
+  },
+  {
+    "index": 17947,
+    "chinese": "幸运一击率：{0:F0}%"
+  },
+  {
+    "index": 17957,
+    "chinese": "应用"
+  },
+  {
+    "index": 17958,
+    "chinese": "底数"
+  },
+  {
+    "index": 17962,
+    "chinese": "开"
+  },
+  {
+    "index": 17965,
+    "chinese": "开启{0}个礼盒\n{1}"
+  },
+  {
+    "index": 17969,
+    "chinese": "开启礼盒"
+  },
+  {
+    "index": 17970,
+    "chinese": "开启记录"
+  },
+  {
+    "index": 17972,
+    "chinese": "开始过场发生错误,"
+  },
+  {
+    "index": 17974,
+    "chinese": "开局"
+  },
+  {
+    "index": 17989,
+    "chinese": "强化加成：{0:F0}%"
+  },
+  {
+    "index": 17992,
+    "chinese": "强化等级：{0}/{1}"
+  },
+  {
+    "index": 17993,
+    "chinese": "强化等级：{0}/{1}（已满级）"
+  },
+  {
+    "index": 18054,
+    "chinese": "当前僵尸"
+  },
+  {
+    "index": 18058,
+    "chinese": "当前卡牌 #{0} {1} · 装备{2}/3"
+  },
+  {
+    "index": 18060,
+    "chinese": "当前品质已满"
+  },
+  {
+    "index": 18061,
+    "chinese": "当前填写："
+  },
+  {
+    "index": 18070,
+    "chinese": "当前属性"
+  },
+  {
+    "index": 18076,
+    "chinese": "当前数据："
+  },
+  {
+    "index": 18081,
+    "chinese": "当前未连接触发信号。"
+  },
+  {
+    "index": 18082,
+    "chinese": "当前未连接；未单独填写输入值。"
+  },
+  {
+    "index": 18088,
+    "chinese": "当前波数：{0}/{1}"
+  },
+  {
+    "index": 18089,
+    "chinese": "当前游戏时长: {0}秒"
+  },
+  {
+    "index": 18090,
+    "chinese": "当前积分 {0:0}"
+  },
+  {
+    "index": 18091,
+    "chinese": "当前等级"
+  },
+  {
+    "index": 18095,
+    "chinese": "当前节点："
+  },
+  {
+    "index": 18100,
+    "chinese": "当前连接："
+  },
+  {
+    "index": 18101,
+    "chinese": "当前：保留触发时的数据。\n例如：先点第2行，等待时又点第4行，第一条规则结束等待后仍读取第2行。\n切换玩法阶段会停止上一阶段的等待和周期。变量仍读取当前值，植物或僵尸仍可能在等待期间死亡。"
+  },
+  {
+    "index": 18102,
+    "chinese": "当前：沿用旧关卡方式，等待结束后读取最近发生的事件。\n例如：先点第2行，等待时又点第4行，第一条规则结束等待后也读取第4行。\n改为保留触发数据后，第一条规则仍读取第2行；切换玩法阶段会停止上一阶段的等待和周期。修改后请试玩。"
+  },
+  {
+    "index": 18112,
+    "chinese": "彩虹期货"
+  },
+  {
+    "index": 18113,
+    "chinese": "彩虹期货+"
+  },
+  {
+    "index": 18115,
+    "chinese": "待入库"
+  },
+  {
+    "index": 18116,
+    "chinese": "待挑战"
+  },
+  {
+    "index": 18125,
+    "chinese": "循环直到条件成立"
+  },
+  {
+    "index": 18129,
+    "chinese": "快速开局"
+  },
+  {
+    "index": 18140,
+    "chinese": "总伤害：{0:F0}"
+  },
+  {
+    "index": 18144,
+    "chinese": "总伤害：{0}"
+  },
+  {
+    "index": 18147,
+    "chinese": "总秒数"
+  },
+  {
+    "index": 18150,
+    "chinese": "恢复"
+  },
+  {
+    "index": 18151,
+    "chinese": "恢复失败，文件保留："
+  },
+  {
+    "index": 18160,
+    "chinese": "恶魔契约"
+  },
+  {
+    "index": 18162,
+    "chinese": "悬停植物或装备图标查看详情；每份原始素材单独保留。"
+  },
+  {
+    "index": 18174,
+    "chinese": "成品植物不支持直接升阶"
+  },
+  {
+    "index": 18176,
+    "chinese": "成长基金"
+  },
+  {
+    "index": 18177,
+    "chinese": "我也是僵尸！"
+  },
+  {
+    "index": 18182,
+    "chinese": "我方小队每穿戴一件不同的装备，获得3%生命提高，6%前/后台强度。"
+  },
+  {
+    "index": 18197,
+    "chinese": "我是僵尸"
+  },
+  {
+    "index": 18198,
+    "chinese": "我是僵尸！"
+  },
+  {
+    "index": 18201,
+    "chinese": "我烂了！"
+  },
+  {
+    "index": 18202,
+    "chinese": "我的模板 {0}/{1} 页"
+  },
+  {
+    "index": 18203,
+    "chinese": "我的规则"
+  },
+  {
+    "index": 18211,
+    "chinese": "战场"
+  },
+  {
+    "index": 18212,
+    "chinese": "战场操作要求正式战斗。种植使用目标卡牌的品质与装备快照；僵尸走原生生成入口并应用旅行生命倍率。"
+  },
+  {
+    "index": 18215,
+    "chinese": "战斗"
+  },
+  {
+    "index": 18216,
+    "chinese": "战斗中只支持同地形昼夜地图互换；改变水陆、坡度或行数请在关卡地图设置中完成"
+  },
+  {
+    "index": 18217,
+    "chinese": "战斗中每10秒，攻击力加成增加8%\n加算，本场战斗结束后重置"
+  },
+  {
+    "index": 18218,
+    "chinese": "战斗中每10秒，攻速加成增加5%\n最高提高200%攻速加成"
+  },
+  {
+    "index": 18219,
+    "chinese": "战斗中每5秒，攻击力加成增加16%\n加算，本场战斗结束后重置"
+  },
+  {
+    "index": 18220,
+    "chinese": "战斗中每5秒，攻速加成增加5%\n最高提高400%攻速加成"
+  },
+  {
+    "index": 18221,
+    "chinese": "战斗倍速"
+  },
+  {
+    "index": 18222,
+    "chinese": "战斗倍速已设为{0:0.##}（菜单仍暂停）"
+  },
+  {
+    "index": 18223,
+    "chinese": "战斗关"
+  },
+  {
+    "index": 18224,
+    "chinese": "战斗失败时，受到的小队生命值伤害提高5点，但能维持原来的连胜数。获得6金币。"
+  },
+  {
+    "index": 18225,
+    "chinese": "战斗属性"
+  },
+  {
+    "index": 18226,
+    "chinese": "战术小刀"
+  },
+  {
+    "index": 18227,
+    "chinese": "战术小刀Ⅱ"
+  },
+  {
+    "index": 18228,
+    "chinese": "战术小刀祝福"
+  },
+  {
+    "index": 18229,
+    "chinese": "战术手炮"
+  },
+  {
+    "index": 18230,
+    "chinese": "战术手炮Ⅱ"
+  },
+  {
+    "index": 18231,
+    "chinese": "战术手炮祝福"
+  },
+  {
+    "index": 18232,
+    "chinese": "战术护盾"
+  },
+  {
+    "index": 18233,
+    "chinese": "战术护盾Ⅱ"
+  },
+  {
+    "index": 18234,
+    "chinese": "战术护盾祝福"
+  },
+  {
+    "index": 18237,
+    "chinese": "战神护盾"
+  },
+  {
+    "index": 18238,
+    "chinese": "战胜后领取积分奖励"
+  },
+  {
+    "index": 18241,
+    "chinese": "戴夫保险"
+  },
+  {
+    "index": 18256,
+    "chinese": "手炮发烧友"
+  },
+  {
+    "index": 18258,
+    "chinese": "打开文件夹失败:"
+  },
+  {
+    "index": 18259,
+    "chinese": "打捞种子库"
+  },
+  {
+    "index": 18260,
+    "chinese": "打捞种子库+"
+  },
+  {
+    "index": 18264,
+    "chinese": "扔叉之前不能至第十列左侧"
+  },
+  {
+    "index": 18266,
+    "chinese": "扣除你的金币，每损失4金币，获得一个随机4费角色，最多扣除40金币。获得1个【完美投影仪】和16金币。"
+  },
+  {
+    "index": 18267,
+    "chinese": "执行"
+  },
+  {
+    "index": 18268,
+    "chinese": "执行信号"
+  },
+  {
+    "index": 18269,
+    "chinese": "执行超过限制，请检查触发环、循环次数或重复事件"
+  },
+  {
+    "index": 18270,
+    "chinese": "扩充团队"
+  },
+  {
+    "index": 18271,
+    "chinese": "扩充当前阵容"
+  },
+  {
+    "index": 18273,
+    "chinese": "扳手"
+  },
+  {
+    "index": 18275,
+    "chinese": "找不到："
+  },
+  {
+    "index": 18278,
+    "chinese": "把僵尸以名称绑定到本局，例如首领；重复名称替换绑定"
+  },
+  {
+    "index": 18279,
+    "chinese": "把全部节点移回屏幕内，找回拖远的节点。"
+  },
+  {
+    "index": 18280,
+    "chinese": "把植物以名称绑定到本局，例如守护目标；重复名称替换绑定"
+  },
+  {
+    "index": 18283,
+    "chinese": "投资回报：海克斯三选一"
+  },
+  {
+    "index": 18287,
+    "chinese": "护甲"
+  },
+  {
+    "index": 18293,
+    "chinese": "护盾量：{0}"
+  },
+  {
+    "index": 18297,
+    "chinese": "抽取次数：\n{0}/{1}"
+  },
+  {
+    "index": 18299,
+    "chinese": "抽取词条"
+  },
+  {
+    "index": 18307,
+    "chinese": "拖到卡牌上卸下该卡的全部装备\n无限耐久，不消耗"
+  },
+  {
+    "index": 18308,
+    "chinese": "拖到卡牌上，自选1个该植物尚未拥有的旅行词条\n主形态与亚种共用对应词条\n没有可选词条时不消耗，选取成功后消耗1个"
+  },
+  {
+    "index": 18309,
+    "chinese": "拖到卡牌上，获得一张同种植物的"
+  },
+  {
+    "index": 18310,
+    "chinese": "拖到植物使用，持续{0:0.#}秒"
+  },
+  {
+    "index": 18311,
+    "chinese": "拖到物品栏的基础装备上，将其随机锻造成1件进阶装备\n消耗品，成功使用后消耗1个"
+  },
+  {
+    "index": 18312,
+    "chinese": "拖到物品栏的普通进阶装备上，变为对应究极装备\n基础装备或已是究极装备时不消耗；成功后消耗1张"
+  },
+  {
+    "index": 18314,
+    "chinese": "拖到装备上：随机变为其他同等级装备\n拖到卡牌上：全部装备随机变为其他同等级装备并卸下\n基础变基础，进阶变进阶，保留究极身份\n拥有升级锅炉时，大麦将基础装备改为随机进阶装备\n消耗品，成功使用后消耗1个"
+  },
+  {
+    "index": 18316,
+    "chinese": "招聘资金"
+  },
+  {
+    "index": 18317,
+    "chinese": "招聘资金+"
+  },
+  {
+    "index": 18324,
+    "chinese": "持续回血每帧补满存活植物，不阻挡秒杀；开关不会写入存档。测试倍速只影响本次运行。"
+  },
+  {
+    "index": 18327,
+    "chinese": "持续阳光："
+  },
+  {
+    "index": 18328,
+    "chinese": "指定库存装备已升级为究极"
+  },
+  {
+    "index": 18330,
+    "chinese": "指数"
+  },
+  {
+    "index": 18331,
+    "chinese": "指数运算"
+  },
+  {
+    "index": 18339,
+    "chinese": "按从0开始的行列查询主植物、支撑或飞行层，越界返回空列表"
+  },
+  {
+    "index": 18340,
+    "chinese": "按位置层获取植物"
+  },
+  {
+    "index": 18341,
+    "chinese": "按名称读取本局绑定的僵尸；对象销毁后存在输出为假"
+  },
+  {
+    "index": 18342,
+    "chinese": "按名称读取本局绑定的植物；对象销毁后存在输出为假"
+  },
+  {
+    "index": 18343,
+    "chinese": "按指定间隔检查条件，成立时继续后续流程。"
+  },
+  {
+    "index": 18347,
+    "chinese": "按照植物原有沉默规则暂停行动。"
+  },
+  {
+    "index": 18353,
+    "chinese": "损失20点小队生命值，4个节点后获得2个【基础装备盒】。"
+  },
+  {
+    "index": 18354,
+    "chinese": "损失20点小队生命值，4个节点后获得2个【简易武装箱】。"
+  },
+  {
+    "index": 18359,
+    "chinese": "探索更高品质向日葵，解锁阶段道具\n购买后从底栏拖到草坪使用"
+  },
+  {
+    "index": 18360,
+    "chinese": "探索棱彩向日葵"
+  },
+  {
+    "index": 18361,
+    "chinese": "探索白银向日葵"
+  },
+  {
+    "index": 18362,
+    "chinese": "探索解锁 ·"
+  },
+  {
+    "index": 18363,
+    "chinese": "探索钻石向日葵"
+  },
+  {
+    "index": 18364,
+    "chinese": "探索钻石育种葵"
+  },
+  {
+    "index": 18365,
+    "chinese": "探索黄金向日葵"
+  },
+  {
+    "index": 18366,
+    "chinese": "探索黄金育种葵"
+  },
+  {
+    "index": 18367,
+    "chinese": "接下来3个节点备战席限3格。随后，获得3件随机基础装备。"
+  },
+  {
+    "index": 18368,
+    "chinese": "接事件或动作的执行出口。收到信号后才执行。"
+  },
+  {
+    "index": 18369,
+    "chinese": "控制本局僵尸进家是否触发原有失败判定。"
+  },
+  {
+    "index": 18370,
+    "chinese": "推进下一波"
+  },
+  {
+    "index": 18374,
+    "chinese": "提交5个究极投手可以获得1个星辉投手"
+  },
+  {
+    "index": 18379,
+    "chinese": "提示"
+  },
+  {
+    "index": 18380,
+    "chinese": "插入："
+  },
+  {
+    "index": 18382,
+    "chinese": "搜索中文 / 英文 / 编号"
+  },
+  {
+    "index": 18385,
+    "chinese": "携带装备"
+  },
+  {
+    "index": 18386,
+    "chinese": "携带装备  <size=16>{0}/3</size>"
+  },
+  {
+    "index": 18387,
+    "chinese": "携带装备（0/3） · 暂无装备"
+  },
+  {
+    "index": 18388,
+    "chinese": "携带装备（{0}/3）"
+  },
+  {
+    "index": 18392,
+    "chinese": "撤销"
+  },
+  {
+    "index": 18394,
+    "chinese": "播放所选游戏内音乐。"
+  },
+  {
+    "index": 18397,
+    "chinese": "操作数"
+  },
+  {
+    "index": 18404,
+    "chinese": "支援手炮"
+  },
+  {
+    "index": 18405,
+    "chinese": "收到OnPlantMix时输出融合后的植物"
+  },
+  {
+    "index": 18407,
+    "chinese": "改为"
+  },
+  {
+    "index": 18408,
+    "chinese": "改为保留触发数据"
+  },
+  {
+    "index": 18409,
+    "chinese": "改为读取最新事件（旧版）"
+  },
+  {
+    "index": 18410,
+    "chinese": "攻击"
+  },
+  {
+    "index": 18411,
+    "chinese": "攻击+{0:P0}"
+  },
+  {
+    "index": 18417,
+    "chinese": "攻击力加成：{0:0.#}%\n生命值加成：{1:0.#}%\n速度加成：{2:0.#}%"
+  },
+  {
+    "index": 18418,
+    "chinese": "攻击力增加{0:P0}"
+  },
+  {
+    "index": 18420,
+    "chinese": "攻击力：<color={0}>{1}</color><color={2}>(+{3:F0}%)</color>"
+  },
+  {
+    "index": 18421,
+    "chinese": "攻击力：{0}"
+  },
+  {
+    "index": 18423,
+    "chinese": "攻击力：{0}(+{1:F0}%)"
+  },
+  {
+    "index": 18432,
+    "chinese": "攻击间隔（秒）"
+  },
+  {
+    "index": 18433,
+    "chinese": "攻击间隔：{0:F2}秒"
+  },
+  {
+    "index": 18434,
+    "chinese": "攻击间隔：{0}秒"
+  },
+  {
+    "index": 18437,
+    "chinese": "攻速+{0:P0}"
+  },
+  {
+    "index": 18438,
+    "chinese": "攻速加成：{0:F0}%"
+  },
+  {
+    "index": 18439,
+    "chinese": "攻速增加{0:P0}"
+  },
+  {
+    "index": 18440,
+    "chinese": "放在同一列"
+  },
+  {
+    "index": 18443,
+    "chinese": "敌人生命额外 ×{0:0}\n基础积分 ×{1:0.0}\n{2}"
+  },
+  {
+    "index": 18447,
+    "chinese": "数值依赖存在循环："
+  },
+  {
+    "index": 18455,
+    "chinese": "整数列表插入"
+  },
+  {
+    "index": 18456,
+    "chinese": "整数列表替换"
+  },
+  {
+    "index": 18457,
+    "chinese": "整数列表查找"
+  },
+  {
+    "index": 18458,
+    "chinese": "整数列表获取项"
+  },
+  {
+    "index": 18459,
+    "chinese": "整数列表追加"
+  },
+  {
+    "index": 18462,
+    "chinese": "整数变量"
+  },
+  {
+    "index": 18463,
+    "chinese": "整数变量运算"
+  },
+  {
+    "index": 18465,
+    "chinese": "整数转字符串"
+  },
+  {
+    "index": 18466,
+    "chinese": "整数转布尔"
+  },
+  {
+    "index": 18468,
+    "chinese": "整数运算溢出，原值保留"
+  },
+  {
+    "index": 18470,
+    "chinese": "整数，例如1、25。可连接整数常量、计数器或整数运算结果。"
+  },
+  {
+    "index": 18472,
+    "chinese": "文件不存在:"
+  },
+  {
+    "index": 18474,
+    "chinese": "文件中level键值重复"
+  },
+  {
+    "index": 18475,
+    "chinese": "文件内容为空或格式错误"
+  },
+  {
+    "index": 18476,
+    "chinese": "文件加载错误"
+  },
+  {
+    "index": 18477,
+    "chinese": "文件夹不存在，正在创建:"
+  },
+  {
+    "index": 18478,
+    "chinese": "文件夹已打开:"
+  },
+  {
+    "index": 18482,
+    "chinese": "文本，可接字符串节点或在未连接时填写输入值。"
+  },
+  {
+    "index": 18491,
+    "chinese": "新执行模式保留事件实体或鼠标的行列，等待后仍读取触发当时位置"
+  },
+  {
+    "index": 18514,
+    "chinese": "旅行冒险"
+  },
+  {
+    "index": 18517,
+    "chinese": "旅行进化"
+  },
+  {
+    "index": 18518,
+    "chinese": "旅行进化 · 测试控制台"
+  },
+  {
+    "index": 18531,
+    "chinese": "无匹配节点"
+  },
+  {
+    "index": 18539,
+    "chinese": "无法创建目标地图"
+  },
+  {
+    "index": 18540,
+    "chinese": "无法创建节点类型:"
+  },
+  {
+    "index": 18544,
+    "chinese": "无法合成，请使用两个不同库存格的基础装备"
+  },
+  {
+    "index": 18553,
+    "chinese": "无法解析植物类型:"
+  },
+  {
+    "index": 18559,
+    "chinese": "无装备"
+  },
+  {
+    "index": 18564,
+    "chinese": "旧关卡保持原设置即可。这里决定等待后读取哪次事件的数据。"
+  },
+  {
+    "index": 18565,
+    "chinese": "旧关卡兼容设置"
+  },
+  {
+    "index": 18583,
+    "chinese": "星辉体验：究极投手"
+  },
+  {
+    "index": 18585,
+    "chinese": "星辉体验：究极樱桃射手"
+  },
+  {
+    "index": 18674,
+    "chinese": "是否合成？"
+  },
+  {
+    "index": 18685,
+    "chinese": "显示全部"
+  },
+  {
+    "index": 18687,
+    "chinese": "显示奖励选择"
+  },
+  {
+    "index": 18689,
+    "chinese": "显示植物目录"
+  },
+  {
+    "index": 18691,
+    "chinese": "晋升名额"
+  },
+  {
+    "index": 18695,
+    "chinese": "普通出怪流程SpawnOver之后，全场敌人清空时，每波触发一次；不适用于未发布SpawnOver的自定义出怪器"
+  },
+  {
+    "index": 18701,
+    "chinese": "暂不可同步"
+  },
+  {
+    "index": 18703,
+    "chinese": "暂停 {0:0}%"
+  },
+  {
+    "index": 18704,
+    "chinese": "暂停或恢复波次倒计时"
+  },
+  {
+    "index": 18705,
+    "chinese": "暂停自动进入下一波，已生成的僵尸仍继续行动。"
+  },
+  {
+    "index": 18706,
+    "chinese": "暂存当前全部积分，进入5个新节点后返还暂存积分并额外获得7000积分。"
+  },
+  {
+    "index": 18708,
+    "chinese": "暂无可刷新项"
+  },
+  {
+    "index": 18709,
+    "chinese": "暂无可复制的自动存档"
+  },
+  {
+    "index": 18711,
+    "chinese": "暂无对应出战卡"
+  },
+  {
+    "index": 18712,
+    "chinese": "暂无描述信息\n\n<b>节点ID:</b>"
+  },
+  {
+    "index": 18713,
+    "chinese": "暂无海克斯"
+  },
+  {
+    "index": 18714,
+    "chinese": "暂无素材记录"
+  },
+  {
+    "index": 18715,
+    "chinese": "暂无额外战斗属性"
+  },
+  {
+    "index": 18722,
+    "chinese": "更多工具"
+  },
+  {
+    "index": 18723,
+    "chinese": "更多工具：需要排查问题或恢复编辑内容时再使用"
+  },
+  {
+    "index": 18725,
+    "chinese": "更多的僵尸要来了！"
+  },
+  {
+    "index": 18727,
+    "chinese": "最后一击：{0}"
+  },
+  {
+    "index": 18728,
+    "chinese": "最多检查次数"
+  },
+  {
+    "index": 18731,
+    "chinese": "最大槽位数: {0}"
+  },
+  {
+    "index": 18733,
+    "chinese": "最大秒数"
+  },
+  {
+    "index": 18738,
+    "chinese": "最终面临大帅的挑战\n通关获得50诸神币"
+  },
+  {
+    "index": 18739,
+    "chinese": "最近自动保存"
+  },
+  {
+    "index": 18742,
+    "chinese": "有位置"
+  },
+  {
+    "index": 18752,
+    "chinese": "木头植物礼盒"
+  },
+  {
+    "index": 18756,
+    "chinese": "未到第1轮第15波，本局不发放诸神币。"
+  },
+  {
+    "index": 18759,
+    "chinese": "未执行："
+  },
+  {
+    "index": 18760,
+    "chinese": "未执行：当前不在旅行进化模式"
+  },
+  {
+    "index": 18761,
+    "chinese": "未执行：换轮过渡或结算中，请稍后再试"
+  },
+  {
+    "index": 18762,
+    "chinese": "未执行：请先处理溢出卡牌或待选择内容"
+  },
+  {
+    "index": 18765,
+    "chinese": "未找到僵尸数值资源，请检查 Resources/Data/Zombies"
+  },
+  {
+    "index": 18766,
+    "chinese": "未找到植物数值资源，请检查 Resources/Data/Plants"
+  },
+  {
+    "index": 18768,
+    "chinese": "未找到节点ID:"
+  },
+  {
+    "index": 18772,
+    "chinese": "未知命令，输入help查看格式"
+  },
+  {
+    "index": 18774,
+    "chinese": "未知的节点类型:"
+  },
+  {
+    "index": 18784,
+    "chinese": "本局尚未获得海克斯。"
+  },
+  {
+    "index": 18785,
+    "chinese": "本局已获得 {0} 个海克斯"
+  },
+  {
+    "index": 18786,
+    "chinese": "本局游戏中，补给阶段的可选项减少2个。下1个补给阶段选择后，额外获得所有未选择的植物卡及装备。"
+  },
+  {
+    "index": 18787,
+    "chinese": "本局游戏中，补给阶段的可选项减少2个。下1个补给阶段选择后，额外获得所有未选择的角色及装备。"
+  },
+  {
+    "index": 18788,
+    "chinese": "本局游戏中，补给阶段的可选项减少2个。下2个补给阶段选择后，额外获得所有未选择的植物卡及装备。"
+  },
+  {
+    "index": 18789,
+    "chinese": "本局游戏中，补给阶段的可选项减少2个。下2个补给阶段选择后，额外获得所有未选择的角色及装备。"
+  },
+  {
+    "index": 18791,
+    "chinese": "本局补给的候选项减少2项，领取时获得全部候选卡牌及其装备。"
+  },
+  {
+    "index": 18792,
+    "chinese": "本局领袖预告"
+  },
+  {
+    "index": 18793,
+    "chinese": "本波敌人清空时"
+  },
+  {
+    "index": 18794,
+    "chinese": "本类型植物造成伤害时，直接获得1点阳光"
+  },
+  {
+    "index": 18795,
+    "chinese": "本类型植物造成伤害时，直接获得2点阳光"
+  },
+  {
+    "index": 18805,
+    "chinese": "本轮失败"
+  },
+  {
+    "index": 18806,
+    "chinese": "本金充裕"
+  },
+  {
+    "index": 18810,
+    "chinese": "机械"
+  },
+  {
+    "index": 18822,
+    "chinese": "条件为真时重复执行连接的节点，每次循环前重新检查条件"
+  },
+  {
+    "index": 18824,
+    "chinese": "条目"
+  },
+  {
+    "index": 18837,
+    "chinese": "枪在手"
+  },
+  {
+    "index": 18838,
+    "chinese": "枪在手+"
+  },
+  {
+    "index": 18841,
+    "chinese": "查看全图"
+  },
+  {
+    "index": 18842,
+    "chinese": "查看出怪"
+  },
+  {
+    "index": 18843,
+    "chinese": "查看卡牌"
+  },
+  {
+    "index": 18844,
+    "chinese": "查看发放目录"
+  },
+  {
+    "index": 18847,
+    "chinese": "查看执行记录"
+  },
+  {
+    "index": 18848,
+    "chinese": "查看草坪发生错误,"
+  },
+  {
+    "index": 18855,
+    "chinese": "核能电池"
+  },
+  {
+    "index": 18858,
+    "chinese": "格子宽度必须为正数。"
+  },
+  {
+    "index": 18859,
+    "chinese": "格子高度必须为正数。"
+  },
+  {
+    "index": 18864,
+    "chinese": "检查连线"
+  },
+  {
+    "index": 18865,
+    "chinese": "检查通过：节点、端口、变量、默认值和同步循环均未发现问题。"
+  },
+  {
+    "index": 18867,
+    "chinese": "棋盘坐标从0开始：第一行/第一列填0，第二行/第二列填1。"
+  },
+  {
+    "index": 18869,
+    "chinese": "棱彩矿+"
+  },
+  {
+    "index": 18870,
+    "chinese": "棱彩礼盒"
+  },
+  {
+    "index": 18873,
+    "chinese": "植物信息"
+  },
+  {
+    "index": 18874,
+    "chinese": "植物分类资源"
+  },
+  {
+    "index": 18875,
+    "chinese": "植物分类资源 {0} 的类型无效或重复：{1}"
+  },
+  {
+    "index": 18877,
+    "chinese": "植物升级与外挂"
+  },
+  {
+    "index": 18880,
+    "chinese": "植物对象"
+  },
+  {
+    "index": 18882,
+    "chinese": "植物持续回血："
+  },
+  {
+    "index": 18884,
+    "chinese": "植物数值资源"
+  },
+  {
+    "index": 18885,
+    "chinese": "植物数值资源存在重复类型 {0}，请检查 {1}"
+  },
+  {
+    "index": 18894,
+    "chinese": "植物种类"
+  },
+  {
+    "index": 18895,
+    "chinese": "植物种类列表"
+  },
+  {
+    "index": 18896,
+    "chinese": "植物类别"
+  },
+  {
+    "index": 18902,
+    "chinese": "植物类型列表插入"
+  },
+  {
+    "index": 18903,
+    "chinese": "植物类型列表替换"
+  },
+  {
+    "index": 18904,
+    "chinese": "植物类型列表查找"
+  },
+  {
+    "index": 18905,
+    "chinese": "植物类型列表获取项"
+  },
+  {
+    "index": 18906,
+    "chinese": "植物类型列表追加"
+  },
+  {
+    "index": 18910,
+    "chinese": "植物类型转字符串"
+  },
+  {
+    "index": 18912,
+    "chinese": "植物融合完成时"
+  },
+  {
+    "index": 18917,
+    "chinese": "植物转对象"
+  },
+  {
+    "index": 18922,
+    "chinese": "概率"
+  },
+  {
+    "index": 18924,
+    "chinese": "概率预览"
+  },
+  {
+    "index": 18925,
+    "chinese": "概览 / 资源"
+  },
+  {
+    "index": 18927,
+    "chinese": "槽位{0}: [空]"
+  },
+  {
+    "index": 18928,
+    "chinese": "槽位{0}: {1} - 回合{2} Lv.{3} ({4})"
+  },
+  {
+    "index": 18934,
+    "chinese": "模板包含无法恢复的节点"
+  },
+  {
+    "index": 18935,
+    "chinese": "模板名称为空或含有无效文件名字符"
+  },
+  {
+    "index": 18936,
+    "chinese": "模板已保存，变量会在每次插入时独立复制"
+  },
+  {
+    "index": 18937,
+    "chinese": "模板检查未通过："
+  },
+  {
+    "index": 18938,
+    "chinese": "模板读取失败，原文件保留："
+  },
+  {
+    "index": 18949,
+    "chinese": "歌曲:"
+  },
+  {
+    "index": 18950,
+    "chinese": "正在下载关卡:"
+  },
+  {
+    "index": 18960,
+    "chinese": "此节点没有可填写的基础类型输入；对象和变量需要连线。"
+  },
+  {
+    "index": 18962,
+    "chinese": "武力刷新"
+  },
+  {
+    "index": 18965,
+    "chinese": "武装支援"
+  },
+  {
+    "index": 18966,
+    "chinese": "武装支援+"
+  },
+  {
+    "index": 18969,
+    "chinese": "死亡时失败"
+  },
+  {
+    "index": 18972,
+    "chinese": "死亡飞艇！"
+  },
+  {
+    "index": 18981,
+    "chinese": "毁灭魅惑菇 + 毁灭菇\n使用金盏花、魅惑菇进行亚种切换\n<color=red>亚种在非旅行模式不推荐使用</color>"
+  },
+  {
+    "index": 18997,
+    "chinese": "每7次刷新，商店会刷出5张费用相同的角色，费用为你备战席最左侧角色的费用。"
+  },
+  {
+    "index": 19016,
+    "chinese": "每只敌方僵尸死亡时，有1%概率获得随机品质礼盒。\n每个节点最多触发3次。"
+  },
+  {
+    "index": 19017,
+    "chinese": "每场战斗开始时，佩戴3件装备的卡牌及场上植物，从其中的进阶装备中随机1件临时变为究极装备，持续本场；没有进阶装备则不生效。"
+  },
+  {
+    "index": 19025,
+    "chinese": "每当你将要获得一件简易装备时，改为获得1个【简易武装箱】。获得1个随机的简易装备。"
+  },
+  {
+    "index": 19028,
+    "chinese": "每损失20点小队生命值，获得500积分和1个随机基础装备。"
+  },
+  {
+    "index": 19029,
+    "chinese": "每损失20点小队生命值，获得5金币和1个随机简易装备。"
+  },
+  {
+    "index": 19032,
+    "chinese": "每格额外"
+  },
+  {
+    "index": 19038,
+    "chinese": "每次升级商店，使一张品质低于钻石的未售商品变为高1档品质的另一种随机植物，保留原价；最高钻石。"
+  },
+  {
+    "index": 19041,
+    "chinese": "每次受到攻击时，消耗25阳光\n将该次攻击伤害降低至1"
+  },
+  {
+    "index": 19042,
+    "chinese": "每次受到攻击时，消耗50阳光\n将该次攻击伤害降低至1"
+  },
+  {
+    "index": 19044,
+    "chinese": "每次将两件基础装备合成为进阶装备时获得2次免费刷新"
+  },
+  {
+    "index": 19045,
+    "chinese": "每次循环"
+  },
+  {
+    "index": 19046,
+    "chinese": "每次成功刷新商店时，有45%概率获得1次免费刷新。"
+  },
+  {
+    "index": 19054,
+    "chinese": "每次消耗积分刷新商店，获得1点升级经验。"
+  },
+  {
+    "index": 19060,
+    "chinese": "每次进入新节点时，你物品栏里的装备变为同品质的其他装备。获得1件随机基础装备。"
+  },
+  {
+    "index": 19061,
+    "chinese": "每次进入新节点时，你物品栏里的装备变为同品质的其他装备。获得1件随机简易装备。"
+  },
+  {
+    "index": 19062,
+    "chinese": "每次进入新节点时，你物品栏里的装备变为同品质的其他装备。获得2件随机基础装备。"
+  },
+  {
+    "index": 19063,
+    "chinese": "每次进入新节点时，你物品栏里的装备变为同品质的其他装备。获得2件随机简易装备。"
+  },
+  {
+    "index": 19064,
+    "chinese": "每次进入新节点时，处在备战席最右侧3个位置的角色变为随机的同费用角色。获得2金币。"
+  },
+  {
+    "index": 19065,
+    "chinese": "每次进入新节点时，处在备战席最左侧6个位置的角色变为随机的同费用角色。立刻获得5次免费刷新和10金币。"
+  },
+  {
+    "index": 19066,
+    "chinese": "每次进入新节点时，处在备战席最左侧6个位置的角色变为随机的同费用角色。立刻获得7次免费刷新和14金币。"
+  },
+  {
+    "index": 19067,
+    "chinese": "每次进入新节点时，如果在上个节点没有花费积分，则获得2次免费刷新。"
+  },
+  {
+    "index": 19068,
+    "chinese": "每次进入新节点时，如果在上个节点没有花费金币，则获得2次免费刷新。"
+  },
+  {
+    "index": 19069,
+    "chinese": "每次进入补给阶段后，随机获得一个未被选择的植物卡及其携带的装备。"
+  },
+  {
+    "index": 19070,
+    "chinese": "每次进入补给阶段后，随机获得一个未被选择的植物卡及其携带的装备。获得1个随机基础装备和400积分。"
+  },
+  {
+    "index": 19071,
+    "chinese": "每次进入补给阶段后，随机获得一个未被选择的角色及其携带的装备。"
+  },
+  {
+    "index": 19072,
+    "chinese": "每次进入补给阶段后，随机获得一个未被选择的角色及其携带的装备。获得1个随机简易装备和4金币。"
+  },
+  {
+    "index": 19074,
+    "chinese": "每种植物只能出战一张卡，请拖到同种卡牌位置替换"
+  },
+  {
+    "index": 19080,
+    "chinese": "每行只能存在一株"
+  },
+  {
+    "index": 19091,
+    "chinese": "比较道具类型"
+  },
+  {
+    "index": 19115,
+    "chinese": "沉默植物"
+  },
+  {
+    "index": 19116,
+    "chinese": "沉默秒数必须大于0且不超过100000"
+  },
+  {
+    "index": 19123,
+    "chinese": "没有卡牌 #{0}"
+  },
+  {
+    "index": 19126,
+    "chinese": "没有可转换的其他同等级装备"
+  },
+  {
+    "index": 19127,
+    "chinese": "没有可转换的其他装备"
+  },
+  {
+    "index": 19128,
+    "chinese": "没有可连接的节点"
+  },
+  {
+    "index": 19129,
+    "chinese": "没有可重做的记录"
+  },
+  {
+    "index": 19147,
+    "chinese": "没有输入口。事件节点会在对应事件发生时触发；常量节点在取值时提供数据。"
+  },
+  {
+    "index": 19148,
+    "chinese": "没有输出口。"
+  },
+  {
+    "index": 19152,
+    "chinese": "治疗之花"
+  },
+  {
+    "index": 19155,
+    "chinese": "沼泽"
+  },
+  {
+    "index": 19160,
+    "chinese": "波次：{0}（无尽）"
+  },
+  {
+    "index": 19177,
+    "chinese": "测试礼包：99999阳光、100000积分、满血、100次刷新、六基础装备及全种类道具"
+  },
+  {
+    "index": 19187,
+    "chinese": "海克斯"
+  },
+  {
+    "index": 19188,
+    "chinese": "海克斯强化"
+  },
+  {
+    "index": 19195,
+    "chinese": "消耗金币"
+  },
+  {
+    "index": 19197,
+    "chinese": "消耗阳光"
+  },
+  {
+    "index": 19199,
+    "chinese": "淘金客"
+  },
+  {
+    "index": 19209,
+    "chinese": "添加一项"
+  },
+  {
+    "index": 19210,
+    "chinese": "添加僵尸卡牌"
+  },
+  {
+    "index": 19213,
+    "chinese": "添加奖励选项"
+  },
+  {
+    "index": 19216,
+    "chinese": "添加规则模板"
+  },
+  {
+    "index": 19220,
+    "chinese": "清场上植物"
+  },
+  {
+    "index": 19221,
+    "chinese": "清场后三选一奖励"
+  },
+  {
+    "index": 19222,
+    "chinese": "清怪无掉落"
+  },
+  {
+    "index": 19225,
+    "chinese": "清空"
+  },
+  {
+    "index": 19226,
+    "chinese": "清空列表"
+  },
+  {
+    "index": 19228,
+    "chinese": "清空记录"
+  },
+  {
+    "index": 19229,
+    "chinese": "清除"
+  },
+  {
+    "index": 19230,
+    "chinese": "渊海"
+  },
+  {
+    "index": 19238,
+    "chinese": "源列表"
+  },
+  {
+    "index": 19239,
+    "chinese": "溢出卡牌待处理"
+  },
+  {
+    "index": 19240,
+    "chinese": "滑块"
+  },
+  {
+    "index": 19242,
+    "chinese": "滚动阅读区"
+  },
+  {
+    "index": 19243,
+    "chinese": "滚轮或拖动右侧滚动条阅读  ·  Esc关闭  ·  阅读指南不会修改关卡"
+  },
+  {
+    "index": 19244,
+    "chinese": "滚轮或拖动查看全部内容 · 点击外部关闭"
+  },
+  {
+    "index": 19257,
+    "chinese": "火力植物\n{0:0.#}工作秒"
+  },
+  {
+    "index": 19280,
+    "chinese": "点击僵尸时"
+  },
+  {
+    "index": 19283,
+    "chinese": "点击后，从10件不重复的随机进阶装备中选择1件\n可翻页查看，选取成功后消耗1个"
+  },
+  {
+    "index": 19284,
+    "chinese": "点击后，从4件不同究极进阶装备中选择1件\n选取成功后消耗1个"
+  },
+  {
+    "index": 19285,
+    "chinese": "点击后，从4件随机基础装备中选择1件\n消耗品，选取成功后消耗1个"
+  },
+  {
+    "index": 19286,
+    "chinese": "点击后，从4件随机进阶装备中选择1件\n消耗品，选取成功后消耗1个"
+  },
+  {
+    "index": 19287,
+    "chinese": "点击后，从4张随机"
+  },
+  {
+    "index": 19289,
+    "chinese": "点击外部或右上角关闭"
+  },
+  {
+    "index": 19295,
+    "chinese": "点击画布上的节点，查看用途。\n\n上方“节点说明”提供端口解释和连接例子。\n\n第一次制作？打开右上角“制作指南”。"
+  },
+  {
+    "index": 19297,
+    "chinese": "点击神笔作画，可以画出植物或魅惑僵尸\n画作看起来越强，画出的单位就会越强\n高级画笔画出的数值上限更高"
+  },
+  {
+    "index": 19301,
+    "chinese": "点击选择后放置；场上花盆用手套移动"
+  },
+  {
+    "index": 19302,
+    "chinese": "点击领取"
+  },
+  {
+    "index": 19313,
+    "chinese": "烈焰扩散：火爆辣椒效果改为1秒内释放10次原本1/3倍伤害的辣椒火焰"
+  },
+  {
+    "index": 19341,
+    "chinese": "物品对象"
+  },
+  {
+    "index": 19343,
+    "chinese": "特战资金"
+  },
+  {
+    "index": 19344,
+    "chinese": "特战资金+"
+  },
+  {
+    "index": 19354,
+    "chinese": "独家代言"
+  },
+  {
+    "index": 19355,
+    "chinese": "独家代言：装备三选一"
+  },
+  {
+    "index": 19357,
+    "chinese": "独立伤害增幅：{0:F0}%"
+  },
+  {
+    "index": 19362,
+    "chinese": "猫瓜严选"
+  },
+  {
+    "index": 19363,
+    "chinese": "猫瓜干预"
+  },
+  {
+    "index": 19374,
+    "chinese": "玩法流程"
+  },
+  {
+    "index": 19377,
+    "chinese": "现在及接下来3次进入新节点时，每次获得700积分。"
+  },
+  {
+    "index": 19378,
+    "chinese": "现在及接下来3次进入新节点时，每次获得7金币。"
+  },
+  {
+    "index": 19379,
+    "chinese": "现在及接下来3次进入新节点时，每次获得900积分。"
+  },
+  {
+    "index": 19380,
+    "chinese": "现在及接下来3次进入新节点时，每次获得9金币。"
+  },
+  {
+    "index": 19381,
+    "chinese": "现在及每次进入新节点时获得1次免费刷新，立刻获得800积分。"
+  },
+  {
+    "index": 19382,
+    "chinese": "现在及每次进入新节点时获得1次免费刷新，立刻获得8金币。"
+  },
+  {
+    "index": 19383,
+    "chinese": "现在获得1枚好运令牌；之后每进入4个新节点，再获得1枚。点击后随机出现10件不重复的进阶装备，自选1件。"
+  },
+  {
+    "index": 19393,
+    "chinese": "生产间隔：{0}秒"
+  },
+  {
+    "index": 19396,
+    "chinese": "生命 {0}/{1}\n连胜 {2}　预计利息 {3}\n{4}"
+  },
+  {
+    "index": 19397,
+    "chinese": "生命+{0:P0}"
+  },
+  {
+    "index": 19398,
+    "chinese": "生命之光"
+  },
+  {
+    "index": 19399,
+    "chinese": "生命之花"
+  },
+  {
+    "index": 19400,
+    "chinese": "生命之花Ⅱ"
+  },
+  {
+    "index": 19401,
+    "chinese": "生命之花祝福"
+  },
+  {
+    "index": 19402,
+    "chinese": "生命值"
+  },
+  {
+    "index": 19405,
+    "chinese": "生命值增加{0:P0}"
+  },
+  {
+    "index": 19406,
+    "chinese": "生命值已耗尽"
+  },
+  {
+    "index": 19407,
+    "chinese": "生命值：{0}"
+  },
+  {
+    "index": 19431,
+    "chinese": "生成"
+  },
+  {
+    "index": 19433,
+    "chinese": "生成对象在当前运行图内唯一的引用文本。"
+  },
+  {
+    "index": 19440,
+    "chinese": "用于本局金币玩法"
+  },
+  {
+    "index": 19441,
+    "chinese": "用名字保存对象，供后续事件读取。"
+  },
+  {
+    "index": 19443,
+    "chinese": "用户关卡上传失败:"
+  },
+  {
+    "index": 19444,
+    "chinese": "用户关卡上传成功:"
+  },
+  {
+    "index": 19445,
+    "chinese": "用源列表的内容替换目标列表，之后两份容器独立。"
+  },
+  {
+    "index": 19447,
+    "chinese": "电磁之刃"
+  },
+  {
+    "index": 19450,
+    "chinese": "画作相似度太低，惊动了一群僵尸前来进攻"
+  },
+  {
+    "index": 19457,
+    "chinese": "白银投资"
+  },
+  {
+    "index": 19458,
+    "chinese": "白银援军"
+  },
+  {
+    "index": 19460,
+    "chinese": "白银晋升"
+  },
+  {
+    "index": 19461,
+    "chinese": "白银植物礼盒"
+  },
+  {
+    "index": 19468,
+    "chinese": "的子弹命中次数+5"
+  },
+  {
+    "index": 19476,
+    "chinese": "监听全场寒冰菇或单行火爆辣椒效果。"
+  },
+  {
+    "index": 19479,
+    "chinese": "目标不存在"
+  },
+  {
+    "index": 19481,
+    "chinese": "目标列表"
+  },
+  {
+    "index": 19482,
+    "chinese": "目标列（小数）"
+  },
+  {
+    "index": 19483,
+    "chinese": "目标地图地面数量与当前战场不兼容"
+  },
+  {
+    "index": 19484,
+    "chinese": "目标地图缺少屋顶地面"
+  },
+  {
+    "index": 19486,
+    "chinese": "目标等级"
+  },
+  {
+    "index": 19488,
+    "chinese": "目标阶段"
+  },
+  {
+    "index": 19490,
+    "chinese": "直接加载关卡时发生错误:"
+  },
+  {
+    "index": 19491,
+    "chinese": "直接发放指定装备，不受随机奖励替换影响；究极保留逐件来源。装配、卸下仍要求商店阶段。"
+  },
+  {
+    "index": 19497,
+    "chinese": "相等"
+  },
+  {
+    "index": 19499,
+    "chinese": "真"
+  },
+  {
+    "index": 19500,
+    "chinese": "真假"
+  },
+  {
+    "index": 19501,
+    "chinese": "真假变量"
+  },
+  {
+    "index": 19502,
+    "chinese": "真假条件：true表示是，false表示否。可接比较结果或布尔值节点。"
+  },
+  {
+    "index": 19514,
+    "chinese": "砸罐子2"
+  },
+  {
+    "index": 19523,
+    "chinese": "磁力数量：{0}"
+  },
+  {
+    "index": 19527,
+    "chinese": "礼盒品质 / 数量（按实际奖励表预生成内容）"
+  },
+  {
+    "index": 19529,
+    "chinese": "礼盒："
+  },
+  {
+    "index": 19530,
+    "chinese": "礼盒：已收集{0}个"
+  },
+  {
+    "index": 19531,
+    "chinese": "礼盒：暂无待开启礼盒"
+  },
+  {
+    "index": 19562,
+    "chinese": "种植卡牌"
+  },
+  {
+    "index": 19570,
+    "chinese": "种植：卡牌ID / 行 / 列"
+  },
+  {
+    "index": 19572,
+    "chinese": "秒数"
+  },
+  {
+    "index": 19574,
+    "chinese": "积分"
+  },
+  {
+    "index": 19577,
+    "chinese": "积分已设为{0:0}"
+  },
+  {
+    "index": 19581,
+    "chinese": "移动和缩放创建场景对象节点生成的标记。"
+  },
+  {
+    "index": 19585,
+    "chinese": "移除"
+  },
+  {
+    "index": 19586,
+    "chinese": "移除1件"
+  },
+  {
+    "index": 19587,
+    "chinese": "移除共享列表全部内容。"
+  },
+  {
+    "index": 19588,
+    "chinese": "移除并退装备"
+  },
+  {
+    "index": 19594,
+    "chinese": "究极·"
+  },
+  {
+    "index": 19596,
+    "chinese": "究极发放："
+  },
+  {
+    "index": 19603,
+    "chinese": "究极装备 · 本场战斗"
+  },
+  {
+    "index": 19604,
+    "chinese": "究极装备 · 永久"
+  },
+  {
+    "index": 19605,
+    "chinese": "究极装备卡"
+  },
+  {
+    "index": 19606,
+    "chinese": "究极装备盒"
+  },
+  {
+    "index": 19607,
+    "chinese": "究极邀请函"
+  },
+  {
+    "index": 19609,
+    "chinese": "究极黑曜石高坚果皮肤挑战"
+  },
+  {
+    "index": 19612,
+    "chinese": "穿戴3件装备的角色在进入战斗时，会将其中随机一件变为特权装备，持续到战斗结束。"
+  },
+  {
+    "index": 19624,
+    "chinese": "立刻获得1件随机基础装备，首领战后，获得1件随机基础装备。"
+  },
+  {
+    "index": 19625,
+    "chinese": "立刻获得1件随机简易装备，首领战后，获得1件随机简易装备。"
+  },
+  {
+    "index": 19626,
+    "chinese": "立刻获得2件随机基础装备，boss战后，获得1件随机基础装备。"
+  },
+  {
+    "index": 19627,
+    "chinese": "立刻获得2件随机简易装备，首领战后，获得1件随机简易装备。"
+  },
+  {
+    "index": 19628,
+    "chinese": "立刻获得400积分，并且在每次进入新节点时，获得200积分。"
+  },
+  {
+    "index": 19629,
+    "chinese": "立刻获得4个金币，并且在每次进入新节点时，获得2金币。"
+  },
+  {
+    "index": 19634,
+    "chinese": "立即可用"
+  },
+  {
+    "index": 19635,
+    "chinese": "立即将当前生命值和积分按1点生命=100积分的比例交换。"
+  },
+  {
+    "index": 19637,
+    "chinese": "立即获得1000积分，利息上限提高至900积分。\n进入商店时，如果自上次入店后没有花费积分，额外获得900积分。"
+  },
+  {
+    "index": 19638,
+    "chinese": "立即获得1437次免费刷新，持续30秒。\n时间结束时清空全部剩余免费刷新次数。"
+  },
+  {
+    "index": 19639,
+    "chinese": "立即获得1500积分，本局不再获得利息。每进入一个新节点获得4点升级经验。"
+  },
+  {
+    "index": 19640,
+    "chinese": "立即获得1个基础装备盒。\n接下来5次进入新节点时，每次再获得1个基础装备盒。"
+  },
+  {
+    "index": 19643,
+    "chinese": "立即获得2500积分，利息上限提高至1000积分。"
+  },
+  {
+    "index": 19644,
+    "chinese": "立即获得2件随机进阶装备。\n每次进入新节点时，库存中的装备变为其他同等级装备。"
+  },
+  {
+    "index": 19648,
+    "chinese": "立即获得600积分。僵尸进家伤害增加5点，但失败仍保留进入战斗时的连胜。"
+  },
+  {
+    "index": 19650,
+    "chinese": "立即获得已损失生命值×100的积分。\n每次战斗结束后恢复10点生命。"
+  },
+  {
+    "index": 19656,
+    "chinese": "端口方向或类型不匹配"
+  },
+  {
+    "index": 19660,
+    "chinese": "第"
+  },
+  {
+    "index": 19661,
+    "chinese": "第1至第10列线性插值：\n额外攻速100%→0%，额外减伤0%→100%"
+  },
+  {
+    "index": 19662,
+    "chinese": "第1至第10列线性插值：\n额外攻速50%→0%，额外减伤0%→50%"
+  },
+  {
+    "index": 19663,
+    "chinese": "第5波显示提示"
+  },
+  {
+    "index": 19664,
+    "chinese": "第5波来袭！"
+  },
+  {
+    "index": 19666,
+    "chinese": "第{0}/{1}页"
+  },
+  {
+    "index": 19667,
+    "chinese": "第{0}/{1}页 · 共{2}项 · 类型：{3}"
+  },
+  {
+    "index": 19668,
+    "chinese": "第{0}个参数须为{1}～{2}的整数"
+  },
+  {
+    "index": 19670,
+    "chinese": "第{0}大关 Boss 来袭！"
+  },
+  {
+    "index": 19671,
+    "chinese": "第{0}大关 · {1}\n本关共{2}位领袖\n第10波登场\n\n点击查看图鉴"
+  },
+  {
+    "index": 19672,
+    "chinese": "第{0}大关　{1}\n补给轮，不出怪"
+  },
+  {
+    "index": 19673,
+    "chinese": "第{0}大关　{1}　{2}路线\n{3}波　{4}种僵尸{5}\n\n{6}\n\n点击查看僵尸图鉴"
+  },
+  {
+    "index": 19676,
+    "chinese": "第{0}波开始记录点"
+  },
+  {
+    "index": 19678,
+    "chinese": "第{0}行 · 第{1}列"
+  },
+  {
+    "index": 19679,
+    "chinese": "第{0}行生成{1}×{2}，旅行生命倍率与事件照常生效"
+  },
+  {
+    "index": 19683,
+    "chinese": "第{0}轮 · {1}"
+  },
+  {
+    "index": 19684,
+    "chinese": "第{0}轮 · 第{1}大关 · {2} · {3}波{4}"
+  },
+  {
+    "index": 19687,
+    "chinese": "第{0}项已更新"
+  },
+  {
+    "index": 19688,
+    "chinese": "第{0}项格式无效，保留上一次有效值。"
+  },
+  {
+    "index": 19691,
+    "chinese": "第一防具血量"
+  },
+  {
+    "index": 19693,
+    "chinese": "第二大关选择时获得2600积分，第三大关选择时获得4500积分。\n进入商店时，超过5000积分的部分每满1000积分获得1次免费刷新，每次最多3次。"
+  },
+  {
+    "index": 19695,
+    "chinese": "第二防具血量"
+  },
+  {
+    "index": 19699,
+    "chinese": "等待后的取值方式：已有旧关卡建议保持原设置"
+  },
+  {
+    "index": 19701,
+    "chinese": "等待时间必须是0到2000000秒之间的有限数值"
+  },
+  {
+    "index": 19702,
+    "chinese": "等待条件成立"
+  },
+  {
+    "index": 19705,
+    "chinese": "等级{0}植物分布:"
+  },
+  {
+    "index": 19711,
+    "chinese": "管理已持有卡牌"
+  },
+  {
+    "index": 19712,
+    "chinese": "管理现有库存"
+  },
+  {
+    "index": 19714,
+    "chinese": "类型"
+  },
+  {
+    "index": 19716,
+    "chinese": "类型资源"
+  },
+  {
+    "index": 19732,
+    "chinese": "素材 {0:00}"
+  },
+  {
+    "index": 19733,
+    "chinese": "素材 {0} · 已种品质：{1}\n已种装备：{2}\n\n{3}"
+  },
+  {
+    "index": 19734,
+    "chinese": "素材对照"
+  },
+  {
+    "index": 19735,
+    "chinese": "素材对照  {0}"
+  },
+  {
+    "index": 19737,
+    "chinese": "索引从0开始；数字或枚举名均可输入。对象初值填写本局的对象绑定名。"
+  },
+  {
+    "index": 19742,
+    "chinese": "组合三维坐标"
+  },
+  {
+    "index": 19755,
+    "chinese": "经典的诸神进化\n通关获得25诸神币"
+  },
+  {
+    "index": 19758,
+    "chinese": "经验到账"
+  },
+  {
+    "index": 19759,
+    "chinese": "绑定名称（本关卡共享）"
+  },
+  {
+    "index": 19760,
+    "chinese": "绑定场景对象"
+  },
+  {
+    "index": 19765,
+    "chinese": "给予指定植物升级或星辉效果。"
+  },
+  {
+    "index": 19766,
+    "chinese": "给已佩戴普通进阶装备的卡牌再装同名普通进阶装备时，消耗新装的1件，将原装备变为对应究极装备；立即获得1个基础装备盒。"
+  },
+  {
+    "index": 19768,
+    "chinese": "给植物施加指定固定数值的诅咒，数值0解除。"
+  },
+  {
+    "index": 19773,
+    "chinese": "给角色穿戴2件相同进阶装备时，它们会合成为对应的特权装备。获得1个【简易武装箱】。"
+  },
+  {
+    "index": 19776,
+    "chinese": "绝对热量"
+  },
+  {
+    "index": 19780,
+    "chinese": "编辑{0}列表 · {1}项"
+  },
+  {
+    "index": 19781,
+    "chinese": "编辑列表初值"
+  },
+  {
+    "index": 19784,
+    "chinese": "编辑选项"
+  },
+  {
+    "index": 19785,
+    "chinese": "缺少僵尸类型配置 {0}，请检查 Resources/Data/Zombies"
+  },
+  {
+    "index": 19786,
+    "chinese": "缺少植物类型配置 {0}，请检查 Resources/Data/Plants"
+  },
+  {
+    "index": 19788,
+    "chinese": "缺少配对 ("
+  },
+  {
+    "index": 19790,
+    "chinese": "网格：关"
+  },
+  {
+    "index": 19791,
+    "chinese": "网格：开"
+  },
+  {
+    "index": 19805,
+    "chinese": "群攻-木桩：在场上生成一个木桩僵尸，木桩僵尸会把受到伤害的60%均摊给全场僵尸，可以使用僵尸手套移动木桩僵尸\n木桩会秒杀解除到的魅惑僵尸"
+  },
+  {
+    "index": 19821,
+    "chinese": "育种"
+  },
+  {
+    "index": 19822,
+    "chinese": "育种葵"
+  },
+  {
+    "index": 19825,
+    "chinese": "胜利结算"
+  },
+  {
+    "index": 19826,
+    "chinese": "胜利，还是胜利"
+  },
+  {
+    "index": 19830,
+    "chinese": "能量护盾"
+  },
+  {
+    "index": 19835,
+    "chinese": "脱颖而出"
+  },
+  {
+    "index": 19846,
+    "chinese": "自动存档"
+  },
+  {
+    "index": 19847,
+    "chinese": "自动存档:"
+  },
+  {
+    "index": 19850,
+    "chinese": "自动存档只在关卡结算时更新，手动保存会复制最近自动档"
+  },
+  {
+    "index": 19851,
+    "chinese": "自动存档损坏:"
+  },
+  {
+    "index": 19852,
+    "chinese": "自动存档间隔: {0}秒"
+  },
+  {
+    "index": 19860,
+    "chinese": "自定义"
+  },
+  {
+    "index": 19868,
+    "chinese": "自由市场"
+  },
+  {
+    "index": 19869,
+    "chinese": "自身每5秒直接获得100阳光\n并回复10%最大生命值，单次不超过4000"
+  },
+  {
+    "index": 19870,
+    "chinese": "自身每5秒直接获得50阳光\n并回复5%最大生命值，单次不超过2000"
+  },
+  {
+    "index": 19871,
+    "chinese": "自身治疗量增加100%\n受到治疗后本行额外减伤60%，持续3秒，重复治疗刷新持续时间"
+  },
+  {
+    "index": 19872,
+    "chinese": "自身治疗量增加50%\n受到治疗后本行额外减伤30%，持续3秒，重复治疗刷新持续时间"
+  },
+  {
+    "index": 19873,
+    "chinese": "自身生命值降低后，攻击力加成增加300%\n持续3秒，重复降低刷新持续时间"
+  },
+  {
+    "index": 19874,
+    "chinese": "自身生命值降低后，攻击力加成提高150%\n持续3秒，重复降低刷新持续时间"
+  },
+  {
+    "index": 19876,
+    "chinese": "至尊红卡"
+  },
+  {
+    "index": 19877,
+    "chinese": "至少佩戴1件装备的植物获得20%生命和16%伤害。"
+  },
+  {
+    "index": 19879,
+    "chinese": "至少携带1件装备的角色获得20%生命增幅和16%伤害增幅。"
+  },
+  {
+    "index": 19886,
+    "chinese": "节 奏 大 师"
+  },
+  {
+    "index": 19887,
+    "chinese": "节假日礼盒"
+  },
+  {
+    "index": 19888,
+    "chinese": "节点ID为空或重复"
+  },
+  {
+    "index": 19891,
+    "chinese": "节点不存在"
+  },
+  {
+    "index": 19892,
+    "chinese": "节点不属于当前运行图"
+  },
+  {
+    "index": 19894,
+    "chinese": "节点怎么连接"
+  },
+  {
+    "index": 19895,
+    "chinese": "节点草稿已保存。保存整关请点击底部“保存并生成关卡”"
+  },
+  {
+    "index": 19897,
+    "chinese": "节点说明"
+  },
+  {
+    "index": 19899,
+    "chinese": "节省工位"
+  },
+  {
+    "index": 19913,
+    "chinese": "花费和冷却格式无效，未修改原数值"
+  },
+  {
+    "index": 19925,
+    "chinese": "草坪军火更新"
+  },
+  {
+    "index": 19926,
+    "chinese": "草坪军火更新-金"
+  },
+  {
+    "index": 19927,
+    "chinese": "草坪军火更新-银"
+  },
+  {
+    "index": 19928,
+    "chinese": "草坪植物流动"
+  },
+  {
+    "index": 19933,
+    "chinese": "获取全场僵尸"
+  },
+  {
+    "index": 19934,
+    "chinese": "获取关卡列表失败:"
+  },
+  {
+    "index": 19935,
+    "chinese": "获取关卡列表时发生错误:"
+  },
+  {
+    "index": 19937,
+    "chinese": "获取命名僵尸"
+  },
+  {
+    "index": 19938,
+    "chinese": "获取命名植物"
+  },
+  {
+    "index": 19940,
+    "chinese": "获取字符串"
+  },
+  {
+    "index": 19943,
+    "chinese": "获取当前棋盘仍存活的僵尸快照。"
+  },
+  {
+    "index": 19944,
+    "chinese": "获取当前金币"
+  },
+  {
+    "index": 19946,
+    "chinese": "获取当前阶段"
+  },
+  {
+    "index": 19951,
+    "chinese": "获取本次事件位置"
+  },
+  {
+    "index": 19953,
+    "chinese": "获取植物基础组成"
+  },
+  {
+    "index": 19958,
+    "chinese": "获取鼠标世界位置"
+  },
+  {
+    "index": 19959,
+    "chinese": "获取鼠标当前持有的物品对象及种类。"
+  },
+  {
+    "index": 19960,
+    "chinese": "获取鼠标道具"
+  },
+  {
+    "index": 19961,
+    "chinese": "获得"
+  },
+  {
+    "index": 19964,
+    "chinese": "获得10点商店升级经验。"
+  },
+  {
+    "index": 19965,
+    "chinese": "获得10经验值。"
+  },
+  {
+    "index": 19966,
+    "chinese": "获得11次免费刷新。"
+  },
+  {
+    "index": 19968,
+    "chinese": "获得1200积分；下一张购买的白银品质商品卡提升为黄金。"
+  },
+  {
+    "index": 19969,
+    "chinese": "获得12点升级经验；连胜积分奖励变为3倍，敌人生命额外提高当前连胜数×10%。"
+  },
+  {
+    "index": 19970,
+    "chinese": "获得1个【员工投影仪】，3个节点后，获得1个【员工投影仪】。"
+  },
+  {
+    "index": 19971,
+    "chinese": "获得1个【员工投影仪】，4个节点后，获得1个【员工投影仪】。"
+  },
+  {
+    "index": 19972,
+    "chinese": "获得1个【和平手枪】。我方小队获得30%后台强度和15初始能量。"
+  },
+  {
+    "index": 19973,
+    "chinese": "获得1个【基础装备盒】，获得400积分。"
+  },
+  {
+    "index": 19974,
+    "chinese": "获得1个【基础装备盒】，获得800积分。"
+  },
+  {
+    "index": 19975,
+    "chinese": "获得1个【好运令牌】。每累计进入4个节点后，获得1个【好运令牌】。"
+  },
+  {
+    "index": 19976,
+    "chinese": "获得1个【好运令牌】和1件随机基础装备。令牌点击后随机出现10件不重复的进阶装备，自选1件。"
+  },
+  {
+    "index": 19977,
+    "chinese": "获得1个【好运令牌】和1件随机简易装备。"
+  },
+  {
+    "index": 19978,
+    "chinese": "获得1个【折叠小刀】。我方小队获得30%前台强度和5%伤害增幅。"
+  },
+  {
+    "index": 19981,
+    "chinese": "获得1个【特权赋予卡】和1个【简易武装箱】。"
+  },
+  {
+    "index": 19982,
+    "chinese": "获得1个【生命之花】。我方小队获得15%生命增幅和5%治疗强度。"
+  },
+  {
+    "index": 19983,
+    "chinese": "获得1个【简易武装箱】，获得4金币。"
+  },
+  {
+    "index": 19984,
+    "chinese": "获得1个【简易武装箱】，获得8金币。"
+  },
+  {
+    "index": 19985,
+    "chinese": "获得1个【量产型装甲】。我方小队获得15%伤害减免和5%护盾强度。"
+  },
+  {
+    "index": 19986,
+    "chinese": "获得1个好运令牌-词条。"
+  },
+  {
+    "index": 19987,
+    "chinese": "获得1个好运令牌-词条，立即获得2000积分。"
+  },
+  {
+    "index": 19988,
+    "chinese": "获得1个随机的2星1费角色。每次进入新节点时，获得1星的该角色，补给后额外获得2个，持续至本局游戏结束。"
+  },
+  {
+    "index": 19989,
+    "chinese": "获得1个随机的2星2费角色。每次进入新节点时，获得1星的该角色，补给后额外获得2个，持续至本局游戏结束。"
+  },
+  {
+    "index": 19990,
+    "chinese": "获得1件战术小刀。全体植物获得30%攻击力和5%独立伤害增幅。"
+  },
+  {
+    "index": 19991,
+    "chinese": "获得1件战术手炮。全体植物获得30%攻击力，卡牌冷却缩短15%。"
+  },
+  {
+    "index": 19992,
+    "chinese": "获得1件战术护盾。全体植物受到伤害降低15%，获得护盾量提高5%。"
+  },
+  {
+    "index": 19993,
+    "chinese": "获得1件生命之花。全体植物生命提高15%，治疗量提高5%。"
+  },
+  {
+    "index": 19994,
+    "chinese": "获得1件随机基础装备和1个随机钻石品质植物卡，获得600积分。"
+  },
+  {
+    "index": 19995,
+    "chinese": "获得1件随机基础装备和2个随机黄金品质植物卡。"
+  },
+  {
+    "index": 19996,
+    "chinese": "获得1件随机简易装备和1个随机4费角色，获得6金币。"
+  },
+  {
+    "index": 19997,
+    "chinese": "获得1件随机简易装备和2个随机3费角色。"
+  },
+  {
+    "index": 19998,
+    "chinese": "获得1张究极赋予卡和1个基础装备盒。"
+  },
+  {
+    "index": 20002,
+    "chinese": "获得25金币。你的最大利息提升至10金币。"
+  },
+  {
+    "index": 20003,
+    "chinese": "获得2个1费角色，2个2费角色和1个3费角色。"
+  },
+  {
+    "index": 20004,
+    "chinese": "获得2个5费聘用书，获得12金币。"
+  },
+  {
+    "index": 20005,
+    "chinese": "获得2个5费聘用书，获得4金币。"
+  },
+  {
+    "index": 20006,
+    "chinese": "获得2个【员工投影仪】。获得13金币。"
+  },
+  {
+    "index": 20007,
+    "chinese": "获得2个【员工投影仪】。获得7金币。"
+  },
+  {
+    "index": 20010,
+    "chinese": "获得2个大麦。本局对基础装备使用大麦时，改为随机进阶装备。"
+  },
+  {
+    "index": 20011,
+    "chinese": "获得2个木头品质植物卡，2个白银品质植物卡和1个黄金品质植物卡。"
+  },
+  {
+    "index": 20014,
+    "chinese": "获得2张3费聘用书，获得4金币。"
+  },
+  {
+    "index": 20015,
+    "chinese": "获得2张4费聘用书，获得5金币。"
+  },
+  {
+    "index": 20016,
+    "chinese": "获得2张白银聘用书，获得400积分。"
+  },
+  {
+    "index": 20017,
+    "chinese": "获得2张白银聘用书，获得500积分。"
+  },
+  {
+    "index": 20019,
+    "chinese": "获得4个随机2费角色。"
+  },
+  {
+    "index": 20020,
+    "chinese": "获得4个随机3费角色。"
+  },
+  {
+    "index": 20021,
+    "chinese": "获得4个随机4费角色。"
+  },
+  {
+    "index": 20022,
+    "chinese": "获得4个随机白银品质植物卡。"
+  },
+  {
+    "index": 20023,
+    "chinese": "获得4个随机钻石品质植物卡。"
+  },
+  {
+    "index": 20024,
+    "chinese": "获得4个随机黄金品质植物卡。"
+  },
+  {
+    "index": 20029,
+    "chinese": "获得5个【和平手枪】。【和平手枪】提供5%幸运一击率。"
+  },
+  {
+    "index": 20030,
+    "chinese": "获得5件战术手炮；佩戴者每把战术手炮额外增加5%伤害"
+  },
+  {
+    "index": 20033,
+    "chinese": "获得{0}：{1}\n强度 = {2:F2}\n相似度 = {3}"
+  },
+  {
+    "index": 20034,
+    "chinese": "获得一个【装备骰子】。"
+  },
+  {
+    "index": 20035,
+    "chinese": "获得一个【随便骰子】。"
+  },
+  {
+    "index": 20045,
+    "chinese": "获得新植物："
+  },
+  {
+    "index": 20049,
+    "chinese": "获得旅行词条：{0}"
+  },
+  {
+    "index": 20061,
+    "chinese": "获得金币"
+  },
+  {
+    "index": 20062,
+    "chinese": "获得金币：{0}"
+  },
+  {
+    "index": 20064,
+    "chinese": "获得随机的大笔奖励。"
+  },
+  {
+    "index": 20077,
+    "chinese": "融合专精：融合5个双发射手（需要一直存在在场地上，直到任务完成）"
+  },
+  {
+    "index": 20081,
+    "chinese": "融合召唤：好运来将究极成品转为究极装备盒"
+  },
+  {
+    "index": 20082,
+    "chinese": "融合召唤：获得究极·"
+  },
+  {
+    "index": 20083,
+    "chinese": "融合树已导出到:"
+  },
+  {
+    "index": 20084,
+    "chinese": "融合树统计:"
+  },
+  {
+    "index": 20093,
+    "chinese": "血量比例"
+  },
+  {
+    "index": 20097,
+    "chinese": "补充豌豆射手"
+  },
+  {
+    "index": 20098,
+    "chinese": "补给"
+  },
+  {
+    "index": 20100,
+    "chinese": "补给：{0}选一"
+  },
+  {
+    "index": 20101,
+    "chinese": "补给：领取全部三项"
+  },
+  {
+    "index": 20105,
+    "chinese": "被动技能"
+  },
+  {
+    "index": 20106,
+    "chinese": "被动技能：使卡牌前三次使用不消耗阳光，全体卡牌阳光消耗降低10%"
+  },
+  {
+    "index": 20107,
+    "chinese": "被动技能：使卡牌前六次使用不消耗阳光，全体卡牌阳光消耗降低20%"
+  },
+  {
+    "index": 20108,
+    "chinese": "被动技能：使我方全体植物获得25%幸运一击率"
+  },
+  {
+    "index": 20109,
+    "chinese": "被动技能：使我方全体植物获得50%幸运一击率"
+  },
+  {
+    "index": 20110,
+    "chinese": "被动技能：使植物前三次使用不消耗冷却，全体卡牌冷却降低10%"
+  },
+  {
+    "index": 20111,
+    "chinese": "被动技能：使植物前六次使用不消耗冷却，全体卡牌冷却降低20%"
+  },
+  {
+    "index": 20112,
+    "chinese": "被动技能：我方全体植物获得30%生命增幅"
+  },
+  {
+    "index": 20113,
+    "chinese": "被动技能：我方全体植物获得60%生命增幅"
+  },
+  {
+    "index": 20114,
+    "chinese": "被动技能：每3秒为全场植物回复100+1%最大生命值\n每株单次不超过2000"
+  },
+  {
+    "index": 20115,
+    "chinese": "被动技能：每3秒为全场植物回复200+2%最大生命值\n每株单次不超过4000"
+  },
+  {
+    "index": 20116,
+    "chinese": "被动技能：每秒累计僵尸实际受到的伤害，将1%均分为护盾算\n单次回复最多为各自最大生命值的10%\n每株护盾总量上限为1000×当前轮次"
+  },
+  {
+    "index": 20117,
+    "chinese": "被动技能：每秒累计僵尸实际受到的伤害，将1%均分回血\n单次回复最多为各自最大生命值的10%"
+  },
+  {
+    "index": 20118,
+    "chinese": "被动技能：每秒累计僵尸实际受到的伤害，将2%均分为护盾算\n单次回复最多为各自最大生命值的20%\n每株护盾总量上限为1000×当前轮次"
+  },
+  {
+    "index": 20119,
+    "chinese": "被动技能：每秒累计僵尸实际受到的伤害，将2%均分回血\n单次回复最多为各自最大生命值的20%"
+  },
+  {
+    "index": 20122,
+    "chinese": "裁剪区"
+  },
+  {
+    "index": 20125,
+    "chinese": "装到目标卡牌"
+  },
+  {
+    "index": 20126,
+    "chinese": "装备 / 道具"
+  },
+  {
+    "index": 20127,
+    "chinese": "装备一致，无需同步"
+  },
+  {
+    "index": 20128,
+    "chinese": "装备与道具目录"
+  },
+  {
+    "index": 20129,
+    "chinese": "装备失败，请检查三件上限或唯一限制"
+  },
+  {
+    "index": 20130,
+    "chinese": "装备已按原来源卸回物品栏"
+  },
+  {
+    "index": 20131,
+    "chinese": "装备已通过真实装配/合成入口装上"
+  },
+  {
+    "index": 20132,
+    "chinese": "装备已随机转化并卸下"
+  },
+  {
+    "index": 20133,
+    "chinese": "装备库存（序号从1开始）"
+  },
+  {
+    "index": 20134,
+    "chinese": "装备批发商"
+  },
+  {
+    "index": 20135,
+    "chinese": "装备锻造器"
+  },
+  {
+    "index": 20136,
+    "chinese": "装备锻造器只能用于基础装备"
+  },
+  {
+    "index": 20137,
+    "chinese": "装备骰子"
+  },
+  {
+    "index": 20141,
+    "chinese": "要就给"
+  },
+  {
+    "index": 20143,
+    "chinese": "覆盖该植物的总攻击速度加成，倍率1为基础攻速。"
+  },
+  {
+    "index": 20146,
+    "chinese": "规则模板：插入副本，各次插入的变量相互独立"
+  },
+  {
+    "index": 20147,
+    "chinese": "规格"
+  },
+  {
+    "index": 20148,
+    "chinese": "角度"
+  },
+  {
+    "index": 20150,
+    "chinese": "解析数字、枚举名称或枚举编号，并输出是否成功。"
+  },
+  {
+    "index": 20154,
+    "chinese": "解锁后可查看词条效果"
+  },
+  {
+    "index": 20158,
+    "chinese": "解锁条件："
+  },
+  {
+    "index": 20162,
+    "chinese": "解除锁定"
+  },
+  {
+    "index": 20164,
+    "chinese": "触发后修改共享字符串变量。"
+  },
+  {
+    "index": 20183,
+    "chinese": "记录点已保存："
+  },
+  {
+    "index": 20185,
+    "chinese": "许诺究极"
+  },
+  {
+    "index": 20186,
+    "chinese": "设为五件商品"
+  },
+  {
+    "index": 20188,
+    "chinese": "设置为目标值；发放物品、领取海克斯及商店操作会自动保存。测试开关随本次关卡结束释放。"
+  },
+  {
+    "index": 20189,
+    "chinese": "设置僵尸卡冷却"
+  },
+  {
+    "index": 20190,
+    "chinese": "设置僵尸战斗数值"
+  },
+  {
+    "index": 20191,
+    "chinese": "设置僵尸状态"
+  },
+  {
+    "index": 20192,
+    "chinese": "设置僵尸进家规则"
+  },
+  {
+    "index": 20194,
+    "chinese": "设置场景对象位置和大小"
+  },
+  {
+    "index": 20195,
+    "chinese": "设置字符串"
+  },
+  {
+    "index": 20197,
+    "chinese": "设置指定僵尸的状态、持续秒数或层数。"
+  },
+  {
+    "index": 20198,
+    "chinese": "设置指定植物自身的基础攻击间隔。"
+  },
+  {
+    "index": 20199,
+    "chinese": "设置攻击力、防具血量、基础移速或体型。"
+  },
+  {
+    "index": 20201,
+    "chinese": "设置植物属性倒计时"
+  },
+  {
+    "index": 20202,
+    "chinese": "设置植物技能、成长或吞咽等使用的属性倒计时。"
+  },
+  {
+    "index": 20203,
+    "chinese": "设置植物攻速"
+  },
+  {
+    "index": 20205,
+    "chinese": "设置道具冷却"
+  },
+  {
+    "index": 20211,
+    "chinese": "诅咒任务：{0}"
+  },
+  {
+    "index": 20212,
+    "chinese": "诅咒值"
+  },
+  {
+    "index": 20215,
+    "chinese": "诅咒：争强好胜"
+  },
+  {
+    "index": 20216,
+    "chinese": "诅咒：千锤百炼"
+  },
+  {
+    "index": 20217,
+    "chinese": "诅咒：壹肆叁柒"
+  },
+  {
+    "index": 20218,
+    "chinese": "诅咒：见者有份"
+  },
+  {
+    "index": 20220,
+    "chinese": "识图接口不存在，请检查服务地址。"
+  },
+  {
+    "index": 20221,
+    "chinese": "识图服务 Token 不能包含换行。"
+  },
+  {
+    "index": 20223,
+    "chinese": "识图服务地址必须是有效的 HTTP 或 HTTPS 地址。"
+  },
+  {
+    "index": 20224,
+    "chinese": "识图服务拒绝访问，请检查服务权限。"
+  },
+  {
+    "index": 20225,
+    "chinese": "识图服务暂时异常，请稍后重试。"
+  },
+  {
+    "index": 20227,
+    "chinese": "识图服务未返回指定僵尸的评分，请更新识图服务。"
+  },
+  {
+    "index": 20228,
+    "chinese": "识图服务未返回指定植物的评分，请更新识图服务。"
+  },
+  {
+    "index": 20229,
+    "chinese": "识图服务繁忙，请稍后重试。"
+  },
+  {
+    "index": 20230,
+    "chinese": "识图服务认证失败，请检查 Token 配置。"
+  },
+  {
+    "index": 20231,
+    "chinese": "识图服务返回的数据无法解析。"
+  },
+  {
+    "index": 20232,
+    "chinese": "识图服务返回空结果。"
+  },
+  {
+    "index": 20233,
+    "chinese": "识图结果无效，请更新图库后重试。"
+  },
+  {
+    "index": 20236,
+    "chinese": "词条供给"
+  },
+  {
+    "index": 20237,
+    "chinese": "词条供给-彩"
+  },
+  {
+    "index": 20242,
+    "chinese": "试炼："
+  },
+  {
+    "index": 20245,
+    "chinese": "该位置无法放置此植物，请检查地形及原种融合条件"
+  },
+  {
+    "index": 20249,
+    "chinese": "该卡牌装备已满3件"
+  },
+  {
+    "index": 20250,
+    "chinese": "该存档已失效，请重新选择"
+  },
+  {
+    "index": 20260,
+    "chinese": "该模式下，"
+  },
+  {
+    "index": 20264,
+    "chinese": "该装备没有后续合成配方"
+  },
+  {
+    "index": 20267,
+    "chinese": "该连线会产生同步循环"
+  },
+  {
+    "index": 20272,
+    "chinese": "说明"
+  },
+  {
+    "index": 20273,
+    "chinese": "说明内容"
+  },
+  {
+    "index": 20274,
+    "chinese": "请先关闭控制台并完成当前四选一或海克斯附加选择"
+  },
+  {
+    "index": 20276,
+    "chinese": "请先完成当前选择"
+  },
+  {
+    "index": 20277,
+    "chinese": "请先完成画作。"
+  },
+  {
+    "index": 20280,
+    "chinese": "请先断开该输入的连线"
+  },
+  {
+    "index": 20284,
+    "chinese": "请先进入商店"
+  },
+  {
+    "index": 20285,
+    "chinese": "请先进入正式战斗"
+  },
+  {
+    "index": 20286,
+    "chinese": "请先选中要复用的节点；仅保存内部连线"
+  },
+  {
+    "index": 20290,
+    "chinese": "请在卡牌页选中一张卡，或填写卡牌ID"
+  },
+  {
+    "index": 20292,
+    "chinese": "请将好运令牌-词条拖到卡牌上"
+  },
+  {
+    "index": 20294,
+    "chinese": "请按左中右的顺序放置以下植物"
+  },
+  {
+    "index": 20299,
+    "chinese": "请输入命令，help 可查看格式"
+  },
+  {
+    "index": 20303,
+    "chinese": "请选择一个任务完成"
+  },
+  {
+    "index": 20304,
+    "chinese": "请选择尚未获得特权的普通进阶装备"
+  },
+  {
+    "index": 20307,
+    "chinese": "请选择旅行进化难度"
+  },
+  {
+    "index": 20320,
+    "chinese": "诸神图鉴缺少布局引用，请通过 PVZ/诸神图鉴/生成当前主场景布局 生成界面。"
+  },
+  {
+    "index": 20351,
+    "chinese": "读取僵尸战斗数值"
+  },
+  {
+    "index": 20352,
+    "chinese": "读取僵尸状态"
+  },
+  {
+    "index": 20353,
+    "chinese": "读取共享列表当前元素个数。"
+  },
+  {
+    "index": 20354,
+    "chinese": "读取共享列表指定位置的值。"
+  },
+  {
+    "index": 20355,
+    "chinese": "读取共享字符串变量当前保存的文字。"
+  },
+  {
+    "index": 20356,
+    "chinese": "读取关卡存档失败："
+  },
+  {
+    "index": 20357,
+    "chinese": "读取失败，原存档已保留"
+  },
+  {
+    "index": 20358,
+    "chinese": "读取字符串指定位置的ASCII码，索引从0开始。"
+  },
+  {
+    "index": 20359,
+    "chinese": "读取对象上的僵尸组件。"
+  },
+  {
+    "index": 20360,
+    "chinese": "读取对象上的植物组件。"
+  },
+  {
+    "index": 20361,
+    "chinese": "读取对象世界位置、缩放以及存在状态。"
+  },
+  {
+    "index": 20362,
+    "chinese": "读取对象位置和大小"
+  },
+  {
+    "index": 20363,
+    "chinese": "读取对象引用文本或对象绑定名称对应的对象。"
+  },
+  {
+    "index": 20364,
+    "chinese": "读取属性倒计时和当前进度条最大值。"
+  },
+  {
+    "index": 20365,
+    "chinese": "读取当前攻击速度倍率和基础攻击间隔。"
+  },
+  {
+    "index": 20366,
+    "chinese": "读取指定状态剩余秒数、开启标记或层数。"
+  },
+  {
+    "index": 20367,
+    "chinese": "读取指定道具的总冷却、剩余时间与是否存在。"
+  },
+  {
+    "index": 20368,
+    "chinese": "读取攻击力、防具血量、基础移速或体型。"
+  },
+  {
+    "index": 20370,
+    "chinese": "读取本局当前阶段名称"
+  },
+  {
+    "index": 20371,
+    "chinese": "读取本局棋盘当前金币。"
+  },
+  {
+    "index": 20372,
+    "chinese": "读取植物属性倒计时"
+  },
+  {
+    "index": 20373,
+    "chinese": "读取植物攻速"
+  },
+  {
+    "index": 20374,
+    "chinese": "读取绑定名称"
+  },
+  {
+    "index": 20375,
+    "chinese": "读取道具冷却"
+  },
+  {
+    "index": 20376,
+    "chinese": "读取鼠标在战场的世界坐标及所在格子。"
+  },
+  {
+    "index": 20377,
+    "chinese": "读档失败:"
+  },
+  {
+    "index": 20379,
+    "chinese": "豌豆"
+  },
+  {
+    "index": 20393,
+    "chinese": "质变"
+  },
+  {
+    "index": 20475,
+    "chinese": "购买 · {0}阳光"
+  },
+  {
+    "index": 20485,
+    "chinese": "购买经验时，使商店中的一个随机角色变为高1费的另一个随机角色。"
+  },
+  {
+    "index": 20492,
+    "chinese": "赌神-银"
+  },
+  {
+    "index": 20498,
+    "chinese": "超发积分"
+  },
+  {
+    "index": 20511,
+    "chinese": "超级叠叠乐 ·"
+  },
+  {
+    "index": 20518,
+    "chinese": "超级大战"
+  },
+  {
+    "index": 20519,
+    "chinese": "超级小推车保护"
+  },
+  {
+    "index": 20520,
+    "chinese": "超级小推车保护：免疫致命伤害，恢复40生命，获得6000积分"
+  },
+  {
+    "index": 20528,
+    "chinese": "超级泳池"
+  },
+  {
+    "index": 20530,
+    "chinese": "超级白天"
+  },
+  {
+    "index": 20540,
+    "chinese": "超级随机：钻石模仿"
+  },
+  {
+    "index": 20541,
+    "chinese": "超级随机：随机箱子"
+  },
+  {
+    "index": 20545,
+    "chinese": "超绝刷新"
+  },
+  {
+    "index": 20564,
+    "chinese": "跳转"
+  },
+  {
+    "index": 20565,
+    "chinese": "跳转会清理当前敌人并进入该轮的真实阶段，保留卡牌、装备和资源，不发放被跳过战斗的结算收入。"
+  },
+  {
+    "index": 20566,
+    "chinese": "跳转轮次（从1开始）"
+  },
+  {
+    "index": 20568,
+    "chinese": "躺平"
+  },
+  {
+    "index": 20570,
+    "chinese": "转为究极"
+  },
+  {
+    "index": 20572,
+    "chinese": "轮间商店"
+  },
+  {
+    "index": 20579,
+    "chinese": "输入僵尸本体血量低于或等于比例后触发一次；默认0.5，不含护甲，换目标后重新检测"
+  },
+  {
+    "index": 20580,
+    "chinese": "输入无效"
+  },
+  {
+    "index": 20584,
+    "chinese": "输入默认值无效："
+  },
+  {
+    "index": 20589,
+    "chinese": "输出匹配值第一次出现的位置，以及列表是否包含该值。"
+  },
+  {
+    "index": 20591,
+    "chinese": "迅射叠伤"
+  },
+  {
+    "index": 20599,
+    "chinese": "运算值必须有限"
+  },
+  {
+    "index": 20600,
+    "chinese": "运行日志（返回编辑后仍保留最近256条）"
+  },
+  {
+    "index": 20602,
+    "chinese": "返回制作指南"
+  },
+  {
+    "index": 20603,
+    "chinese": "返回商店"
+  },
+  {
+    "index": 20605,
+    "chinese": "返还{0}阳光，花盆留在格子。\n这株植物未完成的生产与待入库成品将丢失。"
+  },
+  {
+    "index": 20612,
+    "chinese": "这两个端口已经连接"
+  },
+  {
+    "index": 20613,
+    "chinese": "这个位置没有卡牌"
+  },
+  {
+    "index": 20614,
+    "chinese": "这个局面有两个0，理论上会让周围12个格子都安全"
+  },
+  {
+    "index": 20617,
+    "chinese": "这份说明对应选中的节点。\n\n向下滚动查看：\n\n用途与操作\n输入输出\n当前连接与填写值\n连接例子\n常见错误"
+  },
+  {
+    "index": 20619,
+    "chinese": "这张卡牌没有可选的未拥有旅行词条，道具已保留"
+  },
+  {
+    "index": 20620,
+    "chinese": "这张卡牌没有装备"
+  },
+  {
+    "index": 20621,
+    "chinese": "这是一个列表，可能为空；需要逐个处理时接相应的遍历节点。"
+  },
+  {
+    "index": 20622,
+    "chinese": "这是场上的具体对象，与植物/僵尸种类不同。可连接创建、事件或查询节点；对象可能为空或已死亡。"
+  },
+  {
+    "index": 20623,
+    "chinese": "这是种类，连接对应类型节点；不能代替场上的具体对象。"
+  },
+  {
+    "index": 20624,
+    "chinese": "这栏怎么用"
+  },
+  {
+    "index": 20625,
+    "chinese": "这次增加了什么"
+  },
+  {
+    "index": 20626,
+    "chinese": "这里不能使用此物品\n物品已保留在原处，请重新拖动"
+  },
+  {
+    "index": 20631,
+    "chinese": "进入3个节点后，获得1个【好运令牌】。"
+  },
+  {
+    "index": 20632,
+    "chinese": "进入3个节点后，获得1个【好运令牌】。点击后随机出现10件不重复的进阶装备，自选1件。"
+  },
+  {
+    "index": 20633,
+    "chinese": "进入boss节点时，获得700积分。"
+  },
+  {
+    "index": 20634,
+    "chinese": "进入boss节点时，获得7枚金币。"
+  },
+  {
+    "index": 20635,
+    "chinese": "进入下一轮"
+  },
+  {
+    "index": 20636,
+    "chinese": "进入商店"
+  },
+  {
+    "index": 20641,
+    "chinese": "进入指定名称的阶段时触发，同名阶段不会重复进入"
+  },
+  {
+    "index": 20642,
+    "chinese": "进入最后一个补给阶段后，获得3000积分。"
+  },
+  {
+    "index": 20643,
+    "chinese": "进入最后一个补给阶段后，获得30金币。"
+  },
+  {
+    "index": 20644,
+    "chinese": "进入此轮"
+  },
+  {
+    "index": 20647,
+    "chinese": "进入阶段名称"
+  },
+  {
+    "index": 20648,
+    "chinese": "进入阶段时"
+  },
+  {
+    "index": 20649,
+    "chinese": "进入首领节点时，获得1100积分。"
+  },
+  {
+    "index": 20650,
+    "chinese": "进入首领节点时，获得11枚金币。"
+  },
+  {
+    "index": 20653,
+    "chinese": "进家失败"
+  },
+  {
+    "index": 20656,
+    "chinese": "进阶装备"
+  },
+  {
+    "index": 20657,
+    "chinese": "进阶装备盒子"
+  },
+  {
+    "index": 20658,
+    "chinese": "远程豌豆"
+  },
+  {
+    "index": 20664,
+    "chinese": "连接“奖励选择”分类的选项或菜单节点；不能连接普通物品对象。"
+  },
+  {
+    "index": 20665,
+    "chinese": "连接变量引用或设置变量的变量出口；需要数字/真假时，先经过“获取变量值”节点。"
+  },
+  {
+    "index": 20668,
+    "chinese": "连接相同类型的输入口。"
+  },
+  {
+    "index": 20669,
+    "chinese": "连接相同类型的输出口。"
+  },
+  {
+    "index": 20670,
+    "chinese": "连接识图服务失败或超时，请检查网络与服务器连接。"
+  },
+  {
+    "index": 20672,
+    "chinese": "连线两端的类型不一致"
+  },
+  {
+    "index": 20673,
+    "chinese": "连线引用的端口不存在，可能来自不同版本"
+  },
+  {
+    "index": 20674,
+    "chinese": "连线引用的节点不存在"
+  },
+  {
+    "index": 20676,
+    "chinese": "连胜"
+  },
+  {
+    "index": 20677,
+    "chinese": "连胜奖励变为3倍，敌人难度+N，N为你的当前连胜数。获得12经验。"
+  },
+  {
+    "index": 20678,
+    "chinese": "连胜已设为{0}"
+  },
+  {
+    "index": 20682,
+    "chinese": "迷你阳光"
+  },
+  {
+    "index": 20683,
+    "chinese": "迷你阳光Ⅱ"
+  },
+  {
+    "index": 20694,
+    "chinese": "选中"
+  },
+  {
+    "index": 20704,
+    "chinese": "选择本局独家代言装备\n以后获得它的任一种基础材料时，改为获得此装备。"
+  },
+  {
+    "index": 20705,
+    "chinese": "选择游戏内子弹种类。"
+  },
+  {
+    "index": 20707,
+    "chinese": "选择道具种类，供查询、冷却和比较节点使用。"
+  },
+  {
+    "index": 20714,
+    "chinese": "逐一处理当前战场所有存活僵尸。"
+  },
+  {
+    "index": 20715,
+    "chinese": "递归拆分融合配方，输出基础组成植物类型列表。"
+  },
+  {
+    "index": 20717,
+    "chinese": "通关后随机刷新本关场景和僵尸"
+  },
+  {
+    "index": 20722,
+    "chinese": "通过MultipleChoiceMenu显示专用选项列表；旧多选节点仍保留"
+  },
+  {
+    "index": 20728,
+    "chinese": "遍历僵尸列表"
+  },
+  {
+    "index": 20729,
+    "chinese": "遍历全场僵尸"
+  },
+  {
+    "index": 20735,
+    "chinese": "道具候选已失效，道具已保留，可重新打开"
+  },
+  {
+    "index": 20736,
+    "chinese": "道具库存（按种类汇总；每次移除1件）"
+  },
+  {
+    "index": 20737,
+    "chinese": "道具种类"
+  },
+  {
+    "index": 20738,
+    "chinese": "道具类型"
+  },
+  {
+    "index": 20739,
+    "chinese": "遭遇1、2、3三选一"
+  },
+  {
+    "index": 20740,
+    "chinese": "遭遇二选一：1/2中随机、3/4中随机"
+  },
+  {
+    "index": 20741,
+    "chinese": "遭遇关"
+  },
+  {
+    "index": 20742,
+    "chinese": "遭遇难度{0}"
+  },
+  {
+    "index": 20743,
+    "chinese": "遭遇：选择难度"
+  },
+  {
+    "index": 20746,
+    "chinese": "配对 ("
+  },
+  {
+    "index": 20749,
+    "chinese": "采购专员-金"
+  },
+  {
+    "index": 20754,
+    "chinese": "重做"
+  },
+  {
+    "index": 20764,
+    "chinese": "重置"
+  },
+  {
+    "index": 20766,
+    "chinese": "重置掉盒上限"
+  },
+  {
+    "index": 20767,
+    "chinese": "重置推车"
+  },
+  {
+    "index": 20774,
+    "chinese": "金币"
+  },
+  {
+    "index": 20775,
+    "chinese": "金币1:100积分；经验为100积分/点的升级抵扣，费用对应品质，2星为品质+1；专属系统资源按本作对应道具适配。保留明确位面限制。"
+  },
+  {
+    "index": 20776,
+    "chinese": "金币1:100积分；经验为100积分/点的升级抵扣，费用对应品质，2星为品质+1；专属系统资源按本作对应道具适配。原始位面列表为空且语义未知，本作明确适配为大关1至3。"
+  },
+  {
+    "index": 20777,
+    "chinese": "金币1:100积分；经验每点抵扣100积分升级费用，抵至0自动升级且溢出继续抵扣后续等级，费用对应品质，2星为品质+1；专属系统资源按本作对应道具适配。保留明确位面限制。"
+  },
+  {
+    "index": 20791,
+    "chinese": "钻石援军"
+  },
+  {
+    "index": 20792,
+    "chinese": "钻石植物礼盒"
+  },
+  {
+    "index": 20806,
+    "chinese": "铲除 · 返还{0}阳光"
+  },
+  {
+    "index": 20814,
+    "chinese": "锁定商品"
+  },
+  {
+    "index": 20817,
+    "chinese": "错误"
+  },
+  {
+    "index": 20831,
+    "chinese": "长度"
+  },
+  {
+    "index": 20832,
+    "chinese": "长期主义"
+  },
+  {
+    "index": 20833,
+    "chinese": "长期主义+"
+  },
+  {
+    "index": 20837,
+    "chinese": "间隔秒数"
+  },
+  {
+    "index": 20838,
+    "chinese": "阅读滚动条"
+  },
+  {
+    "index": 20844,
+    "chinese": "阳光  {0:N0}"
+  },
+  {
+    "index": 20845,
+    "chinese": "阳光  {0}"
+  },
+  {
+    "index": 20846,
+    "chinese": "阳光  {0}  ·  购买后从底栏「道具」拖到草坪使用"
+  },
+  {
+    "index": 20848,
+    "chinese": "阳光不少于10000时，每秒消耗100阳光\n获得100%速度加成，持续1秒"
+  },
+  {
+    "index": 20849,
+    "chinese": "阳光不少于10000时，每秒消耗100阳光\n获得200%速度加成，持续1秒"
+  },
+  {
+    "index": 20855,
+    "chinese": "阳光已设为{0}"
+  },
+  {
+    "index": 20856,
+    "chinese": "阳光护盾"
+  },
+  {
+    "index": 20858,
+    "chinese": "阳光消耗-{0:P0}"
+  },
+  {
+    "index": 20859,
+    "chinese": "阳光消耗额外提高30%\n冷却时间额外降低30%，均与面板乘算"
+  },
+  {
+    "index": 20860,
+    "chinese": "阳光消耗额外提高30%\n冷却时间额外降低60%，均与面板乘算"
+  },
+  {
+    "index": 20868,
+    "chinese": "阶段"
+  },
+  {
+    "index": 20869,
+    "chinese": "阶段名称"
+  },
+  {
+    "index": 20873,
+    "chinese": "除数不能为0"
+  },
+  {
+    "index": 20879,
+    "chinese": "随机"
+  },
+  {
+    "index": 20880,
+    "chinese": "随机到的僵尸词条："
+  },
+  {
+    "index": 20882,
+    "chinese": "随机基础装备"
+  },
+  {
+    "index": 20883,
+    "chinese": "随机基础装备奖励改为基础装备盒；立即获得1个基础装备盒。"
+  },
+  {
+    "index": 20887,
+    "chinese": "随机植物\n{0:0.#}工作秒"
+  },
+  {
+    "index": 20898,
+    "chinese": "随机进阶装备"
+  },
+  {
+    "index": 20903,
+    "chinese": "难度{0}："
+  },
+  {
+    "index": 20906,
+    "chinese": "难度：{0}"
+  },
+  {
+    "index": 20915,
+    "chinese": "雪夜开场提示遮罩"
+  },
+  {
+    "index": 20933,
+    "chinese": "需要一个矩形 Grid。"
+  },
+  {
+    "index": 20936,
+    "chinese": "需要一次提交5个究极投手"
+  },
+  {
+    "index": 20945,
+    "chinese": "需要存活僵尸，数值范围为0到1000000"
+  },
+  {
+    "index": 20947,
+    "chinese": "需要运行中的事件图；间隔0.1到3600秒，检查次数1到360000"
+  },
+  {
+    "index": 20953,
+    "chinese": "面板"
+  },
+  {
+    "index": 20960,
+    "chinese": "音频文件加载错误，请检查文件是否在正确的位置"
+  },
+  {
+    "index": 20965,
+    "chinese": "领取"
+  },
+  {
+    "index": 20966,
+    "chinese": "领取执行真实选择效果，允许跨大关获取；同一海克斯只能领取一次。部分海克斯会追加选择，请关闭面板完成。"
+  },
+  {
+    "index": 20970,
+    "chinese": "额外2次刷新机会，僵尸血量x4"
+  },
+  {
+    "index": 20971,
+    "chinese": "额外3次刷新机会，僵尸血量x3"
+  },
+  {
+    "index": 20972,
+    "chinese": "额外4次刷新机会，僵尸血量x2"
+  },
+  {
+    "index": 20973,
+    "chinese": "额外5次刷新机会，正常僵尸数量"
+  },
+  {
+    "index": 20976,
+    "chinese": "额外获得{0}件基础装备"
+  },
+  {
+    "index": 20980,
+    "chinese": "飘飘严选"
+  },
+  {
+    "index": 20982,
+    "chinese": "飞行"
+  },
+  {
+    "index": 20988,
+    "chinese": "首次触发"
+  },
+  {
+    "index": 20989,
+    "chinese": "首次触发后关闭；重置输入为真时仅重置，下次才执行"
+  },
+  {
+    "index": 20992,
+    "chinese": "首领"
+  },
+  {
+    "index": 21004,
+    "chinese": "高阶僵尸有更高的基础属性加成\n每提升一阶（从2阶起），血量与攻击力均增加<color=red>100%</color>\n各难度下不同阶数僵尸的出现概率如下"
+  },
+  {
+    "index": 21007,
+    "chinese": "魅惑僵尸"
+  },
+  {
+    "index": 21033,
+    "chinese": "黄金投资"
+  },
+  {
+    "index": 21034,
+    "chinese": "黄金援军"
+  },
+  {
+    "index": 21035,
+    "chinese": "黄金期货"
+  },
+  {
+    "index": 21036,
+    "chinese": "黄金期货+"
+  },
+  {
+    "index": 21037,
+    "chinese": "黄金植物礼盒"
+  },
+  {
+    "index": 21038,
+    "chinese": "黄金矿工"
+  },
+  {
+    "index": 21055,
+    "chinese": "鼠标悬停使植物工作"
+  },
+  {
+    "index": 21082,
+    "chinese": "🔍 尝试自动检测音频格式:"
+  },
+  {
+    "index": 21135,
+    "chinese": "（已选）</color>"
+  },
+  {
+    "index": 21137,
+    "chinese": "（无激活羁绊）"
+  },
+  {
+    "index": 21138,
+    "chinese": "（普通品质基准，实际增幅随品质变化）。"
+  },
+  {
+    "index": 21139,
+    "chinese": "（本场）"
+  },
+  {
+    "index": 21140,
+    "chinese": "（永久）"
+  },
+  {
+    "index": 21145,
+    "chinese": "，使用卡牌真实品质与装备快照"
+  },
+  {
+    "index": 21148,
+    "chinese": "，无法设置值，节点ID:"
+  },
+  {
+    "index": 21150,
+    "chinese": "，触发真实选择效果（测试允许跨大关获取）"
+  },
+  {
+    "index": 21151,
+    "chinese": "，返回0，节点ID:"
+  },
+  {
+    "index": 21152,
+    "chinese": "，返回false，节点ID:"
+  }
+]

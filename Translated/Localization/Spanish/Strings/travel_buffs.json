@@ -82,11 +82,11 @@
     },
     "20": {
       "name": "Magnate de la Fortuna",
-      "desc": "◆<color=red>Trillontorcha</color>：La probabilidad de producir monedas de plata aumenta al 30%, y monedas de oro al 10%\n◆<color=red>Planterna Magnate</color>：La probabilidad de caída de monedas de oro y diamantes se duplica"
+      "desc": "◆<color=red>Trillontorcha</color>：Por cada 1000 monedas que poseas, aumenta el daño del portador de ataque potenciado un 1%\n◆<color=red>Planterna Magnate</color>：Comparte el efecto anterior"
     },
     "21": {
       "name": "Racha de Suerte",
-      "desc": "◆<color=red>Trillontorcha</color>：Las monedas de plata producidas se mejoran a oro, y las de oro a diamantes\n◆<color=red>Planterna Magnate</color>：Cuando las plantas dentro de un área de 3x3 están en el campo, el valor de Suerte aumenta en 50 puntos"
+      "desc": "<nobr>·Desbloquea <color=red>Planterna Magnate</color></nobr>\n◆<color=red>Trillontorcha</color>：Los proyectiles de moneda infligen daño en área igual al de los guisantes de fuego"
     },
     "22": {
       "name": "Núcleo de Cristal",
@@ -241,8 +241,8 @@
       "desc": "Zombis reciben 20% más daño"
     },
     "1010": {
-      "name": "Doble Tirada",
-      "desc": "Repeticiones de Modificador +2"
+      "name": "Inversión Racional",
+      "desc": "Número de refrescos de modificadores de viaje +3"
     },
     "1011": {
       "name": "Ola Polar",
@@ -440,6 +440,10 @@
       "name": "Siembra Sin Límites",
       "desc": "Los paquetes de semillas ya no necesitan recarga, pero cada uso cuesta 15 veces el Sol + 50% del Sol actual"
     },
+    "5005": {
+      "name": "Dispersión Llameante",
+      "desc": "El efecto de Jalapeño cambia para liberar 10 veces llamas de chile en 1 segundo con 1/3 del daño original"
+    },
     "6000": {
       "name": "Cortacésped Furioso",
       "desc": "Cortacésped: Daño Final +200%, Velocidad de Ataque +300%"
@@ -469,8 +473,8 @@
       "desc": "Maestría II - Seta Emperador: Zombis hipnotizados hacen +200% de daño"
     },
     "6007": {
-      "name": "Maestría: Fuego Lento",
-      "desc": "Maestría I - Apisonantorcha Infernal: Efecto de Jalapeño cambia de instantáneo a daño a lo largo del tiempo"
+      "name": "Dispersión Llameante",
+      "desc": "El efecto de Jalapeño cambia para liberar 10 veces llamas de chile en 1 segundo con 1/3 del daño original"
     },
     "6008": {
       "name": "Maestría: Carga Incendiaria",
@@ -733,8 +737,8 @@
       "desc": "Las plantas con escudo recuperan cada segundo una cantidad de PS igual al 0.1% de su escudo actual"
     },
     "13002": {
-      "name": "Ataque en Área: Muñeco de Prácticas",
-      "desc": "Genera un Zombi Poste de Madera en el campo que reparte el 60% del daño recibido a partes iguales entre todos los zombis. Puedes moverlo usando el Guante Zombi.\nNo puede transferir daño provocado por zombis hipnotizados."
+      "name": "Ataque Grupal - Poste de Madera",
+      "desc": "Genera un Zombi Poste en el campo que distribuye el 60% del daño recibido a todos los zombis. Puedes moverlo con el Guante\nEl poste eliminará al instante a los zombis hipnotizados que lo toquen"
     },
     "13003": {
       "name": "Ataque en Área: Muñeco de Prácticas II",
@@ -999,8 +1003,8 @@
       "desc": "◆<nobr><color=red>Cerezilla Suprema</color></nobr>：Recarga de devoración reducida a 15 s\n◆<nobr><color=red>Bodriozilla Supremo</color></nobr>：Comparte el efecto anterior"
     },
     "2": {
-      "name": "Cereza Bomba",
-      "desc": "El daño de las explosiones de cereza causadas por las plantas x3"
+      "name": "Fuerza Bruta",
+      "desc": "El daño de las explosiones de cereza de las plantas aumenta 2 veces"
     },
     "3": {
       "name": "Ráfaga de Cerezas",
@@ -1199,8 +1203,8 @@
       "desc": "◆<nobr><color=red>Sargento Férreo</color></nobr>：Daño de proyectiles de habilidad definitiva ×2, ángulo de dispersión reducido. La mayoría de las superametralladoras comparten este efecto; los proyectiles de Superametralladora Humoseta pueden teledirigirse\n◆<nobr><color=red>Francoguisantes Sincronizador</color></nobr>：Tiros necesarios para tiro a la cabeza reducidos a la mitad. Los francotiradores fijadores comparten este efecto"
     },
     "52": {
-      "name": "Formación de Obsidiana",
-      "desc": "<nobr><color=red>Nuez Colosal de Obsidiana Suprema</color></nobr>：En el campo, según la cantidad de tipos de plantas de obsidiana presentes, reduce el daño final recibido por todas"
+      "name": "Templado de Hielo y Fuego",
+      "desc": "<nobr><color=red>Nuez Fortaleza Definitiva</color></nobr>：El daño de templado se duplica"
     },
     "53": {
       "name": "Templado de Fuego Glacial",

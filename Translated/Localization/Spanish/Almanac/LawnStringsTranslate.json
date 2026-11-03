@@ -5098,8 +5098,8 @@
     },
     {
       "seedType": 1493,
-      "name": "Humoceta",
-      "introduce": "<color=#3D1400>Humoceta en realidad no nació siendo maceta. \"Originalmente era una humoseta común y corriente...\", explica con voz sabia y profunda. \"Jamás asomes la cabeza desprevenidamente cuando estén jugando a machacar zombis... no me preguntes por qué...\"</color>",
+      "name": "Humaceta",
+      "introduce": "<color=#3D1400>Humaceta en realidad no nació siendo maceta. \"Originalmente era una humoseta común y corriente...\", explica con voz sabia y profunda. \"Jamás asomes la cabeza desprevenidamente cuando estén jugando a machacar zombis... no me preguntes por qué...\"</color>",
       "info": "Permite que los hongos superiores liberen factores beneficiosos al atacar, potenciando a las plantas de su misma especie.\n\n<color=#3D1400>Características: </color><color=red>Planta baja, soporte de cultivo, plantable en suelo descubierto</color>\n<color=#3D1400>Efecto: </color><color=red>Cada vez que la planta superior ataca, todas las plantas de su misma especie obtienen una bonificación acumulable de ataque por 10s:\n· Súper Humoseta: +4%\n· Gran Hongo: +8%\n· Otras Humosetas: +1%\n· Serie Gasoseta: +4%</color>\n<color=#3D1400>Fórmula de fusión: </color><color=red>Maceta + Humoseta</color>",
       "cost": ""
     },
