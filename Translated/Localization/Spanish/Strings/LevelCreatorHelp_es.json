@@ -632,14 +632,14 @@
       "purpose": "Combine dos listas de opciones de recompensa en una.",
       "usage": "Las listas A y B están conectadas a las opciones correspondientes, y la salida está conectada al menú o continúa fusionándose.",
       "example": "Dos listas de opciones separadas → opciones de combinación → muestran menús de los tipos correspondientes.",
-      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. 取消合并默认false；true只输出A，不读取B。"
+      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. Cancelar combinación es false por defecto; true solo emite A y no lee B."
     },
     {
       "type": "MergeMultipleChoiceOptionListsNode",
       "purpose": "Combine dos listas de opciones de recompensa en una.",
       "usage": "Las listas A y B están conectadas a las opciones correspondientes, y la salida está conectada al menú o continúa fusionándose.",
       "example": "Dos listas de opciones separadas → opciones de combinación → muestran menús de los tipos correspondientes.",
-      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. 取消合并默认false；true只输出A，不读取B。"
+      "warning": "Las nuevas opciones privadas no se pueden mezclar con las opciones antiguas de GameObject; la combinación en sí no abre el menú. Cancelar combinación es false por defecto; true solo emite A y no lee B."
     },
     {
       "type": "CreateInfoCardNode",
